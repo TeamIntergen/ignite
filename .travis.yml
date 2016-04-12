@@ -1,2 +1,2 @@
 language: csharp
-solution: src\Ignite.Rules\Ignite.Rules.sln
+solution: /src/Ignite.Rules/Ignite.Rules.sln
