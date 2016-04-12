@@ -7,4 +7,4 @@ before_script:
 script:
   - xbuild /p:Configuration=Release src/Ignite.Rules/Ignite.Rules.sln /p:TargetFrameworkVersion="v4.5"
 after_script:
-  - nunit-console src\Ignite.Rules\Ignite.Rules.Test\bin\Release\Ignite.Rules.Test.dll
+  - nunit-console /src/Ignite.Rules/Ignite.Rules.Test/bin/Release/Ignite.Rules.Test.dll
