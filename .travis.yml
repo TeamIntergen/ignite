@@ -1,6 +1,10 @@
 language: csharp
 solution: src/Ignite.Rules/Ignite.Rules.sln
-install:
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
   - nuget restore src/Ignite.Rules/Ignite.Rules.sln
 script:
   - xbuild /p:Configuration=Release src/Ignite.Rules/Ignite.Rules.sln /p:TargetFrameworkVersion="v4.5"
+after_script:
+  - nunit-console src\Ignite.Rules\Ignite.Rules.Test\bin\Release\Ignite.Rules.Test.dll
