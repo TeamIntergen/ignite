@@ -1,11 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 
 namespace Ignite.Rules.Test
 {
-    [TestClass]
+    [TestFixture]
     public class SecurityRepositoryTest
     {
-        [TestMethod]
+        [Test]
         public void CanLoadAccessLevel()
         {
             var webLoader = new WebLoader();
@@ -18,7 +18,7 @@ namespace Ignite.Rules.Test
             level.AssertNoPropertiesAreNull();
         }
 
-        [TestMethod]
+        [Test]
         public void CanLoadSessionMap()
         {
             var webLoader = new WebLoader();

@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Reflection;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Ignite.Rules.Test
 {
