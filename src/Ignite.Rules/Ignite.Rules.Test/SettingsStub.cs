@@ -4,8 +4,8 @@
     {
         public SettingsStub()
         {
-            RulesPath = "https://raw.githubusercontent.com/intergenignite/ignite/master/test/ignite_rules.json";
-            SessionMapPath = "https://raw.githubusercontent.com/intergenignite/ignite/master/test/ignite_session_map.json";
+            RulesPath = "https://raw.githubusercontent.com/intergenignite/ignite/master/resource/test/ignite_rules.json";
+            SessionMapPath = "https://raw.githubusercontent.com/intergenignite/ignite/master/resource/test/ignite_session_map.json";
         }
 
         public string RulesPath { get; }
