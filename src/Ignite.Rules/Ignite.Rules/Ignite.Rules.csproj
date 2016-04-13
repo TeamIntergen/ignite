@@ -68,6 +68,7 @@
     <Compile Include="ILoader.cs" />
     <Compile Include="ISecurityRepository.cs" />
     <Compile Include="ISettings.cs" />
+    <Compile Include="PermissionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityRepository.cs" />
     <Compile Include="SettingsLoader.cs" />
