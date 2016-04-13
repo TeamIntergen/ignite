@@ -2,6 +2,8 @@ language: csharp
 solution: src/Ignite.Rules/Ignite.Rules.sln
 before_install:
   - sudo apt-get install nunit-console
+  - sudo apt-get update
+  - sudo apt-get install -y mono-xbuild libmono-microsoft-build-tasks-v4.0-4.0-cil mono-mcs
 before_script:
   - nuget restore src/Ignite.Rules/Ignite.Rules.sln
 script:
