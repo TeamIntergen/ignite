@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Reflection;
 using NUnit.Framework;
@@ -8,9 +9,11 @@ namespace Ignite.Rules.Test
     {
         public static void AssertNoPropertiesAreNull(this object objectToCheck)
         {
+            var stringValue = objectToCheck as string; 
             var collection = objectToCheck as IEnumerable;
-            if (collection != null)
+            if (collection != null && stringValue == null) 
             {
+                // Dont treat string as IEnumerable
                 foreach (var item in collection)
                 {
                     item.AssertNoPropertiesAreNull();
@@ -19,19 +22,28 @@ namespace Ignite.Rules.Test
             else
             {
                 var typeWeAreChecking = objectToCheck.GetType();
-                foreach (PropertyInfo pi in typeWeAreChecking.GetProperties())
+                if (stringValue != null)
                 {
-                    var msg = $"property {pi.Name} on {typeWeAreChecking} is null";
-                    var currentPropertyObject = pi.GetValue(objectToCheck);
-                    Assert.IsNotNull(currentPropertyObject, msg);
-
-                    if (pi.PropertyType == typeof (string))
+                    Assert.IsNotNull(stringValue);
+                }
+                else if (typeWeAreChecking == typeof (DateTimeOffset))
+                {
+                    DateTimeOffset value = (DateTimeOffset)objectToCheck;
+                    Assert.IsNotNull(value);
+                }
+                else if (typeWeAreChecking == typeof(int))
+                {
+                    int value = (int)objectToCheck;
+                    Assert.IsNotNull(value);
+                    Assert.That(value, Is.GreaterThan(0));
+                }
+                else
+                {
+                    foreach (PropertyInfo pi in typeWeAreChecking.GetProperties())
                     {
-                        string value = (string) currentPropertyObject;
-                        Assert.IsNotNull(value, msg);
-                    }
-                    else
-                    {
+                        var msg = $"property {pi.Name} on {typeWeAreChecking} is null";
+                        var currentPropertyObject = pi.GetValue(objectToCheck);
+                        Assert.IsNotNull(currentPropertyObject, msg);
                         currentPropertyObject.AssertNoPropertiesAreNull();
                     }
                 }
