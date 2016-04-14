@@ -11,6 +11,6 @@ namespace Ignite.Rules.Dto
         [JsonProperty("EvalAccess")]
         public EvalaccessDto EvalAccess { get; set; }
         [JsonProperty("SessionSetAccess")]
-        public SessionsetaccessDto SessionSetAccess { get; set; }
+        public SessionsetaccessDto[] SessionSetAccess { get; set; }
     }
 }

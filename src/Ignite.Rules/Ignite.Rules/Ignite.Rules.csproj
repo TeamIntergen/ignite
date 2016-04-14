@@ -71,6 +71,8 @@
     <Compile Include="PermissionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityRepository.cs" />
+    <Compile Include="SessionsetAccess.cs" />
+    <Compile Include="SessionsetAccessBuilder.cs" />
     <Compile Include="SettingsLoader.cs" />
     <Compile Include="WebLoader.cs" />
   </ItemGroup>

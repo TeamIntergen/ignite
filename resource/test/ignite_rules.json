@@ -66,12 +66,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": false,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "AuthenticatedNonAttendee": {
           "Access": {
@@ -137,12 +139,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": false,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       },
       "ConferenceAttendee": {
@@ -210,12 +214,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "AttendeeSponsor": {
           "Access": {
@@ -281,12 +287,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "AttendeeExhibitor": {
           "Access": {
@@ -352,12 +360,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "AttendeeMicrosoft": {
           "Access": {
@@ -423,12 +433,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "AttendeeStudent": {
           "Access": {
@@ -494,12 +506,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "AttendeeFaculty": {
           "Access": {
@@ -565,12 +579,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "AttendeeVIP": {
           "Access": {
@@ -636,12 +652,22 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": false,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : "2016-09-26T23:59:59",
+			"Scheduler-Standard": false,
             "Lab": true,
             "Scheduler-TLF": true,
             "Scheduler-Press":  false
-          }
+          },
+		  {
+            "ApplicableFrom" : "2016-09-27T00:00:00",
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
+            "Lab": true,
+            "Scheduler-TLF": true,
+            "Scheduler-Press":  false
+          }]
         },
         "AttendeeVIPMicrosoft": {
           "Access": {
@@ -707,12 +733,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       },
       "Staff": {
@@ -780,12 +808,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "Microsoft": {
           "Access": {
@@ -851,12 +881,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       },
       "BoothStaff": {
@@ -924,12 +956,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "Exhibitor": {
           "Access": {
@@ -995,12 +1029,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       },
       "Speaker": {
@@ -1068,12 +1104,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "Speaker External Customer & Partner- NO HOTEL": {
           "Access": {
@@ -1139,12 +1177,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "Speaker and Expert Microsoft - NO HOTEL": {
           "Access": {
@@ -1210,12 +1250,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         },
         "Speaker Microsoft- NO HOTEL": {
           "Access": {
@@ -1281,12 +1323,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       },
       "Press": {
@@ -1354,12 +1398,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": false,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": false,
             "Lab": false,
             "Scheduler-TLF": false,
             "Scheduler-Press":  true
-          }
+          }]
         }
       },
       "Crew": {
@@ -1427,12 +1473,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       },
       "ExpoOnly": {
@@ -1500,12 +1548,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       },
       "DayPass": {
@@ -1573,12 +1623,14 @@
               "Lab": false
             }
           },
-          "SessionSetAccess": {
-            "Scheduler-Standard": true,
+          "SessionSetAccess": [{
+            "ApplicableFrom" : null,
+			"ApplicableTo" : null,
+			"Scheduler-Standard": true,
             "Lab": true,
             "Scheduler-TLF": false,
             "Scheduler-Press":  false
-          }
+          }]
         }
       }
     }

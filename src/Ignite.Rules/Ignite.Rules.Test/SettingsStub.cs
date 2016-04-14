@@ -8,7 +8,13 @@
             SessionMapPath = "https://raw.githubusercontent.com/intergenignite/ignite/master/resource/test/ignite_session_map.json";
         }
 
-        public string RulesPath { get; }
+        public SettingsStub WithRulesPath(string path)
+        {
+            RulesPath = path;
+            return this;
+        }
+
+        public string RulesPath { get; private set; }
         public string SessionMapPath { get; }
     }
 }

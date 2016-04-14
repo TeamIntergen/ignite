@@ -63,5 +63,21 @@ namespace Ignite.Rules
             }
             return _permission.Value[key];
         }
+
+        public SessionsetAccess LookupSessionSetAccess(string userType, DateTimeOffset now)
+        {
+            var profile = LookupUserProfile(userType);
+            var sessionSetAccessList = profile.SessionSetAccess;
+
+            foreach (var access in sessionSetAccessList)
+            {
+                if ((access.ApplicableFrom <= now) && (access.ApplicableTo > now))
+                {
+                    return new SessionsetAccessBuilder().Build(access);
+                }
+            }
+            
+            throw  new InvalidOperationException($"Unable to find access set for '{now.ToString("s")}' and userType {userType}.");
+        }
     }
 }
