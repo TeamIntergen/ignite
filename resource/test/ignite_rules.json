@@ -1,1638 +1,1540 @@
 {
   "UserAccess": [
     {
-      "NonRegistered": {
-        "Anonymous": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": false,
-            "MyIgnite": false,
-            "ScheduleBuilder": false,
-            "ExpertConfig": false,
-            "MobileApp": false,
-            "MeetingScheduler": false,
-            "LocationBasedMessaging": false
-          },
-          "Reporting": {
-            "SessionCounts": false
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": false,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+      "Identifier": "Anonymous",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": false,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "ExpertConfig": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "LocationBasedMessaging": false
+      },
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         },
-        "AuthenticatedNonAttendee": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": false,
-            "ScheduleBuilder": false,
-            "ExpertConfig": false,
-            "MobileApp": false,
-            "MeetingScheduler": false,
-            "LocationBasedMessaging": false
-          },
-          "Reporting": {
-            "SessionCounts": false
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": false,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
       },
-      "ConferenceAttendee": {
-        "AttendeeExternalCustomerAndPartner": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": false,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Attendee Customer & Partner",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         },
-        "AttendeeSponsor": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "AttendeeExhibitor": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "AttendeeMicrosoft": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "AttendeeStudent": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "AttendeeFaculty": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
         },
-        "AttendeeVIP": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : "2016-09-26T23:59:59",
-			"Scheduler-Standard": false,
-            "Lab": true,
-            "Scheduler-TLF": true,
-            "Scheduler-Press":  false
-          },
-		  {
-            "ApplicableFrom" : "2016-09-27T00:00:00",
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": true,
-            "Scheduler-Press":  false
-          }]
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         },
-        "AttendeeVIPMicrosoft": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
       },
-      "Staff": {
-        "ExternalCustomerAndPartner": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Attendee Exhibitor",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         },
-        "Microsoft": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
-        }
-      },
-      "BoothStaff": {
-        "Sponsor": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": false,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": false,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": false
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "Exhibitor": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": false,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": false,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": false
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
-        }
-      },
-      "Speaker": {
-        "Speaker External Customer & Partner- HOTEL": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "Speaker External Customer & Partner- NO HOTEL": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "Speaker and Expert Microsoft - NO HOTEL": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": true,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
         },
-        "Speaker Microsoft- NO HOTEL": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
       },
-      "Press": {
-        "Press": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": false,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": false,
-            "Lab": false,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  true
-          }]
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Attendee Sponsor",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": false,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": false,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
       },
-      "Crew": {
-        "Crew": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": false
-          },
-          "Reporting": {
-            "SessionCounts": false
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Attendee Faculty/Staff",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
       },
-      "ExpoOnly": {
-        "ExpoOnly": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": false,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": false
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Attendee Student",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
       },
-      "DayPass": {
-        "DayPassAttendee": {
-          "Access": {
-            "SessionCatalog": true,
-            "PlaylistBuilder": true,
-            "MyIgnite": true,
-            "ScheduleBuilder": true,
-            "ExpertConfig": false,
-            "MobileApp": true,
-            "MeetingScheduler": true,
-            "LocationBasedMessaging": true
-          },
-          "Reporting": {
-            "SessionCounts": true
-          },
-          "EvalAccess": {
-            "PreEventSurvey": {
-              "Email": true,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PostEventSurvey": {
-              "Email": true,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "PreDaySessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "RegularSessionEvaluations": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "KeynoteDayEvaluation": {
-              "Email": false,
-              "Mobile": true,
-              "WebSite": true,
-              "Lab": false
-            },
-            "HOL_ILL": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": true
-            },
-            "TechLeadersForum": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            },
-            "PlusPass": {
-              "Email": false,
-              "Mobile": false,
-              "WebSite": false,
-              "Lab": false
-            }
-          },
-          "SessionSetAccess": [{
-            "ApplicableFrom" : null,
-			"ApplicableTo" : null,
-			"Scheduler-Standard": true,
-            "Lab": true,
-            "Scheduler-TLF": false,
-            "Scheduler-Press":  false
-          }]
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
         }
-      }
+      ]
+    },
+    {
+      "Identifier": "Attendee Microsoft",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Attendee TEF",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": "2016-09-26T23:59:59",
+          "Scheduler-Standard": false,
+          "Lab": true,
+          "Scheduler-TLF": true,
+          "Scheduler-Press": false
+        },
+        {
+          "ApplicableFrom": "2016-09-27T00:00:00",
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": true,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Attendee TEF Microsoft",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": "2016-09-26T23:59:59",
+          "Scheduler-Standard": false,
+          "Lab": true,
+          "Scheduler-TLF": true,
+          "Scheduler-Press": false
+        },
+        {
+          "ApplicableFrom": "2016-09-27T00:00:00",
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": true,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Media",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": false,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": false,
+          "Lab": false,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": true
+        }
+      ]
+    },
+    {
+      "Identifier": "Day Pass Attendee Customer & Partner",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Expo Only",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": false,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Speaker External",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Speaker Microsoft",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": false,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Booth Staff Exhibitor",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Booth Staff Sponsor",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Booth Staff Microsoft",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Staff External",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Staff Microsoft",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
+    },
+    {
+      "Identifier": "Crew",
+      "Access": {
+        "SessionCatalog": true,
+        "PlaylistBuilder": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "ExpertConfig": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "LocationBasedMessaging": true
+      },
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Scheduler-Standard": true,
+          "Lab": true,
+          "Scheduler-TLF": false,
+          "Scheduler-Press": false
+        }
+      ]
     }
   ]
 }

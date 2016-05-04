@@ -1,10 +1,11 @@
-﻿using Newtonsoft.Json;
+﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace Ignite.Rules.Dto
 {
     public class RulesDto
     {
         [JsonProperty("UserAccess")]
-        public UseraccessDto[] UserAccess { get; set;  }
+        public List<ProfileDto> UserAccess { get; set;  }
     }
 }

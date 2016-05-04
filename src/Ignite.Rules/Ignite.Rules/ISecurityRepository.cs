@@ -6,7 +6,7 @@ namespace Ignite.Rules
 {
     public interface ISecurityRepository
     {
-        Task<UseraccessDto> LoadAccessLevel();
+        Task<RulesDto> LoadAccessLevel();
         Task<IEnumerable<SessionsetMapDto>> LoadSessionMap();
     }
 }

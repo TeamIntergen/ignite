@@ -46,24 +46,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dto\AccessDto.cs" />
-    <Compile Include="Dto\BoothstaffDto.cs" />
-    <Compile Include="Dto\ConferenceattendeeDto.cs" />
-    <Compile Include="Dto\CrewDto.cs" />
-    <Compile Include="Dto\DaypassDto.cs" />
     <Compile Include="Dto\EvalaccessDto.cs" />
     <Compile Include="Dto\ExpoonlyDto.cs" />
-    <Compile Include="Dto\NonregisteredDto.cs" />
-    <Compile Include="Dto\PressDto.cs" />
     <Compile Include="Dto\ProfileDto.cs" />
     <Compile Include="Dto\ReportingDto.cs" />
     <Compile Include="Dto\RulesDto.cs" />
     <Compile Include="Dto\SessionsetaccessDto.cs" />
     <Compile Include="Dto\SessionsetMapDto.cs" />
     <Compile Include="Dto\SessionSetMapListDto.cs" />
-    <Compile Include="Dto\SpeakerDto.cs" />
-    <Compile Include="Dto\StaffDto.cs" />
     <Compile Include="Dto\SurveyAccessDto.cs" />
-    <Compile Include="Dto\UserAccessDto.cs" />
     <Compile Include="FileLoader.cs" />
     <Compile Include="ILoader.cs" />
     <Compile Include="ISecurityRepository.cs" />

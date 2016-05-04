@@ -14,7 +14,13 @@
             return this;
         }
 
+        public SettingsStub WithSessionMapPath(string path)
+        {
+            SessionMapPath = path;
+            return this;
+        }
+
         public string RulesPath { get; private set; }
-        public string SessionMapPath { get; }
+        public string SessionMapPath { get; private set; }
     }
 }

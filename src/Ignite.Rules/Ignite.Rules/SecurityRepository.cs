@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Ignite.Rules.Dto;
 using Newtonsoft.Json;
@@ -18,15 +17,15 @@ namespace Ignite.Rules
             _settings = settings;
         }
 
-        public async Task<UseraccessDto> LoadAccessLevel()
+        public async Task<RulesDto> LoadAccessLevel()
         {
             try
             {
                 var ruleContent = await _loader.Load(_settings.RulesPath);
                 var rules = JsonConvert.DeserializeObject<RulesDto>(ruleContent);
-                if (rules != null && rules.UserAccess.Length > 0)
+                if (rules?.UserAccess != null)
                 {
-                    return rules.UserAccess.First();
+                    return rules;
                 }
 
                 throw new InvalidOperationException("Unable to find user access level.");
