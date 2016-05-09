@@ -6,7 +6,7 @@ namespace Ignite.Rules
     {
         public SessionsetAccess Build(SessionsetaccessDto dto)
         {
-            return new SessionsetAccess(dto.SchedulerStandard, dto.Lab, dto.SchedulerTLF, dto.SchedulerPress);
+            return new SessionsetAccess(dto.Identifier);
         }
 
     }

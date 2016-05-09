@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework;
 
 namespace Ignite.Rules.Test
@@ -54,41 +56,44 @@ namespace Ignite.Rules.Test
         }
 
         [Test]
-        [TestCase("non existanct", false, false, false, false,  ExpectedException = typeof(InvalidOperationException))]
-        [TestCase("empty", false, false, false, false, ExpectedException = typeof(InvalidOperationException))]
-        [TestCase(null, false, false, false, false, ExpectedException = typeof(ArgumentException))]
-        [TestCase("", false, false, false, false, ExpectedException = typeof(ArgumentException))]
-        [TestCase("Anonymous", true, false, false, false)]
-        [TestCase("Attendee Customer & Partner", true, true, false, false)]
-        [TestCase("Attendee Exhibitor", true, true, false, false)]
-        [TestCase("Attendee Sponsor", true, true, false, false)]
-        [TestCase("Attendee Faculty/Staff", true, true, false, false)]
-        [TestCase("Attendee Student", true, true, false, false)]
-        [TestCase("Attendee Microsoft", true, true, false, false)]
-        [TestCase("Attendee TEF", false, true, true, false)]
-        [TestCase("Attendee TEF Microsoft", false, true, true, false)]
-        [TestCase("Media", false, false, false, true)]
-        [TestCase("Day Pass Attendee Customer & Partner", true, true, false, false)]
-        [TestCase("Expo Only", true, true, false, false)]
-        [TestCase("Speaker External", true, true, false, false)]
-        [TestCase("Speaker Microsoft", true, true, false, false)]
-        [TestCase("Booth Staff Exhibitor", true, true, false, false)]
-        [TestCase("Booth Staff Sponsor", true, true, false, false)]
-        [TestCase("Booth Staff Microsoft", true, true, false, false)]
-        [TestCase("Staff External", true, true, false, false)]
-        [TestCase("Staff Microsoft", true, true, false, false)]
-        [TestCase("Crew", true, true, false, false)]
-        public void LookupSessionSetAccessLevelAtStartOfConference(string userType, bool schedulerStandard, bool lab, bool schedulerPressTlf, bool schedulerPress)
+        [TestCase("non existanct", new string[]{},  ExpectedException = typeof(InvalidOperationException))]
+        [TestCase("empty", new string[] { }, ExpectedException = typeof(InvalidOperationException))]
+        [TestCase(null, new string[] { }, ExpectedException = typeof(ArgumentException))]
+        [TestCase("", new string[] { }, ExpectedException = typeof(ArgumentException))]
+        [TestCase("Anonymous", new [] { "Scheduler-Standard" })]
+        [TestCase("Attendee Customer & Partner", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Attendee Exhibitor", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Attendee Sponsor", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Attendee Faculty/Staff", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Attendee Student", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Attendee Microsoft", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Attendee TEF", new[] { "Lab", "Scheduler-TEF" })]
+        [TestCase("Attendee TEF Microsoft", new[] { "Lab", "Scheduler-TEF" })]
+        [TestCase("Media", new[] { "Scheduler-Press" })]
+        [TestCase("Day Pass Attendee Customer & Partner", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Expo Only", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Speaker External", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Speaker Microsoft", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Booth Staff Exhibitor", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Booth Staff Sponsor", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Booth Staff Microsoft", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Staff External", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Staff Microsoft", new[] { "Scheduler-Standard", "Lab" })]
+        [TestCase("Crew", new[] { "Scheduler-Standard", "Lab" })]
+        public void LookupSessionSetAccessLevelAtStartOfConference(string userType, string[] sessionSetAcess)
         {
             var startOfConference = new DateTimeOffset(new DateTime(2016, 9, 26));
             var access = _permissionManager.LookupSessionSetAccess(userType, startOfConference);
-            AssertAccessIsExpected(schedulerStandard, schedulerPressTlf, lab, schedulerPress, access);
+            IEnumerable<string> accessId = access.Select(s => s.Identifier).ToList();
+            CollectionAssert.AreEquivalent(accessId, sessionSetAcess);
             if (userType != null)
             {
                 var lowerAccess = _permissionManager.LookupSessionSetAccess(userType.ToLower(), startOfConference);
-                var uppAccess = _permissionManager.LookupSessionSetAccess(userType.ToUpper(), startOfConference);
-                AssertAccessIsExpected(schedulerStandard, schedulerPressTlf, lab, schedulerPress, lowerAccess);
-                AssertAccessIsExpected(schedulerStandard, schedulerPressTlf, lab, schedulerPress, uppAccess);
+                var upAccess = _permissionManager.LookupSessionSetAccess(userType.ToUpper(), startOfConference);
+                IEnumerable<string> lowerAccessList = lowerAccess.Select(s => s.Identifier).ToList();
+                IEnumerable<string> upperAccessList = upAccess.Select(s => s.Identifier).ToList();
+                CollectionAssert.AreEquivalent(lowerAccessList, sessionSetAcess);
+                CollectionAssert.AreEquivalent(upperAccessList, sessionSetAcess);
             }
         }
 
@@ -108,20 +113,13 @@ namespace Ignite.Rules.Test
             var accessThursday = _permissionManager.LookupSessionSetAccess(tlf, thursday);
             var accessFriday = _permissionManager.LookupSessionSetAccess(tlf, friday);
 
-            AssertAccessIsExpected(false, true, true, false, accessMonday);
-            AssertAccessIsExpected(true, true, true, false, accessTuesday);
-            AssertAccessIsExpected(true, true, true, false, accessWednesday);
-            AssertAccessIsExpected(true, true, true, false, accessThursday);
-            AssertAccessIsExpected(true, true, true, false, accessFriday);   
-        }
-
-        private static void AssertAccessIsExpected(bool schedulerStandard, bool schedulerPressTlf, bool lab, 
-            bool schedulerPress, SessionsetAccess access)
-        {
-            Assert.That(access.SchedulerStandard, Is.EqualTo(schedulerStandard));
-            Assert.That(access.SchedulerPress, Is.EqualTo(schedulerPress));
-            Assert.That(access.SchedulerTLF, Is.EqualTo(schedulerPressTlf));
-            Assert.That(access.Lab, Is.EqualTo(lab));
+            var tefList = new[] { "Scheduler-TEF", "Lab" };
+            var standardList = new[] { "Scheduler-TEF", "Scheduler-Standard", "Lab" };
+            CollectionAssert.AreEquivalent(accessMonday.Select(s => s.Identifier), tefList);
+            CollectionAssert.AreEquivalent(accessTuesday.Select(s => s.Identifier), standardList);
+            CollectionAssert.AreEquivalent(accessWednesday.Select(s => s.Identifier), standardList);
+            CollectionAssert.AreEquivalent(accessThursday.Select(s => s.Identifier), standardList);
+            CollectionAssert.AreEquivalent(accessFriday.Select(s => s.Identifier), standardList);
         }
     }
 }

@@ -2,17 +2,11 @@
 {
     public class SessionsetAccess
     {
-        public SessionsetAccess(bool schedulerStandard, bool lab, bool schedulerTlf, bool schedulerPress)
+        public SessionsetAccess(string identifier)
         {
-            SchedulerStandard = schedulerStandard;
-            Lab = lab;
-            SchedulerTLF = schedulerTlf;
-            SchedulerPress = schedulerPress;
+            Identifier = identifier;
         }
 
-        public bool SchedulerStandard { get; private set; }
-        public bool Lab { get; private set; }
-        public bool SchedulerTLF { get; private set; }
-        public bool SchedulerPress { get; private set; }
+        public string Identifier { get; private set; }
     }
 }
