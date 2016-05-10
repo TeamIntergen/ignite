@@ -101,13 +101,14 @@ namespace Ignite.Rules.Test
         public void LookupSessionSetAccessLevelConditionalOnDateReturnsExpected()
         {
             var tlf = "Attendee TEF";
-            var monday = new DateTimeOffset(new DateTime(2016, 9, 26));
-            var tuesday = monday.AddDays(1);
+            var offsetToAtlanta = TimeSpan.FromHours(-5);
+            var mondayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 26), offsetToAtlanta);
+            var tuesday = mondayInAtlanta.AddDays(1);
             var wednesday = tuesday.AddDays(1);
             var thursday = wednesday.AddDays(1);
             var friday = thursday.AddDays(1);
 
-            var accessMonday = _permissionManager.LookupSessionSetAccess(tlf, monday);
+            var accessMonday = _permissionManager.LookupSessionSetAccess(tlf, mondayInAtlanta);
             var accessTuesday = _permissionManager.LookupSessionSetAccess(tlf, tuesday);
             var accessWednesday = _permissionManager.LookupSessionSetAccess(tlf, wednesday);
             var accessThursday = _permissionManager.LookupSessionSetAccess(tlf, thursday);
