@@ -3,77 +3,77 @@
     {
       "HubbId": 50,
       "SessionTypeName": "KeyNote",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF", "Scheduler - Press" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF", "Scheduler-Press" ]
     },
     {
       "HubbId": 54,
       "SessionTypeName": "Theater: Microsoft",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 55,
       "SessionTypeName": "Partner Session",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 56,
       "SessionTypeName": "Deep Dive",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 57,
       "SessionTypeName": "Business Value",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 58,
       "SessionTypeName": "Customer Showcase",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 59,
       "SessionTypeName": "Overview",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF", "Scheduler - Press" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF", "Scheduler-Press" ]
     },
     {
       "HubbId": 60,
       "SessionTypeName": "What's New",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 61,
       "SessionTypeName": "How To",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 62,
       "SessionTypeName": "Strategy",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 63,
       "SessionTypeName": "Best Practices",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 64,
       "SessionTypeName": "Women In Technology",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 65,
       "SessionTypeName": "Exam Prep",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 66,
       "SessionTypeName": "Office CIE",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 67,
       "SessionTypeName": "Foundational Keynote",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF", "Scheduler - Press" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF", "Scheduler-Press" ]
     },
     {
       "HubbId": 68,
@@ -83,17 +83,17 @@
     {
       "HubbId": 69,
       "SessionTypeName": "Instructor-led Lab",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 70,
       "SessionTypeName": "Cloud Platform Immersion",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 71,
       "SessionTypeName": "Showcase Keynote",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF", "Scheduler - Press" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF", "Scheduler-Press" ]
     },
     {
       "HubbId": 72,
@@ -103,22 +103,22 @@
     {
       "HubbId": 73,
       "SessionTypeName": "Theater: Sponsor",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 74,
       "SessionTypeName": "Theater: Community",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 76,
       "SessionTypeName": "Tech Leaders Forum",
-      "SessionSets": [ "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-TEF" ]
     },
     {
       "HubbId": 77,
       "SessionTypeName": "Theater Sessions",
-      "SessionSets": [ "Scheduler - Standard", "Scheduler - TLF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
   ]
 }
