@@ -69,7 +69,12 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier" : "Scheduler-Standard"
+          "Identifier": "Scheduler-Standard"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Scheduler-PreDay"
         }
       ]
     },

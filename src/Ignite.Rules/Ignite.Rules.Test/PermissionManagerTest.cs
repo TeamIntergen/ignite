@@ -13,8 +13,8 @@ namespace Ignite.Rules.Test
         [TestFixtureSetUp]
         public void Setup()
         {
-            var webLoader = new WebLoader();
-            var settings = new SettingsStub();
+            var webLoader = new FileLoader();
+            var settings = new SettingsStub().WithRulesPath(@"C:\Dev\MSCorp.IgniteRules\resource\test\ignite_rules.json").WithSessionMapPath(@"C:\Dev\MSCorp.IgniteRules\resource\test\ignite_session_map.json");
             var repos = new SecurityRepository(webLoader, settings);
             var useraccessDto = repos.LoadAccessLevel().Result;
             _permissionManager = new PermissionManager(useraccessDto);
@@ -60,7 +60,7 @@ namespace Ignite.Rules.Test
         [TestCase("empty", new string[] { }, ExpectedException = typeof(InvalidOperationException))]
         [TestCase(null, new string[] { }, ExpectedException = typeof(ArgumentException))]
         [TestCase("", new string[] { }, ExpectedException = typeof(ArgumentException))]
-        [TestCase("Anonymous", new [] { "Scheduler-Standard" })]
+        [TestCase("Anonymous", new [] { "Scheduler-Standard", "Scheduler-PreDay" })]
         [TestCase("Attendee Customer & Partner", new[] { "Scheduler-Standard", "Lab" })]
         [TestCase("Attendee Exhibitor", new[] { "Scheduler-Standard", "Lab" })]
         [TestCase("Attendee Sponsor", new[] { "Scheduler-Standard", "Lab" })]

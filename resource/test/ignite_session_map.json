@@ -98,7 +98,7 @@
     {
       "HubbId": 72,
       "SessionTypeName": "Pre-Day Sessions",
-      "SessionSets": [ ]
+      "SessionSets": [ "Scheduler-PreDay" ]
     },
     {
       "HubbId": 73,
