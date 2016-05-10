@@ -13,8 +13,8 @@ namespace Ignite.Rules.Test
         [TestFixtureSetUp]
         public void Setup()
         {
-            var webLoader = new FileLoader();
-            var settings = new SettingsStub().WithRulesPath(@"C:\Dev\MSCorp.IgniteRules\resource\test\ignite_rules.json").WithSessionMapPath(@"C:\Dev\MSCorp.IgniteRules\resource\test\ignite_session_map.json");
+            var webLoader = new WebLoader();
+            var settings = new SettingsStub();
             var repos = new SecurityRepository(webLoader, settings);
             var useraccessDto = repos.LoadAccessLevel().Result;
             _permissionManager = new PermissionManager(useraccessDto);
