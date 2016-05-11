@@ -4,6 +4,7 @@
       "Identifier": "Anonymous",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : false,
         "PlaylistBuilder": false,
         "MyIgnite": false,
         "ScheduleBuilder": false,
@@ -82,6 +83,7 @@
       "Identifier": "Attendee Customer & Partner",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -160,6 +162,7 @@
       "Identifier": "Attendee Exhibitor",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -238,6 +241,7 @@
       "Identifier": "Attendee Sponsor",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": false,
@@ -316,6 +320,7 @@
       "Identifier": "Attendee Faculty/Staff",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -394,6 +399,7 @@
       "Identifier": "Attendee Student",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -472,6 +478,7 @@
       "Identifier": "Attendee Microsoft",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -550,6 +557,7 @@
       "Identifier": "Attendee TEF",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -633,6 +641,7 @@
       "Identifier": "Attendee TEF Microsoft",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -716,6 +725,7 @@
       "Identifier": "Media",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -789,6 +799,7 @@
       "Identifier": "Day Pass Attendee Customer & Partner",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -867,6 +878,7 @@
       "Identifier": "Expo Only",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": false,
@@ -945,6 +957,7 @@
       "Identifier": "Speaker External",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -1023,6 +1036,7 @@
       "Identifier": "Speaker Microsoft",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -1101,6 +1115,7 @@
       "Identifier": "Booth Staff Exhibitor",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -1179,6 +1194,7 @@
       "Identifier": "Booth Staff Sponsor",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -1257,6 +1273,7 @@
       "Identifier": "Booth Staff Microsoft",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -1335,6 +1352,7 @@
       "Identifier": "Staff External",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -1413,6 +1431,7 @@
       "Identifier": "Staff Microsoft",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
@@ -1491,6 +1510,7 @@
       "Identifier": "Crew",
       "Access": {
         "SessionCatalog": true,
+		    "SessionScheduler" : true,
         "PlaylistBuilder": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,

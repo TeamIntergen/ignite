@@ -4,6 +4,8 @@ namespace Ignite.Rules.Dto
 {
     public class AccessDto
     {
+        [JsonProperty("SessionScheduler")]
+        public bool SessionScheduler { get; set; }
         [JsonProperty("SessionCatalog")]
         public bool SessionCatalog { get; set; }
         [JsonProperty("PlaylistBuilder")]
