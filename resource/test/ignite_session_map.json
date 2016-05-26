@@ -119,6 +119,16 @@
       "HubbId": 77,
       "SessionTypeName": "Theater Sessions",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 98,
+      "SessionTypeName": "Customer Showcase",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 97,
+      "SessionTypeName": "Overview",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
   ]
 }
