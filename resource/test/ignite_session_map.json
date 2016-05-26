@@ -122,12 +122,12 @@
     },
     {
       "HubbId": 98,
-      "SessionTypeName": "Customer Showcase",
+      "SessionTypeName": "Breakout",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 97,
-      "SessionTypeName": "Overview",
+      "SessionTypeName": "Theater",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
   ]
