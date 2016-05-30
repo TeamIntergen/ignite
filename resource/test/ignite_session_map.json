@@ -142,12 +142,12 @@
     },
     {
       "HubbId": 106,
-      "SessionTypeName": "Strategy",
+      "SessionTypeName": "Interactive Digital Lab",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 107,
-      "SessionTypeName": "Deep Dive",
+      "SessionTypeName": "Partner Led Session",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
   ]
