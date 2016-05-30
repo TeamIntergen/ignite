@@ -129,6 +129,26 @@
       "HubbId": 97,
       "SessionTypeName": "Theater",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 104,
+      "SessionTypeName": "Theater",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 105,
+      "SessionTypeName": "Breakout",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 106,
+      "SessionTypeName": "Strategy",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 107,
+      "SessionTypeName": "Deep Dive",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
   ]
 }
