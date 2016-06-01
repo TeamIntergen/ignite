@@ -149,6 +149,27 @@
       "HubbId": 107,
       "SessionTypeName": "Partner Led Session",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    ,
+    {
+      "HubbId": 113,
+      "SessionTypeName": "Theater",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 114,
+      "SessionTypeName": "Breakout",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 115,
+      "SessionTypeName": "Interactive Digital Lab",
+      "SessionSets": [ "Lab" ]
+    },
+    {
+      "HubbId": 116,
+      "SessionTypeName": "Partner Led Session",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
   ]
 }
