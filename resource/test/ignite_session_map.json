@@ -170,5 +170,6 @@
       "SessionTypeName": "Partner Led Session",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
+    
   ]
 }
