@@ -169,6 +169,51 @@
       "HubbId": 116,
       "SessionTypeName": "Partner Led Session",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 124,
+      "SessionTypeName": "Breakout",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 125,
+      "SessionTypeName": "Breakout - 75 minutes",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 126,
+      "SessionTypeName": "Breakout - 45 minutes",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 127,
+      "SessionTypeName": "Theater",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 128,
+      "SessionTypeName": "Partner Led Session",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 129,
+      "SessionTypeName": "Keynote",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 130,
+      "SessionTypeName": "Interactive Digital Lab",
+      "SessionSets": [ "Lab" ]
+    },
+    {
+      "HubbId": 131,
+      "SessionTypeName": "Pre-Day Training",
+      "SessionSets": [ "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 132,
+      "SessionTypeName": "General Session",
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
     
   ]
