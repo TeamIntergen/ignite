@@ -1,15 +1,15 @@
 {
   "SessionLengthMap": [
     {
-      "SessionTypeName": "Breakout – 45 min",
+      "SessionTypeName": "Breakout - 45 min",
       "SessionLength": 45
     },
     {
-      "SessionTypeName": "Breakout – 75 min",
+      "SessionTypeName": "Breakout - 75 minutes",
       "SessionLength": 75
     },
     {
-      "SessionTypeName": "General",
+      "SessionTypeName": "General Session",
       "SessionLength": 75
     },
     {
