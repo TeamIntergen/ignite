@@ -1,0 +1,32 @@
+{
+  "SessionLengthMap": [
+    {
+      "SessionTypeName": "Breakout – 45 min",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Breakout – 75 min",
+      "SessionLength": 75
+    },
+    {
+      "SessionTypeName": "General",
+      "SessionLength": 75
+    },
+    {
+      "SessionTypeName": "Keynote",
+      "SessionLength": 90
+    },
+    {
+      "SessionTypeName": "Partner Led Session",
+      "SessionLength": 75
+    },
+    {
+      "SessionTypeName": "Pre-Day Training",
+      "SessionLength": 480
+    },
+    {
+      "SessionTypeName": "Theater",
+      "SessionLength": 20
+    }
+  ]
+}
