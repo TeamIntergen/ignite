@@ -23,7 +23,7 @@
     {
       "HubbId": 10,
       "SessionTypeName": "Pre-Day Training",
-      "SessionSets": [ "Scheduler-TEF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 31,
@@ -83,7 +83,7 @@
     {
       "HubbId": 131,
       "SessionTypeName": "Pre-Day Training",
-      "SessionSets": [ "Scheduler-TEF" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 132,
