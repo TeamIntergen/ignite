@@ -2,8 +2,8 @@
   "SessionSetMap": [
     {
       "HubbId": 6,
-      "SessionTypeName": "Breakout",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionTypeName": "TEF",
+      "SessionSets": [ "Scheduler-TEF" ]
     },
     {
       "HubbId": 7,
