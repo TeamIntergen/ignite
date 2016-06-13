@@ -1,0 +1,219 @@
+{
+  "MapsMap": [
+    {
+      "RoomName": "A302",
+      "Building": "A",
+      "Level": "3"
+    },
+    {
+      "RoomName": "A305",
+      "Building": "A",
+      "Level": "3"
+    },
+    {
+      "RoomName": "A311/A312",
+      "Building": "A",
+      "Level": "3"
+    },
+     {
+      "RoomName": "A313/A314",
+      "Building": "A",
+      "Level": "3"
+    },
+     {
+      "RoomName": "A315/A316",
+      "Building": "A",
+      "Level": "3"
+    },
+      {
+      "RoomName": "A402/A403",
+      "Building": "A",
+      "Level": "4"
+    },
+     {
+      "RoomName": "A404/A405",
+      "Building": "A",
+      "Level": "4"
+    },
+     {
+     "RoomName": "B203",
+      "Building": "B",
+      "Level": "2"
+    },
+     {
+     "RoomName": "B206",
+      "Building": "B",
+      "Level": "2"
+    },
+     {
+     "RoomName": "B207/B208",
+      "Building": "B",
+      "Level": "2"
+    },
+     {
+     "RoomName": "B211/B212",
+      "Building": "B",
+      "Level": "2"
+    },
+    {
+     "RoomName": "B213/B214",
+      "Building": "B",
+      "Level": "2"
+    },
+    {
+     "RoomName": "B216/B217",
+      "Building": "B",
+      "Level": "2"
+    },
+    {
+     "RoomName": "B302-B303",
+      "Building": "B",
+      "Level": "3"
+    },
+    {
+     "RoomName": "B308/B309",
+      "Building": "B",
+      "Level": "3"
+    },
+    {
+     "RoomName": "B312-B314",
+      "Building": "B",
+      "Level": "3"
+    },
+    {
+     "RoomName": "B304-B305",
+      "Building": "B",
+      "Level": "3"
+    },
+    {
+     "RoomName": "B401/B402",
+      "Building": "B",
+      "Level": "4"
+    },
+    {
+     "RoomName": "B405-B407",
+      "Building": "B",
+      "Level": "4"
+    },
+     {
+     "RoomName": "Thomas Murphy Ballroom 1",
+      "Building": "B",
+      "Level": "5"
+    },
+     {
+     "RoomName": "Thomas Murphy Ballroom 2&3",
+      "Building": "B",
+      "Level": "5"
+    },
+     {
+     "RoomName": "Thomas Murphy Ballroom 4",
+      "Building": "B",
+      "Level": "5"
+    },
+     {
+     "RoomName": "C101",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "C108-C109",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "C111",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "C112",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "C113",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "C114",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "C101",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "C202-C204",
+      "Building": "C",
+      "Level": "2"
+    },
+    {
+     "RoomName": "C302",
+      "Building": "C",
+      "Level": "3"
+    },
+    {
+     "RoomName": "A1",
+      "Building": "A",
+      "Level": "1"
+    },
+    {
+     "RoomName": "A411/A412",
+      "Building": "A",
+      "Level": "4"
+    },
+    {
+     "RoomName": "Sydeny Marcus Auditorium",
+      "Building": "A",
+      "Level": "4"
+    },
+    {
+     "RoomName": "Thomas Murphy Ballroom",
+      "Building": "B",
+      "Level": "5"
+    },
+    {
+     "RoomName": "C1",
+      "Building": "C",
+      "Level": "1"
+    },
+    {
+     "RoomName": "Georgia Ballroom",
+      "Building": "C",
+      "Level": "3"
+    },
+     {
+     "RoomName": "Phillips Arena",
+      "Building": "Phillips Arena",
+      "Level": ""
+    },
+     {
+     "RoomName": "Grand Ballroom",
+      "Building": "Omni - CNN North Tower",
+      "Level": "M4"
+    },
+     {
+     "RoomName": "Willow Boardroom",
+     "Building": "Omni - CNN North Tower",
+     "Level": "M4"
+    },
+     {
+     "RoomName": "Dogwood",
+     "Building": "Building": "Omni - CNN North Tower",
+     "Level": "M1 Street Level"
+    },
+     {
+     "RoomName": "Cottonwood",
+      "Building": "Building": "Omni - CNN North Tower",
+      "Level": "M1 Street Level"
+    },
+     {
+     "RoomName": "Redwood",
+      "Building": "Building": "Omni - CNN North Tower",
+      "Level": "M1 Street Level"
+    },
+  ]
+}
