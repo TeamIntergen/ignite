@@ -12,7 +12,7 @@
     },
     {
       "HubbId": 8,
-      "SessionTypeName": "Theater",
+      "SessionTypeName": "Theater: Microsoft",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
@@ -46,58 +46,18 @@
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
-      "HubbId": 124,
-      "SessionTypeName": "Breakout",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 125,
-      "SessionTypeName": "Breakout - 75 minutes",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 126,
-      "SessionTypeName": "Breakout - 45 minutes",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 127,
-      "SessionTypeName": "Theater",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 128,
-      "SessionTypeName": "Partner Led Session",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 129,
-      "SessionTypeName": "Keynote",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 130,
-      "SessionTypeName": "Interactive Digital Lab",
-      "SessionSets": [ "Lab" ]
-    },
-    {
-      "HubbId": 131,
-      "SessionTypeName": "Pre-Day Training",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 132,
-      "SessionTypeName": "General Session",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
-    },
-    {
-      "HubbId": 133,
-      "SessionTypeName": "TEF",
-      "SessionSets": [ "Scheduler-TEF" ]
-    },
-    {
       "HubbId": 134,
       "SessionTypeName": "Women in Technology",
+      "SessionSets": [ "Scheduler-Standard" ]
+    },
+    {
+      "HubbId": 208,
+      "SessionTypeName": "Theater: Community",
+      "SessionSets": [ "Scheduler-Standard" ]
+    },
+    {
+      "HubbId": 209,
+      "SessionTypeName": "Theater: Partner",
       "SessionSets": [ "Scheduler-Standard" ]
     }
     
