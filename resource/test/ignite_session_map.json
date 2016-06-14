@@ -48,17 +48,17 @@
     {
       "HubbId": 134,
       "SessionTypeName": "Women in Technology",
-      "SessionSets": [ "Scheduler-Standard" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 208,
       "SessionTypeName": "Theater: Community",
-      "SessionSets": [ "Scheduler-Standard" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 209,
       "SessionTypeName": "Theater: Partner",
-      "SessionSets": [ "Scheduler-Standard" ]
+      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     }
     
   ]
