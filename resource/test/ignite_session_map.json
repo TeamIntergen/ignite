@@ -79,6 +79,11 @@
       "HubbId": 228,
       "SessionTypeName": "Agenda - All",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+    },
+    {
+      "HubbId": 231,
+      "SessionTypeName": "IDL",
+      "SessionSets": [ "Lab" ]
     }
     
     
