@@ -37,12 +37,12 @@
     },
     {
       "HubbId": 111,
-      "SessionTypeName": "Breakout - 45 minutes",
+      "SessionTypeName": "Breakout: 45 minutes",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 112,
-      "SessionTypeName": "Breakout - 75 minutes",
+      "SessionTypeName": "Breakout: 75 minutes",
       "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
