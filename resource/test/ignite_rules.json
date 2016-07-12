@@ -2005,28 +2005,28 @@
       },
       "SessionSetAccess": [
         {
-          "ApplicableFrom": "2016-09-25T00:00:00Z",
-          "ApplicableTo": "2016-09-26T00:00:00Z",
+          "ApplicableFrom": "2016-09-25T00:05:00Z",
+          "ApplicableTo": "2016-09-26T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 0"
         },
         {
-          "ApplicableFrom": "2016-09-26T00:00:00Z",
-          "ApplicableTo": "2016-09-27T00:00:00Z",
+          "ApplicableFrom": "2016-09-26T00:05:00Z",
+          "ApplicableTo": "2016-09-27T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 1"
         },
         {
-          "ApplicableFrom": "2016-09-27T00:00:00Z",
-          "ApplicableTo": "2016-09-28T00:00:00Z",
+          "ApplicableFrom": "2016-09-27T00:05:00Z",
+          "ApplicableTo": "2016-09-28T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 2"
         },
         {
-          "ApplicableFrom": "2016-09-28T00:00:00Z",
-          "ApplicableTo": "2016-09-29T00:00:00Z",
+          "ApplicableFrom": "2016-09-28T00:05:00Z",
+          "ApplicableTo": "2016-09-29T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 3"
         },
         {
-          "ApplicableFrom": "2016-09-29T00:00:00Z",
-          "ApplicableTo": "2016-09-30T00:00:00Z",
+          "ApplicableFrom": "2016-09-29T00:05:00Z",
+          "ApplicableTo": "2016-09-30T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 4"
         },
         {
@@ -2118,28 +2118,28 @@
       },
       "SessionSetAccess": [
         {
-          "ApplicableFrom": "2016-09-25T00:00:00Z",
-          "ApplicableTo": "2016-09-26T00:00:00Z",
+          "ApplicableFrom": "2016-09-25T00:05:00Z",
+          "ApplicableTo": "2016-09-26T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 0"
         },
         {
-          "ApplicableFrom": "2016-09-26T00:00:00Z",
-          "ApplicableTo": "2016-09-27T00:00:00Z",
+          "ApplicableFrom": "2016-09-26T00:05:00Z",
+          "ApplicableTo": "2016-09-27T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 1"
         },
         {
-          "ApplicableFrom": "2016-09-27T00:00:00Z",
-          "ApplicableTo": "2016-09-28T00:00:00Z",
+          "ApplicableFrom": "2016-09-27T00:05:00Z",
+          "ApplicableTo": "2016-09-28T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 2"
         },
         {
-          "ApplicableFrom": "2016-09-28T00:00:00Z",
-          "ApplicableTo": "2016-09-29T00:00:00Z",
+          "ApplicableFrom": "2016-09-28T00:05:00Z",
+          "ApplicableTo": "2016-09-29T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 3"
         },
         {
-          "ApplicableFrom": "2016-09-29T00:00:00Z",
-          "ApplicableTo": "2016-09-30T00:00:00Z",
+          "ApplicableFrom": "2016-09-29T00:05:00Z",
+          "ApplicableTo": "2016-09-30T00:05:00Z",
           "Identifier": "Schedule Builder - TEF Day 4"
         },
         {
