@@ -14,9 +14,10 @@ namespace Ignite.Rules.Test
         public void Setup()
         {
             var webLoader = new WebLoader();
-            var fileLoader = new FileLoader();
-            var settings = new SettingsStub().WithRulesPath(@"D:\DEV\ignite\resource\test\ignite_rules.json").WithSessionMapPath(@"D:\DEV\ignite\resource\test\ignite_session_map.json");
-            var repos = new SecurityRepository(fileLoader, settings);
+            //var fileLoader = new FileLoader();
+            //.WithRulesPath(@"D:\DEV\ignite\resource\test\ignite_rules.json").WithSessionMapPath(@"D:\DEV\ignite\resource\test\ignite_session_map.json");
+            var settings = new SettingsStub();
+            var repos = new SecurityRepository(webLoader, settings);
             var useraccessDto = repos.LoadAccessLevel().Result;
             _permissionManager = new PermissionManager(useraccessDto);
         }
