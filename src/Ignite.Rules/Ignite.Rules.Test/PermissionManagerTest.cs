@@ -106,8 +106,8 @@ namespace Ignite.Rules.Test
         {
             var tlf = "Attendee TEF";
             var offsetToAtlanta = TimeSpan.FromHours(-4);
-            var sundayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 25), offsetToAtlanta);
-            var mondayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 26), offsetToAtlanta);
+            var sundayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 25), offsetToAtlanta).ToUniversalTime();
+            var mondayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 26), offsetToAtlanta).ToUniversalTime();
             var tuesday = mondayInAtlanta.AddDays(1);
             var wednesday = tuesday.AddDays(1);
             var thursday = wednesday.AddDays(1);
