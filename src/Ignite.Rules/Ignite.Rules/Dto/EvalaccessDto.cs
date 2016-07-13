@@ -14,11 +14,15 @@ namespace Ignite.Rules.Dto
         public SurveyAccessDto RegularSessionEvaluations { get; set; }
         [JsonProperty("KeynoteDayEvaluation")]
         public SurveyAccessDto KeynoteDayEvaluation { get; set; }
-        [JsonProperty("HOL_ILL")]
-        public SurveyAccessDto HOL_ILL { get; set; }
-        [JsonProperty("TechLeadersForum")]
-        public SurveyAccessDto TechLeadersForum { get; set; }
-        [JsonProperty("PlusPass")]
-        public SurveyAccessDto PlusPass { get; set; }
+        [JsonProperty("IDL_Evaluations")]
+        public SurveyAccessDto IDL_Evaluations { get; set; }
+        [JsonProperty("TEFPreSurvey")]
+        public SurveyAccessDto TEFPreSurvey { get; set; }
+        [JsonProperty("TEFPostEventSurvey")]
+        public SurveyAccessDto TEFPostEventSurvey { get; set; }
+        [JsonProperty("TEFDeviceSurvey")]
+        public SurveyAccessDto TEFDeviceSurvey { get; set; }
+        [JsonProperty("PlusPassSurvey")]
+        public SurveyAccessDto PlusPassSurvey { get; set; }
     }
 }

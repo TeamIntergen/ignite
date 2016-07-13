@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Ignite.Rules.Dto;
+using NUnit.Framework;
 
 namespace Ignite.Rules.Test
 {
@@ -12,7 +13,7 @@ namespace Ignite.Rules.Test
             var settings = new SettingsStub();
             var repos = new SecurityRepository(webLoader, settings);
 
-            var level = repos.LoadAccessLevel().Result;
+            RulesDto level = repos.LoadAccessLevel().Result;
 
             Assert.IsNotNull(level);
             level.AssertNoPropertiesAreNull();
