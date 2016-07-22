@@ -23,7 +23,7 @@
     {
       "HubbId": 10,
       "SessionTypeName": "Pre-Day Training",
-      "SessionSets": [ "Anonymous" ]
+      "SessionSets": [ "Anonymous", "PreDay" ]
     },
     {
       "HubbId": 31,

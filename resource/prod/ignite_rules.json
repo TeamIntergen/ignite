@@ -70,7 +70,12 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Anonymous"
+          "Identifier": "Scheduler-Standard"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "PreDay"
         }
       ]
     },
