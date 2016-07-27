@@ -13,14 +13,14 @@ namespace Ignite.Rules.Dto
 
         [JsonProperty("ApplicableFrom")]
         public DateTimeOffset? ApplicableFrom {
-            get { return _applicableFrom; }
+            get { return _applicableFrom.UtcDateTime; }
             set { _applicableFrom = value ?? DateTimeOffset.MinValue; }
         }
 
         [JsonProperty("ApplicableTo")]
         public DateTimeOffset? ApplicableTo
         {
-            get { return _applicableTo; }
+            get { return _applicableTo.UtcDateTime; }
             set { _applicableTo = value ?? DateTimeOffset.MaxValue; }
         }
     }
