@@ -70,8 +70,8 @@ namespace Ignite.Rules.Test
         [TestCase("Attendee Faculty/Staff", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Student", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
-        [TestCase("Attendee TEF", new[] { "Schedule Builder - TEF", "Lab", "My Schedule - TEF" })]
-        [TestCase("Attendee TEF Microsoft", new[] { "Schedule Builder - TEF", "Lab", "My Schedule - TEF" })]
+        [TestCase("Attendee TEF", new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" })]
+        [TestCase("Attendee TEF Microsoft", new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" })]
         [TestCase("Media", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Day Pass Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Expo Only", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
@@ -85,7 +85,7 @@ namespace Ignite.Rules.Test
         [TestCase("Crew", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         public void LookupSessionSetAccessLevelAtStartOfConference(string userType, string[] sessionSetAcess)
         {
-            var startOfConference = new DateTimeOffset(new DateTime(2016, 9, 25));
+            var startOfConference = new DateTimeOffset(2016, 9, 26, 0, 0, 0, new TimeSpan(-4, 0, 0));
             var access = _permissionManager.LookupSessionSetAccess(userType, startOfConference);
             IEnumerable<string> accessId = access.Select(s => s.Identifier).ToList();
             CollectionAssert.AreEquivalent(accessId, sessionSetAcess);
