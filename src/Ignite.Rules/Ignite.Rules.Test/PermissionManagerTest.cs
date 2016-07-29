@@ -85,7 +85,7 @@ namespace Ignite.Rules.Test
         [TestCase("Crew", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         public void LookupSessionSetAccessLevelAtStartOfConference(string userType, string[] sessionSetAcess)
         {
-            var startOfConference = new DateTimeOffset(new DateTime(2016, 9, 26));
+            var startOfConference = new DateTimeOffset(2016, 9, 26, 0, 0, 0, new TimeSpan(-4, 0, 0));
             var access = _permissionManager.LookupSessionSetAccess(userType, startOfConference);
             IEnumerable<string> accessId = access.Select(s => s.Identifier).ToList();
             CollectionAssert.AreEquivalent(accessId, sessionSetAcess);
