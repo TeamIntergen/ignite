@@ -34,7 +34,6 @@ namespace Ignite.Rules.Test
         [TestCase("Attendee Faculty/Staff", true)]
         [TestCase("Attendee Microsoft", true)]
         [TestCase("Attendee Student", true)]
-        [TestCase("Attendee Faculty/Staff", true)]
         [TestCase("Attendee TEF", true)]
         [TestCase("Attendee TEF Microsoft", true)]
         [TestCase("Media", true)]
@@ -65,25 +64,25 @@ namespace Ignite.Rules.Test
         [TestCase(null, new string[] { }, ExpectedException = typeof(ArgumentException))]
         [TestCase("", new string[] { }, ExpectedException = typeof(ArgumentException))]
         [TestCase("Anonymous", new [] { "Session Catalog (Mktg Site)" })]
-        [TestCase("Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Attendee Exhibitor", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Attendee Sponsor", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Attendee Faculty/Staff", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Attendee Student", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Attendee Microsoft", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Attendee TEF", new[] { "Schedule Builder - TEF", "My Schedule - TEF" })]
-        [TestCase("Attendee TEF Microsoft", new[] { "Schedule Builder - TEF", "My Schedule - TEF" })]
-        [TestCase("Media", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Day Pass Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Expo Only", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Speaker External", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Speaker Microsoft", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Booth Staff Exhibitor", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Booth Staff Sponsor", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Booth Staff Microsoft", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Staff External Customer & Partner", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Staff Microsoft", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
-        [TestCase("Crew", new[] { "Schedule Builder - Attendee", "My Schedule - Attendee" })]
+        [TestCase("Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Attendee Exhibitor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Attendee Sponsor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Attendee Faculty/Staff", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Attendee Student", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Attendee Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Attendee TEF", new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" })]
+        [TestCase("Attendee TEF Microsoft", new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" })]
+        [TestCase("Media", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Day Pass Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Expo Only", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Speaker External", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Speaker Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Booth Staff Exhibitor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Booth Staff Sponsor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Booth Staff Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Staff External Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Staff Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Crew", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         public void LookupSessionSetAccessLevelAtStartOfConference(string userType, string[] sessionSetAcess)
         {
             var startOfConference = new DateTimeOffset(new DateTime(2016, 9, 26));
@@ -120,14 +119,16 @@ namespace Ignite.Rules.Test
             var accessThursday = _permissionManager.LookupSessionSetAccess(tlf, thursday);
             var accessFriday = _permissionManager.LookupSessionSetAccess(tlf, friday);
 
-            var tefList = new[] { "Schedule Builder - TEF", "My Schedule - TEF" };
-            var standardList = new[] { "My Schedule - TEF" };
-            CollectionAssert.AreEquivalent(accessSunday.Select(s => s.Identifier), tefList);
+            var tefSundayList = new[] { "Schedule Builder - TEF", "Lab", "My Schedule - TEF" };
+            var tefList = new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" };
+            var standardList = new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - TEF" };
+            var fridayList = new[] { "Lab", "My Schedule - TEF" };
+            CollectionAssert.AreEquivalent(accessSunday.Select(s => s.Identifier), tefSundayList);
             CollectionAssert.AreEquivalent(accessMonday.Select(s => s.Identifier), tefList);
-            CollectionAssert.AreEquivalent(accessTuesday.Select(s => s.Identifier), tefList);
-            CollectionAssert.AreEquivalent(accessWednesday.Select(s => s.Identifier), tefList);
-            CollectionAssert.AreEquivalent(accessThursday.Select(s => s.Identifier), tefList);
-            CollectionAssert.AreEquivalent(accessFriday.Select(s => s.Identifier), standardList);
+            CollectionAssert.AreEquivalent(accessTuesday.Select(s => s.Identifier), tefSundayList);
+            CollectionAssert.AreEquivalent(accessWednesday.Select(s => s.Identifier), standardList);
+            CollectionAssert.AreEquivalent(accessThursday.Select(s => s.Identifier), standardList);
+            CollectionAssert.AreEquivalent(accessFriday.Select(s => s.Identifier), fridayList);
         }
     }
 }
