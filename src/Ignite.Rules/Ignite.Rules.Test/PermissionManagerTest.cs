@@ -34,7 +34,6 @@ namespace Ignite.Rules.Test
         [TestCase("Attendee Faculty/Staff", true)]
         [TestCase("Attendee Microsoft", true)]
         [TestCase("Attendee Student", true)]
-        [TestCase("Attendee Faculty/Staff", true)]
         [TestCase("Attendee TEF", true)]
         [TestCase("Attendee TEF Microsoft", true)]
         [TestCase("Media", true)]
