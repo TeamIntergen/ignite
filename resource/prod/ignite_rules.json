@@ -76,6 +76,11 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "PreDay"
+        },
+	     {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Lab"
         }
       ]
     },
