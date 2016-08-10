@@ -15,68 +15,29 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
+          "WebSite": false
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "..." ],
           "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": false
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": false
+        },{
+          "Identifier": "TEFSessionEval",
+          "SessionTypes": ["TEF"],
           "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": false
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,

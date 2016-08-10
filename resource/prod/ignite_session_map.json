@@ -18,7 +18,7 @@
     {
       "HubbId": 9,
       "SessionTypeName": "Interactive Digital Lab",
-      "SessionSets": [ "Lab", "Anonymous" ]
+      "SessionSets": [ "Lab" ]
     },
     {
       "HubbId": 10,
