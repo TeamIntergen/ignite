@@ -76,6 +76,11 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Scheduler-PreDay"
+        },
+	{
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Lab"
         }
       ]
     },
