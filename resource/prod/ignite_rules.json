@@ -4,7 +4,7 @@
       "Identifier": "Anonymous",
       "Access": {
         "SessionCatalog": true,
-		    "SessionScheduler" : false,
+        "SessionScheduler" : false,
         "PlaylistBuilder": false,
         "MyIgnite": false,
         "ScheduleBuilder": false,
@@ -70,14 +70,14 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Scheduler-Standard"
+          "Identifier": "Anonymous"
         },
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Scheduler-PreDay"
+          "Identifier": "PreDay"
         },
-	{
+	     {
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Lab"

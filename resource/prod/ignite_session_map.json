@@ -8,12 +8,12 @@
     {
       "HubbId": 7,
       "SessionTypeName": "Keynote",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 8,
       "SessionTypeName": "Theater: Microsoft",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 9,
@@ -23,47 +23,47 @@
     {
       "HubbId": 10,
       "SessionTypeName": "Pre-Day Training",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "PreDay" ]
     },
     {
       "HubbId": 31,
       "SessionTypeName": "General Session",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 32,
       "SessionTypeName": "Partner Led Session",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 111,
       "SessionTypeName": "Breakout: 45 minutes",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 112,
       "SessionTypeName": "Breakout: 75 minutes",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 134,
       "SessionTypeName": "Women in Technology",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 208,
       "SessionTypeName": "Theater: Community",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 209,
       "SessionTypeName": "Theater: Partner",
-      "SessionSets": [ "Scheduler-Standard", "Scheduler-TEF" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard", "Scheduler-TEF" ]
     },
     {
       "HubbId": 232,
       "SessionTypeName": "AMA",
-      "SessionSets": [ "Scheduler-Standard" ]
+      "SessionSets": [ "Anonymous", "Scheduler-Standard" ]
     },
     {
       "HubbId": 230,
@@ -85,7 +85,7 @@
       "SessionTypeName": "IDL",
       "SessionSets": [ "Lab" ]
     }
-    
-    
+
+
   ]
 }
