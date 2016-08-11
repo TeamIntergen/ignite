@@ -145,6 +145,12 @@
          "FloorImageName":"FloorA4"
       },
       {
+         "RoomName":"Sidney Marcus Auditorium",
+         "RoomImageName":"sidney-marcus-auditorium",
+         "DisplayName":"Sidney Marcus Auditorium",
+         "FloorImageName":"FloorA4"
+      },
+      {
          "RoomName":"B1-B5",
          "RoomImageName":"B1-5",
          "DisplayName":"Rooms B1-B5",
@@ -368,19 +374,19 @@
       },
       {
          "RoomName":"Thomas Murphy Ballroom 1",
-         "RoomImageName":"Thomas Murphy Ballroom 1",
+         "RoomImageName":"thomas-murphy-ballroom",
          "DisplayName":"Thomas Murphy Ballroom 1",
          "FloorImageName":"FloorB5"
       },
       {
          "RoomName":"Thomas Murphy Ballrooms 2&3",
-         "RoomImageName":"Thomas Murphy Ballroom 2&3",
+         "RoomImageName":"thomas-murphy-ballroom",
          "DisplayName":"Thomas Murphy Ballrooms 2&3",
          "FloorImageName":"FloorB5"
       },
       {
          "RoomName":"Thomas Murphy Ballroom 4",
-         "RoomImageName":"Thomas Murphy Ballroom 4",
+         "RoomImageName":"thomas-murphy-ballroom",
          "DisplayName":"Thomas Murphy Ballroom 4",
          "FloorImageName":"FloorB5"
       },
@@ -581,54 +587,6 @@
          "RoomImageName":"georgia-ballroom",
          "DisplayName":"Georgia Ballroom",
          "FloorImageName":"FloorC3"
-      },
-      {
-         "RoomName":"Sydeny Marcus Auditorium",
-         "RoomImageName":"SydenyMarcusAuditorium",
-         "DisplayName":"Sydeny Marcus Auditorium",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomName":"Thomas Murphy Ballroom",
-         "RoomImageName":"ThomasMurphyBallroom",
-         "DisplayName":"Thomas Murphy Ballroom",
-         "FloorImageName":"FloorB5"
-      },
-      {
-         "RoomName":"Phillips Arena",
-         "RoomImageName":"PhillipsArena",
-         "DisplayName":"Phillips Arena",
-         "FloorImageName":"PhillipsArena"
-      },
-      {
-         "RoomName":"Grand Ballroom",
-         "RoomImageName":"GrandBallroom",
-         "DisplayName":"Grand Ballroom",
-         "FloorImageName":"Omni-CNNNorthTowerM4"
-      },
-      {
-         "RoomName":"Willow Boardroom",
-         "RoomImageName":"WillowBoardroom",
-         "DisplayName":"Willow Boardroom",
-         "FloorImageName":"Omni-CNNNorthTowerM4"
-      },
-      {
-         "RoomName":"Dogwood",
-         "RoomImageName":"Dogwood",
-         "DisplayName":"Dogwood",
-         "FloorImageName":"Omni-CNNNorthTowerM4"
-      },
-      {
-         "RoomName":"Cottonwood",
-         "RoomImageName":"Cottonwood",
-         "DisplayName":"Cottonwood",
-         "FloorImageName":"Omni-CNNNorthTowerM1StreetLevel"
-      },
-      {
-         "RoomName":"Redwood",
-         "RoomImageName":"Redwood",
-         "DisplayName":"Redwood",
-         "FloorImageName":"Omni-CNNNorthTowerM1StreetLevel"
       },
       {
          "RoomName":"FloorA1",
