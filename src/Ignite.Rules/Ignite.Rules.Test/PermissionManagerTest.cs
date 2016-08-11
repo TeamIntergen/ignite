@@ -63,7 +63,7 @@ namespace Ignite.Rules.Test
         [TestCase("empty", new string[] { }, ExpectedException = typeof(InvalidOperationException))]
         [TestCase(null, new string[] { }, ExpectedException = typeof(ArgumentException))]
         [TestCase("", new string[] { }, ExpectedException = typeof(ArgumentException))]
-        [TestCase("Anonymous", new [] { "Session Catalog (Mktg Site)" })]
+        [TestCase("Anonymous", new [] { "Session Catalog (Mktg Site)", "Lab" })]
         [TestCase("Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Exhibitor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Sponsor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
