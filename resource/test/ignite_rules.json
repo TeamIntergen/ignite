@@ -15,8 +15,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [
-      ],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -63,29 +111,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -137,29 +212,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -211,29 +313,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -285,29 +414,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -359,29 +515,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -433,29 +616,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -507,8 +717,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [
-      ],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -560,7 +818,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -612,7 +919,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -664,7 +1020,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -716,7 +1121,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -768,7 +1222,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -820,7 +1323,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -872,7 +1424,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -924,29 +1525,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -998,7 +1626,56 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": [],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
+          "Mobile": true,
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        }
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1050,29 +1727,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "PostEventSurvey",
-          "SessionTypes": [null],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1110,34 +1814,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "TEFPostEventSurvey",
-          "SessionTypes": ["TEF Post Event"],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "TEFSessionEval",
-          "SessionTypes": ["TEF"],
-          "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": "2016-09-25T04:00:00Z",
@@ -1184,34 +1910,56 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": [
-        {
-          "Identifier": "TEFPostEventSurvey",
-          "SessionTypes": ["TEF Post Event"],
+      "EvalAccess": {
+        "PreEventSurvey": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PostEventSurvey": {
+          "Email": true,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "RegularSessionEvaluations",
-          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "PreDaySessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteAfternoonEvaluation",
-          "SessionTypes": ["Afternon Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "RegularSessionEvaluations": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "KeynoteMorningEvaluation",
-          "SessionTypes": ["Morning Keynote"],
+          "WebSite": true,
+          "Lab": false
+        },
+        "KeynoteDayEvaluation": {
+          "Email": false,
           "Mobile": true,
-          "WebSite": true
-        },{
-          "Identifier": "TEFSessionEval",
-          "SessionTypes": ["TEF"],
-          "Mobile": true,
-          "WebSite": true
+          "WebSite": true,
+          "Lab": false
+        },
+        "HOL_ILL": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": true
+        },
+        "TechLeadersForum": {
+          "Email": false,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
+        },
+        "PlusPass": {
+          "Email": true,
+          "Mobile": false,
+          "WebSite": false,
+          "Lab": false
         }
-      ],
+      },
       "SessionSetAccess": [
         {
           "ApplicableFrom": "2016-09-25T04:00:00Z",
