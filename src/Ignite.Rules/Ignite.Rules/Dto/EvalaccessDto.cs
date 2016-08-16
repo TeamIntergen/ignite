@@ -18,11 +18,7 @@ namespace Ignite.Rules.Dto
         public SurveyAccessDto IDL_Evaluations { get; set; }
         [JsonProperty("TEFPreSurvey")]
         public SurveyAccessDto TEFPreSurvey { get; set; }
-        [JsonProperty("TEFPostEventSurvey")]
-        public SurveyAccessDto TEFPostEventSurvey { get; set; }
-        [JsonProperty("TEFDeviceSurvey")]
-        public SurveyAccessDto TEFDeviceSurvey { get; set; }
-        [JsonProperty("PlusPassSurvey")]
-        public SurveyAccessDto PlusPassSurvey { get; set; }
+        [JsonProperty("PlusPass")]
+        public SurveyAccessDto PlusPass { get; set; }
     }
 }
