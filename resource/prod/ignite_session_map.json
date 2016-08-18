@@ -23,7 +23,7 @@
     {
       "HubbId": 10,
       "SessionTypeName": "Pre-Day Training",
-      "SessionSets": [ "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF" ]
+      "SessionSets": [ "Session Catalog (Mktg Site)", "Schedule Builder - Attendee", "Schedule Builder - TEF", "My Schedule - Attendee", "My Schedule - TEF" ]
     },
     {
       "HubbId": 31,
