@@ -4,21 +4,13 @@ namespace Ignite.Rules.Dto
 {
     public class EvalaccessDto
     {
-        [JsonProperty("PreEventSurvey")]
-        public SurveyAccessDto PreEventSurvey { get; set; }
-        [JsonProperty("PostEventSurvey")]
-        public SurveyAccessDto PostEventSurvey { get; set; }
-        [JsonProperty("PreDaySessionEvaluations")]
-        public SurveyAccessDto PreDaySessionEvaluations { get; set; }
-        [JsonProperty("RegularSessionEvaluations")]
-        public SurveyAccessDto RegularSessionEvaluations { get; set; }
-        [JsonProperty("KeynoteDayEvaluation")]
-        public SurveyAccessDto KeynoteDayEvaluation { get; set; }
-        [JsonProperty("IDL_Evaluations")]
-        public SurveyAccessDto IDL_Evaluations { get; set; }
-        [JsonProperty("TEFPreSurvey")]
-        public SurveyAccessDto TEFPreSurvey { get; set; }
-        [JsonProperty("PlusPass")]
-        public SurveyAccessDto PlusPass { get; set; }
+        [JsonProperty("Identifier")]
+        public string Identifier { get; set; }
+        [JsonProperty("SessionTypes")]
+        public string[] SessionTypes { get; set; }
+        [JsonProperty("Mobile")]
+        public bool Mobile { get; set; }
+        [JsonProperty("Website")]
+        public bool WebSite { get; set; }
     }
 }
