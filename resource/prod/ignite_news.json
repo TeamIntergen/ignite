@@ -1,44 +1,31 @@
-{  
-   "NewsItems": [  
-      {  
-         "title":"provide a robust synopsis",
+{
+   "NewsItems": [
+      {
+         "title":"Personalized Schedule Builder",
          "tileNumber":"1",
-         "description":"Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
-         "link":"www.bing.com",
+         "description":"Jumpstart building your Microsoft Ignite 2016 schedule by using the MyIgnite personalization feature to provide you a recommended list of the sessions that are relevant to your learning objectives. You can filter by audience, role, topic, or product to create a customized session list with the ability to further develop your Microsoft Ignite learning path through the sort and filter features.<br /><br />Refine your settings at any time – just click on the edit button from the Personalized tab within the Schedule Builder.",
+         "linkText": "Set Your Preferences",
+         "link":"/personalize",
          "tileWidth":"2",
          "tileHeight":"2"
       },
-      {  
-         "title":"Iterative approaches to corporate strategy",
+      {
+         "title":"Women in Technology",
          "tileNumber":"2",
-         "description":"Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
-         "link":"www.bing.com",
-         "tileWidth":"3",
-         "tileHeight":"1"
+         "description":"Microsoft Ignite will feature dynamic Women in Technology (WIT) exploring key topics like closing the gender gap, why diversity is good for business, leadership, and male allies. There are a number of ways to be a part of the Women in Technology conversation at Microsoft Ignite, be sure to join us at the WIT luncheon to hear Reshma Saujani, the Founder and CEO of Girls Who Code, attend the WIT Reception on Tuesday evening, and you can also drop by the expo to catch one of our panels.",
+         "linkText": "View Women in Technology sessions",
+         "link":"/sessions?f=%5B%7B%22name%22:%22Women%20in%20Technology%22,%22facetName%22:%22sessionType%22%7D%5D",
+         "tileWidth":"2",
+         "tileHeight":"2"
       },
-      {  
-         "title":"A title of a news item",
+      {
+         "title":"Microsoft Ignite Blog",
          "tileNumber":"3",
-         "description":"Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
-         "link":"www.bing.com",
-         "tileWidth":"1",
-         "tileHeight":"1"
-      },
-      {  
-         "title":"A title of a news item",
-         "tileNumber":"4",
-         "description":"Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
-         "link":"www.bing.com",
+         "description":"Stay on top of all of Microsoft Ignite news with the Channel 9 Microsoft Ignite blog. Updated regularly with all of the news out or Redmond as the team gets ready to greet you in Atlanta – speaker announcements, attendee offers, what you need to know about Atlanta, and more.",
+         "linkText": "Read the Blog",
+         "link":"https://channel9.msdn.com/Blogs/MicrosoftIgnite",
          "tileWidth":"2",
-         "tileHeight":"1"
-      },
-      {  
-         "title":"A title of a news item",
-         "tileNumber":"5",
-         "description":"Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
-         "link":"www.bing.com",
-         "tileWidth":"2",
-         "tileHeight":"1"
+         "tileHeight":"2"
       }
    ]
 }

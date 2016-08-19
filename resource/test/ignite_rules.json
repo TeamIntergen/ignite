@@ -15,68 +15,8 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -123,68 +63,29 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": true,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -236,68 +137,29 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": true,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -349,68 +211,29 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": true,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -462,68 +285,29 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": true,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -575,68 +359,29 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": true,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -688,68 +433,29 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": true,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -801,68 +507,8 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -914,68 +560,7 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1027,68 +612,7 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1140,68 +664,7 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1253,68 +716,7 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1366,68 +768,7 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1479,68 +820,7 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1592,68 +872,7 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1705,68 +924,29 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1818,68 +998,7 @@
       "Reporting": {
         "SessionCounts": false
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        }
-      },
+      "EvalAccess": [],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -1931,68 +1050,29 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": true,
+      "EvalAccess": [
+        {
+          "Identifier": "PostEventSurvey",
+          "SessionTypes": [null],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": null,
@@ -2030,68 +1110,34 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
+      "EvalAccess": [
+        {
+          "Identifier": "TEFPostEventSurvey",
+          "SessionTypes": ["TEF Post Event"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
+          "Mobile": true,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
+          "Mobile": true,
+          "WebSite": true
+        },{
+          "Identifier": "TEFSessionEval",
+          "SessionTypes": ["TEF"],
+          "Mobile": true,
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": "2016-09-25T04:00:00Z",
@@ -2138,68 +1184,34 @@
       "Reporting": {
         "SessionCounts": true
       },
-      "EvalAccess": {
-        "PreEventSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PostEventSurvey": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "PreDaySessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "RegularSessionEvaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "KeynoteDayEvaluation": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "IDL_Evaluations": {
-          "Email": false,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": true
-        },
-        "TEFPreSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
-        },
-        "TEFPostEventSurvey": {
-          "Email": false,
+      "EvalAccess": [
+        {
+          "Identifier": "TEFPostEventSurvey",
+          "SessionTypes": ["TEF Post Event"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "TEFDeviceSurvey": {
-          "Email": false,
+          "WebSite": true
+        },{
+          "Identifier": "RegularSessionEvaluations",
+          "SessionTypes": [ "General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
           "Mobile": true,
-          "WebSite": true,
-          "Lab": false
-        },
-        "PlusPassSurvey": {
-          "Email": true,
-          "Mobile": false,
-          "WebSite": false,
-          "Lab": false
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteAfternoonEvaluation",
+          "SessionTypes": ["Afternon Keynote"],
+          "Mobile": true,
+          "WebSite": true
+        },{
+          "Identifier": "KeynoteMorningEvaluation",
+          "SessionTypes": ["Morning Keynote"],
+          "Mobile": true,
+          "WebSite": true
+        },{
+          "Identifier": "TEFSessionEval",
+          "SessionTypes": ["TEF"],
+          "Mobile": true,
+          "WebSite": true
         }
-      },
+      ],
       "SessionSetAccess": [
         {
           "ApplicableFrom": "2016-09-25T04:00:00Z",
