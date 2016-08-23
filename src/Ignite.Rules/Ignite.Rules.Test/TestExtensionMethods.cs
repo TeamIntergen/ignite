@@ -48,7 +48,7 @@ namespace Ignite.Rules.Test
                         if (typeWeAreChecking.Name == "EvalaccessDto" ||
                             currentPropertyObject.GetType().Name == "String[]")
                         {
-                            // Console.WriteLine("Skipping EvalaccessDto SessionTypes array null check as it is now value to have a null value.");
+                            // Console.WriteLine("Skipping EvalaccessDto SessionTypes array null check as it is now valid to have a null value.");
                         }
                         else
                         {
