@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Framework;
 
@@ -44,7 +45,15 @@ namespace Ignite.Rules.Test
                         var msg = $"property {pi.Name} on {typeWeAreChecking} is null";
                         var currentPropertyObject = pi.GetValue(objectToCheck);
                         Assert.IsNotNull(currentPropertyObject, msg);
-                        currentPropertyObject.AssertNoPropertiesAreNull();
+                        if (typeWeAreChecking.Name == "EvalaccessDto" ||
+                            currentPropertyObject.GetType().Name == "String[]")
+                        {
+                            // Console.WriteLine("Skipping EvalaccessDto SessionTypes array null check as it is now value to have a null value.");
+                        }
+                        else
+                        {
+                            currentPropertyObject.AssertNoPropertiesAreNull();
+                        }
                     }
                 }
             }
