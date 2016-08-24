@@ -17,7 +17,7 @@ namespace Ignite.Rules.Test
                 // Dont treat string as IEnumerable
                 foreach (var item in collection)
                 {
-                    item.AssertNoPropertiesAreNull();
+                    item?.AssertNoPropertiesAreNull();
                 }
             }
             else
@@ -45,15 +45,7 @@ namespace Ignite.Rules.Test
                         var msg = $"property {pi.Name} on {typeWeAreChecking} is null";
                         var currentPropertyObject = pi.GetValue(objectToCheck);
                         Assert.IsNotNull(currentPropertyObject, msg);
-                        if (typeWeAreChecking.Name == "EvalaccessDto" ||
-                            currentPropertyObject.GetType().Name == "String[]")
-                        {
-                            // Console.WriteLine("Skipping EvalaccessDto SessionTypes array null check as it is now valid to have a null value.");
-                        }
-                        else
-                        {
-                            currentPropertyObject.AssertNoPropertiesAreNull();
-                        }
+                        currentPropertyObject.AssertNoPropertiesAreNull();
                     }
                 }
             }
