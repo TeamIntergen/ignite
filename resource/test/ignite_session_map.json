@@ -7,7 +7,7 @@
     },
     {
       "HubbId": 7,
-      "SessionTypeName": "Keynote",
+      "SessionTypeName": "Microsoft Ignite Keynote",
       "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF", "Schedule Builder - TEF Extended" ]
     },
     {
@@ -84,6 +84,11 @@
       "HubbId": 231,
       "SessionTypeName": "IDL",
       "SessionSets": [ "Lab", "My Schedule - Attendee", "My Schedule - TEF" ]
+    },
+    {
+      "HubbId": 744,
+      "SessionTypeName": "Showcase Keynote",
+      "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF", "Schedule Builder - TEF Extended" ]
     }
   ]
 }
