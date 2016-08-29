@@ -9,3 +9,4 @@ Rules for Ignite platform
  - Session set access is now a list of identifiers and dates to assist with looking up permissions (DS 2016-05-09)
  - Session set access and assignment to session types re-worked to adhere to the requirements from Jen (GB - 2016-07-26)
  - Added a Lab session set to allow for unbounded access to these sessions for all users (GB - 2016-07-26)
+ - Changed Staff External Customer & Partner to Staff External (GB - 2016-08-29)

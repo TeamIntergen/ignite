@@ -45,7 +45,7 @@ namespace Ignite.Rules.Test
         [TestCase("Booth Staff Exhibitor", true)]
         [TestCase("Booth Staff Sponsor", true)]
         [TestCase("Booth Staff Microsoft", true)]
-        [TestCase("Staff External Customer & Partner", true)]
+        [TestCase("Staff External", true)]
         [TestCase("Staff Microsoft", true)]
         public void CanAccessMyIgnite(string userType, bool expected)
         {
@@ -80,7 +80,7 @@ namespace Ignite.Rules.Test
         [TestCase("Booth Staff Exhibitor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Booth Staff Sponsor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Booth Staff Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
-        [TestCase("Staff External Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Staff External", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Staff Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Crew", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         public void LookupSessionSetAccessLevelAtStartOfConference(string userType, string[] sessionSetAcess)
