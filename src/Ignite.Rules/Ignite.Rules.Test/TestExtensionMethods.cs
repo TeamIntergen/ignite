@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Framework;
 
@@ -16,7 +17,7 @@ namespace Ignite.Rules.Test
                 // Dont treat string as IEnumerable
                 foreach (var item in collection)
                 {
-                    item.AssertNoPropertiesAreNull();
+                    item?.AssertNoPropertiesAreNull();
                 }
             }
             else

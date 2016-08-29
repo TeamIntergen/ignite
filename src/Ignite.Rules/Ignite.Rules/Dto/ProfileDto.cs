@@ -12,7 +12,7 @@ namespace Ignite.Rules.Dto
         [JsonProperty("Reporting")]
         public ReportingDto Reporting { get; set; }
         [JsonProperty("EvalAccess")]
-        public EvalaccessDto EvalAccess { get; set; }
+        public EvalaccessDto[] EvalAccess { get; set; }
         [JsonProperty("SessionSetAccess")]
         public SessionsetaccessDto[] SessionSetAccess { get; set; }
     }
