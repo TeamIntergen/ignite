@@ -13,7 +13,11 @@
       "SessionLength": 75
     },
     {
-      "SessionTypeName": "Keynote",
+      "SessionTypeName": "Showcase Keynote",
+      "SessionLength": 60
+    },
+    {
+      "SessionTypeName": "Microsoft Ignite Keynote",
       "SessionLength": 90
     },
     {
@@ -25,7 +29,11 @@
       "SessionLength": 480
     },
     {
-      "SessionTypeName": "Theater",
+      "SessionTypeName": "Theater: Community",
+      "SessionLength": 20
+    },
+    {
+      "SessionTypeName": "Theater: Partner",
       "SessionLength": 20
     }
   ]
