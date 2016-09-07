@@ -35,6 +35,10 @@
     {
       "SessionTypeName": "Theater: Partner",
       "SessionLength": 20
+    },
+    {
+      "SessionTypeName": "Theater: Microsoft",
+      "SessionLength": 20
     }
   ]
 }
