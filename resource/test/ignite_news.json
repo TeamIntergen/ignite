@@ -3,7 +3,7 @@
       {
          "title":"Personalized Schedule Builder",
          "tileNumber":"1",
-         "description":"Jumpstart building your Microsoft Ignite 2016 schedule by using the MyIgnite personalization feature to provide you a recommended list of the sessions that are relevant to your learning objectives. You can filter by audience, role, topic, or product to create a customized session list with the ability to further develop your Microsoft Ignite learning path through the sort and filter features.<br /><br />Refine your settings at any time – just click on the edit button from the Personalized tab within the Schedule Builder.",
+         "description":"Jumpstart building your Microsoft Ignite 2016 schedule by using the MyIgnite personalization feature to provide you a recommended list of the sessions that are relevant to your learning objectives. You can filter by audience, role or topic to create a customized session list with the ability to further develop your Microsoft Ignite learning path through the sort and filter features.<br /><br />Refine your settings at any time – just click on the edit button from the Personalized tab within the Schedule Builder.",
          "linkText": "Set Your Preferences",
          "link":"/personalize",
          "tileWidth":"2",
