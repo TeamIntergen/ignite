@@ -29,7 +29,7 @@ namespace Ignite.Rules.Test
         [TestCase("", false, ExpectedException = typeof(ArgumentException))]
         [TestCase("Anonymous", false)]
         [TestCase("Attendee Customer & Partner", true)]
-        [TestCase("Attendee Exhibitor", true)] 
+        [TestCase("Attendee Exhibitor", true)]
         [TestCase("Attendee Sponsor", true)]
         [TestCase("Attendee Academic Faculty/Staff", true)]
         [TestCase("Attendee Microsoft", true)]
@@ -47,9 +47,12 @@ namespace Ignite.Rules.Test
         [TestCase("Booth Staff Microsoft", true)]
         [TestCase("Staff External", true)]
         [TestCase("Staff Microsoft", true)]
+        [TestCase("Staff External - GA converted", true)]
+        [TestCase("Staff External - Sponsor/Exhibitor converted", true)]
+        [TestCase("Staff Microsoft - GA converted", true)]
         public void CanAccessMyIgnite(string userType, bool expected)
         {
-            Assert.That(_permissionManager.CanAccessIgnite(userType),  Is.EqualTo(expected));
+            Assert.That(_permissionManager.CanAccessIgnite(userType), Is.EqualTo(expected));
 
             if (userType != null)
             {
@@ -59,11 +62,11 @@ namespace Ignite.Rules.Test
         }
 
         [Test]
-        [TestCase("non existanct", new string[]{},  ExpectedException = typeof(InvalidOperationException))]
+        [TestCase("non existanct", new string[] { }, ExpectedException = typeof(InvalidOperationException))]
         [TestCase("empty", new string[] { }, ExpectedException = typeof(InvalidOperationException))]
         [TestCase(null, new string[] { }, ExpectedException = typeof(ArgumentException))]
         [TestCase("", new string[] { }, ExpectedException = typeof(ArgumentException))]
-        [TestCase("Anonymous", new [] { "Session Catalog (Mktg Site)", "Lab" })]
+        [TestCase("Anonymous", new[] { "Session Catalog (Mktg Site)", "Lab" })]
         [TestCase("Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Exhibitor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Sponsor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
@@ -82,6 +85,9 @@ namespace Ignite.Rules.Test
         [TestCase("Booth Staff Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Staff External", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Staff Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Staff External - GA converted", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Staff External - Sponsor/Exhibitor converted", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Staff Microsoft - GA converted", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Crew", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         public void LookupSessionSetAccessLevelAtStartOfConference(string userType, string[] sessionSetAcess)
         {
