@@ -18,7 +18,7 @@
     {
       "HubbId": 9,
       "SessionTypeName": "Interactive Digital Lab",
-      "SessionSets": [ "Lab", "My Schedule - Attendee", "My Schedule - TEF" ]
+      "SessionSets": [ "Lab", "My Schedule - Attendee", "My Schedule - TEF", "Session Catalog (Mktg Site)" ]
     },
     {
       "HubbId": 10,
@@ -83,7 +83,7 @@
     {
       "HubbId": 231,
       "SessionTypeName": "IDL",
-      "SessionSets": [ "Lab", "My Schedule - Attendee", "My Schedule - TEF" ]
+      "SessionSets": [ "Lab", "My Schedule - Attendee", "My Schedule - TEF", "Session Catalog (Mktg Site)" ]
     },
     {
       "HubbId": 744,
