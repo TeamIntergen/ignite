@@ -580,6 +580,162 @@
       ]
     },
     {
+      "Identifier": "Staff External - GA converted",
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true
+      },
+      "VisibleAttendeeTypes": [
+        "Attendee Customer & Partner",
+        "Attendee Sponsor",
+        "Attendee Exhibitor",
+        "Attendee Microsoft",
+        "Attendee Student",
+        "Attendee Academic Faculty/Staff",
+        "Staff External",
+        "Staff Microsoft",
+        "Booth Staff Sponsor",
+        "Booth Staff Exhibitor",
+        "Booth Staff Microsoft",
+        "Speaker External",
+        "Speaker Microsoft",
+        "Media",
+        "Crew",
+        "Expo Only",
+        "Day Pass Attendee Customer & Partner"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Schedule Builder - Attendee"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Lab"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule - Attendee"
+        }
+      ]
+    },
+    {
+      "Identifier": "Staff External - Sponsor/Exhibitor converted",
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true
+      },
+      "VisibleAttendeeTypes": [
+        "Attendee Customer & Partner",
+        "Attendee Sponsor",
+        "Attendee Exhibitor",
+        "Attendee Microsoft",
+        "Attendee Student",
+        "Attendee Academic Faculty/Staff",
+        "Staff External",
+        "Staff Microsoft",
+        "Booth Staff Sponsor",
+        "Booth Staff Exhibitor",
+        "Booth Staff Microsoft",
+        "Speaker External",
+        "Speaker Microsoft",
+        "Media",
+        "Crew",
+        "Expo Only",
+        "Day Pass Attendee Customer & Partner"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Schedule Builder - Attendee"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Lab"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule - Attendee"
+        }
+      ]
+    },
+    {
+      "Identifier": "Staff Microsoft - GA converted",
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true
+      },
+      "VisibleAttendeeTypes": [
+        "Attendee Customer & Partner",
+        "Attendee Sponsor",
+        "Attendee Exhibitor",
+        "Attendee Microsoft",
+        "Attendee Student",
+        "Attendee Academic Faculty/Staff",
+        "Staff External",
+        "Staff Microsoft",
+        "Booth Staff Sponsor",
+        "Booth Staff Exhibitor",
+        "Booth Staff Microsoft",
+        "Speaker External",
+        "Speaker Microsoft",
+        "Media",
+        "Crew",
+        "Expo Only",
+        "Day Pass Attendee Customer & Partner"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Schedule Builder - Attendee"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Lab"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule - Attendee"
+        }
+      ]
+    },
+    {
       "Identifier": "Booth Staff Sponsor",
       "Access": {
         "SessionCatalog": true,
