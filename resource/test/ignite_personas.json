@@ -3,7 +3,14 @@
         {
             "Id": "1", 
             "DisplayName": "Application Admin", 
-            "Description" : "I administer various applications at my company from in-house Line of Business apps, to some of our standardized Office 365 workloads, including Exchange and SharePoint.", 
+            "Description" : "I am technology lover and try to always be up-to-date with the latest trends, product and feature developments. I am excited about getting insights on how companies like Microsoft run their own IT infrastructure and where the industry is headed.
+
+Content that I am interested in at Ignite
+•	Microsoft’s product roadmaps
+•	HoloLens
+•	Industry best practices
+•	Microsoft insights
+", 
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application%20Admin.png?raw=true",
             "SessionsAttending" : [ 
                 "1464",
