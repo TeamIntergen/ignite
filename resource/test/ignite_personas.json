@@ -4,7 +4,7 @@
             "Id": "1", 
             "DisplayName": "Application Admin", 
             "Description" : "I administer various applications at my company from in-house Line of Business apps, to some of our standardized Office 365 workloads, including Exchange and SharePoint.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/Application Admin.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application%20Admin.png?raw=true",
             "SessionsAttending" : [ 
                 "1464",
                 "1477",
@@ -15,7 +15,7 @@
             "Id": "2", 
             "DisplayName": "Application Developer", 
             "Description" : "I am focused on translating software requirements into workable programming code and maintaining and developing programs for use in our business.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/Application Developer.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application Developer.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "1501", 
@@ -26,7 +26,7 @@
             "Id": "3", 
             "DisplayName": "Database Admin", 
             "Description" : "As a database admin my core responsibilities include and cloud-based database capacity planning, installation, database design, performance monitoring, as well as backup and data recovery. I am also expanding into creating Business Intelligence solutions at my company.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/Database Administrator.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Administrator.png?raw=true", 
             "SessionsAttending" : [ 
                 "1514", 
                 "1527", 
@@ -37,7 +37,7 @@
             "Id": "4", 
             "DisplayName": "Database Developer", 
             "Description" : "As a Database Developer I develop and maintain on-premises and cloud databases across the organization, while ensuring high levels of data availability. I evaluate and advise on all technology components, such as software, hardware, and networking capabilities, for database management systems and applications. As part of my role I am also responsible for implementing data dashboards to all levels of the organization. ", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/Database Developer.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Developer.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "1501", 
@@ -48,7 +48,7 @@
             "Id": "5", 
             "DisplayName": "End User Support", 
             "Description" : "I am responsible for the end user support at my company. I am the point of contact for troubleshooting applications, but also support them when they are looking for new products or features to perform their work. Besides providing general IT support I am an advocate towards the business to improve end-user productivity.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/End User Support.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/End User Support.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "1655", 
@@ -59,7 +59,7 @@
             "Id": "6", 
             "DisplayName": "IT Cloud Infrastructure", 
             "Description" : "I manage my company’s IT infrastructure and we recently moved a part of our data storage onto Azure.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/IT Cloud Infrastructure.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Cloud Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
                 "1761", 
                 "1526", 
@@ -70,7 +70,7 @@
             "Id": "7", 
             "DisplayName": "IT Desktop", 
             "Description" : "I am a Desktop administrator and in charge of the my company’s client workstation deployment, maintenance, processes and technologies. Our machines currently run Windows 7 and Office 2013.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/IT Desktop.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Desktop.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "1526", 
@@ -81,7 +81,7 @@
             "Id": "9", 
             "DisplayName": "IT Hybrid Infrastructure", 
             "Description" : "At my company we run a hybrid environment, with some of our core services running in the Microsoft cloud and some still in our own datacenter. I am attending Ignite to find out about the newest developments of Microsoft’s on-premises server products and how I can best integrate them with everything we have running in the cloud.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/IT Hybrid Infrastructure.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Hybrid Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "2272", 
@@ -93,7 +93,7 @@
             "Id": "10", 
             "DisplayName": "IT On-premises Infrastructure", 
             "Description" : "My company is still committed to running all of our services on-premises, in our own datacenter, but with Azure stack and hybrid capabilities in Office 365 there are many new options that I am interested in.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/IT On Premises Infrastructure.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT On Premises Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "1396", 
@@ -104,7 +104,7 @@
             "Id": "11", 
             "DisplayName": "IT Power User", 
             "Description" : "I enjoy knowing about every last feature in applications like Excel, Visio or our Line of Business apps. People come to me when they have a question about features and how to do things in the latest Office applications or on Windows.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/IT Power User.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true", 
             "SessionsAttending" : [ 
                 "2272", 
                 "1711", 
@@ -115,7 +115,7 @@
             "Id": "12", 
             "DisplayName": "LOB Application Specialist", 
             "Description" : "I am in charge of managing my company’s Line of Business application landscape and the integration to our standardized workloads.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/LOB Application Specialist.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/LOB Application Specialist.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "1679", 
@@ -126,7 +126,7 @@
             "Id": "13", 
             "DisplayName": "Unified Communications", 
             "Description" : "I am in charge of the communication infrastructure at my company. I run our PBX system, Lync 2013 and also support the integration with Exchange and other communication platforms.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/Unified Communications.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Unified Communications.png?raw=true", 
             "SessionsAttending" : [ 
                 "1532", 
                 "2460", 
@@ -137,7 +137,7 @@
             "Id": "14", 
             "DisplayName": "Web or Mobile Developer", 
             "Description" : "I am an independent developer of web and mobile applications. As a developer I am responsible for the coding, innovative design and layout of websites from concept to site layout and function. I also develop native mobile experiences for all mobile platforms.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/Web or Mobile Devoloper.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Web or Mobile Devoloper.png?raw=true", 
             "SessionsAttending" : [ 
                 "2535", 
                 "1711", 
@@ -148,7 +148,7 @@
             "Id": "15", 
             "DisplayName": "IT Enthusiast", 
             "Description" : "I am technology lover and try to always be up-to-date with the latest trends, product and feature developments. I am excited about getting insights on how companies like Microsoft run their own IT infrastructure and where the industry is headed.", 
-            "Photo" : "https://github.com/intergenignite/ignite/tree/master/resource/test/img/IT Enthusiast.png", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Enthusiast.png?raw=true", 
             "SessionsAttending" : [ 
                 "2535", 
                 "1711", 
