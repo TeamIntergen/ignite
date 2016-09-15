@@ -113,9 +113,11 @@ Content that I am interested in at Ignite
 ", 
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Cloud Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
-                "1761", 
-                "1526", 
-                "1534" 
+                "3091","1261","39172","39171",
+                "1333","35275","3148","20578","3187","20683","2778","3195",
+                "3008","2660","1334","2557","2982","3015",
+                "3082","20584","3161","15845",
+                "2739","4087","14816"
             ]
         },
         {
@@ -132,9 +134,11 @@ Content that I am interested in at Ignite
 ", 
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Desktop.png?raw=true", 
             "SessionsAttending" : [ 
-                "1532", 
-                "1526", 
-                "1534" 
+                "1240","39172","39171",
+                "19287","1300","20663","34967","13783","20669","2697","2992",
+                "2809","15848","3062","39132","2994","2763",
+                "1244","2694","2856","2799","15845",
+                "3218","2969"
             ]
         },
         {
@@ -149,10 +153,11 @@ Managing identities
 ", 
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Hybrid Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
-                "1532", 
-                "2272", 
-                "1534",
-                "1396"
+                "20537","2870","1380","39172","39171",
+                "2841","1376","2920","2908","20646",
+                "3114","4086","20690","2757","2539","3013",
+                "2862","2878","22117","20671","2858",
+                "2965","4087","2722"
             ]
         },
         {
@@ -169,9 +174,11 @@ Content that I am interested in at Ignite
 ", 
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT On Premises Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
-                "1532", 
-                "1396", 
-                "1679" 
+                "20684","2870","20536","39172","39171",
+                "13781","3113","1368","39115","39114",
+                "39128","2645","4085","2601",
+                "2862","3022","1379","22110","1241","15845",
+                "4087","2636","15846"
             ]
         },
         {
