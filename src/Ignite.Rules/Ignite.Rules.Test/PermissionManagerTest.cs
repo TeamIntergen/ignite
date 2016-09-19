@@ -128,7 +128,7 @@ namespace Ignite.Rules.Test
             var tefSundayList = new[] { "Schedule Builder - TEF", "Lab", "My Schedule - TEF" };
             var tefList = new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" };
             var standardList = new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - TEF" };
-            var fridayList = new[] { "Lab", "My Schedule - TEF" };
+            var fridayList = new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - TEF" };
             CollectionAssert.AreEquivalent(accessSunday.Select(s => s.Identifier), tefSundayList);
             CollectionAssert.AreEquivalent(accessMonday.Select(s => s.Identifier), tefList);
             CollectionAssert.AreEquivalent(accessTuesday.Select(s => s.Identifier), tefSundayList);
