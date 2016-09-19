@@ -25,7 +25,16 @@
          "linkText": "Read the Blog",
          "link":"https://channel9.msdn.com/Blogs/MicrosoftIgnite",
          "tileWidth":"2",
-         "tileHeight":"2"
+         "tileHeight":"1"
+      },
+      {
+         "title":"Schedules by Persona",
+         "tileNumber":"3",
+         "description":"As you build our your ideal learning path, be sure to check out the ideal schedules by persona. Whether you are an admin, app dev, power user, or support staff, we have a handcrafted starter schedule waiting for you. Browse through the fourteen different personas and add those sessions that will round out your schedule and experience.",
+         "linkText": "View Personas",
+         "link":"/personas",
+         "tileWidth":"2",
+         "tileHeight":"1"
       }
    ]
 }
