@@ -19,11 +19,11 @@
          "tileHeight":"2"
       },
       {
-         "title":"Microsoft Ignite Blog",
+         "title":"Schedules by Persona",
          "tileNumber":"3",
-         "description":"Stay on top of all of Microsoft Ignite news with the Channel 9 Microsoft Ignite blog. Updated regularly with all of the news out or Redmond as the team gets ready to greet you in Atlanta – speaker announcements, attendee offers, what you need to know about Atlanta, and more.",
-         "linkText": "Read the Blog",
-         "link":"https://channel9.msdn.com/Blogs/MicrosoftIgnite",
+         "description":"As you build our your ideal learning path, be sure to check out the ideal schedules by persona. Whether you are an admin, app dev, power user, or support staff, we have a handcrafted starter schedule waiting for you. Browse through the fourteen different personas and add those sessions that will round out your schedule and experience.",
+         "linkText": "View Personas",
+         "link":"/personas",
          "tileWidth":"2",
          "tileHeight":"2"
       }
