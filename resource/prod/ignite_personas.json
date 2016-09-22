@@ -11,7 +11,7 @@ Content that I am interested in at Ignite
 •   Manging Office migrations in a an “always up-to-date” product lifecycle
 •   Managing access to web applications with Azure
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application%20Admin.png?raw=true",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/Application%20Admin.png?raw=true",
             "SessionsAttending" : [ 
                 "39172","1261","39171",
                 "3082","3204","3016","3175", "2961",
@@ -31,7 +31,7 @@ Content that I am interested in at Ignite
 •   Microsoft APIs for LoB integrations
 •   Latest news about Microsoft development tools
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application Developer.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/Application Developer.png?raw=true", 
             "SessionsAttending" : [ 
                 "2564","2747","39172","39171",
                 "20664","3202","2673","3120","3217",
@@ -51,7 +51,7 @@ Content that I am interested in at Ignite
 •   Leveraging Azure for high performance database management
 •   BI solutions
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Administrator.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/Database Administrator.png?raw=true", 
             "SessionsAttending" : [ 
                 "15873","2548","39172","39171",
                 "20550","2685","15874","2822","2975",
@@ -71,7 +71,7 @@ Content that I am interested in at Ignite
 •   Building scalable applications with Azure
 
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Developer.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/Database Developer.png?raw=true", 
             "SessionsAttending" : [ 
                 "15873","20700","39172","39171",
                 "3064","2654","2901","2887","36902","2998",
@@ -90,7 +90,7 @@ Content that I am interested in at Ignite
 •   Latest developments in end-user productivity: New products, new features and what’s coming
 
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/End User Support.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/End User Support.png?raw=true", 
             "SessionsAttending" : [ 
                 "20582","2730","39172","39171",
                 "4077","1300","20703","13777","20602",
@@ -111,7 +111,7 @@ Content that I am interested in at Ignite
 •   Best practices for Identity management 
 •   IoT
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Cloud Infrastructure.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/IT Cloud Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
                 "3091","1261","39172","39171",
                 "1333","35275","3148","20578","3187","20683","2778","3195",
@@ -132,7 +132,7 @@ Content that I am interested in at Ignite
 •   Deployment options for the traditional desktop and our mobile clients with Intune and SCCM
 
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Desktop.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/IT Desktop.png?raw=true", 
             "SessionsAttending" : [ 
                 "1240","39172","39171",
                 "19287","1300","20663","34967","13783","20669","2697","2992",
@@ -151,7 +151,7 @@ Office 365 hybrid options
 Creating seamless hybrid environments leveraging ExpressRoute
 Managing identities
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Hybrid Infrastructure.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/IT Hybrid Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
                 "20537","2870","1380","39172","39171",
                 "2841","1376","2920","2908","20646",
@@ -172,7 +172,7 @@ Content that I am interested in at Ignite
 •   Windows Server 2016
 
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT On Premises Infrastructure.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/IT On Premises Infrastructure.png?raw=true", 
             "SessionsAttending" : [ 
                 "20684","2870","20536","39172","39171",
                 "13781","3113","1368","39115","39114",
@@ -192,7 +192,7 @@ Content that I am interested in at Ignite
 •   Improving productivity in the workplace
 
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/IT Power User.png?raw=true", 
             "SessionsAttending" : [ 
                 "36927","2730","5008","1305","39172","39171", 
                 "20647","1351","4078","20604","1297","20703","1313","3225",
@@ -212,7 +212,7 @@ Content that I am interested in at Ignite
 •   Modern application management options
 •   Integrating BI functionalities into existing LoB apps
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/LOB Application Specialist.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/LOB Application Specialist.png?raw=true", 
             "SessionsAttending" : [ 
                 "20684","2564","1316","35365","39172","39171",
                 "20647","14820","20598","2898","3088","20638","3084",
@@ -234,7 +234,7 @@ Content that I am interested in at Ignite
 •   Surface Hub
 
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Unified Communications.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/Unified Communications.png?raw=true", 
             "SessionsAttending" : [ 
                 "20617","2553","20704","39172","39171",
                 "20701","2596","2672","22115","2562",
@@ -254,7 +254,7 @@ Content that I am interested in at Ignite
 •   Debugging
 •   Azure developer tools
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Web or Mobile Devoloper.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/Web or Mobile Devoloper.png?raw=true", 
             "SessionsAttending" : [ 
                 "2747","20705","39172","39171",
                 "20664","2984","2881","2673","16925","20574",
@@ -274,7 +274,7 @@ HoloLens
 Industry best practices
 Microsoft insights
 ", 
-            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Enthusiast.png?raw=true", 
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/prod/img/IT Enthusiast.png?raw=true", 
             "SessionsAttending" : [ 
                 "20685","4090","39172","39171",
                 "3153","3","20676","1318","4072","1289",
