@@ -827,6 +827,12 @@
           "RoomImageName":"DiningTerrace",
           "DisplayName":"The Dining Terrace",
           "FloorImageName":"Floorc2"
+      },
+      {
+         "RoomId":"999999999",
+         "RoomImageName":"hand-on-labs",
+         "DisplayName":"Hands On Labs",
+         "FloorImageName":"FloorB4"
       }
    ]
 }
