@@ -89,6 +89,11 @@
       "HubbId": 744,
       "SessionTypeName": "Showcase Keynote",
       "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF", "Schedule Builder - TEF Extended" ]
+    },
+    {
+        "HubbId": 743,
+        "SessionTypeName": "TEF Post-Survey",
+        "SessionSets": [ "My Schedule - TEF" ]
     }
   ]
 }
