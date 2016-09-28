@@ -1306,7 +1306,7 @@
           "Identifier": "Schedule Builder - TEF Extended"
         },
         {
-          "ApplicableFrom": "2016-09-28T04:00:00Z",
+          "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Schedule Builder - Attendee"
         },
@@ -1380,7 +1380,7 @@
           "Identifier": "Schedule Builder - TEF Extended"
         },
         {
-          "ApplicableFrom": "2016-09-28T04:00:00Z",
+          "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Schedule Builder - Attendee"
         },
@@ -1454,7 +1454,7 @@
           "Identifier": "Schedule Builder - TEF Extended"
         },
         {
-          "ApplicableFrom": "2016-09-28T04:00:00Z",
+          "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Schedule Builder - Attendee"
         },
@@ -1528,7 +1528,7 @@
           "Identifier": "Schedule Builder - TEF Extended"
         },
         {
-          "ApplicableFrom": "2016-09-28T04:00:00Z",
+          "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Schedule Builder - Attendee"
         },
