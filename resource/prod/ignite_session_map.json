@@ -94,6 +94,11 @@
         "HubbId": 743,
         "SessionTypeName": "TEF Post-Survey",
         "SessionSets": [ "My Schedule - TEF" ]
+    },
+    {
+        "HubbId": 853,
+        "SessionTypeName": "Microsoft Machine and Learning Data Science Summit",
+        "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)"]
     }
   ]
 }
