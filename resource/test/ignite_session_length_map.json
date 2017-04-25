@@ -1,44 +1,43 @@
 {
-  "SessionLengthMap": [
-    {
-      "SessionTypeName": "Breakout: 45 minutes",
-      "SessionLength": 45
-    },
-    {
-      "SessionTypeName": "Breakout: 75 minutes",
-      "SessionLength": 75
-    },
-    {
-      "SessionTypeName": "General Session",
-      "SessionLength": 75
-    },
-    {
-      "SessionTypeName": "Showcase Keynote",
-      "SessionLength": 60
-    },
-    {
-      "SessionTypeName": "Microsoft Ignite Keynote",
-      "SessionLength": 90
-    },
-    {
-      "SessionTypeName": "Partner Led Session",
-      "SessionLength": 75
-    },
-    {
-      "SessionTypeName": "Pre-Day Training",
-      "SessionLength": 480
-    },
-    {
-      "SessionTypeName": "Theater: Community",
-      "SessionLength": 20
-    },
-    {
-      "SessionTypeName": "Theater: Partner",
-      "SessionLength": 20
-    },
-    {
-      "SessionTypeName": "Theater: Microsoft",
-      "SessionLength": 20
-    }
-  ]
+    "SessionLengthMap": [{
+            "SessionTypeName": "Breakout: 45 minute",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Breakout: 75 minute",
+            "SessionLength": 75
+        },
+        {
+            "SessionTypeName": "General Session",
+            "SessionLength": 75
+        },
+        {
+            "SessionTypeName": "Showcase Keynote",
+            "SessionLength": 60
+        },
+        {
+            "SessionTypeName": "Keynote",
+            "SessionLength": 90
+        },
+        {
+            "SessionTypeName": "Partner Led Session",
+            "SessionLength": 75
+        },
+        {
+            "SessionTypeName": "Pre-Day Training",
+            "SessionLength": 480
+        },
+        {
+            "SessionTypeName": "Theater",
+            "SessionLength": 20
+        },
+        {
+            "SessionTypeName": "Microsoft Studio",
+            "SessionLength": 20
+        },
+        {
+            "SessionTypeName": "Customer Immersion Experience (CIE)",
+            "SessionLength": 20
+        }
+    ]
 }
