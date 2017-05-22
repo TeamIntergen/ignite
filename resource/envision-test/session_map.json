@@ -1,0 +1,43 @@
+{
+    "SessionSetMap": [{
+        "HubbId": 1679,
+        "SessionTypeName": "Breakout",
+        "SessionSets": ["Session Catalog"]
+    }, {
+        "HubbId": 1680,
+        "SessionTypeName": "Keynote",
+        "SessionSets": ["Session Catalog"]
+    }, {
+        "HubbId": 1681,
+        "SessionTypeName": "Lab",
+        "SessionSets": []
+    }, {
+        "HubbId": 1682,
+        "SessionTypeName": "Break",
+        "SessionSets": []
+    }, {
+        "HubbId": 1683,
+        "SessionTypeName": "Locknote",
+        "SessionSets": []
+    }, {
+        "HubbId": 1799,
+        "SessionTypeName": "Fireside Chat",
+        "SessionSets": ["Session Catalog"]
+    }, {
+        "HubbId": 1800,
+        "SessionTypeName": "Featured Session",
+        "SessionSets": ["Session Catalog"]
+    }, {
+        "HubbId": 1801,
+        "SessionTypeName": "Workshop",
+        "SessionSets": ["Session Catalog"]
+    }, {
+        "HubbId": 1802,
+        "SessionTypeName": "Roundtable",
+        "SessionSets": ["Session Catalog"]
+    }, {
+        "HubbId": 1803,
+        "SessionTypeName": "EBC",
+        "SessionSets": ["Session Catalog"]
+    }]
+}
