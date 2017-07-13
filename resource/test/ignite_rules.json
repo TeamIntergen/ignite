@@ -32,6 +32,11 @@
     },
     {
       "Identifier": "Attendee Customer & Partner",
+      "Identifiers": [
+        "Attendee Customer & Partner",
+        "Microsoft Envision Attendee",
+        "Microsoft Envision Crew"
+      ],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": true,

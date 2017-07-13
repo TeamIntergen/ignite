@@ -7,7 +7,8 @@
          "linkText": "Set Your Preferences",
          "link":"/personalize",
          "tileWidth":"2",
-         "tileHeight":"2"
+         "tileHeight":"2",
+         "image": "https://blog.trello.com/hs-fs/hubfs/Imported_Blog_Media/maker_vs_manager_feature-1-1024x512.jpg?t=1481492724177&width=1024&height=512&name=maker_vs_manager_feature-1-1024x512.jpg"
       },
       {
          "title":"Women in Technology",
@@ -16,7 +17,8 @@
          "linkText": "View Women in Technology sessions",
          "link":"/sessions?f=%5B%7B%22name%22:%22Women%20in%20Technology%22,%22facetName%22:%22sessionType%22%7D%5D",
          "tileWidth":"2",
-         "tileHeight":"2"
+         "tileHeight":"2",
+         "image": "https://thumb1.shutterstock.com/display_pic_with_logo/2309123/445802098/stock-vector-long-hair-style-icon-logo-women-face-on-white-background-vector-445802098.jpg"
       },
       {
          "title":"Schedules by Persona",

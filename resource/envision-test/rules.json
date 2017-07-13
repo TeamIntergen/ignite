@@ -22,7 +22,7 @@
             }]
         },
         {
-            "Identifier": "Attendee Customer & Partner",
+            "Identifier": "Microsoft Envision Attendee",
             "Access": {
                 "SessionCatalog": true,
                 "MyIgnite": true,
@@ -33,7 +33,7 @@
                 "LocationBasedMessaging": true
             },
             "VisibleAttendeeTypes": [
-                "Attendee Customer & Partner",
+                "Microsoft Envision Attendee",
                 "Attendee Sponsor",
                 "Attendee Exhibitor",
                 "Attendee Microsoft",
@@ -51,6 +51,59 @@
                 "Expo Only",
                 "Day Pass Attendee Customer & Partner"
             ],
+            "Reporting": {
+                "SessionCounts": true
+            },
+            "EvalAccess": [{
+                "Identifier": "PostEventSurvey",
+                "SessionTypes": [null],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": ["General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "KeynoteAfternoonEvaluation",
+                "SessionTypes": ["Afternon Keynote"],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "KeynoteMorningEvaluation",
+                "SessionTypes": ["Morning Keynote"],
+                "Mobile": true,
+                "WebSite": true
+            }],
+            "SessionSetAccess": [{
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Schedule Builder - Attendee"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Lab"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "My Schedule - Attendee"
+                }
+            ]
+        },
+        {
+            "Identifier": "Microsoft Ignite Attendee",
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": true,
+                "ScheduleBuilder": true,
+                "MobileApp": true,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": true,
+                "LocationBasedMessaging": true
+            },
+            "VisibleAttendeeTypes": [ ],
             "Reporting": {
                 "SessionCounts": true
             },
