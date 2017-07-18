@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using NUnit.Framework;
 
@@ -10,14 +11,18 @@ namespace Ignite.Rules.Test
     {
         public static void AssertNoPropertiesAreNull(this object objectToCheck)
         {
-            var stringValue = objectToCheck as string; 
+            objectToCheck.AssertNoPropertiesAreNull(new string[] {});
+        }
+        public static void AssertNoPropertiesAreNull(this object objectToCheck, string[] nullableProperties)
+        {
+            var stringValue = objectToCheck as string;
             var collection = objectToCheck as IEnumerable;
-            if (collection != null && stringValue == null) 
+            if (collection != null && stringValue == null)
             {
                 // Dont treat string as IEnumerable
                 foreach (var item in collection)
                 {
-                    item?.AssertNoPropertiesAreNull();
+                    item?.AssertNoPropertiesAreNull(nullableProperties);
                 }
             }
             else
@@ -44,8 +49,11 @@ namespace Ignite.Rules.Test
                     {
                         var msg = $"property {pi.Name} on {typeWeAreChecking} is null";
                         var currentPropertyObject = pi.GetValue(objectToCheck);
-                        Assert.IsNotNull(currentPropertyObject, msg);
-                        currentPropertyObject.AssertNoPropertiesAreNull();
+                        if(!nullableProperties.Contains(pi.Name))
+                        {
+                            Assert.IsNotNull(currentPropertyObject, msg);
+                            currentPropertyObject.AssertNoPropertiesAreNull(nullableProperties);
+                        }
                     }
                 }
             }

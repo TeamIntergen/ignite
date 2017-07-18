@@ -11,6 +11,21 @@ namespace Ignite.Rules
 
         public PermissionManager(RulesDto rules)
         {
+            rules.UserAccess = new List<ProfileDto>(
+            rules
+            .UserAccess
+            .Where(access => access.Identifiers != null && access.Identifiers.Length > 0)
+            .SelectMany(access => access.Identifiers.Select(identifier => new ProfileDto
+            {
+                Identifier = identifier,
+                Identifiers = access.Identifiers ?? new string[] {},
+                Access = access.Access,
+                EvalAccess = access.EvalAccess,
+                Reporting = access.Reporting,
+                SessionSetAccess = access.SessionSetAccess,
+                VisibleAttendeeTypes = access.VisibleAttendeeTypes
+            }))
+            .Union(rules.UserAccess.Where(access => !string.IsNullOrEmpty(access.Identifier))));
             _permission = new Lazy<Dictionary<string, ProfileDto>>(() => rules.UserAccess.ToDictionary(rule => rule.Identifier.ToLowerInvariant()));
         }
 

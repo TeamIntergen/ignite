@@ -4,9 +4,9 @@ namespace Ignite.Rules.Dto
 {
     public class ProfileDto
     {
-        [JsonProperty("Identifier")]
+        [JsonProperty("Identifiers")]
+        public string[] Identifiers { get; set; } = {};
         public string Identifier { get; set; }
-
         [JsonProperty("Access")]
         public AccessDto Access { get; set; }
         [JsonProperty("Reporting")]
@@ -15,5 +15,7 @@ namespace Ignite.Rules.Dto
         public EvalaccessDto[] EvalAccess { get; set; }
         [JsonProperty("SessionSetAccess")]
         public SessionsetaccessDto[] SessionSetAccess { get; set; }
+        [JsonProperty("VisibleAttendeeTypes")]
+        public string[] VisibleAttendeeTypes { get; set; }
     }
 }
