@@ -1,33 +1,39 @@
 {
-   "NewsItems": [
-      {
-         "title":"Personalized Schedule Builder",
-         "tileNumber":"1",
-         "description":"Jumpstart building your Microsoft Ignite 2016 schedule by using the MyIgnite personalization feature to provide you a recommended list of the sessions that are relevant to your learning objectives. You can filter by audience, role or topic to create a customized session list with the ability to further develop your Microsoft Ignite learning path through the sort and filter features.<br /><br />Refine your settings at any time – just click on the edit button from the Personalized tab within the Schedule Builder.",
-         "linkText": "Set Your Preferences",
-         "link":"/personalize",
-         "tileWidth":"2",
-         "tileHeight":"2",
-         "image": "https://blog.trello.com/hs-fs/hubfs/Imported_Blog_Media/maker_vs_manager_feature-1-1024x512.jpg?t=1481492724177&width=1024&height=512&name=maker_vs_manager_feature-1-1024x512.jpg"
-      },
-      {
-         "title":"Women in Technology",
-         "tileNumber":"2",
-         "description":"Microsoft Ignite will feature dynamic Women in Technology (WIT) exploring key topics like closing the gender gap, why diversity is good for business, leadership, and male allies. There are a number of ways to be a part of the Women in Technology conversation at Microsoft Ignite, be sure to join us at the WIT luncheon to hear Reshma Saujani, the Founder and CEO of Girls Who Code, attend the WIT Reception on Tuesday evening, and you can also drop by the expo to catch one of our panels.",
-         "linkText": "View Women in Technology sessions",
-         "link":"/sessions?f=%5B%7B%22name%22:%22Women%20in%20Technology%22,%22facetName%22:%22sessionType%22%7D%5D",
-         "tileWidth":"2",
-         "tileHeight":"2",
-         "image": "https://thumb1.shutterstock.com/display_pic_with_logo/2309123/445802098/stock-vector-long-hair-style-icon-logo-women-face-on-white-background-vector-445802098.jpg"
-      },
-      {
-         "title":"Schedules by Persona",
-         "tileNumber":"3",
-         "description":"As you build our your ideal learning path, be sure to check out the ideal schedules by persona. Whether you are an admin, app dev, power user, or support staff, we have a handcrafted starter schedule waiting for you. Browse through the fourteen different personas and add those sessions that will round out your schedule and experience.",
-         "linkText": "View Personas",
-         "link":"/personas",
-         "tileWidth":"2",
-         "tileHeight":"2"
-      }
-   ]
+    "NewsItems": [
+        {
+            "title": "Personas",
+            "tileNumber": 1,
+            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
+            "link": "/personas",
+            "image": "images/news/personas.png"
+        },
+        {
+            "title": "Personalization",
+            "tileNumber": 2,
+            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
+            "link": "/personalize",
+            "image": "images/news/personalization.png"
+        },
+        {
+            "title": "Women in Technology",
+            "tileNumber": 3,
+            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
+            "link": "//www.microsoft.com/en-us/diversity/inside-microsoft/women-at-microsoft/default.aspx",
+            "image": "images/news/women-in-technology.png"
+        },
+        {
+            "title": "Featured Speakers",
+            "tileNumber": 4,
+            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
+            "link": "//www.microsoft.com/en-us/ignite/speakers",
+            "image": "images/news/featured-speakers.png"
+        },
+        {
+            "title": "Tech Community",
+            "tileNumber": 5,
+            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
+            "link": "//techcommunity.microsoft.com/",
+            "image": "images/news/tech-community.png"
+        }
+    ]
 }
