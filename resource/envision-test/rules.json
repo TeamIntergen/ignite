@@ -89,6 +89,11 @@
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "My Schedule - Attendee"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog"
                 }
             ]
         },
@@ -142,6 +147,11 @@
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "My Schedule - Attendee"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog"
                 }
             ]
         },
