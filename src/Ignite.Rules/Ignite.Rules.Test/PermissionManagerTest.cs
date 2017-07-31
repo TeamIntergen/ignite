@@ -34,27 +34,43 @@ namespace Ignite.Rules.Test
         [TestCase("", false, ExpectedException = typeof(ArgumentException))]
         [TestCase("Anonymous", false)]
         [TestCase("Attendee Customer & Partner", true)]
-        [TestCase("Attendee Exhibitor", true)]
         [TestCase("Attendee Sponsor", true)]
-        [TestCase("Attendee Academic Faculty/Staff", true)]
-        [TestCase("Attendee Microsoft", true)]
-        [TestCase("Attendee Student", true)]
-        [TestCase("Attendee TEF", true)]
-        [TestCase("Attendee TEF Microsoft", true)]
-        [TestCase("Media", true)]
+        [TestCase("Attendee Exhibitor", true)]
+        [TestCase("Attendee Microsoft",         true)]
+        [TestCase("Attendee Student",           true)]
+        [TestCase("Attendee Faculty/Staff",     true)]
+        [TestCase("Attendee Data Science", true)]
+        [TestCase("Microsoft Envision Attendee", true)]
+        [TestCase("Microsoft Envision Attendee Microsoft",true)]
+        [TestCase("Microsoft Envision Attendee Sponsor",  true)]
+        [TestCase("Substituted Attendee",                 true)]
+        [TestCase("Microsoft Envision Day Pass ",         true)]
+        [TestCase("Speaker External",                     true)]
+        [TestCase("Speaker Microsoft",                    true)]
+        [TestCase("Speaker Day Pass External",            true)]
+        [TestCase("Speaker Day Pass Microsoft",           true)]
+        [TestCase("Microsoft Envision Speaker Customer",  true)]
+        [TestCase("Microsoft Envision Speaker External",  true)]
+        [TestCase("Microsoft Envision Speaker Internal",  true)]
+        [TestCase("Media",                                true)]
+        [TestCase("Microsoft Envision Media",             true)]
         [TestCase("Day Pass Attendee Customer & Partner", true)]
-        [TestCase("Expo Only", true)]
-        [TestCase("Crew", true)]
-        [TestCase("Speaker External", true)]
-        [TestCase("Speaker Microsoft", true)]
-        [TestCase("Booth Staff Exhibitor", true)]
-        [TestCase("Booth Staff Sponsor", true)]
-        [TestCase("Booth Staff Microsoft", true)]
+        [TestCase("Staff Day Pass External", true)]
+        [TestCase("Staff Day Pass Microsoft", true)]
         [TestCase("Staff External", true)]
         [TestCase("Staff Microsoft", true)]
         [TestCase("Staff External - GA converted", true)]
         [TestCase("Staff External - Sponsor/Exhibitor converted", true)]
         [TestCase("Staff Microsoft - GA converted", true)]
+        [TestCase("Crew", true)]
+        [TestCase("Microsoft Envision Crew ", true)]
+        [TestCase("Microsoft Envision Experiences Staff External", true)]
+        [TestCase("Microsoft Envision Experiences Staff Internal", true)]
+        [TestCase("Microsoft Envision Staff Microsoft", true)]
+        [TestCase("Booth Staff Sponsor", true)]
+        [TestCase("Booth Staff Exhibitor", true)]
+        [TestCase("Booth Staff Microsoft", true)]
+        [TestCase("Expo Only",true)]
         public void CanAccessMyIgnite(string userType, bool expected)
         {
             Assert.That(_permissionManager.CanAccessIgnite(userType), Is.EqualTo(expected));
@@ -75,11 +91,9 @@ namespace Ignite.Rules.Test
         [TestCase("Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Exhibitor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Sponsor", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
-        [TestCase("Attendee Academic Faculty/Staff", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
+        [TestCase("Attendee Faculty/Staff", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Student", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Attendee Microsoft", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
-        [TestCase("Attendee TEF", new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" })]
-        [TestCase("Attendee TEF Microsoft", new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" })]
         [TestCase("Media", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Day Pass Attendee Customer & Partner", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         [TestCase("Expo Only", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
@@ -96,7 +110,7 @@ namespace Ignite.Rules.Test
         [TestCase("Crew", new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - Attendee" })]
         public void LookupSessionSetAccessLevelAtStartOfConference(string userType, string[] sessionSetAcess)
         {
-            var startOfConference = new DateTimeOffset(2016, 9, 26, 0, 0, 0, new TimeSpan(-4, 0, 0));
+            var startOfConference = new DateTimeOffset(2017, 9, 23, 0, 0, 0, new TimeSpan(-4, 0, 0));
             var access = _permissionManager.LookupSessionSetAccess(userType, startOfConference);
             IEnumerable<string> accessId = access.Select(s => s.Identifier).ToList();
             CollectionAssert.AreEquivalent(accessId, sessionSetAcess);
@@ -111,35 +125,35 @@ namespace Ignite.Rules.Test
             }
         }
 
-        [Test]
-        public void LookupSessionSetAccessLevelConditionalOnDateReturnsExpected()
-        {
-            var tlf = "Attendee TEF";
-            var offsetToAtlanta = TimeSpan.FromHours(-4);
-            var sundayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 25), offsetToAtlanta).ToUniversalTime();
-            var mondayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 26), offsetToAtlanta).ToUniversalTime();
-            var tuesday = mondayInAtlanta.AddDays(1);
-            var wednesday = tuesday.AddDays(1);
-            var thursday = wednesday.AddDays(1);
-            var friday = thursday.AddDays(1);
-
-            var accessSunday = _permissionManager.LookupSessionSetAccess(tlf, sundayInAtlanta);
-            var accessMonday = _permissionManager.LookupSessionSetAccess(tlf, mondayInAtlanta);
-            var accessTuesday = _permissionManager.LookupSessionSetAccess(tlf, tuesday);
-            var accessWednesday = _permissionManager.LookupSessionSetAccess(tlf, wednesday);
-            var accessThursday = _permissionManager.LookupSessionSetAccess(tlf, thursday);
-            var accessFriday = _permissionManager.LookupSessionSetAccess(tlf, friday);
-
-            var tefSundayList = new[] { "Schedule Builder - TEF", "Lab", "My Schedule - TEF" };
-            var tefList = new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" };
-            var standardList = new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - TEF" };
-            var fridayList = new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - TEF" };
-            CollectionAssert.AreEquivalent(accessSunday.Select(s => s.Identifier), tefSundayList);
-            CollectionAssert.AreEquivalent(accessMonday.Select(s => s.Identifier), tefList);
-            CollectionAssert.AreEquivalent(accessTuesday.Select(s => s.Identifier), tefSundayList);
-            CollectionAssert.AreEquivalent(accessWednesday.Select(s => s.Identifier), standardList);
-            CollectionAssert.AreEquivalent(accessThursday.Select(s => s.Identifier), standardList);
-            CollectionAssert.AreEquivalent(accessFriday.Select(s => s.Identifier), fridayList);
-        }
+//        [Test]
+//        public void LookupSessionSetAccessLevelConditionalOnDateReturnsExpected()
+//        {
+//            var tlf = "Attendee TEF";
+//            var offsetToAtlanta = TimeSpan.FromHours(-4);
+//            var sundayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 25), offsetToAtlanta).ToUniversalTime();
+//            var mondayInAtlanta = new DateTimeOffset(new DateTime(2016, 9, 26), offsetToAtlanta).ToUniversalTime();
+//            var tuesday = mondayInAtlanta.AddDays(1);
+//            var wednesday = tuesday.AddDays(1);
+//            var thursday = wednesday.AddDays(1);
+//            var friday = thursday.AddDays(1);
+//
+//            var accessSunday = _permissionManager.LookupSessionSetAccess(tlf, sundayInAtlanta);
+//            var accessMonday = _permissionManager.LookupSessionSetAccess(tlf, mondayInAtlanta);
+//            var accessTuesday = _permissionManager.LookupSessionSetAccess(tlf, tuesday);
+//            var accessWednesday = _permissionManager.LookupSessionSetAccess(tlf, wednesday);
+//            var accessThursday = _permissionManager.LookupSessionSetAccess(tlf, thursday);
+//            var accessFriday = _permissionManager.LookupSessionSetAccess(tlf, friday);
+//
+//            var tefSundayList = new[] { "Schedule Builder - TEF", "Lab", "My Schedule - TEF" };
+//            var tefList = new[] { "Schedule Builder - TEF", "Schedule Builder - TEF Extended", "Lab", "My Schedule - TEF" };
+//            var standardList = new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - TEF" };
+//            var fridayList = new[] { "Schedule Builder - Attendee", "Lab", "My Schedule - TEF" };
+//            CollectionAssert.AreEquivalent(accessSunday.Select(s => s.Identifier), tefSundayList);
+//            CollectionAssert.AreEquivalent(accessMonday.Select(s => s.Identifier), tefList);
+//            CollectionAssert.AreEquivalent(accessTuesday.Select(s => s.Identifier), tefSundayList);
+//            CollectionAssert.AreEquivalent(accessWednesday.Select(s => s.Identifier), standardList);
+//            CollectionAssert.AreEquivalent(accessThursday.Select(s => s.Identifier), standardList);
+//            CollectionAssert.AreEquivalent(accessFriday.Select(s => s.Identifier), fridayList);
+//        }
     }
 }

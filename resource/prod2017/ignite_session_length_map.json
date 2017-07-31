@@ -12,16 +12,12 @@
             "SessionLength": 75
         },
         {
-            "SessionTypeName": "Showcase Keynote",
-            "SessionLength": 60
-        },
-        {
             "SessionTypeName": "Keynote",
             "SessionLength": 90
         },
         {
-            "SessionTypeName": "Partner Led Session",
-            "SessionLength": 75
+            "SessionTypeName": "Technology Keynote",
+            "SessionLength": 90
         },
         {
             "SessionTypeName": "Pre-Day Training",

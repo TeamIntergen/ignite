@@ -34,9 +34,25 @@
                 "Attendee Exhibitor",
                 "Attendee Microsoft",
                 "Attendee Student",
-                "Attendee Academic Faculty/Staff",
+                "Attendee Faculty/Staff",
+                "Attendee Data Science",
+                "Microsoft Envision Attendee",
+                "Microsoft Envision Attendee Microsoft",
+                "Microsoft Envision Attendee Sponsor",
+                "Substituted Attendee",
+                "Microsoft Envision Day Pass ",
+                "Speaker External",
+                "Speaker Microsoft",
+                "Speaker Day Pass External",
+                "Speaker Day Pass Microsoft",
+                "Microsoft Envision Speaker Customer",
+                "Microsoft Envision Speaker External",
+                "Microsoft Envision Speaker Internal",
+                "Media",
+                "Microsoft Envision Media",
                 "Day Pass Attendee Customer & Partner",
-                "Microsoft Envision Attendee"
+                "Staff Day Pass External",
+                "Staff Day Pass Microsoft"
             ],
             "Access": {
                 "SessionCatalog": true,
@@ -44,8 +60,7 @@
                 "ScheduleBuilder": true,
                 "MobileApp": true,
                 "MeetingScheduler": true,
-                "MobileAppMessaging": true,
-                "LocationBasedMessaging": true
+                "MobileAppMessaging": true
             },
             "VisibleAttendeeTypes": [
                 "Attendee Customer & Partner",
@@ -53,207 +68,42 @@
                 "Attendee Exhibitor",
                 "Attendee Microsoft",
                 "Attendee Student",
-                "Attendee Academic Faculty/Staff",
+                "Attendee Faculty/Staff",
+                "Attendee Data Science",
+                "Microsoft Envision Attendee",
+                "Microsoft Envision Attendee Microsoft",
+                "Microsoft Envision Attendee Sponsor",
+                "Substituted Attendee",
+                "Microsoft Envision Day Pass ",
                 "Staff External",
-                "Staff Microsoft",
-                "Booth Staff Sponsor",
-                "Booth Staff Exhibitor",
-                "Booth Staff Microsoft",
-                "Speaker External",
-                "Speaker Microsoft",
-                "Media",
-                "Crew",
-                "Expo Only",
-                "Day Pass Attendee Customer & Partner",
-                "Microsoft Envision Attendee"
-            ],
-            "Reporting": {
-                "SessionCounts": true
-            },
-            "EvalAccess": [{
-                "Identifier": "PostEventSurvey",
-                "SessionTypes": [null],
-                "Mobile": true,
-                "WebSite": true
-            }, {
-                "Identifier": "RegularSessionEvaluations",
-                "SessionTypes": ["General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
-                "Mobile": true,
-                "WebSite": true
-            }, {
-                "Identifier": "KeynoteAfternoonEvaluation",
-                "SessionTypes": ["Afternon Keynote"],
-                "Mobile": true,
-                "WebSite": true
-            }, {
-                "Identifier": "KeynoteMorningEvaluation",
-                "SessionTypes": ["Morning Keynote"],
-                "Mobile": true,
-                "WebSite": true
-            }],
-            "SessionSetAccess": [{
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Schedule Builder - Attendee"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Lab"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "My Schedule - Attendee"
-                }
-            ]
-        },
-        {
-            "Identifiers": ["Staff External",
                 "Staff Microsoft",
                 "Staff External - GA converted",
                 "Staff External - Sponsor/Exhibitor converted",
                 "Staff Microsoft - GA converted",
-                "Booth Staff Sponsor",
-                "Booth Staff Exhibitor",
-                "Booth Staff Microsoft",
-                "Expo Only"
-            ],
-            "Access": {
-                "SessionCatalog": true,
-                "MyIgnite": true,
-                "ScheduleBuilder": true,
-                "MobileApp": true,
-                "MeetingScheduler": true,
-                "MobileAppMessaging": true,
-                "LocationBasedMessaging": true
-            },
-            "VisibleAttendeeTypes": [
-                "Attendee Customer & Partner",
-                "Attendee Sponsor",
-                "Attendee Exhibitor",
-                "Attendee Microsoft",
-                "Attendee Student",
-                "Attendee Academic Faculty/Staff",
-                "Staff External",
-                "Staff Microsoft",
+                "Microsoft Envision Experiences Staff External",
+                "Microsoft Envision Experiences Staff Internal",
+                "Microsoft Envision Staff Microsoft",
                 "Booth Staff Sponsor",
                 "Booth Staff Exhibitor",
                 "Booth Staff Microsoft",
                 "Speaker External",
                 "Speaker Microsoft",
+                "Speaker Day Pass External",
+                "Speaker Day Pass Microsoft",
+                "Microsoft Envision Speaker Customer",
+                "Microsoft Envision Speaker External",
+                "Microsoft Envision Speaker Internal",
                 "Media",
+                "Microsoft Envision Media",
                 "Crew",
+                "Microsoft Envision Crew ",
                 "Expo Only",
-                "Day Pass Attendee Customer & Partner"
-            ],
-            "Reporting": {
-                "SessionCounts": false
-            },
-            "EvalAccess": [],
-            "SessionSetAccess": [{
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Schedule Builder - Attendee"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Lab"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "My Schedule - Attendee"
-                }
-            ]
-        },
-        {
-            "Identifiers": ["Speaker External",
-                "Speaker Microsoft",
-                "Media"
-            ],
-            "Access": {
-                "SessionCatalog": true,
-                "MyIgnite": true,
-                "ScheduleBuilder": true,
-                "MobileApp": true,
-                "MeetingScheduler": true,
-                "MobileAppMessaging": true,
-                "LocationBasedMessaging": true
-            },
-            "VisibleAttendeeTypes": [
-                "Attendee Customer & Partner",
-                "Attendee Sponsor",
-                "Attendee Exhibitor",
-                "Attendee Microsoft",
-                "Attendee Student",
-                "Attendee Academic Faculty/Staff",
-                "Staff External",
-                "Staff Microsoft",
-                "Booth Staff Sponsor",
-                "Booth Staff Exhibitor",
-                "Booth Staff Microsoft",
-                "Speaker External",
-                "Speaker Microsoft",
-                "Media",
-                "Crew",
-                "Expo Only",
-                "Day Pass Attendee Customer & Partner"
+                "Day Pass Attendee Customer & Partner",
+                "Staff Day Pass External",
+                "Staff Day Pass Microsoft"
             ],
             "Reporting": {
                 "SessionCounts": true
-            },
-            "EvalAccess": [],
-            "SessionSetAccess": [{
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Schedule Builder - Attendee"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Lab"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "My Schedule - Attendee"
-                }
-            ]
-        },
-        {
-            "Identifiers": ["Crew"],
-            "Access": {
-                "SessionCatalog": true,
-                "MyIgnite": true,
-                "ScheduleBuilder": true,
-                "MobileApp": true,
-                "MeetingScheduler": true,
-                "MobileAppMessaging": true,
-                "LocationBasedMessaging": true
-            },
-            "VisibleAttendeeTypes": [
-                "Attendee Customer & Partner",
-                "Attendee Sponsor",
-                "Attendee Exhibitor",
-                "Attendee Microsoft",
-                "Attendee Student",
-                "Attendee Academic Faculty/Staff",
-                "Staff External",
-                "Staff Microsoft",
-                "Booth Staff Sponsor",
-                "Booth Staff Exhibitor",
-                "Booth Staff Microsoft",
-                "Speaker External",
-                "Speaker Microsoft",
-                "Media",
-                "Crew",
-                "Expo Only",
-                "Day Pass Attendee Customer & Partner"
-            ],
-            "Reporting": {
-                "SessionCounts": false
             },
             "EvalAccess": [{
                 "Identifier": "PostEventSurvey",
@@ -262,17 +112,24 @@
                 "WebSite": true
             }, {
                 "Identifier": "RegularSessionEvaluations",
-                "SessionTypes": ["General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+                "SessionTypes": [
+                    "Breakout: 45 minute",
+                    "Breakout: 75 minute",
+                    "General Session",
+                    "Microsoft Studio",
+                    "Theater",
+                    "Customer Immersion Experience (CIE)"
+                ],
                 "Mobile": true,
                 "WebSite": true
             }, {
                 "Identifier": "KeynoteAfternoonEvaluation",
-                "SessionTypes": ["Afternon Keynote"],
+                "SessionTypes": ["Technology Keynote"],
                 "Mobile": true,
                 "WebSite": true
             }, {
                 "Identifier": "KeynoteMorningEvaluation",
-                "SessionTypes": ["Morning Keynote"],
+                "SessionTypes": ["Keynote"],
                 "Mobile": true,
                 "WebSite": true
             }],
@@ -295,10 +152,20 @@
         },
         {
             "Identifiers": [
-                "Attendee TEF",
-                "Speaker TEF",
-                "Crew TEF",
-                "Attendee TEF Microsoft"
+                "Staff External",
+                "Staff Microsoft",
+                "Staff External - GA converted",
+                "Staff External - Sponsor/Exhibitor converted",
+                "Staff Microsoft - GA converted",
+                "Crew",
+                "Microsoft Envision Crew ",
+                "Microsoft Envision Experiences Staff External",
+                "Microsoft Envision Experiences Staff Internal",
+                "Microsoft Envision Staff Microsoft",
+                "Booth Staff Sponsor",
+                "Booth Staff Exhibitor",
+                "Booth Staff Microsoft",
+                "Expo Only"
             ],
             "Access": {
                 "SessionCatalog": true,
@@ -306,54 +173,81 @@
                 "ScheduleBuilder": true,
                 "MobileApp": true,
                 "MeetingScheduler": true,
-                "MobileAppMessaging": true,
-                "LocationBasedMessaging": true
+                "MobileAppMessaging": true
             },
             "VisibleAttendeeTypes": [
-                "Attendee TEF",
-                "Attendee TEF Microsoft"
+                "Attendee Customer & Partner",
+                "Attendee Sponsor",
+                "Attendee Exhibitor",
+                "Attendee Microsoft",
+                "Attendee Student",
+                "Attendee Faculty/Staff",
+                "Attendee Data Science",
+                "Microsoft Envision Attendee",
+                "Microsoft Envision Attendee Microsoft",
+                "Microsoft Envision Attendee Sponsor",
+                "Substituted Attendee",
+                "Microsoft Envision Day Pass ",
+                "Staff External",
+                "Staff Microsoft",
+                "Staff External - GA converted",
+                "Staff External - Sponsor/Exhibitor converted",
+                "Staff Microsoft - GA converted",
+                "Microsoft Envision Experiences Staff External",
+                "Microsoft Envision Experiences Staff Internal",
+                "Microsoft Envision Staff Microsoft",
+                "Booth Staff Sponsor",
+                "Booth Staff Exhibitor",
+                "Booth Staff Microsoft",
+                "Speaker External",
+                "Speaker Microsoft",
+                "Speaker Day Pass External",
+                "Speaker Day Pass Microsoft",
+                "Microsoft Envision Speaker Customer",
+                "Microsoft Envision Speaker External",
+                "Microsoft Envision Speaker Internal",
+                "Media",
+                "Microsoft Envision Media",
+                "Crew",
+                "Microsoft Envision Crew ",
+                "Expo Only",
+                "Day Pass Attendee Customer & Partner",
+                "Staff Day Pass External",
+                "Staff Day Pass Microsoft"
             ],
             "Reporting": {
-                "SessionCounts": true
+                "SessionCounts": false
             },
             "EvalAccess": [{
-                "Identifier": "TEFPostEventSurvey",
-                "SessionTypes": ["TEF Post Event"],
+                "Identifier": "PostEventSurvey",
+                "SessionTypes": [null],
                 "Mobile": true,
                 "WebSite": true
             }, {
                 "Identifier": "RegularSessionEvaluations",
-                "SessionTypes": ["General Session", "Breakout - 45 minute", "Breakout - 75 minute", "Partner Led Session", "Women in Technology", "Theater: Community", "Theater: Microsoft", "Theater: Partner", "Pre-Day Training"],
+                "SessionTypes": [
+                    "Breakout: 45 minute",
+                    "Breakout: 75 minute",
+                    "General Session",
+                    "Microsoft Studio",
+                    "Theater",
+                    "Customer Immersion Experience (CIE)"
+                ],
                 "Mobile": true,
                 "WebSite": true
             }, {
                 "Identifier": "KeynoteAfternoonEvaluation",
-                "SessionTypes": ["Afternon Keynote"],
+                "SessionTypes": ["Technology Keynote"],
                 "Mobile": true,
                 "WebSite": true
             }, {
                 "Identifier": "KeynoteMorningEvaluation",
-                "SessionTypes": ["Morning Keynote"],
-                "Mobile": true,
-                "WebSite": true
-            }, {
-                "Identifier": "TEFSessionEval",
-                "SessionTypes": ["TEF"],
+                "SessionTypes": ["Keynote"],
                 "Mobile": true,
                 "WebSite": true
             }],
             "SessionSetAccess": [{
-                    "ApplicableFrom": "2016-09-25T04:00:00Z",
-                    "ApplicableTo": "2016-09-28T04:00:00Z",
-                    "Identifier": "Schedule Builder - TEF"
-                },
-                {
-                    "ApplicableFrom": "2016-09-26T04:00:00Z",
-                    "ApplicableTo": "2016-09-27T04:00:00Z",
-                    "Identifier": "Schedule Builder - TEF Extended"
-                },
-                {
-                    "ApplicableFrom": "2016-09-28T04:00:00Z",
+                    "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "Schedule Builder - Attendee"
                 },
@@ -365,7 +259,7 @@
                 {
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
-                    "Identifier": "My Schedule - TEF"
+                    "Identifier": "My Schedule - Attendee"
                 }
             ]
         }

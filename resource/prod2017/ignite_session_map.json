@@ -2,67 +2,52 @@
     "SessionSetMap": [{
             "HubbId": 1670,
             "SessionTypeName": "Keynote",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF", "Schedule Builder - TEF Extended"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1830,
+            "SessionTypeName": "Technology Keynote",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1798,
             "SessionTypeName": "Theater",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1795,
             "SessionTypeName": "Hands-on Lab",
-            "SessionSets": ["Lab", "My Schedule - Attendee", "My Schedule - TEF", "Session Catalog (Mktg Site)"]
+            "SessionSets": ["Lab", "My Schedule - Attendee", "Session Catalog (Mktg Site)"]
         },
         {
             "HubbId": 1797,
             "SessionTypeName": "Pre-Day Training",
-            "SessionSets": ["Session Catalog (Mktg Site)", "Schedule Builder - Attendee", "Schedule Builder - TEF", "My Schedule - Attendee", "My Schedule - TEF"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1673,
             "SessionTypeName": "General Session",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF", "Schedule Builder - TEF Extended"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1672,
             "SessionTypeName": "Breakout: 45 minute",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1669,
             "SessionTypeName": "Breakout: 75 minute",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1796,
             "SessionTypeName": "Microsoft Studio",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1671,
             "SessionTypeName": "Customer Immersion Experience (CIE)",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee", "My Schedule - TEF"]
-        },
-        {
-            "HubbId": 230,
-            "SessionTypeName": "Agenda - non-TEF",
-            "SessionSets": ["My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 229,
-            "SessionTypeName": "Agenda - TEF",
-            "SessionSets": ["My Schedule - TEF"]
-        },
-        {
-            "HubbId": 228,
-            "SessionTypeName": "Agenda - All",
-            "SessionSets": ["My Schedule - Attendee", "My Schedule - TEF"]
-        },
-        {
-            "HubbId": 743,
-            "SessionTypeName": "TEF Post-Survey",
-            "SessionSets": ["My Schedule - TEF"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         }
     ]
 }
