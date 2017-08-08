@@ -48,6 +48,16 @@
             "HubbId": 1671,
             "SessionTypeName": "Customer Immersion Experience (CIE)",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1842,
+            "SessionTypeName": "Podcast",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1860,
+            "SessionTypeName": "Agenda",
+            "SessionSets": ["My Schedule - Attendee"]
         }
     ]
 }

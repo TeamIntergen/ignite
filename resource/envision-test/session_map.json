@@ -2,11 +2,11 @@
     "SessionSetMap": [{
         "HubbId": 1679,
         "SessionTypeName": "Breakout",
-        "SessionSets": ["Session Catalog"]
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1680,
         "SessionTypeName": "Keynote",
-        "SessionSets": ["Session Catalog"]
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1681,
         "SessionTypeName": "Lab",
@@ -22,22 +22,34 @@
     }, {
         "HubbId": 1799,
         "SessionTypeName": "Fireside Chat",
-        "SessionSets": ["Session Catalog"]
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1800,
         "SessionTypeName": "Featured Session",
-        "SessionSets": ["Session Catalog"]
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1801,
         "SessionTypeName": "Workshop",
-        "SessionSets": ["Session Catalog"]
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1802,
         "SessionTypeName": "Roundtable",
-        "SessionSets": ["Session Catalog"]
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1803,
-        "SessionTypeName": "EBC",
-        "SessionSets": ["Session Catalog"]
+        "SessionTypeName": "Executive Briefing",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
+    }, {
+        "HubbId": 1856,
+        "SessionTypeName": "Connect",
+        "SessionSets": ["Schedule Builder"]
+    }, {
+        "HubbId": 1,
+        "SessionTypeName": "Agenda",
+        "SessionSets": ["My Schedule"]
+    }, {
+        "HubbId": 2,
+        "SessionTypeName": "Plus Pass Agenda",
+        "SessionSets": ["Plus Pass - My Schedule"]
     }]
 }
