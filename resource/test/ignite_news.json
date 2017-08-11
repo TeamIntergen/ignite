@@ -4,6 +4,7 @@
             "tileNumber": 1,
             "description": "Build your own personalized learning track based upon your profile and interests.",
             "link": "/personalize",
+            "linkText": "Personalize",
             "image": "images/news/personalization.png"
         },
         {
@@ -11,6 +12,7 @@
             "tileNumber": 2,
             "description": "Connect with women in technology and business  to learn about leadership, mentorship, and professional growth.",
             "link": "/sessions?f=%5B%7B%22name%22:%22Women%20in%20Business%20and%20Technology%22,%22facetName%22:%22topics%22%7D%5D",
+            "linkText": "View sessions",
             "image": "images/news/women-in-technology.png"
         },
         {
@@ -18,6 +20,7 @@
             "tileNumber": 4,
             "description": "See hundreds of industry experts, Microsoft executives, and MVPs speaking at Microsoft Ignite.",
             "link": "//www.microsoft.com/en-us/ignite/speakers",
+            "linkText": "View speakers",
             "image": "images/news/featured-speakers.png"
         },
         {
@@ -25,6 +28,7 @@
             "tileNumber": 3,
             "description": "Connect, collaborate, share and learn with other attendees, speakers and experts.",
             "link": "//techcommunity.microsoft.com/t5/Microsoft-Ignite/ct-p/MicrosoftIgnite",
+            "linkText": "Join a conversation",
             "image": "images/news/tech-community.png"
         }
     ]
