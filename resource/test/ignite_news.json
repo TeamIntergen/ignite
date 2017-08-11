@@ -1,38 +1,30 @@
 {
-    "NewsItems": [
-        {
-            "title": "Personas",
+    "NewsItems": [{
+            "title": "Personalized Schedules",
             "tileNumber": 1,
-            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
-            "link": "/personas",
-            "image": "images/news/personas.png"
-        },
-        {
-            "title": "Personalization",
-            "tileNumber": 2,
-            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
+            "description": "Build your own personalized learning track based upon your profile and interests.",
             "link": "/personalize",
             "image": "images/news/personalization.png"
         },
         {
             "title": "Women in Technology",
-            "tileNumber": 3,
-            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
-            "link": "//www.microsoft.com/en-us/diversity/inside-microsoft/women-at-microsoft/default.aspx",
+            "tileNumber": 2,
+            "description": "Connect with women in technology and business  to learn about leadership, mentorship, and professional growth.",
+            "link": "/sessions?f=%5B%7B%22name%22:%22Women%20in%20Business%20and%20Technology%22,%22facetName%22:%22topics%22%7D%5D",
             "image": "images/news/women-in-technology.png"
         },
         {
             "title": "Featured Speakers",
             "tileNumber": 4,
-            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
+            "description": "See hundreds of industry experts, Microsoft executives, and MVPs speaking at Microsoft Ignite.",
             "link": "//www.microsoft.com/en-us/ignite/speakers",
             "image": "images/news/featured-speakers.png"
         },
         {
             "title": "Tech Community",
-            "tileNumber": 5,
-            "description": "Nec etiam placerat vivamus sem adipiscing mi per vivamus consectetur ullamcorper risus sollicitudin.",
-            "link": "//techcommunity.microsoft.com/",
+            "tileNumber": 3,
+            "description": "Connect, collaborate, share and learn with other attendees, speakers and experts.",
+            "link": "//techcommunity.microsoft.com/t5/Microsoft-Ignite/ct-p/MicrosoftIgnite",
             "image": "images/news/tech-community.png"
         }
     ]
