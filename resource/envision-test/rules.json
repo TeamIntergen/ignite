@@ -139,7 +139,9 @@
                 "MeetingScheduler": false,
                 "MobileAppMessaging": false
             },
-            "VisibleAttendeeTypes": [],
+            "VisibleAttendeeTypes": [
+                "null"
+            ],
             "Reporting": {
                 "SessionCounts": true
             },
