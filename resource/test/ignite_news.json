@@ -19,7 +19,7 @@
             "title": "Featured Speakers",
             "tileNumber": 4,
             "description": "See hundreds of industry experts, Microsoft executives, and MVPs speaking at Microsoft Ignite.",
-            "link": "//www.microsoft.com/en-us/ignite/speakers",
+            "link": "/speakers",
             "linkText": "View speakers",
             "image": "images/news/featured-speakers.png"
         },
