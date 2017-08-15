@@ -16,11 +16,12 @@
             "image": "images/news/women-in-technology.png"
         },
         {
-            "title": "Featured Speakers",
+            "title": "Meet the speakers",
             "tileNumber": 4,
             "description": "See hundreds of industry experts, Microsoft executives, and MVPs speaking at Microsoft Ignite.",
             "link": "/speakers",
             "linkText": "View speakers",
+            "linkTarget": "_blank",
             "image": "images/news/featured-speakers.png"
         },
         {
