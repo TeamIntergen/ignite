@@ -39,5 +39,13 @@
         "HubbId": 1803,
         "SessionTypeName": "EBC",
         "SessionSets": ["Session Catalog", "Schedule Builder"]
+    }, {
+        "HubbId": 1888,
+        "SessionTypeName": "Agenda",
+        "SessionSets": ["My Schedule"]
+    }, {
+        "HubbId": 1889,
+        "SessionTypeName": "Plus Pass Agenda",
+        "SessionSets": ["My Schedule Plus Pass"]
     }]
 }

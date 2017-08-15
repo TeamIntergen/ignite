@@ -22,6 +22,17 @@
             }]
         }, {
             "Identifiers": [
+                "Microsoft Envision Plus"
+            ],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": true,
+                "ScheduleBuilder": true,
+                "MobileApp": true,
+                "MeetingScheduler": true,
+                "MobileAppMessaging": true
+            },
+            "VisibleAttendeeTypes": [
                 "Microsoft Envision Attendee",
                 "Microsoft Envision Attendee Microsoft",
                 "Microsoft Envision Attendee Sponsor",
@@ -36,6 +47,62 @@
                 "Microsoft Envision Staff Microsoft",
                 "Microsoft Envision Crew",
                 "Microsoft Envision Plus"
+            ],
+            "Reporting": {
+                "SessionCounts": true
+            },
+            "EvalAccess": [{
+                "Identifier": "PostEventSurvey",
+                "SessionTypes": [null],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "Microsoft Sessions",
+                "SessionTypes": [
+                    "Featured Session",
+                    "Breakout Session",
+                    "Workshop",
+                    "Roundtable"
+                ],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "Fireside Chats",
+                "SessionTypes": ["Fireside Chat"],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "Keynotes",
+                "SessionTypes": ["Keynote"],
+                "Mobile": true,
+                "WebSite": true
+            }],
+            "SessionSetAccess": [{
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Schedule Builder"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "My Schedule Plus Pass"
+                }
+            ]
+        },{
+            "Identifiers": [
+                "Microsoft Envision Attendee",
+                "Microsoft Envision Attendee Microsoft",
+                "Microsoft Envision Attendee Sponsor",
+                "Substituted Attendee",
+                "Microsoft Envision Day Pass ",
+                "Microsoft Envision Speaker Customer",
+                "Microsoft Envision Speaker External",
+                "Microsoft Envision Speaker Internal",
+                "Microsoft Envision Media",
+                "Microsoft Envision Experiences Staff External",
+                "Microsoft Envision Experiences Staff Internal",
+                "Microsoft Envision Staff Microsoft",
+                "Microsoft Envision Crew"
             ],
             "Access": {
                 "SessionCatalog": true,
