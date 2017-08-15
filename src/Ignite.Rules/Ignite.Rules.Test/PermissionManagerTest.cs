@@ -63,7 +63,7 @@ namespace Ignite.Rules.Test
         [TestCase("Staff External - Sponsor/Exhibitor converted", true)]
         [TestCase("Staff Microsoft - GA converted", true)]
         [TestCase("Crew", true)]
-        [TestCase("Microsoft Envision Crew ", true)]
+        [TestCase("Microsoft Envision Crew", true)]
         [TestCase("Microsoft Envision Experiences Staff External", true)]
         [TestCase("Microsoft Envision Experiences Staff Internal", true)]
         [TestCase("Microsoft Envision Staff Microsoft", true)]
