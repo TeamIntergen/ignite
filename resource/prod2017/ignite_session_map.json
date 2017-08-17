@@ -17,7 +17,7 @@
         {
             "HubbId": 1795,
             "SessionTypeName": "Hands-on Lab",
-            "SessionSets": ["Lab", "My Schedule - Attendee", "Session Catalog (Mktg Site)"]
+            "SessionSets": ["Schedule Builder - Attendee", "Lab", "My Schedule - Attendee", "Session Catalog (Mktg Site)"]
         },
         {
             "HubbId": 1797,
