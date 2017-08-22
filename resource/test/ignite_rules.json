@@ -86,6 +86,7 @@
                 "Booth Staff Sponsor",
                 "Booth Staff Exhibitor",
                 "Booth Staff Microsoft",
+                "Booth Staff External",
                 "Speaker External",
                 "Speaker Microsoft",
                 "Speaker Day Pass External",
@@ -165,6 +166,7 @@
                 "Booth Staff Sponsor",
                 "Booth Staff Exhibitor",
                 "Booth Staff Microsoft",
+                "Booth Staff External",
                 "Expo Only"
             ],
             "Access": {
@@ -199,6 +201,7 @@
                 "Booth Staff Sponsor",
                 "Booth Staff Exhibitor",
                 "Booth Staff Microsoft",
+                "Booth Staff External",
                 "Speaker External",
                 "Speaker Microsoft",
                 "Speaker Day Pass External",
