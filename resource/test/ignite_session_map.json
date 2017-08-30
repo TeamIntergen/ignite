@@ -58,6 +58,11 @@
             "HubbId": 1860,
             "SessionTypeName": "Agenda",
             "SessionSets": ["My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1891,
+            "SessionTypeName": "MVP PreDay",
+            "SessionSets":["My Schedule - Attendee"]
         }
     ]
 }
