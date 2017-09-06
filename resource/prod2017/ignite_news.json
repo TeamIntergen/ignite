@@ -9,7 +9,7 @@
         },
         {
             "title": "Women in Technology",
-            "tileNumber": 2,
+            "tileNumber": 5,
             "description": "Connect with women in technology and business  to learn about leadership, mentorship, and professional growth.",
             "link": "/sessions?f=%5B%7B%22name%22:%22Women%20in%20Business%20and%20Technology%22,%22facetName%22:%22topics%22%7D%5D",
             "linkText": "View sessions",
@@ -31,6 +31,14 @@
             "linkText": "Join a conversation",
             "linkTarget": "_blank",
             "image": "images/news/tech-community.png"
+        },
+        {
+            "title": "Download the App Now",
+            "tileNumber": 2,
+            "description": "The Microsoft Ignite App has everything you need to create an unforgettable experience at the event.",
+            "link": "/mobileapp",
+            "linkText": "Select your OS",
+            "image": "images/news/ignite-mobile-app.png"
         }
     ]
 }
