@@ -110,7 +110,7 @@
             },
             "EvalAccess": [{
                 "Identifier": "PostEventSurvey",
-                "SessionTypes": [null],
+                "SessionTypes": ["Post Event  Survey"],
                 "Mobile": true,
                 "WebSite": true
             }, {
@@ -121,7 +121,9 @@
                     "General Session",
                     "Microsoft Studio",
                     "Theater",
-                    "Customer Immersion Experience (CIE)"
+                    "Workshop",
+                    "MVP PreDay",
+                    "Pre-Day Training"
                 ],
                 "Mobile": true,
                 "WebSite": true
@@ -132,7 +134,7 @@
                 "WebSite": true
             }, {
                 "Identifier": "KeynoteMorningEvaluation",
-                "SessionTypes": ["Keynote"],
+                "SessionTypes": ["Vision Keynote"],
                 "Mobile": true,
                 "WebSite": true
             }],
@@ -226,7 +228,7 @@
             },
             "EvalAccess": [{
                 "Identifier": "PostEventSurvey",
-                "SessionTypes": [null],
+                "SessionTypes": ["Post Event  Survey"],
                 "Mobile": true,
                 "WebSite": true
             }, {
@@ -237,7 +239,9 @@
                     "General Session",
                     "Microsoft Studio",
                     "Theater",
-                    "Customer Immersion Experience (CIE)"
+                    "Workshop",
+                    "MVP PreDay",
+                    "Pre-Day Training"
                 ],
                 "Mobile": true,
                 "WebSite": true
@@ -248,7 +252,7 @@
                 "WebSite": true
             }, {
                 "Identifier": "KeynoteMorningEvaluation",
-                "SessionTypes": ["Keynote"],
+                "SessionTypes": ["Vision Keynote"],
                 "Mobile": true,
                 "WebSite": true
             }],

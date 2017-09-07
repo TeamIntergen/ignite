@@ -1,7 +1,7 @@
 {
     "SessionSetMap": [{
             "HubbId": 1670,
-            "SessionTypeName": "Keynote",
+            "SessionTypeName": "Vision Keynote",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
@@ -46,7 +46,7 @@
         },
         {
             "HubbId": 1671,
-            "SessionTypeName": "Customer Immersion Experience (CIE)",
+            "SessionTypeName": "Workshop",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         },
         {
@@ -63,6 +63,11 @@
             "HubbId": 1891,
             "SessionTypeName": "MVP PreDay",
             "SessionSets":["My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1890,
+            "SessionTypeName": "Certification Exam",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
         }
     ]
 }

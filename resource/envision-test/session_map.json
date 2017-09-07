@@ -51,5 +51,13 @@
         "HubbId": 1889,
         "SessionTypeName": "Plus Pass Agenda",
         "SessionSets": ["My Schedule Plus Pass"]
+    }, {
+        "HubbId": 1916,
+        "SessionTypeName":"Microsoft Ignite Theater",
+        "SessionSets": ["Session Catalog", "Schedule Builder", "My Schedule"]
+    }, {
+        "HubbId": 1917,
+        "SessionTypeName":"Microsoft Ignite Luncheon",
+        "SessionSets": ["Session Catalog", "Schedule Builder", "My Schedule"]
     }]
 }

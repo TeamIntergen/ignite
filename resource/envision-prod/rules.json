@@ -59,7 +59,6 @@
             }, {
                 "Identifier": "Microsoft Sessions",
                 "SessionTypes": [
-                    "Featured Session",
                     "Breakout Session",
                     "Workshop",
                     "Roundtable"
@@ -68,7 +67,10 @@
                 "WebSite": true
             }, {
                 "Identifier": "Fireside Chats",
-                "SessionTypes": ["Fireside Chat"],
+                "SessionTypes": [
+                    "Fireside Chat",
+                    "Featured Session"
+                ],
                 "Mobile": true,
                 "WebSite": true
             }, {
@@ -139,7 +141,6 @@
             }, {
                 "Identifier": "Microsoft Sessions",
                 "SessionTypes": [
-                    "Featured Session",
                     "Breakout Session",
                     "Workshop",
                     "Roundtable"
@@ -148,7 +149,10 @@
                 "WebSite": true
             }, {
                 "Identifier": "Fireside Chats",
-                "SessionTypes": ["Fireside Chat"],
+                "SessionTypes": [
+                    "Fireside Chat",
+                    "Featured Session"
+                ],
                 "Mobile": true,
                 "WebSite": true
             }, {
@@ -221,7 +225,6 @@
             }, {
                 "Identifier": "Microsoft Sessions",
                 "SessionTypes": [
-                    "Featured Session",
                     "Breakout Session",
                     "Workshop",
                     "Roundtable"
@@ -230,7 +233,10 @@
                 "WebSite": true
             }, {
                 "Identifier": "Fireside Chats",
-                "SessionTypes": ["Fireside Chat"],
+                "SessionTypes": [
+                    "Fireside Chat",
+                    "Featured Session"
+                ],
                 "Mobile": true,
                 "WebSite": true
             }, {
