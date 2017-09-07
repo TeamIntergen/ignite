@@ -42,7 +42,7 @@
     }, {
         "HubbId": 1856,
         "SessionTypeName": "Connect",
-        "SessionSets": ["Schedule Builder"]
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1888,
         "SessionTypeName": "Agenda",

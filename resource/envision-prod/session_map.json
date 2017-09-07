@@ -37,7 +37,11 @@
         "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1803,
-        "SessionTypeName": "EBC",
+        "SessionTypeName": "Executive Briefing",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
+    }, {
+        "HubbId": 1856,
+        "SessionTypeName": "Connect",
         "SessionSets": ["Session Catalog", "Schedule Builder"]
     }, {
         "HubbId": 1888,
