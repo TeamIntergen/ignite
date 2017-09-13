@@ -833,6 +833,440 @@
          "RoomImageName":"hand-on-labs",
          "DisplayName":"Hands On Labs",
          "FloorImageName":"FloorB4"
+      },
+      {
+        "RoomId": "1374",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Regency Windermere W",
+        "FloorImageName": "",
+        "OriginalSerial": "WINDERMERE BALLROOM W@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1375",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Regency Windermere X",
+        "FloorImageName": "",
+        "OriginalSerial": "WINDERMERE BALLROOM X@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1376",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Regency Windermere Y",
+        "FloorImageName": "",
+        "OriginalSerial": "WINDERMERE BALLROOM Y@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1377",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Regency Windermere Z",
+        "FloorImageName": "",
+        "OriginalSerial": "WINDERMERE BALLROOM Z@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1378",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Plaza International D-F",
+        "FloorImageName": "",
+        "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM D-F@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1382",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W205",
+        "FloorImageName": "",
+        "OriginalSerial": "W205@OCCC_West_1"
+      },
+      {
+        "RoomId": "1383",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W206",
+        "FloorImageName": "",
+        "OriginalSerial": "W206@OCCC_West_1"
+      },
+      {
+        "RoomId": "1388",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W221",
+        "FloorImageName": "",
+        "OriginalSerial": "W221@OCCC_West_1"
+      },
+      {
+        "RoomId": "1389",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W224",
+        "FloorImageName": "",
+        "OriginalSerial": "W224@OCCC_West_1"
+      },
+      {
+        "RoomId": "1390",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W230",
+        "FloorImageName": "",
+        "OriginalSerial": "W230@OCCC_West_1"
+      },
+      {
+        "RoomId": "1391",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W240",
+        "FloorImageName": "",
+        "OriginalSerial": "W240@OCCC_West_1"
+      },
+      {
+        "RoomId": "1392",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W304",
+        "FloorImageName": "",
+        "OriginalSerial": "W304@OCCC_West_2"
+      },
+      {
+        "RoomId": "1393",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W307",
+        "FloorImageName": "",
+        "OriginalSerial": "W307@OCCC_West_2"
+      },
+      {
+        "RoomId": "1394",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W308",
+        "FloorImageName": "",
+        "OriginalSerial": "W308@OCCC_West_2"
+      },
+      {
+        "RoomId": "1395",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W311",
+        "FloorImageName": "",
+        "OriginalSerial": "W311@OCCC_West_2"
+      },
+      {
+        "RoomId": "1396",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W314",
+        "FloorImageName": "",
+        "OriginalSerial": "W314@OCCC_West_2"
+      },
+      {
+        "RoomId": "1397",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W315",
+        "FloorImageName": "",
+        "OriginalSerial": "W315@OCCC_West_2"
+      },
+      {
+        "RoomId": "1400",
+        "RoomImageName": "",
+        "DisplayName": "OCCC Chapin Theater W320",
+        "FloorImageName": "",
+        "OriginalSerial": "CHAPIN THEATER W320@OCCC_West_2"
+      },
+      {
+        "RoomId": "1401",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W414",
+        "FloorImageName": "",
+        "OriginalSerial": "W414@OCCC_West_3"
+      },
+      {
+        "RoomId": "1402",
+        "RoomImageName": "",
+        "DisplayName": "OCCC Valencia W415 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "VALENCIA W415 A-B@OCCC_West_3"
+      },
+      {
+        "RoomId": "1403",
+        "RoomImageName": "",
+        "DisplayName": "OCCC Valencia W415 CD",
+        "FloorImageName": "",
+        "OriginalSerial": "VALENCIA W415 C-D@OCCC_West_3"
+      },
+      {
+        "RoomId": "1404",
+        "RoomImageName": "",
+        "DisplayName": "OCCC West Hall A2",
+        "FloorImageName": "",
+        "OriginalSerial": "WA2@OCCC_West_1"
+      },
+      {
+        "RoomId": "1406",
+        "RoomImageName": "",
+        "DisplayName": "OCCC West Hall B4",
+        "FloorImageName": "",
+        "OriginalSerial": "WB4@OCCC_West_1"
+      },
+      {
+        "RoomId": "1407",
+        "RoomImageName": "",
+        "DisplayName": "OCCC West Hall C",
+        "FloorImageName": "",
+        "OriginalSerial": "WC@OCCC_West_1"
+      },
+      {
+        "RoomId": "1411",
+        "RoomImageName": "",
+        "DisplayName": "OCCC West Hall E1",
+        "FloorImageName": "",
+        "OriginalSerial": "WE1-WE2@OCCC_West_1"
+      },
+      {
+        "RoomId": "1412",
+        "RoomImageName": "",
+        "DisplayName": "OCCC West Hall F3-4",
+        "FloorImageName": "",
+        "OriginalSerial": "F3-F4@OCCC_West_1"
+      },
+      {
+        "RoomId": "1437",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W300",
+        "FloorImageName": "",
+        "OriginalSerial": "W300@OCCC_West_2"
+      },
+      {
+        "RoomId": "1379",
+        "RoomImageName": "",
+        "DisplayName": "OCCC S210",
+        "FloorImageName": "",
+        "OriginalSerial": "S210@OCCC_South_1"
+      },
+      {
+        "RoomId": "1380",
+        "RoomImageName": "",
+        "DisplayName": "OCCC S331",
+        "FloorImageName": "",
+        "OriginalSerial": "S331@OCCC_South_2"
+      },
+      {
+        "RoomId": "1386",
+        "RoomImageName": "",
+        "DisplayName": "OCCC S320 E-H",
+        "FloorImageName": "",
+        "OriginalSerial": "S320 E-H@OCCC_South_2"
+      },
+      {
+        "RoomId": "1387",
+        "RoomImageName": "",
+        "DisplayName": "OCCC S320 A-D",
+        "FloorImageName": "",
+        "OriginalSerial": "S320 A-D@OCCC_South_2"
+      },
+      {
+        "RoomId": "1398",
+        "RoomImageName": "",
+        "DisplayName": "OCCC S330",
+        "FloorImageName": "",
+        "OriginalSerial": "S330@OCCC_South_2"
+      },
+      {
+        "RoomId": "1408",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Plaza International G",
+        "FloorImageName": "",
+        "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM G@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1409",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Plaza International H",
+        "FloorImageName": "",
+        "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM H@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1410",
+        "RoomImageName": "",
+        "DisplayName": "Hyatt Plaza International I-K",
+        "FloorImageName": "",
+        "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM I-K@Hyatt_Regency_0"
+      },
+      {
+        "RoomId": "1399",
+        "RoomImageName": "",
+        "DisplayName": "OCCC S230",
+        "FloorImageName": "",
+        "OriginalSerial": "S230@OCCC_South_1"
+      },
+      {
+        "RoomId": "1405",
+        "RoomImageName": "",
+        "DisplayName": "OCCC S310",
+        "FloorImageName": "",
+        "OriginalSerial": "S310@OCCC_South_2"
+      },
+      {
+        "RoomId": "1413",
+        "RoomImageName": "",
+        "DisplayName": "OCCC West Hall F1",
+        "FloorImageName": "",
+        "OriginalSerial": "F1@OCCC_West_1"
+      },
+      {
+        "RoomId": "1414",
+        "RoomImageName": "",
+        "DisplayName": "OCCC West Hall F2",
+        "FloorImageName": "",
+        "OriginalSerial": "F2@OCCC_West_1"
+      },
+      {
+        "RoomId": "1970",
+        "RoomImageName": "",
+        "DisplayName": "OCCC South Hall",
+        "FloorImageName": "",
+        "OriginalSerial": ""
+      },
+      {
+        "RoomId": "1384",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W207 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "W207 A-B@OCCC_West_1"
+      },
+      {
+        "RoomId": "1385",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W208 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "W208 A-B@OCCC_West_1"
+      },
+      {
+        "RoomId": "1381",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W204 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "W204 A-B@OCCC_West_1"
+      },
+      {
+        "RoomId": "#N/A",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W201",
+        "FloorImageName": "",
+        "OriginalSerial": "W201@OCCC_West_1"
+      },
+      {
+        "RoomId": "1423",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W102",
+        "FloorImageName": "",
+        "OriginalSerial": "W102@OCCC_West_0"
+      },
+      {
+        "RoomId": "1424",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W103",
+        "FloorImageName": "",
+        "OriginalSerial": "W103@OCCC_West_0"
+      },
+      {
+        "RoomId": "1425",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W104",
+        "FloorImageName": "",
+        "OriginalSerial": "W104@OCCC_West_0"
+      },
+      {
+        "RoomId": "1426",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W105",
+        "FloorImageName": "",
+        "OriginalSerial": "W105@OCCC_West_0"
+      },
+      {
+        "RoomId": "1427",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W108",
+        "FloorImageName": "",
+        "OriginalSerial": "W108@OCCC_West_0"
+      },
+      {
+        "RoomId": "1428",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W110 A",
+        "FloorImageName": "",
+        "OriginalSerial": "W110 A@OCCC_West_0"
+      },
+      {
+        "RoomId": "1429",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W110 B",
+        "FloorImageName": "",
+        "OriginalSerial": "W110 B@OCCC_West_0"
+      },
+      {
+        "RoomId": "1430",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W202 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "W202 A-B@OCCC_West_1"
+      },
+      {
+        "RoomId": "1431",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W202 C",
+        "FloorImageName": "",
+        "OriginalSerial": "W202 C@OCCC_West_1"
+      },
+      {
+        "RoomId": "1432",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W203 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "W203 A-B@OCCC_West_1"
+      },
+      {
+        "RoomId": "1433",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W203 C",
+        "FloorImageName": "",
+        "OriginalSerial": "W203 C@OCCC_West_1"
+      },
+      {
+        "RoomId": "1434",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W204 C",
+        "FloorImageName": "",
+        "OriginalSerial": "W204 C@OCCC_West_1"
+      },
+      {
+        "RoomId": "1435",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W207 C",
+        "FloorImageName": "",
+        "OriginalSerial": "W207 C@OCCC_West_1"
+      },
+      {
+        "RoomId": "1436",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W208 C",
+        "FloorImageName": "",
+        "OriginalSerial": "W208 C@OCCC_West_1"
+      },
+      {
+        "RoomId": "1438",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W303 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "W303 A-B@OCCC_West_2"
+      },
+      {
+        "RoomId": "1439",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W303 C",
+        "FloorImageName": "",
+        "OriginalSerial": "W303 C@OCCC_West_2"
+      },
+      {
+        "RoomId": "1440",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W414 AB",
+        "FloorImageName": "",
+        "OriginalSerial": "W414@OCCC_West_3"
+      },
+      {
+        "RoomId": "1441",
+        "RoomImageName": "",
+        "DisplayName": "OCCC W414 CD",
+        "FloorImageName": "",
+        "OriginalSerial": "W414@OCCC_West_3"
       }
    ]
 }
