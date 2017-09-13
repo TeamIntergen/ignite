@@ -2,7 +2,7 @@
     "Personas": [
         {
             "Id": "1",
-            "DisplayName": "Office 365 Application Admin",
+            "DisplayName": "Office 365 Application Administration",
             "Description": "I administer various applications at my company from in-house Line of Business apps, to some of our standardized Office 365 workloads, including Exchange and SharePoint. I’m responsible for LOB security and managing all of our Office 365 users.
 
 Topics of interest:
@@ -26,15 +26,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56492\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
+                            <a href=\"/labs/56492\" class=\"c-hyperlink\">HOL3084: Manage Microsoft Office 365</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56500\" class=\"c-hyperlink\">Using the Office 365 Power BI Content Pack</a>
+                            <a href=\"/labs/56500\" class=\"c-hyperlink\">HOL3092: Using the Office 365 Power BI Content Pack</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56505\" class=\"c-hyperlink\">Troubleshooting Microsoft Office 365</a>
+                            <a href=\"/labs/56505\" class=\"c-hyperlink\">HOL3097: Troubleshooting Microsoft Office 365</a>
                         </li>
                     </ul>
                 </div>
@@ -108,17 +108,37 @@ Topics of interest:
                         </li>
                     </ul>
                 </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                <ul class=\"persona-detail-sidebar__link-list\">
+                    <li class=\"persona-detail-sidebar__link\">
+                        <a href=\"https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365\" class=\"c-hyperlink\">Microsoft Tech Community - Office 365 Community</a>
+                    </li>
+                </ul>
+                <ul class=\"persona-detail-sidebar__link-list\">
+                    <li class=\"persona-detail-sidebar__link\">
+                        <a href=\"https://fasttrack.microsoft.com\" class=\"c-hyperlink\">Microsoft Fast Track</a>
+                    </li>
+                </ul>
+                <ul class=\"persona-detail-sidebar__link-list\">
+                    <li class=\"persona-detail-sidebar__link\">
+                        <a href=\"techacademy.microsoft.com\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
+                    </li>
+                </ul>
+            </div>
             </div>"
         },
         {
             "Id": "2",
-            "DisplayName": "Device Manager",
+            "DisplayName": "Desktop & Device Manager",
             "Description" : "I am a desktop and device administrator, in charge of my company’s client workstations, BYOD and corporate provided devices.  I am deeply involved in the management, maintenance, processes and security across all devices. Our desktops currently run Windows 7 and Office 2013 and we’re looking to upgrade.  We have Windows, Android and IOS devices connecting to corporate resources, including email and a custom LOB app.
 
 Topics of interest:
-	Microsoft 365 deployment and management
-	Device Management and security
-	Windows Updates
+    •	Microsoft 365 deployment and management
+    •	Device Management and security
+    •	Windows Updates
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Administrator.png?raw=true",
             "SessionsAttending" : [
@@ -133,15 +153,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56517\" class=\"c-hyperlink\">Deploy Microsoft Office as a service</a>
+                            <a href=\"/labs/56517\" class=\"c-hyperlink\">HOL3109: Deploy Microsoft Office as a service</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56485\" class=\"c-hyperlink\">Microsoft Intune automation with Microsoft Graph API and PowerShell</a>
+                            <a href=\"/labs/56485\" class=\"c-hyperlink\">HOL3077: Microsoft Intune automation with Microsoft Graph API and PowerShell</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56523\" class=\"c-hyperlink\">Deploy and manage Windows as a service</a>
+                            <a href=\"/labs/56523\" class=\"c-hyperlink\">HOL3115: Deploy and manage Windows as a service</a>
                         </li>
                     </ul>
                 </div>
@@ -211,19 +231,37 @@ Topics of interest:
                         </li>
                     </ul>
                 </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://techcommunity.microsoft.com/t5/Enterprise-Mobility-Security/ct-p/EMS\" class=\"c-hyperlink\">Microsoft Tech Community - EMS Community</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://fasttrack.microsoft.com\"class=\"c-hyperlink\">Microsoft FastTrack</p>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"#\"class=\"c-hyperlink\">Microsoft Tech Academy</p>
+                        </li>
+                    </ul>
+                </div>
             </div>"
         },
         {
             "Id": "3",
-            "DisplayName": "UC Lead",
-            "Description" : "I’m a veteran UC IT Pro and support my company’s Skype for Business Enterprise Voice infrastructure.  I’ve been tasked with learning how we can better leverage the cloud for our voice/communications needs and am looking forward to learning more about the direction of communications at Microsoft.
+            "DisplayName": "Unified Communications",
+            "Description" : "I’m a veteran Unified Communications IT Pro and support my company’s Skype for Business Enterprise Voice infrastructure. I’ve been tasked with learning how we can better leverage the cloud for our voice/communications needs and am looking forward to learning more about the direction of communications at Microsoft.
 
 Topics of interest:
-	Skype for Business Server/Hybrid
-	Cloud PBX
-	PSTN Calling and Conferencing
-	Meeting Broadcast
-	Microsoft Teams
+    •	Skype for Business Server/Hybrid
+    •	Cloud PBX
+    •	PSTN Calling and Conferencing
+    •	Meeting Broadcast
+    •	Microsoft Teams
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Developer.png?raw=true",
             "SessionsAttending" : [
@@ -238,19 +276,19 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56514\" class=\"c-hyperlink\">Configure PSTN conferencing</a>
+                            <a href=\"/labs/56514\" class=\"c-hyperlink\">HOL3106: Configure PSTN conferencing</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56515\" class=\"c-hyperlink\">Configuring Cloud PBX with on-premises connectivity</a>
+                            <a href=\"/labs/56515\" class=\"c-hyperlink\">HOL3107: Configuring Cloud PBX with on-premises connectivity</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56516\" class=\"c-hyperlink\">Configuring Cloud PBX with PSTN calling</a>
+                            <a href=\"/labs/56516\" class=\"c-hyperlink\">HOL3108: Configuring Cloud PBX with PSTN calling</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56518\" class=\"c-hyperlink\">Schedule and produce broadcast meetings</a>
+                            <a href=\"/labs/56518\" class=\"c-hyperlink\">HOL3110: Schedule and produce broadcast meetings</a>
                         </li>
                     </ul>
                 </div>
@@ -316,18 +354,36 @@ Topics of interest:
                         </li>
                     </ul>
                 </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://techcommunity.microsoft.com/t5/Skype-for-Business/ct-p/SkypeForBusiness\" class=\"c-hyperlink\">Microsoft Tech Community – Skype for Business Community</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://fasttrack.microsoft.com\"class=\"c-hyperlink\">Microsoft FastTrack</p>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"#\"class=\"c-hyperlink\">Microsoft Tech Academy</p>
+                        </li>
+                    </ul>
+                </div>
             </div>"
         },
         {
             "Id": "4",
-            "DisplayName": "Office Developer",
+            "DisplayName": "Office Development",
             "Description" : "I work for a large enterprise and focus on developing internal apps that improve our business process.  I have built several LOB add-ins across the Office application suite including SharePoint Server and SharePoint Online.
 
 Topics of interest:
-	Office Add-ins
-	SharePoint Framework
-	Microsoft Graph
-	Visual Studio
+    •	Office Add-ins
+    •	SharePoint Framework
+    •	Microsoft Graph
+    •	Visual Studio
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/End User Support.png?raw=true",
             "SessionsAttending" : [
@@ -342,27 +398,27 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56409\" class=\"c-hyperlink\">Build your first Microsoft Office Add-in with Visual Studio</a>
+                            <a href=\"/labs/56409\" class=\"c-hyperlink\">HOL3005: Build your first Microsoft Office Add-in with Visual Studio</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56411\" class=\"c-hyperlink\">Connect to applications within Microsoft Outlook</a>
+                            <a href=\"/labs/56411\" class=\"c-hyperlink\">HOL3007: Connect to applications within Microsoft Outlook</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56413\" class=\"c-hyperlink\">Build a connected mobile app with Microsoft Graph</a>
+                            <a href=\"/labs/56413\" class=\"c-hyperlink\">HOL3009: Build a connected mobile app with Microsoft Graph</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56414\" class=\"c-hyperlink\">Build your first SharePoint Framework part</a>
+                            <a href=\"/labs/56414\" class=\"c-hyperlink\">HOL3010: Build your first SharePoint Framework part</a>
                         </li>
                         
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56415\" class=\"c-hyperlink\">Advanced SharePoint Framework: Connect and customize your parts to data</a>
+                            <a href=\"/labs/56415\" class=\"c-hyperlink\">HOL3011: Advanced SharePoint Framework: Connect and customize your parts to data</a>
                         </li>
                         
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56423\" class=\"c-hyperlink\">Connect to Microsoft Graph from Office Add-ins</a>
+                            <a href=\"/labs/56423\" class=\"c-hyperlink\">HOL3019: Connect to Microsoft Graph from Office Add-ins</a>
                         </li>
                     </ul>
                 </div>
@@ -415,16 +471,46 @@ Topics of interest:
                     </ul>
                 </div>
 
-                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                <div class=\"persona-detail-sidebar__sub-section\" >
                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"#\" class=\"c-hyperlink\">98-361: Software Development Fundamentals</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
+                            <a href=\"#\" class=\"c-hyperlink\">98-375: HTML5 Application Development Fundamentals</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-480: Programming in HTML5 with JavaScript and CSS3</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-483: Programming in C#</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-486: Developing ASP.NET MVC Web Applications</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://techcommunity.microsoft.com/t5/Developer/bd-p/Developer_Group\" class=\"c-hyperlink\">Microsoft Tech Community – Office Dev Space</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://dev.office.com/\"class=\"c-hyperlink\">Office Dev Center</p>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"#\"class=\"c-hyperlink\">Microsoft Tech Academy</p>
                         </li>
                     </ul>
                 </div>
@@ -432,14 +518,14 @@ Topics of interest:
         },
         {
             "Id": "5",
-            "DisplayName": "Open Source Developer",
+            "DisplayName": "Open Source on Azure",
             "Description" : "I am a developer for an enterprise and we are currently leveraging several open source technologies. I want to learn how to get the most out of Azure with the latest open source technologies.
 
 Topics of interest:
-	Azure IaaS
-	MySQL
-	Node.js, Java, PHP, Ruby
-	Cloud Foundry
+    •	Azure IaaS
+    •	MySQL
+    •	Node.js, Java, PHP, Ruby
+    •	Cloud Foundry
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Cloud Infrastructure.png?raw=true",
             "SessionsAttending" : [
@@ -454,11 +540,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://azure.microsoft.com/en-us/training/learning-paths/node-js-developer\" class=\"c-hyperlink\">Node.js Developer on Azure Learning Path</a>
+                            <a href=\"/labs/56447\" class=\"c-hyperlink\">HOL3039: Using Ansible for Azure Open Source IaaS Automation</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://azure.microsoft.com/en-us/free\" class=\"c-hyperlink\">Signup for Free Azure Account</a>
+                            <a href=\"/labs/56587\" class=\"c-hyperlink\">HOL3139: Implement CI/CD pipeline using popular Open Source platforms such as GIT, Jenkins and Azure Container Services</a>
                         </li>
                     </ul>
                 </div>
@@ -477,7 +563,7 @@ Topics of interest:
             <div class=\"persona-detail-sidebar__section\" hidden>
                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
 
-                <div class=\"persona-detail-sidebar__sub-section\">
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
 
                     <ul class=\"persona-detail-sidebar__link-list\">
@@ -496,12 +582,12 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
+                            <a href=\"#\" class=\"c-hyperlink\">Applications & Infrastructure area</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class=\"persona-detail-sidebar__sub-section\">
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
 
                     <ul class=\"persona-detail-sidebar__link-list\">
@@ -516,11 +602,29 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"#\" class=\"c-hyperlink\">70-480: Programming in HTML5 with JavaScript and CSS3</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
+                            <a href=\"#\" class=\"c-hyperlink\">70-533: Implementing Microsoft Azure Infrastructure Solutions</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-534: Architecting Microsoft Azure Solutions</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://azure.microsoft.com/en-us/training/learning-paths/node-js-developer\" class=\"c-hyperlink\">Node.js Developer on Azure Learning Path</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href=\"https://azure.microsoft.com/en-us/free\"class=\"c-hyperlink\">Sign up for a free Azure trial</p>
                         </li>
                     </ul>
                 </div>
@@ -528,13 +632,13 @@ Topics of interest:
         },
         {
             "Id": "6",
-            "DisplayName": "Productivity Developer",
+            "DisplayName": "Developer Productivity",
             "Description" : "I am an application developer, developer admin, or architect (dev) who would like to supercharge my  development processes using the best-in-class developer tools, .NET and languages.
 
 Topics of interest:
-	Developer Tools
-	.NET
-	Languages
+    •	Developer Tools
+    •	.NET
+    •	Languages
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Desktop.png?raw=true",
             "SessionsAttending" : [
@@ -549,20 +653,20 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56585\" class=\"c-hyperlink\">Getting Started with Git in Visual Studio</a>
+                            <a href=\"/labs/56585\" class=\"c-hyperlink\">HOL2009: Getting Started with Git in Visual Studio</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56571\" class=\"c-hyperlink\">Build Smarter Apps with Xamarin & the Intelligent Cloud</a>
+                            <a href=\"/labs/56571\" class=\"c-hyperlink\">HOL3131: Build Smarter Apps with Xamarin & the Intelligent Cloud</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56591\" class=\"c-hyperlink\">Live Unit Testing, Refactoring, and Code Style</a>
+                            <a href=\"/labs/56591\" class=\"c-hyperlink\">HOL2012: Live Unit Testing, Refactoring, and Code Style</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class=\"persona-detail-sidebar__sub-section\">
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
 
                     <ul class=\"persona-detail-sidebar__link-list\">
@@ -614,16 +718,54 @@ Topics of interest:
                     </ul>
                 </div>
 
-                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                <div class=\"persona-detail-sidebar__sub-section\" >
                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"#\" class=\"c-hyperlink\">70-483: Programming in C#</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
+                            <a href=\"#\" class=\"c-hyperlink\">98-361: Software Development Fundamentals</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">98-375: HTML5 Application Development Fundamentals</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">98-381: Introduction to Programming Using Python</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.visualstudio.com\" class=\"c-hyperlink\">Download Visual Studio</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://azure.microsoft.com/en-us/free\" class=\"c-hyperlink\">Sign up for a free Azure trial</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-devtools-alpdotnet\" class=\"c-hyperlink\">Check out the .NET Developer on Azure learning path</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://dot.net\" class=\"c-hyperlink\">Download .NET</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.visualstudio.com/dev-essentials\" class=\"c-hyperlink\">Visual Studio Dev Essentials</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"http://www.Azure.Microsoft.com/Essentials\" class=\"c-hyperlink\">Azure Essentials</a>
                         </li>
                     </ul>
                 </div>
@@ -661,15 +803,14 @@ Topics of interest:
         },
         {
             "Id": "7",
-            "DisplayName": "Modern Application Developer",
+            "DisplayName": "Modern Application Development",
             "Description" : "I am a Web, Cloud, Mobile or Desktop developer who would like to drive app innovation and supercharge my apps.
 
 Topics of interest:
-	UX design for Windows store apps
-	Developing for Office 365
-	Leveraging Azure as a development platform
-	Microsoft APIs for LoB integrations
-	Latest news about Microsoft development tools
+    •	Visual Studio
+    •	Xamarin
+    •	Microservices
+    •	Docker Containers
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application Developer.png?raw=true",
             "SessionsAttending" : [
@@ -684,11 +825,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56574\" class=\"c-hyperlink\">Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
+                            <a href=\"/labs/56574\" class=\"c-hyperlink\">HOL3134: Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56580\" class=\"c-hyperlink\">Deploying Docker Container Apps to Azure App Services</a>
+                            <a href=\"/labs/56580\" class=\"c-hyperlink\">HOL3136: Deploying Docker Container Apps to Azure App Services</a>
                         </li>
                     </ul>
                 </div>
@@ -745,16 +886,62 @@ Topics of interest:
                     </ul>
                 </div>
 
-                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                <div class=\"persona-detail-sidebar__sub-section\" >
                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"#\" class=\"c-hyperlink\">70-486: Developing ASP.NET MVC Web Applications</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
+                            <a href=\"#\" class=\"c-hyperlink\">70-487: Developing Microsoft Azure and Web Services</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">98-361: Software Development Fundamentals</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">98-375: HTML5 Application Development Fundamentals</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.visualstudio.com\" class=\"c-hyperlink\">Download Visual Studio</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.microsoft.com/net\" class=\"c-hyperlink\">Download .NET</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.xamarin.com/university\" class=\"c-hyperlink\">Check out Xamarin University</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-devtools-alpdotnet\" class=\"c-hyperlink\">Check out the .NET Developer on Azure learning path</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-devtools-alpnodejs\" class=\"c-hyperlink\">Check out the Node.js Developer on Azure learning path</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.visualstudio.com/dev-essentials\" class=\"c-hyperlink\">Visual Studio Dev Essentials</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://azure.microsoft.com/en-us/free\" class=\"c-hyperlink\">Sign up for a free Azure trial</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"http://www.Azure.Microsoft.com/Essentials\" class=\"c-hyperlink\">Azure Essentials</a>
                         </li>
                     </ul>
                 </div>
@@ -800,14 +987,14 @@ Topics of interest:
         },
         {
             "Id": "8",
-            "DisplayName": "DevOps Engineer",
+            "DisplayName": "DevOps",
             "Description" : "I want to explore and learn about best-in-class tools and practices for DevOps, including DevOps scenarios with Visual Studio Team Services, Team Foundation Server, Visual Studio Mobile Center and Azure.  
 
 Topics of interest:
-	Visual Studio Team Services  
-	Team Foundation Server  
-	Visual Studio Mobile Center  
-	Azure 
+    •	Visual Studio Team Services  
+    •	Team Foundation Server  
+    •	Visual Studio Mobile Center  
+    •	Azure 
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Hybrid Infrastructure.png?raw=true",
             "SessionsAttending" : [
@@ -822,15 +1009,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56569\" class=\"c-hyperlink\">Build & Test, See how Mobile Center helps you ship apps faster</a>
+                            <a href=\"/labs/56569\" class=\"c-hyperlink\">HOL3130: Build & Test, See how Mobile Center helps you ship apps faster</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56574\" class=\"c-hyperlink\">Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
+                            <a href=\"/labs/56574\" class=\"c-hyperlink\">HOL3134: Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"labs/56585\" class=\"c-hyperlink\">Getting Started with Git in Visual Studio</a>
+                            <a href=\"/labs/56585\" class=\"c-hyperlink\">HOL2009: Getting Started with Git in Visual Studio</a>
                         </li>
                     </ul>
                 </div>
@@ -846,7 +1033,7 @@ Topics of interest:
                 </div>
             </div>
 
-            <div class=\"persona-detail-sidebar__section\" hidden>
+            <div class=\"persona-detail-sidebar__section\" >
                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
 
                 <div class=\"persona-detail-sidebar__sub-section\" hidden>
@@ -892,11 +1079,41 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"#\" class=\"c-hyperlink\">70-496: Administering Visual Studio Team Foundation Server</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
+                            <a href=\"#\" class=\"c-hyperlink\">70-497: Software Testing with Visual Studio</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-498: Delivering Continuous Value with Visual Studio Application Lifecycle Management</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" >
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Get started for free with Visual Studio Team Services</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://mobile.azure.com/signup\" class=\"c-hyperlink\">Get started for free with Visual Studio Mobile Center</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.visualstudio.com/dev-essentials\" class=\"c-hyperlink\">Visual Studio Dev Essentials</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://azure.microsoft.com/en-us/free\" class=\"c-hyperlink\">Sign up for a free Azure trial</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"http://www.Azure.Microsoft.com/Essentials\" class=\"c-hyperlink\">Azure Essentials</a>
                         </li>
                     </ul>
                 </div>
@@ -930,15 +1147,15 @@ Topics of interest:
         },
         {
             "Id": "9",
-            "DisplayName": "Cloud Infrastructure Architect",
+            "DisplayName": "Cloud Infrastructure",
             "Description" : "I am an industry veteran infrastructure engineer and architect who is relatively new to the cloud.  My organization is  looking to leverage the benefits of cloud Infrastructure as a Service technologies, so I need to build up my skills with Azure.
 
 Topics of interest:
-	Azure IaaS
-	Azure Active Directory
-	Azure Site Recovery
-	Azure Storage
-	Windows Server Containers
+    •	Azure IaaS
+    •	Azure Active Directory
+    •	Azure Site Recovery
+    •	Azure Storage
+    •	Windows Server Containers
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT On Premises Infrastructure.png?raw=true",
             "SessionsAttending" : [
@@ -1023,7 +1240,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://aka.ms/ignitelp-infra-cert\" class=\"c-hyperlink\">Exam 70-533: Implementing Azure Infrastructure Solutions</a>
+                            <a href=\"https://aka.ms/ignitelp-infra-cert\" class=\"c-hyperlink\">70-533: Implementing Azure Infrastructure Solutions</a>
                         </li>
                     </ul>
                 </div>
@@ -1053,15 +1270,15 @@ Topics of interest:
         },
         {
             "Id": "10",
-            "DisplayName": "Virtual Machine Manager",
-            "Description" : "Wish to learn how to best secure and manage our migrated Azure Virtual Machine workloads and want to explore best practices for efficiently creating new Virtual Machines.
+            "DisplayName": "Securing & Managing VMs",
+            "Description" : "I wish to learn how to best secure and manage our migrated Azure Virtual Machine workloads and want to explore best practices for efficiently creating new Virtual Machines.
 
 Topics of interest:
-	Azure  IaaS
-	Azure Security Center
-	Containers
-	Azure Stack 
-	Hybrid
+    •	Azure IaaS
+    •	Azure Security Center
+    •	Containers
+    •	Azure Stack 
+    •	Hybrid
 ",
             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
             "SessionsAttending" : [
@@ -1079,7 +1296,7 @@ Topics of interest:
                             <p class=\"c-hyperlink\">Secure and manage your Azure resources</p>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\">
+                        <li class=\"persona-detail-sidebar__link\" hidden>
                             <p class=\"c-hyperlink\">Migrating you applications and workloads to Azure</p>
                         </li>
                     </ul>
@@ -1142,7 +1359,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://aka.ms/ignitelp-infra-cert534\" class=\"c-hyperlink\">Exam 70-534: Architecting Microsoft Azure Solutions</a>
+                            <a href=\"https://aka.ms/ignitelp-infra-cert534\" class=\"c-hyperlink\">70-534: Architecting Microsoft Azure Solutions</a>
                         </li>
                     </ul>
                 </div>
@@ -1158,10 +1375,6 @@ Topics of interest:
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"http://aka.ms/whitepaperonwecurewellmanaged\" class=\"c-hyperlink\">Read technical whitepaper on Azure</a>
                         </li>
-
-                        <li class=\"persona-detail-sidebar__link\" hidden>
-                            <a href=\"#\" class=\"c-hyperlink\">Security & Management</a>
-                        </li>
                         
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"http://www.Azure.Microsoft.com/Essentials\" class=\"c-hyperlink\">Azure Essentials</a>
@@ -1174,1831 +1387,647 @@ Topics of interest:
                 </div>
             </div>"
         },
-
-// This content is currently not being used.        
-//         {
-//             "Id": "12",
-//             "DisplayName": "LOB Application Specialist",
-//             "Description" : "I am in charge of managing my company’s Line of Business application landscape and the integration to our standardized workloads.
-// Content that I am interested in at Ignite
-
-// •	Dynamics CRM
-// •	SharePoint workflows
-// •	Modern application management options
-// •	Integrating BI functionalities into existing LoB apps
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/LOB Application Specialist.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20684","2564","1316","35365","39172","39171",
-//                 "20647","14820","20598","2898","3088","20638","3084",
-//                 "2563","2743","2560","2828",
-//                 "2572","22121","20571","20601","2902","20586","2571",
-//                 "4984","2943","2897"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "13",
-//             "DisplayName": "Unified Communications",
-//             "Description" : "I am in charge of the communication infrastructure at my company. I run our PBX system, Lync 2013 and also support the integration with Exchange and other communication platforms.
-
-// Content that I am interested in at Ignite
-// •	Skype for Business Cloud PBX
-// •	Skype for Business PSTN Calling
-// •	Skype for Business PSTN Conferencing
-// •	Office 365 Groups and Yammer news
-// •	Surface Hub
-
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Unified Communications.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20617","2553","20704","39172","39171",
-//                 "20701","2596","2672","22115","2562",
-//                 "20623","4992","20688","20585",
-//                 "1381","5927","1239","2612",
-//                 "2719","2997","2996"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "14",
-//             "DisplayName": "Web or Mobile Developer",
-//             "Description" : "I am an independent developer of web and mobile applications. As a developer I am responsible for the coding, innovative design and layout of websites from concept to site layout and function. I also develop native mobile experiences for all mobile platforms.
-
-// Content that I am interested in at Ignite
-// •	DevOps
-// •	.NET
-// •	Debugging
-// •	Azure developer tools
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Web or Mobile Devoloper.png?raw=true",
-//             "SessionsAttending" : [
-//                 "2747","20705","39172","39171",
-//                 "20664","2984","2881","2673","16925","20574",
-//                 "20603","2563","2633","3210","3132","2753",
-//                 "2712","2789","2756","20634","20568","2710",
-//                 "2575","3130","2897"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "15",
-//             "DisplayName": "IT Enthusiast",
-//             "Description" : "I am technology lover and try to always be up-to-date with the latest trends, product and feature developments. I am excited about getting insights on how companies like Microsoft run their own IT infrastructure and where the industry is headed.
-
-// Content that I am interested in at Ignite
-// Microsoft’s product roadmaps
-// HoloLens
-// Industry best practices
-// Microsoft insights
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Enthusiast.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20685","4090","39172","39171",
-//                 "3153","3","20676","1318","4072","1289",
-//                 "39132","20691","1285","2934","20530","13803","22108","3112",
-//                 "2635","37004","15847","2953","1241","15845",
-//                 "5942","2997","3053"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-
-
-
-//         {
-//             "Id": "2",
-//             "DisplayName": "Application Developer",
-//             "Description" : "I am focused on translating software requirements into workable programming code and maintaining and developing programs for use in our business.
-
-// Content that I am interested in at Ignite
-// •	UX design for Windows store apps
-// •	Developing for Office 365
-// •	Leveraging Azure as a development platform
-// •	Microsoft APIs for LoB integrations
-// •	Latest news about Microsoft development tools
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application Developer.png?raw=true",
-//             "SessionsAttending" : [
-//                 "55287", "55311", "53137", "53151", "53254",
-//                 "53267", "53281", "53384", "53407", "53461"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "3",
-//             "DisplayName": "Database Administrator",
-//             "Description" : "As a database admin my core responsibilities include and cloud-based database capacity planning, installation, database design, performance monitoring, as well as backup and data recovery. I am also expanding into creating Business Intelligence solutions at my company.
-
-// Content that I am interested in at Ignite
-// •	Latest information on SQL and roadmap
-// •	Machine learning
-// •	Leveraging Azure for high performance database management
-// •	BI solutions
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Administrator.png?raw=true",
-//             "SessionsAttending" : [
-//                 "15873","2548","39172","39171",
-//                 "20550","2685","15874","2822","2975",
-//                 "2987","3001","2990",
-//                 "3095","5928","20553","2988",
-//                 "2781","5942","15846"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "4",
-//             "DisplayName": "Database Developer",
-//             "Description" : "As a Database Developer I develop and maintain on-premises and cloud databases across the organization, while ensuring high levels of data availability. I evaluate and advise on all technology components, such as software, hardware, and networking capabilities, for database management systems and applications. As part of my role I am also responsible for implementing data dashboards to all levels of the organization.
-
-// Content that I am interested in at Ignite
-// •	The latest SQL developments and roadmap
-// •	How I can leverage PowerBi to gain even more value from the all the data in my company
-// •	Building scalable applications with Azure
-
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Developer.png?raw=true",
-//             "SessionsAttending" : [
-//                 "15873","20700","39172","39171",
-//                 "3064","2654","2901","2887","36902","2998",
-//                 "14817","20691","2633","20665","2990",
-//                 "4094","22117","5938","5937",
-//                 "5931","3053"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "5",
-//             "DisplayName": "End User Support",
-//             "Description" : "I am responsible for the end user support at my company. I am the point of contact for troubleshooting applications, but also support them when they are looking for new products or features to perform their work. Besides providing general IT support I am an advocate towards the business to improve end-user productivity
-
-// Content that I am interested in at Ignite
-// •	Tips and tricks about troubleshooting our IT workplace from Desktop to the Exchange server
-// •	Latest developments in end-user productivity: New products, new features and what’s coming
-
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/End User Support.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20582","2730","39172","39171",
-//                 "4077","1300","20703","13777","20602",
-//                 "20691","2809","1278","20577","4996","5001","4071",
-//                 "4083","1276","39135","20670","1239","2806",
-//                 "2997","15846"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "6",
-//             "DisplayName": "IT Cloud Infrastructure",
-//             "Description" : "I manage my company’s IT infrastructure and we recently moved a part of our data storage onto Azure.
-
-// Content that I am interested in at Ignite
-// •	Azure IaaS and PaaS
-// •	Optimizing our network to deal with the rapidly increasing bandwidth demand
-// •	Latest Office 365 developments of applications, security and administration
-// •	Best practices for Identity management
-// •	IoT
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Cloud Infrastructure.png?raw=true",
-//             "SessionsAttending" : [
-//                 "3091","1261","39172","39171",
-//                 "1333","35275","3148","20578","3187","20683","2778","3195",
-//                 "3008","2660","1334","2557","2982","3015",
-//                 "3082","20584","3161","15845",
-//                 "2739","4087","14816"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "7",
-//             "DisplayName": "IT Desktop",
-//             "Description" : "I am a Desktop administrator and in charge of the my company’s client workstation deployment, maintenance, processes and technologies. Our machines currently run Windows 7 and Office 2013.
-
-// Content that I am interested in at Ignite
-// •	latest Windows 10 developments
-// •	Managing Windows as a Service and the advancements in security.
-// •	The new Office deployment Click-to-Run technology
-// •	Deployment options for the traditional desktop and our mobile clients with Intune and SCCM
-
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Desktop.png?raw=true",
-//             "SessionsAttending" : [
-//                 "1240","39172","39171",
-//                 "19287","1300","20663","34967","13783","20669","2697","2992",
-//                 "2809","15848","3062","39132","2994","2763",
-//                 "1244","2694","2856","2799","15845",
-//                 "3218","2969"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "9",
-//             "DisplayName": "IT Hybrid Infrastructure",
-//             "Description" : "At my company we run a hybrid environment, with some of our core services running in the Microsoft cloud and some still in our own datacenter. I am attending Ignite to find out about the newest developments of Microsoft’s on-premises server products and how I can best integrate them with everything we have running in the cloud.
-
-// Content that I am interested in at Ignite
-// Office 365 hybrid options
-// Creating seamless hybrid environments leveraging ExpressRoute
-// Managing identities
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Hybrid Infrastructure.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20537","2870","1380","39172","39171",
-//                 "2841","1376","2920","2908","20646",
-//                 "3114","4086","20690","2757","2539","3013",
-//                 "2862","2878","22117","20671","2858",
-//                 "2965","4087","2722"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "10",
-//             "DisplayName": "IT On-premises Infrastructure",
-//             "Description" : "My company is still committed to running all of our services on-premises, in our own datacenter, but with Azure stack and hybrid capabilities in Office 365 there are many new options that I am interested in.
-
-// Content that I am interested in at Ignite
-// •	Azure stack
-// •	SharePoint Server 2016
-// •	Exchange Server 2016
-// •	Windows Server 2016
-
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT On Premises Infrastructure.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20684","2870","20536","39172","39171",
-//                 "13781","3113","1368","39115","39114",
-//                 "39128","2645","4085","2601",
-//                 "2862","3022","1379","22110","1241","15845",
-//                 "4087","2636","15846"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "11",
-//             "DisplayName": "IT Power User",
-//             "Description" : "I enjoy knowing about every last feature in applications like Excel, Visio or our Line of Business apps. People come to me when they have a question about features and how to do things in the latest Office applications or on Windows.
-
-// Content that I am interested in at Ignite
-// •	Latest feature releases across Office 365 and the Office suite
-// •	Dynamics developments
-// •	Improving productivity in the workplace
-
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
-//             "SessionsAttending" : [
-//                 "36927","2730","5008","1305","39172","39171",
-//                 "20647","1351","4078","20604","1297","20703","1313","3225",
-//                 "22112","1298","1307","1394","20566","20631","1306","4071","4078",
-//                 "1286","5927","20563","20670","1239","20626",
-//                 "2658","3212","1363"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "12",
-//             "DisplayName": "LOB Application Specialist",
-//             "Description" : "I am in charge of managing my company’s Line of Business application landscape and the integration to our standardized workloads.
-// Content that I am interested in at Ignite
-
-// •	Dynamics CRM
-// •	SharePoint workflows
-// •	Modern application management options
-// •	Integrating BI functionalities into existing LoB apps
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/LOB Application Specialist.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20684","2564","1316","35365","39172","39171",
-//                 "20647","14820","20598","2898","3088","20638","3084",
-//                 "2563","2743","2560","2828",
-//                 "2572","22121","20571","20601","2902","20586","2571",
-//                 "4984","2943","2897"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "13",
-//             "DisplayName": "Unified Communications",
-//             "Description" : "I am in charge of the communication infrastructure at my company. I run our PBX system, Lync 2013 and also support the integration with Exchange and other communication platforms.
-
-// Content that I am interested in at Ignite
-// •	Skype for Business Cloud PBX
-// •	Skype for Business PSTN Calling
-// •	Skype for Business PSTN Conferencing
-// •	Office 365 Groups and Yammer news
-// •	Surface Hub
-
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Unified Communications.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20617","2553","20704","39172","39171",
-//                 "20701","2596","2672","22115","2562",
-//                 "20623","4992","20688","20585",
-//                 "1381","5927","1239","2612",
-//                 "2719","2997","2996"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "14",
-//             "DisplayName": "Web or Mobile Developer",
-//             "Description" : "I am an independent developer of web and mobile applications. As a developer I am responsible for the coding, innovative design and layout of websites from concept to site layout and function. I also develop native mobile experiences for all mobile platforms.
-
-// Content that I am interested in at Ignite
-// •	DevOps
-// •	.NET
-// •	Debugging
-// •	Azure developer tools
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Web or Mobile Devoloper.png?raw=true",
-//             "SessionsAttending" : [
-//                 "2747","20705","39172","39171",
-//                 "20664","2984","2881","2673","16925","20574",
-//                 "20603","2563","2633","3210","3132","2753",
-//                 "2712","2789","2756","20634","20568","2710",
-//                 "2575","3130","2897"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
-//         },
-//         {
-//             "Id": "15",
-//             "DisplayName": "IT Enthusiast",
-//             "Description" : "I am technology lover and try to always be up-to-date with the latest trends, product and feature developments. I am excited about getting insights on how companies like Microsoft run their own IT infrastructure and where the industry is headed.
-
-// Content that I am interested in at Ignite
-// Microsoft’s product roadmaps
-// HoloLens
-// Industry best practices
-// Microsoft insights
-// ",
-//             "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Enthusiast.png?raw=true",
-//             "SessionsAttending" : [
-//                 "20685","4090","39172","39171",
-//                 "3153","3","20676","1318","4072","1289",
-//                 "39132","20691","1285","2934","20530","13803","22108","3112",
-//                 "2635","37004","15847","2953","1241","15845",
-//                 "5942","2997","3053"
-//             ],
-//             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
-//                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Manage Microsoft Office 365</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Using the Office 365 Power</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">BI Content Pack</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Troubleshooting Office 365</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">How to Register</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>
-
-//             <div class=\"persona-detail-sidebar__section\">
-//                 <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div class=\"persona-detail-sidebar__sub-section\">
-//                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
-
-//                     <ul class=\"persona-detail-sidebar__link-list\">
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
-//                         </li>
-
-//                         <li class=\"persona-detail-sidebar__link\">
-//                             <a href=\"#\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
-//                         </li>
-//                     </ul>
-//                 </div>
-//             </div>"
+        {
+            "Id": "11",
+            "DisplayName": "Productivity Management",
+            "Description" : "I am Productivity Manager for a large enterprise organization that has been fully deployed on Office 365 for the past several years. Our leadership looks to me to understand our internal stakeholder’s business process requirements and to provide recommendations on what productivity tools to use.
+
+Topics of interest:
+    •	Microsoft 365 
+    •	Teamwork and collaboration best practices
+    •	Creativity solutions on Office 3665
+    •	Collaboration outside of our organization
+    •	Improved employee productivity insights
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
+            "SessionsAttending" : [
+                "56715","53130","56547","53867","55891","53867","53520","55894","53801","56262","55142","55476","53524",
+                "55526","53863","53579","53790","55479","53211","53573","54732","55059","55521","53843","53683"                
+            ],
+            "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
+                <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56492\" class=\"c-hyperlink\">HOL3084: Manage Microsoft Office 365</a>
+                        </li>
+                    
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56495\" class=\"c-hyperlink\">HOL3087: Configuring, managing and using OneDrive for Business</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56495\" class=\"c-hyperlink\">HOL3095: Administering and Using Microsoft Teams</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56495\" class=\"c-hyperlink\">HOL3100: Configuring, managing and using OneDrive for Business</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Azure Customer Immersion Experience</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class=\"persona-detail-sidebar__section\">
+                <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Modern Workplace Area</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-345</a>
+                        </li>
+         
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-339</a>
+                        </li>
+         
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-333</a>
+                        </li>
+         
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-334</a>
+                        </li>
+         
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-331</a>
+                        </li>
+         
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-332</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-341</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-342</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365\" class=\"c-hyperlink\">Microsoft Tech Community – Office 365 Community</a>
+                        </li>
+                    
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://fasttrack.microsoft.com/\" class=\"c-hyperlink\">Microsoft FastTrack</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>"
+        },
+        {
+            "Id": "12",
+            "DisplayName": "Security Administration",
+            "Description" : "I’m the application security administrator for all of my organization’s LOB applications and tasked with ensuring our security policies and procedures align with industry standards. I’m interested in learning more about the built-in and add-on security and compliance functionality of all Microsoft 365 services.
+
+Topics of interest:
+    •	Office 365 Advanced Security
+    •	Threat Protection
+    •	GDPR and compliance
+    •	Securing Windows 10
+    •	Device Security
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
+            "SessionsAttending" : [
+                "56715","53704","56550","56390","53647","53706","53651","53359","55396","55414","53453","53721","53702",
+                "53482","53736","53374","53741","53695","53744","53727","53803","53401","53719","53131","53729"
+                //Session "53742" is embargoed
+            ],
+            "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
+                <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56511\" class=\"c-hyperlink\">HOL3103: Using Office 365 Advanced Security</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56513\" class=\"c-hyperlink\">HOL3105: Configure and use Microsoft Office 365 security and compliance features</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56520\" class=\"c-hyperlink\">HOL3112: Office 365 Threat Protection</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href\"/labs/56524\" class=\"c-hyperlink\">HOL3116: Deploy Credential Guard</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href\"/labs/56525\" class=\"c-hyperlink\">HOL3117: Deploy Device Guard</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href\"/labs/56526\" class=\"c-hyperlink\">HOL3118: Deploy Windows Information Protection</p>
+                        </li>
+                    </ul>
+                </div>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Microsoft 365 Customer Immersion Experience</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
+
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Modern Workplace Area</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">70-346</a>
+                        </li>
+         
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"sessions/55028\" class=\"c-hyperlink\">BRK3159: Cert Exam Prep: Exam 70-346: Managing Office 365 Identities and Requirements</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/ct-p/SecurityPrivacyCompliance\" class=\"c-hyperlink\">Microsoft Tech Community – Security, Privacy & Compliance Community</a>
+                        </li>
+                    
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://fasttrack.microsoft.com/\" class=\"c-hyperlink\">Microsoft FastTrack</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>"
+        },
+        {
+            "Id": "13",
+            "DisplayName": "Big Data, Data Warehousing and BI",
+            "Description" : "I am an IT Decision Maker, Data Professional, Business Analyst and/or Architect wanting to leverage the best of Big Data Analytics.
+
+Topics of interest:
+    •	Azure SQL Data Warehouse
+    •	Azure HDInsight
+    •	Azure Data Lake
+    •	Power BI
+    •	Azure Stream Analytics
+    •	Machine Learning
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
+            "SessionsAttending" : [
+                "56554","56556","53403","55418","55416","55386","55107","54944","53124","55426","53367","54958","53503","55412",
+                "54951","55413","55301","53396","54945","53152","53387"                
+            ],
+            "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
+                <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href\"#\" class=\"c-hyperlink\">Big Data + DW: Creating a modern DW pipeline with Apache Spark and Azure SQL DW</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p href\"#\" class=\"c-hyperlink\">Authoring Reports with Power BI Desktop</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Azure Customer Immersion Experience</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class=\"persona-detail-sidebar__section\">
+                <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Expo</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Big Data & Advanced Analytics</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Business Intelligence</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-dataai-cert475\" class=\"c-hyperlink\">70-475: Designing and Implementing Big Data Analytics Solutions</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://academy.microsoft.com/en-us/professional-program/big-data\" class=\"c-hyperlink\">Microsoft Big Data Professional Program</a>
+                        </li>
+                    
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://academy.microsoft.com/en-us/professional-program/data-science\" class=\"c-hyperlink\">Microsoft Data Science Professional Program</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://mva.microsoft.com/en-US/training-courses/data-series-analytics-bi-power-bi-17708?l=uGTGJnp2D_6611787171\" class=\"c-hyperlink\">Power BI</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://mva.microsoft.com/en-US/training-courses/data-series-platform-data-warehousing-17697?l=R4oa94o2D_9411787171\" class=\"c-hyperlink\">SQL Data Warehouse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>"
+        },
+        {
+            "Id": "14",
+            "DisplayName": "Dynamics 365 Business Application",
+            "Description" : "I am an IT professional, Cloud Architect, IT Power User, and/or LOB Application Specialist that needs to transform business processes using intelligent applications that work seamlessly together in the cloud.
+
+Topics of interest:
+    •	Microsoft Dynamics 365 
+    •	FastTrack for Dynamics 365
+    •	Microsoft AppSource
+    •	Line-of-Business applications
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
+            "SessionsAttending" : [
+                "56557","56558","56559","54821","54837","54829","54822","54836",
+                "54823","54816","55510","54819","54831","55513","54828","53441","55828"                
+            ],
+            "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
+                <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Labs</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56473\" class=\"c-hyperlink\">HOL3065: Building a virtual salesperson using Beacon and Microsoft Dynamics 365</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Azure Customer Immersion Experience</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Sales (with LinkedIn)</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Marketing (with Adobe)</p>
+                        </li>
+                    
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Finance and Operations</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Customer Service</p>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Project Service Automation</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Field Service</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Retail</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Talent</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-dynamics-cert\" class=\"c-hyperlink\">Microsoft Certified Solutions Associate (MCSA): Microsoft Dynamics 365</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">MB2-715</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">MB2-716</a>
+                        </li>
+                        
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">MB2-717</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">MB2-718</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-dynamics365\" class=\"c-hyperlink\">Dynamics 365 online training</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>"
+        },
+        {
+            "Id": "15",
+            "DisplayName": "Business Application Platform",
+            "Description" : "I am a line of business technology specialists, business decision makers, and/or IT leader that would like to extend and customize business applications.
+
+Topics of interest:
+    •	Dynamics 365
+    •	PowerApps
+    •	Common Data Service
+    •	SharePoint
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
+            "SessionsAttending" : [
+                "56557","56558","54846","54998","54849","55500","55717",
+                "54996","55515","54847","55719","55496","55497"
+                               
+            ],
+            "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
+                <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56475\" class=\"c-hyperlink\">HOL3067: Introduction to Microsoft PowerApps</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Immersion Experience</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Azure Customer Immersion Experience</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class=\"persona-detail-sidebar__section\">
+                <h4 class=\"c-heading-4 f-lean\">Learning Resources</h4>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">Hayatt Hangout (Immersion Zone)</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">West Hangout</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Expo</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">PowerApps</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Microsoft Flow</p>
+                        </li>
+                    
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Microsoft Stream</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Common Data Service</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"#\" class=\"c-hyperlink\">Certification Exams</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-dynamics-cert\" class=\"c-hyperlink\">Microsoft Certified Solutions Associate (MCSA): Microsoft Dynamics 365</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://powerapps.microsoft.com/en-us/guided-learning\" class=\"c-hyperlink\">PowerApps Guided Learning Path</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>"
+        },
+        {
+            "Id": "16",
+            "DisplayName": "Data Management and Modernization",
+            "Description" : "I am a Data Professional, Architect, and/or Data Developer wanting to leverage the latest in On-Prem, Cloud and Hybrid Data Platform.
+
+Topics of interest:
+    •	SQL Server 2017
+    •	Azure SQL Database
+    •	Azure Cosmos DB
+    •	Azure Database for MySQL and PostgreSQL
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
+            "SessionsAttending" : [
+                "56554","56555","55106","54946","54955","53380","55105","54957","53442","53351","53348","54953","53401","55263",
+                "55108","54954","54956","53523","53646","53525","54929","55262"
+                
+                               
+            ],
+            "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
+                <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Labs</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href\"/labs/56475\" class=\"c-hyperlink\">Introduction to Microsoft PowerApps</a>
+                        </li>
+                    </ul>
+                </div>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">Azure Customer Immersion Experience</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Hangouts</h5>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">SQL Server 2017</p>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <p class=\"c-hyperlink\">App Innovation / Data for Developers</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                    <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/ignitelp-dataai-cert473\" class=\"c-hyperlink\">70-473: Designing and Implementing Cloud Data Platform Solutions</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=\"persona-detail-sidebar__sub-section\">
+                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+
+                    <ul class=\"persona-detail-sidebar__link-list\">
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/sqlserverctp\" class=\"c-hyperlink\">SQL Server 2017 trial</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://mva.microsoft.com/en-US/training-courses/data-series-platform-sql-server-17695\" class=\"c-hyperlink\">SQL Server training</a>
+                        </li>
+                    
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://mva.microsoft.com/en-US/training-courses/elastic-database-capabilities-with-azure-sql-db-16554?l=wQuZyA1fC_9006218965\" class=\"c-hyperlink\">Azure SQL Database training</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.azure.microsoft.com/Essentials\" class=\"c-hyperlink\">Azure Essentials</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>"
+        }
     ]
 }
