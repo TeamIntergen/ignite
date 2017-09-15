@@ -732,40 +732,16 @@ Topics of interest:
 
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"#\" class=\"c-hyperlink\">98-375: HTML5 Application Development Fundamentals</a>
+
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"#\" class=\"c-hyperlink\">98-381: Introduction to Programming Using Python</a>
-                        </li>
-                    </ul>
-                </div>
 
-                <div class=\"persona-detail-sidebar__sub-section\">
-                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
-
-                    <ul class=\"persona-detail-sidebar__link-list\">
-                        <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://www.visualstudio.com\" class=\"c-hyperlink\">Download Visual Studio</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://azure.microsoft.com/en-us/free\" class=\"c-hyperlink\">Sign up for a free Azure trial</a>
-                        </li>
-                        
-                        <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://aka.ms/ignitelp-devtools-alpdotnet\" class=\"c-hyperlink\">Check out the .NET Developer on Azure learning path</a>
-                        </li>
-                        
-                        <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://dot.net\" class=\"c-hyperlink\">Download .NET</a>
-                        </li>
-                        
-                        <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://www.visualstudio.com/dev-essentials\" class=\"c-hyperlink\">Visual Studio Dev Essentials</a>
-                        </li>
-                        
-                        <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"http://www.Azure.Microsoft.com/Essentials\" class=\"c-hyperlink\">Azure Essentials</a>
+                            <a href=\"#\" class=\"c-hyperlink\">98-381: Introduction to Programming Using Python</a>
                         </li>
                     </ul>
                 </div>
@@ -1451,7 +1427,6 @@ Topics of interest:
                         </li>
                     </ul>
                 </div>
-
                 <div class=\"persona-detail-sidebar__sub-section\" hidden>
                     <h5 class=\"c-heading-5 f-lean\">Tech Community</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
