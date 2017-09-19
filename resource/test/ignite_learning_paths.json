@@ -5,7 +5,7 @@
         "name": "Modern Workplace",
         "slug": "modern-workplace",
         "personas": [
-            "1", "2", "3", "4", "5", "11", "12"
+            "1", "2", "3", "4", "11", "12"
         ]
     }, {
         "id": "2",
@@ -13,7 +13,7 @@
         "name": "Applications & Infrastructure",
         "slug": "applications-infrastructure",
         "personas": [
-            "6", "7", "9", "10"
+            "5", "6", "7", "8", "9", "10", "17"
         ]
     }, {
         "id": "3",
@@ -21,7 +21,7 @@
         "name": "Business Applications",
         "slug": "business-applications",
         "personas": [
-            "14", "15"
+            "15", "16"
         ]
     }, {
         "id": "4",
@@ -29,7 +29,7 @@
         "name": "Data & AI",
         "slug": "data-ai",
         "personas": [
-            "13", "16"
+            "13", "14"
         ]
     }]
 }
