@@ -1,5 +1,6 @@
 {
-    "UserAccess": [{
+    "UserAccess": [
+        {
             "Identifiers": ["Anonymous"],
             "Access": {
                 "SessionCatalog": true,

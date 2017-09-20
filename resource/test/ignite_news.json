@@ -17,7 +17,7 @@
         },
         {
             "title": "Personalized Schedules",
-            "tileNumber": 3,
+            "tileNumber": 4,
             "description": "Build your own personalized learning track based upon your profile and interests.",
             "link": "/personalize",
             "linkText": "Personalize",
@@ -50,7 +50,7 @@
         },
         {
             "title": "Download the App Now",
-            "tileNumber": 4,
+            "tileNumber": 3,
             "description": "The Microsoft Ignite App has everything you need to create an unforgettable experience at the event.",
             "link": "/mobileapp",
             "linkText": "Select your OS",

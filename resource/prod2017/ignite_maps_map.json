@@ -1,838 +1,1289 @@
 {
-   "MapsMap":[
-      {
-         "RoomId":"847",
-         "RoomImageName":"A1",
-         "DisplayName":"Room A1",
-         "FloorImageName":"FloorA1"
-      },
-      {
-         "RoomId":"A1",
-         "RoomImageName":"A1",
-         "DisplayName":"Room A1",
-         "FloorImageName":"FloorA1"
-      },
-      {
-         "RoomId":"A2",
-         "RoomImageName":"A2",
-         "DisplayName":"Room A2",
-         "FloorImageName":"FloorA1"
-      },
-      {
-         "RoomId":"A3",
-         "RoomImageName":"A3",
-         "DisplayName":"Room A3",
-         "FloorImageName":"FloorA1"
-      },
-      {
-         "RoomId":"A301",
-         "RoomImageName":"A301",
-         "DisplayName":"Room A301",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A302",
-         "RoomImageName":"A302",
-         "DisplayName":"Room A302",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A303",
-         "RoomImageName":"A303",
-         "DisplayName":"Room A303",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A304",
-         "RoomImageName":"A304",
-         "DisplayName":"Room A304",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A305",
-         "RoomImageName":"A305",
-         "DisplayName":"Room A305",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A306",
-         "RoomImageName":"A306",
-         "DisplayName":"Room A306",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A307",
-         "RoomImageName":"A307",
-         "DisplayName":"Room A307",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A308",
-         "RoomImageName":"A308",
-         "DisplayName":"Room A308",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A309",
-         "RoomImageName":"A309",
-         "DisplayName":"Room A309",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A310",
-         "RoomImageName":"A310",
-         "DisplayName":"Room A310",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A311-A312",
-         "RoomImageName":"A311-312",
-         "DisplayName":"Rooms A311-A312",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A313-A314",
-         "RoomImageName":"A313-314",
-         "DisplayName":"Rooms A313-A314",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A315-A316",
-         "RoomImageName":"A315-316",
-         "DisplayName":"Rooms A315-A316",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"A401",
-         "RoomImageName":"A401",
-         "DisplayName":"Room A401",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"A402-A403",
-         "RoomImageName":"A402-403",
-         "DisplayName":"Rooms A402-A403",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"A404-A405",
-         "RoomImageName":"A404-405",
-         "DisplayName":"Rooms A404-A405",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"A406-A407",
-         "RoomImageName":"A406-407",
-         "DisplayName":"Rooms A406-A407",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"A408",
-         "RoomImageName":"A408",
-         "DisplayName":"Room A408",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"A409",
-         "RoomImageName":"A409",
-         "DisplayName":"Room A409",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"A410",
-         "RoomImageName":"A410",
-         "DisplayName":"Room A410",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"A411-A412",
-         "RoomImageName":"A411-412",
-         "DisplayName":"Rooms A411-A412",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"Sidney Marcus Auditorium",
-         "RoomImageName":"sidney-marcus-auditorium",
-         "DisplayName":"Sidney Marcus Auditorium",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"B1-B5",
-         "RoomImageName":"B1-5",
-         "DisplayName":"Rooms B1-B5",
-         "FloorImageName":"FloorB1"
-      },
-      {
-         "RoomId":"B201",
-         "RoomImageName":"B201",
-         "DisplayName":"Room B201",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B202",
-         "RoomImageName":"B202",
-         "DisplayName":"Room B202",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B203",
-         "RoomImageName":"B203",
-         "DisplayName":"Room B203",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B204",
-         "RoomImageName":"B204",
-         "DisplayName":"Room B204",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B206",
-         "RoomImageName":"B206",
-         "DisplayName":"Room B206",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B207-B208",
-         "RoomImageName":"B207-208",
-         "DisplayName":"Rooms B207-B208",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B209",
-         "RoomImageName":"B209",
-         "DisplayName":"Room B209",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B210",
-         "RoomImageName":"B210",
-         "DisplayName":"Room B210",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B211-B212",
-         "RoomImageName":"B211-212",
-         "DisplayName":"Rooms B211-B212",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B213-B214",
-         "RoomImageName":"B213-214",
-         "DisplayName":"Rooms B213-B214",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B215",
-         "RoomImageName":"B215",
-         "DisplayName":"Room B215",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B216-B217",
-         "RoomImageName":"B216-217",
-         "DisplayName":"Rooms B216-B217",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B218",
-         "RoomImageName":"B218",
-         "DisplayName":"Room B218",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"B301",
-         "RoomImageName":"B301",
-         "DisplayName":"Room B301",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B302-B303",
-         "RoomImageName":"B302-303",
-         "DisplayName":"Rooms B302-B303",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B304-B305",
-         "RoomImageName":"B304-305",
-         "DisplayName":"Rooms B304-B305",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B306",
-         "RoomImageName":"B306",
-         "DisplayName":"Room B306",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B307",
-         "RoomImageName":"B307",
-         "DisplayName":"Room B307",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B308-B309",
-         "RoomImageName":"B308-309",
-         "DisplayName":"Rooms B308-B309",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B310",
-         "RoomImageName":"B310",
-         "DisplayName":"Room B310",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B311",
-         "RoomImageName":"B311",
-         "DisplayName":"Room B311",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B312-B314",
-         "RoomImageName":"B312-314",
-         "DisplayName":"Rooms B312-B314",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B315",
-         "RoomImageName":"B315",
-         "DisplayName":"Room B315",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B316",
-         "RoomImageName":"B316",
-         "DisplayName":"Room B316",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B317",
-         "RoomImageName":"B317",
-         "DisplayName":"Room B317",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B318",
-         "RoomImageName":"B318",
-         "DisplayName":"Room B318",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B319",
-         "RoomImageName":"B319",
-         "DisplayName":"Room B319",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"B401-B402",
-         "RoomImageName":"B401-402",
-         "DisplayName":"Rooms B401-B402",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"B403",
-         "RoomImageName":"B403",
-         "DisplayName":"Room B403",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"B404",
-         "RoomImageName":"B404",
-         "DisplayName":"Room B404",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"B405-B407",
-         "RoomImageName":"B405-407",
-         "DisplayName":"Rooms B405-B407",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"B408",
-         "RoomImageName":"B408",
-         "DisplayName":"Room B408",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"B409",
-         "RoomImageName":"B409",
-         "DisplayName":"Room B409",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"B410",
-         "RoomImageName":"B410",
-         "DisplayName":"Room B410",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"B411",
-         "RoomImageName":"B411",
-         "DisplayName":"Room B411",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"Thomas Murphy Ballroom",
-         "RoomImageName":"thomas-murphy-ballroom",
-         "DisplayName":"Thomas Murphy Ballroom",
-         "FloorImageName":"FloorB5"
-      },
-      {
-         "RoomId":"Thomas Murphy Ballroom 1",
-         "RoomImageName":"thomas-murphy-ballroom",
-         "DisplayName":"Thomas Murphy Ballroom 1",
-         "FloorImageName":"FloorB5"
-      },
-      {
-         "RoomId":"Thomas Murphy Ballrooms 2&3",
-         "RoomImageName":"thomas-murphy-ballroom",
-         "DisplayName":"Thomas Murphy Ballrooms 2&3",
-         "FloorImageName":"FloorB5"
-      },
-      {
-         "RoomId":"Thomas Murphy Ballroom 4",
-         "RoomImageName":"thomas-murphy-ballroom",
-         "DisplayName":"Thomas Murphy Ballroom 4",
-         "FloorImageName":"FloorB5"
-      },
-      {
-         "RoomId":"C1",
-         "RoomImageName":"C1",
-         "DisplayName":"Room C1",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C2-C4",
-         "RoomImageName":"C2-4",
-         "DisplayName":"Rooms C2-C4",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C3",
-         "RoomImageName":"C3",
-         "DisplayName":"Room C3",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C101",
-         "RoomImageName":"C101",
-         "DisplayName":"Room C101",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C102",
-         "RoomImageName":"C102",
-         "DisplayName":"Room C102",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C103",
-         "RoomImageName":"C103",
-         "DisplayName":"Room C103",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C104",
-         "RoomImageName":"C104",
-         "DisplayName":"Room C104",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C105",
-         "RoomImageName":"C105",
-         "DisplayName":"Room C105",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C106",
-         "RoomImageName":"C106",
-         "DisplayName":"Room C106",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C107",
-         "RoomImageName":"C107",
-         "DisplayName":"Room C107",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C108-C109",
-         "RoomImageName":"C108-109",
-         "DisplayName":"Rooms C108-C109",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C110",
-         "RoomImageName":"C110",
-         "DisplayName":"Room C110",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C111",
-         "RoomImageName":"C111",
-         "DisplayName":"Room C111",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C112",
-         "RoomImageName":"C112",
-         "DisplayName":"Room C112",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C113",
-         "RoomImageName":"C113",
-         "DisplayName":"Room C113",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C114",
-         "RoomImageName":"C114",
-         "DisplayName":"Room C114",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"C201",
-         "RoomImageName":"C201",
-         "DisplayName":"Room C201",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C202",
-         "RoomImageName":"C202",
-         "DisplayName":"Room C202",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C202-C204",
-         "RoomImageName":"C202-204",
-         "DisplayName":"Rooms C202-C204",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C203",
-         "RoomImageName":"C203",
-         "DisplayName":"Room C203",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C204",
-         "RoomImageName":"C204",
-         "DisplayName":"Room C204",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C205",
-         "RoomImageName":"C205",
-         "DisplayName":"Room C205",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C206",
-         "RoomImageName":"C206",
-         "DisplayName":"Room C206",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C207",
-         "RoomImageName":"C207",
-         "DisplayName":"Room C207",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C208",
-         "RoomImageName":"C208",
-         "DisplayName":"Room C208",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C209",
-         "RoomImageName":"C209",
-         "DisplayName":"Room C209",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C210",
-         "RoomImageName":"C210",
-         "DisplayName":"Room C210",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C211",
-         "RoomImageName":"C211",
-         "DisplayName":"Room C211",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C212",
-         "RoomImageName":"C212",
-         "DisplayName":"Room C212",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C213",
-         "RoomImageName":"C213",
-         "DisplayName":"Room C213",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"C301",
-         "RoomImageName":"C301",
-         "DisplayName":"Room C301",
-         "FloorImageName":"FloorC3"
-      },
-      {
-         "RoomId":"C302",
-         "RoomImageName":"C302",
-         "DisplayName":"Room C302",
-         "FloorImageName":"FloorC3"
-      },
-      {
-         "RoomId":"Georgia Ballroom",
-         "RoomImageName":"georgia-ballroom",
-         "DisplayName":"Georgia Ballroom",
-         "FloorImageName":"FloorC3"
-      },
-      {
-         "RoomId":"60011",
-         "RoomImageName":"FloorA1",
-         "DisplayName":"Building A Floor 1",
-         "FloorImageName":"FloorA1"
-      },
-      {
-         "RoomId":"60013",
-         "RoomImageName":"FloorA3",
-         "DisplayName":"Building A Floor 3",
-         "FloorImageName":"FloorA3"
-      },
-      {
-         "RoomId":"60014",
-         "RoomImageName":"FloorA4",
-         "DisplayName":"Building A Floor 4",
-         "FloorImageName":"FloorA4"
-      },
-      {
-         "RoomId":"60021",
-         "RoomImageName":"FloorB1",
-         "DisplayName":"Building B Floor 1",
-         "FloorImageName":"FloorB1"
-      },
-      {
-         "RoomId":"60022",
-         "RoomImageName":"FloorB2",
-         "DisplayName":"Building B Floor 2",
-         "FloorImageName":"FloorB2"
-      },
-      {
-         "RoomId":"60023",
-         "RoomImageName":"FloorB3",
-         "DisplayName":"Building B Floor 3",
-         "FloorImageName":"FloorB3"
-      },
-      {
-         "RoomId":"60024",
-         "RoomImageName":"FloorB4",
-         "DisplayName":"Building B Floor 4",
-         "FloorImageName":"FloorB4"
-      },
-      {
-         "RoomId":"60025",
-         "RoomImageName":"FloorB5",
-         "DisplayName":"Building B Floor 5",
-         "FloorImageName":"FloorB5"
-      },
-      {
-         "RoomId":"60031",
-         "RoomImageName":"FloorC1",
-         "DisplayName":"Building C Floor 1",
-         "FloorImageName":"FloorC1"
-      },
-      {
-         "RoomId":"60032",
-         "RoomImageName":"FloorC2",
-         "DisplayName":"Building C Floor 2",
-         "FloorImageName":"FloorC2"
-      },
-      {
-         "RoomId":"60033",
-         "RoomImageName":"FloorC3",
-         "DisplayName":"Building C Floor 3",
-         "FloorImageName":"FloorC3"
-      },
-      {
-          "RoomId":"257",
-          "RoomImageName":"BldgATheaterLevel3",
-          "DisplayName":"Bldg A Theater - Level 3",
+    "MapsMap":[
+       {
+          "RoomId":"847",
+          "RoomImageName":"A1",
+          "DisplayName":"Room A1",
+          "FloorImageName":"FloorA1"
+       },
+       {
+          "RoomId":"A1",
+          "RoomImageName":"A1",
+          "DisplayName":"Room A1",
+          "FloorImageName":"FloorA1"
+       },
+       {
+          "RoomId":"A2",
+          "RoomImageName":"A2",
+          "DisplayName":"Room A2",
+          "FloorImageName":"FloorA1"
+       },
+       {
+          "RoomId":"A3",
+          "RoomImageName":"A3",
+          "DisplayName":"Room A3",
+          "FloorImageName":"FloorA1"
+       },
+       {
+          "RoomId":"A301",
+          "RoomImageName":"A301",
+          "DisplayName":"Room A301",
           "FloorImageName":"FloorA3"
-      },
-      {
-          "RoomId":"253",
-          "RoomImageName":"MicrosoftTheater3",
-          "DisplayName":"Microsoft Theater 3",
+       },
+       {
+          "RoomId":"A302",
+          "RoomImageName":"A302",
+          "DisplayName":"Room A302",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A303",
+          "RoomImageName":"A303",
+          "DisplayName":"Room A303",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A304",
+          "RoomImageName":"A304",
+          "DisplayName":"Room A304",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A305",
+          "RoomImageName":"A305",
+          "DisplayName":"Room A305",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A306",
+          "RoomImageName":"A306",
+          "DisplayName":"Room A306",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A307",
+          "RoomImageName":"A307",
+          "DisplayName":"Room A307",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A308",
+          "RoomImageName":"A308",
+          "DisplayName":"Room A308",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A309",
+          "RoomImageName":"A309",
+          "DisplayName":"Room A309",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A310",
+          "RoomImageName":"A310",
+          "DisplayName":"Room A310",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A311-A312",
+          "RoomImageName":"A311-312",
+          "DisplayName":"Rooms A311-A312",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A313-A314",
+          "RoomImageName":"A313-314",
+          "DisplayName":"Rooms A313-A314",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A315-A316",
+          "RoomImageName":"A315-316",
+          "DisplayName":"Rooms A315-A316",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"A401",
+          "RoomImageName":"A401",
+          "DisplayName":"Room A401",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"A402-A403",
+          "RoomImageName":"A402-403",
+          "DisplayName":"Rooms A402-A403",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"A404-A405",
+          "RoomImageName":"A404-405",
+          "DisplayName":"Rooms A404-A405",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"A406-A407",
+          "RoomImageName":"A406-407",
+          "DisplayName":"Rooms A406-A407",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"A408",
+          "RoomImageName":"A408",
+          "DisplayName":"Room A408",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"A409",
+          "RoomImageName":"A409",
+          "DisplayName":"Room A409",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"A410",
+          "RoomImageName":"A410",
+          "DisplayName":"Room A410",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"A411-A412",
+          "RoomImageName":"A411-412",
+          "DisplayName":"Rooms A411-A412",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"Sidney Marcus Auditorium",
+          "RoomImageName":"sidney-marcus-auditorium",
+          "DisplayName":"Sidney Marcus Auditorium",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"B1-B5",
+          "RoomImageName":"B1-5",
+          "DisplayName":"Rooms B1-B5",
           "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"259",
-          "RoomImageName":"BldgBTheaterLevel2",
-          "DisplayName":"Bldg B Theater - Level 2",
+       },
+       {
+          "RoomId":"B201",
+          "RoomImageName":"B201",
+          "DisplayName":"Room B201",
           "FloorImageName":"FloorB2"
-      },
-      {
-          "RoomId":"258",
-          "RoomImageName":"BldgBTheaterLevel4",
-          "DisplayName":"Bldg B Theater - Level 4",
+       },
+       {
+          "RoomId":"B202",
+          "RoomImageName":"B202",
+          "DisplayName":"Room B202",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B203",
+          "RoomImageName":"B203",
+          "DisplayName":"Room B203",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B204",
+          "RoomImageName":"B204",
+          "DisplayName":"Room B204",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B206",
+          "RoomImageName":"B206",
+          "DisplayName":"Room B206",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B207-B208",
+          "RoomImageName":"B207-208",
+          "DisplayName":"Rooms B207-B208",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B209",
+          "RoomImageName":"B209",
+          "DisplayName":"Room B209",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B210",
+          "RoomImageName":"B210",
+          "DisplayName":"Room B210",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B211-B212",
+          "RoomImageName":"B211-212",
+          "DisplayName":"Rooms B211-B212",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B213-B214",
+          "RoomImageName":"B213-214",
+          "DisplayName":"Rooms B213-B214",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B215",
+          "RoomImageName":"B215",
+          "DisplayName":"Room B215",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B216-B217",
+          "RoomImageName":"B216-217",
+          "DisplayName":"Rooms B216-B217",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B218",
+          "RoomImageName":"B218",
+          "DisplayName":"Room B218",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"B301",
+          "RoomImageName":"B301",
+          "DisplayName":"Room B301",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B302-B303",
+          "RoomImageName":"B302-303",
+          "DisplayName":"Rooms B302-B303",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B304-B305",
+          "RoomImageName":"B304-305",
+          "DisplayName":"Rooms B304-B305",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B306",
+          "RoomImageName":"B306",
+          "DisplayName":"Room B306",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B307",
+          "RoomImageName":"B307",
+          "DisplayName":"Room B307",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B308-B309",
+          "RoomImageName":"B308-309",
+          "DisplayName":"Rooms B308-B309",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B310",
+          "RoomImageName":"B310",
+          "DisplayName":"Room B310",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B311",
+          "RoomImageName":"B311",
+          "DisplayName":"Room B311",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B312-B314",
+          "RoomImageName":"B312-314",
+          "DisplayName":"Rooms B312-B314",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B315",
+          "RoomImageName":"B315",
+          "DisplayName":"Room B315",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B316",
+          "RoomImageName":"B316",
+          "DisplayName":"Room B316",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B317",
+          "RoomImageName":"B317",
+          "DisplayName":"Room B317",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B318",
+          "RoomImageName":"B318",
+          "DisplayName":"Room B318",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B319",
+          "RoomImageName":"B319",
+          "DisplayName":"Room B319",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"B401-B402",
+          "RoomImageName":"B401-402",
+          "DisplayName":"Rooms B401-B402",
           "FloorImageName":"FloorB4"
-      },
-      {
-          "RoomId":"988",
-          "RoomImageName":"CloudPlatformImmersion1",
-          "DisplayName":"Cloud Platform Immersion 1",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"989",
-          "RoomImageName":"CloudPlatformImmersion2",
-          "DisplayName":"Cloud Platform Immersion 2",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"1010",
-          "RoomImageName":"CustomerImmersionExperience",
-          "DisplayName":"Customer Immersion Experience",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"246",
-          "RoomImageName":"ExpoTheater1",
-          "DisplayName":"Expo Theater 1",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"247",
-          "RoomImageName":"ExpoTheater2",
-          "DisplayName":"Expo Theater 2",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"248",
-          "RoomImageName":"ExpoTheater3",
-          "DisplayName":"Expo Theater 3",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"249",
-          "RoomImageName":"ExpoTheater4",
-          "DisplayName":"Expo Theater 4",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"250",
-          "RoomImageName":"ExpoTheater5",
-          "DisplayName":"Expo Theater 5",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"260",
-          "RoomImageName":"MicrosoftIgniteStudios",
-          "DisplayName":"Microsoft Ignite Studios",
+       },
+       {
+          "RoomId":"B403",
+          "RoomImageName":"B403",
+          "DisplayName":"Room B403",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"B404",
+          "RoomImageName":"B404",
+          "DisplayName":"Room B404",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"B405-B407",
+          "RoomImageName":"B405-407",
+          "DisplayName":"Rooms B405-B407",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"B408",
+          "RoomImageName":"B408",
+          "DisplayName":"Room B408",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"B409",
+          "RoomImageName":"B409",
+          "DisplayName":"Room B409",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"B410",
+          "RoomImageName":"B410",
+          "DisplayName":"Room B410",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"B411",
+          "RoomImageName":"B411",
+          "DisplayName":"Room B411",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"Thomas Murphy Ballroom",
+          "RoomImageName":"thomas-murphy-ballroom",
+          "DisplayName":"Thomas Murphy Ballroom",
+          "FloorImageName":"FloorB5"
+       },
+       {
+          "RoomId":"Thomas Murphy Ballroom 1",
+          "RoomImageName":"thomas-murphy-ballroom",
+          "DisplayName":"Thomas Murphy Ballroom 1",
+          "FloorImageName":"FloorB5"
+       },
+       {
+          "RoomId":"Thomas Murphy Ballrooms 2&3",
+          "RoomImageName":"thomas-murphy-ballroom",
+          "DisplayName":"Thomas Murphy Ballrooms 2&3",
+          "FloorImageName":"FloorB5"
+       },
+       {
+          "RoomId":"Thomas Murphy Ballroom 4",
+          "RoomImageName":"thomas-murphy-ballroom",
+          "DisplayName":"Thomas Murphy Ballroom 4",
+          "FloorImageName":"FloorB5"
+       },
+       {
+          "RoomId":"C1",
+          "RoomImageName":"C1",
+          "DisplayName":"Room C1",
           "FloorImageName":"FloorC1"
-      },
-      {
-          "RoomId":"1005",
-          "RoomImageName":"MicrosoftTechnologyCenter",
-          "DisplayName":"Microsoft Technology Center",
+       },
+       {
+          "RoomId":"C2-C4",
+          "RoomImageName":"C2-4",
+          "DisplayName":"Rooms C2-C4",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C3",
+          "RoomImageName":"C3",
+          "DisplayName":"Room C3",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C101",
+          "RoomImageName":"C101",
+          "DisplayName":"Room C101",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C102",
+          "RoomImageName":"C102",
+          "DisplayName":"Room C102",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C103",
+          "RoomImageName":"C103",
+          "DisplayName":"Room C103",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C104",
+          "RoomImageName":"C104",
+          "DisplayName":"Room C104",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C105",
+          "RoomImageName":"C105",
+          "DisplayName":"Room C105",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C106",
+          "RoomImageName":"C106",
+          "DisplayName":"Room C106",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C107",
+          "RoomImageName":"C107",
+          "DisplayName":"Room C107",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C108-C109",
+          "RoomImageName":"C108-109",
+          "DisplayName":"Rooms C108-C109",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C110",
+          "RoomImageName":"C110",
+          "DisplayName":"Room C110",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C111",
+          "RoomImageName":"C111",
+          "DisplayName":"Room C111",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C112",
+          "RoomImageName":"C112",
+          "DisplayName":"Room C112",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C113",
+          "RoomImageName":"C113",
+          "DisplayName":"Room C113",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C114",
+          "RoomImageName":"C114",
+          "DisplayName":"Room C114",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"C201",
+          "RoomImageName":"C201",
+          "DisplayName":"Room C201",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C202",
+          "RoomImageName":"C202",
+          "DisplayName":"Room C202",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C202-C204",
+          "RoomImageName":"C202-204",
+          "DisplayName":"Rooms C202-C204",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C203",
+          "RoomImageName":"C203",
+          "DisplayName":"Room C203",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C204",
+          "RoomImageName":"C204",
+          "DisplayName":"Room C204",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C205",
+          "RoomImageName":"C205",
+          "DisplayName":"Room C205",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C206",
+          "RoomImageName":"C206",
+          "DisplayName":"Room C206",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C207",
+          "RoomImageName":"C207",
+          "DisplayName":"Room C207",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C208",
+          "RoomImageName":"C208",
+          "DisplayName":"Room C208",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C209",
+          "RoomImageName":"C209",
+          "DisplayName":"Room C209",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C210",
+          "RoomImageName":"C210",
+          "DisplayName":"Room C210",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C211",
+          "RoomImageName":"C211",
+          "DisplayName":"Room C211",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C212",
+          "RoomImageName":"C212",
+          "DisplayName":"Room C212",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C213",
+          "RoomImageName":"C213",
+          "DisplayName":"Room C213",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"C301",
+          "RoomImageName":"C301",
+          "DisplayName":"Room C301",
+          "FloorImageName":"FloorC3"
+       },
+       {
+          "RoomId":"C302",
+          "RoomImageName":"C302",
+          "DisplayName":"Room C302",
+          "FloorImageName":"FloorC3"
+       },
+       {
+          "RoomId":"Georgia Ballroom",
+          "RoomImageName":"georgia-ballroom",
+          "DisplayName":"Georgia Ballroom",
+          "FloorImageName":"FloorC3"
+       },
+       {
+          "RoomId":"60011",
+          "RoomImageName":"FloorA1",
+          "DisplayName":"Building A Floor 1",
+          "FloorImageName":"FloorA1"
+       },
+       {
+          "RoomId":"60013",
+          "RoomImageName":"FloorA3",
+          "DisplayName":"Building A Floor 3",
+          "FloorImageName":"FloorA3"
+       },
+       {
+          "RoomId":"60014",
+          "RoomImageName":"FloorA4",
+          "DisplayName":"Building A Floor 4",
+          "FloorImageName":"FloorA4"
+       },
+       {
+          "RoomId":"60021",
+          "RoomImageName":"FloorB1",
+          "DisplayName":"Building B Floor 1",
           "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"1009",
-          "RoomImageName":"MicrosoftTechnologyCenter",
-          "DisplayName":"Microsoft Technology Center ATE",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"1009",
-          "RoomImageName":"MicrosoftTechnologyCenter",
-          "DisplayName":"Microsoft Technology Center ATE",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"251",
-          "RoomImageName":"MicrosoftTheater1",
-          "DisplayName":"Microsoft Theater 1",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"252",
-          "RoomImageName":"MicrosoftTheater2",
-          "DisplayName":"Microsoft Theater 2",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"257",
-          "RoomImageName":"MicrosoftTheater3",
-          "DisplayName":"Microsoft Theater 3",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"255",
-          "RoomImageName":"MicrosoftTheater4",
-          "DisplayName":"Microsoft Theater 4",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"254",
-          "RoomImageName":"MicrosoftTheater5",
-          "DisplayName":"Microsoft Theater 5",
-          "FloorImageName":"FloorB1"
-      },
-      {
-          "RoomId":"256",
-          "RoomImageName":"MicrosoftTheater6",
-          "DisplayName":"Microsoft Theater 6",
-          "FloorImageName":"FloorB1"
-      } ,
-      {
-          "RoomId":"1003",
-          "RoomImageName":"MicrosoftTheater7",
-          "DisplayName":"Microsoft Theater 7",
-          "FloorImageName":"FloorB1"
-      } ,
-      {
-          "RoomId":"996",
-          "RoomImageName":"MVPHubTalk1",
-          "DisplayName":"MVP Hub Talk 1",
-          "FloorImageName":"FloorB1"
-      } ,
-      {
-          "RoomId":"997",
-          "RoomImageName":"MVPHubTalk2",
-          "DisplayName":"MVP Hub Talk 2",
-          "FloorImageName":"FloorB1"
-      } ,
-      {
-          "RoomId":"229",
-          "RoomImageName":"OmniBallroom",
-          "DisplayName":"Omni - International Ballroom ",
-          "FloorImageName":""
-      } ,
-      {
-          "RoomId":"243",
-          "RoomImageName":"PhillipsArena",
-          "DisplayName":"Phillips Arena",
-          "FloorImageName":""
-      } ,
-      {
-          "RoomId":"990",
-          "RoomImageName":"DiningTerrace",
-          "DisplayName":"The Dining Terrace",
-          "FloorImageName":"Floorc2"
-      },
-      {
-         "RoomId":"999999999",
-         "RoomImageName":"hand-on-labs",
-         "DisplayName":"Hands On Labs",
-         "FloorImageName":"FloorB4"
-      }
-   ]
-}
+       },
+       {
+          "RoomId":"60022",
+          "RoomImageName":"FloorB2",
+          "DisplayName":"Building B Floor 2",
+          "FloorImageName":"FloorB2"
+       },
+       {
+          "RoomId":"60023",
+          "RoomImageName":"FloorB3",
+          "DisplayName":"Building B Floor 3",
+          "FloorImageName":"FloorB3"
+       },
+       {
+          "RoomId":"60024",
+          "RoomImageName":"FloorB4",
+          "DisplayName":"Building B Floor 4",
+          "FloorImageName":"FloorB4"
+       },
+       {
+          "RoomId":"60025",
+          "RoomImageName":"FloorB5",
+          "DisplayName":"Building B Floor 5",
+          "FloorImageName":"FloorB5"
+       },
+       {
+          "RoomId":"60031",
+          "RoomImageName":"FloorC1",
+          "DisplayName":"Building C Floor 1",
+          "FloorImageName":"FloorC1"
+       },
+       {
+          "RoomId":"60032",
+          "RoomImageName":"FloorC2",
+          "DisplayName":"Building C Floor 2",
+          "FloorImageName":"FloorC2"
+       },
+       {
+          "RoomId":"60033",
+          "RoomImageName":"FloorC3",
+          "DisplayName":"Building C Floor 3",
+          "FloorImageName":"FloorC3"
+       },
+       {
+           "RoomId":"257",
+           "RoomImageName":"BldgATheaterLevel3",
+           "DisplayName":"Bldg A Theater - Level 3",
+           "FloorImageName":"FloorA3"
+       },
+       {
+           "RoomId":"253",
+           "RoomImageName":"MicrosoftTheater3",
+           "DisplayName":"Microsoft Theater 3",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"259",
+           "RoomImageName":"BldgBTheaterLevel2",
+           "DisplayName":"Bldg B Theater - Level 2",
+           "FloorImageName":"FloorB2"
+       },
+       {
+           "RoomId":"258",
+           "RoomImageName":"BldgBTheaterLevel4",
+           "DisplayName":"Bldg B Theater - Level 4",
+           "FloorImageName":"FloorB4"
+       },
+       {
+           "RoomId":"988",
+           "RoomImageName":"CloudPlatformImmersion1",
+           "DisplayName":"Cloud Platform Immersion 1",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"989",
+           "RoomImageName":"CloudPlatformImmersion2",
+           "DisplayName":"Cloud Platform Immersion 2",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"1010",
+           "RoomImageName":"CustomerImmersionExperience",
+           "DisplayName":"Customer Immersion Experience",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"246",
+           "RoomImageName":"ExpoTheater1",
+           "DisplayName":"Expo Theater 1",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"247",
+           "RoomImageName":"ExpoTheater2",
+           "DisplayName":"Expo Theater 2",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"248",
+           "RoomImageName":"ExpoTheater3",
+           "DisplayName":"Expo Theater 3",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"249",
+           "RoomImageName":"ExpoTheater4",
+           "DisplayName":"Expo Theater 4",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"250",
+           "RoomImageName":"ExpoTheater5",
+           "DisplayName":"Expo Theater 5",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"260",
+           "RoomImageName":"MicrosoftIgniteStudios",
+           "DisplayName":"Microsoft Ignite Studios",
+           "FloorImageName":"FloorC1"
+       },
+       {
+           "RoomId":"1005",
+           "RoomImageName":"MicrosoftTechnologyCenter",
+           "DisplayName":"Microsoft Technology Center",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"1009",
+           "RoomImageName":"MicrosoftTechnologyCenter",
+           "DisplayName":"Microsoft Technology Center ATE",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"1009",
+           "RoomImageName":"MicrosoftTechnologyCenter",
+           "DisplayName":"Microsoft Technology Center ATE",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"251",
+           "RoomImageName":"MicrosoftTheater1",
+           "DisplayName":"Microsoft Theater 1",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"252",
+           "RoomImageName":"MicrosoftTheater2",
+           "DisplayName":"Microsoft Theater 2",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"257",
+           "RoomImageName":"MicrosoftTheater3",
+           "DisplayName":"Microsoft Theater 3",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"255",
+           "RoomImageName":"MicrosoftTheater4",
+           "DisplayName":"Microsoft Theater 4",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"254",
+           "RoomImageName":"MicrosoftTheater5",
+           "DisplayName":"Microsoft Theater 5",
+           "FloorImageName":"FloorB1"
+       },
+       {
+           "RoomId":"256",
+           "RoomImageName":"MicrosoftTheater6",
+           "DisplayName":"Microsoft Theater 6",
+           "FloorImageName":"FloorB1"
+       } ,
+       {
+           "RoomId":"1003",
+           "RoomImageName":"MicrosoftTheater7",
+           "DisplayName":"Microsoft Theater 7",
+           "FloorImageName":"FloorB1"
+       } ,
+       {
+           "RoomId":"996",
+           "RoomImageName":"MVPHubTalk1",
+           "DisplayName":"MVP Hub Talk 1",
+           "FloorImageName":"FloorB1"
+       } ,
+       {
+           "RoomId":"997",
+           "RoomImageName":"MVPHubTalk2",
+           "DisplayName":"MVP Hub Talk 2",
+           "FloorImageName":"FloorB1"
+       } ,
+       {
+           "RoomId":"229",
+           "RoomImageName":"OmniBallroom",
+           "DisplayName":"Omni - International Ballroom ",
+           "FloorImageName":""
+       } ,
+       {
+           "RoomId":"243",
+           "RoomImageName":"PhillipsArena",
+           "DisplayName":"Phillips Arena",
+           "FloorImageName":""
+       } ,
+       {
+           "RoomId":"990",
+           "RoomImageName":"DiningTerrace",
+           "DisplayName":"The Dining Terrace",
+           "FloorImageName":"Floorc2"
+       },
+       {
+          "RoomId":"999999999",
+          "RoomImageName":"hand-on-labs",
+          "DisplayName":"Hands On Labs",
+          "FloorImageName":"FloorB4"
+       },
+       {
+         "RoomId": "1374",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Regency Windermere W",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WINDERMERE BALLROOM W@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1375",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Regency Windermere X",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WINDERMERE BALLROOM X@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1376",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Regency Windermere Y",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WINDERMERE BALLROOM Y@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1377",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Regency Windermere Z",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WINDERMERE BALLROOM Z@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1378",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Plaza International D-F",
+         "FloorImageName": "",
+         "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM D-F@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1382",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W205",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W205@OCCC_West_1"
+       },
+       {
+         "RoomId": "1383",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W206",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W206@OCCC_West_1"
+       },
+       {
+         "RoomId": "1388",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W221",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W221@OCCC_West_1"
+       },
+       {
+         "RoomId": "1389",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W224",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W224@OCCC_West_1"
+       },
+       {
+         "RoomId": "1390",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W230",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W230@OCCC_West_1"
+       },
+       {
+         "RoomId": "1391",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W240",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W240@OCCC_West_1"
+       },
+       {
+         "RoomId": "1392",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W304",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W304@OCCC_West_2"
+       },
+       {
+         "RoomId": "1393",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W307",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W307@OCCC_West_2"
+       },
+       {
+         "RoomId": "1394",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W308",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W308@OCCC_West_2"
+       },
+       {
+         "RoomId": "1395",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W311",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W311@OCCC_West_2"
+       },
+       {
+         "RoomId": "1396",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W314",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W314@OCCC_West_2"
+       },
+       {
+         "RoomId": "1397",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W315",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W315@OCCC_West_2"
+       },
+       {
+         "RoomId": "1400",
+         "RoomImageName": "",
+         "DisplayName": "OCCC Chapin Theater W320",
+         "FloorImageName": "",
+         "OriginalSerial": "CHAPIN THEATER W320@OCCC_West_2"
+       },
+       {
+         "RoomId": "1401",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W414",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W414@OCCC_West_3"
+       },
+       {
+         "RoomId": "1402",
+         "RoomImageName": "",
+         "DisplayName": "OCCC Valencia W415 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "VALENCIA W415 A-B@OCCC_West_3"
+       },
+       {
+         "RoomId": "1403",
+         "RoomImageName": "",
+         "DisplayName": "OCCC Valencia W415 CD",
+         "FloorImageName": "",
+         "OriginalSerial": "VALENCIA W415 C-D@OCCC_West_3"
+       },
+       {
+         "RoomId": "1404",
+         "RoomImageName": "",
+         "DisplayName": "OCCC West Hall A2",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WA2@OCCC_West_1"
+       },
+       {
+         "RoomId": "1406",
+         "RoomImageName": "",
+         "DisplayName": "OCCC West Hall B4",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WB4@OCCC_West_1"
+       },
+       {
+         "RoomId": "1407",
+         "RoomImageName": "",
+         "DisplayName": "OCCC West Hall C",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WC@OCCC_West_1"
+       },
+       {
+         "RoomId": "1411",
+         "RoomImageName": "",
+         "DisplayName": "OCCC West Hall E1",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC WE1-WE2@OCCC_West_1"
+       },
+       {
+         "RoomId": "1412",
+         "RoomImageName": "",
+         "DisplayName": "OCCC West Hall F3-4",
+         "FloorImageName": "",
+         "OriginalSerial": "F3-F4@OCCC_West_1"
+       },
+       {
+         "RoomId": "1437",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W300",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W300@OCCC_West_2"
+       },
+       {
+         "RoomId": "1379",
+         "RoomImageName": "",
+         "DisplayName": "OCCC S210",
+         "FloorImageName": "",
+         "OriginalSerial": "S210@OCCC_South_1"
+       },
+       {
+         "RoomId": "1380",
+         "RoomImageName": "",
+         "DisplayName": "OCCC S331",
+         "FloorImageName": "",
+         "OriginalSerial": "S331@OCCC_South_2"
+       },
+       {
+         "RoomId": "1386",
+         "RoomImageName": "",
+         "DisplayName": "OCCC S320 E-H",
+         "FloorImageName": "",
+         "OriginalSerial": "S320 E-H@OCCC_South_2"
+       },
+       {
+         "RoomId": "1387",
+         "RoomImageName": "",
+         "DisplayName": "OCCC S320 A-D",
+         "FloorImageName": "",
+         "OriginalSerial": "S320 A-D@OCCC_South_2"
+       },
+       {
+         "RoomId": "1398",
+         "RoomImageName": "",
+         "DisplayName": "OCCC S330",
+         "FloorImageName": "",
+         "OriginalSerial": "S330@OCCC_South_2"
+       },
+       {
+         "RoomId": "1408",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Plaza International G",
+         "FloorImageName": "",
+         "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM G@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1409",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Plaza International H",
+         "FloorImageName": "",
+         "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM H@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1410",
+         "RoomImageName": "",
+         "DisplayName": "Hyatt Plaza International I-K",
+         "FloorImageName": "",
+         "OriginalSerial": "PLAZA INTERNATIONAL BALLROOM I-K@Hyatt_Regency_0"
+       },
+       {
+         "RoomId": "1399",
+         "RoomImageName": "",
+         "DisplayName": "OCCC S230",
+         "FloorImageName": "",
+         "OriginalSerial": "S230@OCCC_South_1"
+       },
+       {
+         "RoomId": "1405",
+         "RoomImageName": "",
+         "DisplayName": "OCCC S310",
+         "FloorImageName": "",
+         "OriginalSerial": "S310@OCCC_South_2"
+       },
+       {
+         "RoomId": "1413",
+         "RoomImageName": "",
+         "DisplayName": "OCCC West Hall F1",
+         "FloorImageName": "",
+         "OriginalSerial": "F1@OCCC_West_1"
+       },
+       {
+         "RoomId": "1414",
+         "RoomImageName": "",
+         "DisplayName": "OCCC West Hall F2",
+         "FloorImageName": "",
+         "OriginalSerial": "F2@OCCC_West_1"
+       },
+       {
+         "RoomId": "1970",
+         "RoomImageName": "",
+         "DisplayName": "OCCC South Hall",
+         "FloorImageName": "",
+         "OriginalSerial": ""
+       },
+       {
+         "RoomId": "1384",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W207 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W207 AB@OCCC_West_1"
+       },
+       {
+         "RoomId": "1385",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W208 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W208 AB@OCCC_West_1"
+       },
+       {
+         "RoomId": "1381",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W204 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W204 AB@OCCC_West_1"
+       },
+       {
+         "RoomId": "#N/A",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W201",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W201@OCCC_West_1"
+       },
+       {
+         "RoomId": "1423",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W102",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W102@OCCC_West_0"
+       },
+       {
+         "RoomId": "1424",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W103",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W103@OCCC_West_0"
+       },
+       {
+         "RoomId": "1425",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W104",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W104@OCCC_West_0"
+       },
+       {
+         "RoomId": "1426",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W105",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W105@OCCC_West_0"
+       },
+       {
+         "RoomId": "1427",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W108",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W108@OCCC_West_0"
+       },
+       {
+         "RoomId": "1428",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W110 A",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W110 A@OCCC_West_0"
+       },
+       {
+         "RoomId": "1429",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W110 B",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W110 B@OCCC_West_0"
+       },
+       {
+         "RoomId": "1430",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W202 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W202 A-B@OCCC_West_1"
+       },
+       {
+         "RoomId": "1431",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W202 C",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W202 C@OCCC_West_1"
+       },
+       {
+         "RoomId": "1432",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W203 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W203 A-B@OCCC_West_1"
+       },
+       {
+         "RoomId": "1433",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W203 C",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W203 C@OCCC_West_1"
+       },
+       {
+         "RoomId": "1434",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W204 C",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W204 C@OCCC_West_1"
+       },
+       {
+         "RoomId": "1435",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W207 C",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W207 C@OCCC_West_1"
+       },
+       {
+         "RoomId": "1436",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W208 C",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W208 C@OCCC_West_1"
+       },
+       {
+         "RoomId": "1438",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W303 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W303 A-B@OCCC_West_2"
+       },
+       {
+         "RoomId": "1439",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W303 C",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W303 C@OCCC_West_2"
+       },
+       {
+         "RoomId": "1440",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W414 AB",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W414@OCCC_West_3"
+       },
+       {
+         "RoomId": "1441",
+         "RoomImageName": "",
+         "DisplayName": "OCCC W414 CD",
+         "FloorImageName": "",
+         "OriginalSerial": "OCCC W414@OCCC_West_3"
+       },
+       {"RoomId":"50000","RoomImageName":"","DisplayName":"Booth Windows Devices","FloorImageName":"","OriginalSerial":"Windows Devices@OCCC_Central_Hall_0"},
+       {"RoomId":"50001","RoomImageName":"","DisplayName":"Azure Infrastructure","FloorImageName":"","OriginalSerial":"Azure Infrastructure@OCCC_Central_Hall_0"},
+       {"RoomId":"50002","RoomImageName":"","DisplayName":"Booth Microsoft AI Big Data","FloorImageName":"","OriginalSerial":"Microsoft AI Big Data@OCCC_Central_Hall_0"},
+       {"RoomId":"50003","RoomImageName":"","DisplayName":"Customer Immersion Experience","FloorImageName":"","OriginalSerial":"Immersion/CIE Rooms@Hyatt_Regency_0"},
+       {"RoomId":"50004","RoomImageName":"","DisplayName":"Booth Creativity","FloorImageName":"","OriginalSerial":"Creativity@OCCC_Central_Hall_0"},
+       {"RoomId":"50005","RoomImageName":"","DisplayName":"Booth FastTrack Microsoft 365","FloorImageName":"","OriginalSerial":"FastTrack Microsoft 365@OCCC_Central_Hall_0"},
+       {"RoomId":"50006","RoomImageName":"","DisplayName":"Booth Azure Infrastructure","FloorImageName":"","OriginalSerial":"Azure Infrastructure@OCCC_Central_Hall_0"},
+       {"RoomId":"50007","RoomImageName":"","DisplayName":"Booth DevTools","FloorImageName":"","OriginalSerial":"DevTools@OCCC_Central_Hall_0"},
+       {"RoomId":"50008","RoomImageName":"","DisplayName":"Booth Languages","FloorImageName":"","OriginalSerial":"Languages@OCCC_Central_Hall_0"},
+       {"RoomId":"50009","RoomImageName":"","DisplayName":"Booth DevOps","FloorImageName":"","OriginalSerial":"DevOps@OCCC_Central_Hall_0"},
+       {"RoomId":"50010","RoomImageName":"","DisplayName":"Booth Microsoft Evaluation","FloorImageName":"","OriginalSerial":"Microsoft Evaluation@OCCC_Central_Hall_0"},
+       {"RoomId":"50011","RoomImageName":"","DisplayName":"Booth Azure Management","FloorImageName":"","OriginalSerial":"Azure Management@OCCC_Central_Hall_0"},
+       {"RoomId":"50012","RoomImageName":"","DisplayName":"Booth Azure Marketplace AppSource","FloorImageName":"","OriginalSerial":"Azure Marketplace AppSource@OCCC_Central_Hall_0"},
+       {"RoomId":"50013","RoomImageName":"","DisplayName":"Booth OCCC South – Expo Theater #12","FloorImageName":"","OriginalSerial":"OCCC South – Expo Theater #12@OCCC_Central_Hall_0"},
+       {"RoomId":"50014","RoomImageName":"","DisplayName":"Booth 1501","FloorImageName":"","OriginalSerial":"1501@OCCC_Central_Hall_0"},
+       {"RoomId":"50015","RoomImageName":"","DisplayName":"Booth Dynamics 365","FloorImageName":"","OriginalSerial":"Dynamics 365@OCCC_Central_Hall_0"},
+       {"RoomId":"50016","RoomImageName":"","DisplayName":"Booth App Plat","FloorImageName":"","OriginalSerial":"App Plat@OCCC_Central_Hall_0"}
+    ]
+ }
