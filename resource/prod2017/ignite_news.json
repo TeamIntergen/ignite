@@ -1,7 +1,23 @@
 {
     "NewsItems": [{
-            "title": "Personalized Schedules",
+            "title": "Learning Paths",
             "tileNumber": 1,
+            "description": "Choose a role based Learning Path to help you plan out your week of sessions and activities.",
+            "link": "/learning-paths",
+            "linkText": "Learning Paths",
+            "image": "images/news/learning-paths.png"
+        },
+        {
+            "title": "Immersion Zone",
+            "tileNumber": 2,
+            "description": "Get \"Hands-on\" -- you’ll find Labs, workshops, mixed reality experiences, learning experts and more!",
+            "link": "/map/50003",
+            "linkText": "Locate the Immersion Zone",
+            "image": "images/news/immersion-zone.png"
+        },
+        {
+            "title": "Personalized Schedules",
+            "tileNumber": 4,
             "description": "Build your own personalized learning track based upon your profile and interests.",
             "link": "/personalize",
             "linkText": "Personalize",
@@ -9,7 +25,7 @@
         },
         {
             "title": "Women in Technology",
-            "tileNumber": 5,
+            "tileNumber": 7,
             "description": "Connect with women in technology and business  to learn about leadership, mentorship, and professional growth.",
             "link": "/sessions?f=%5B%7B%22name%22:%22Women%20in%20Business%20and%20Technology%22,%22facetName%22:%22topics%22%7D%5D",
             "linkText": "View sessions",
@@ -17,7 +33,7 @@
         },
         {
             "title": "Meet the speakers",
-            "tileNumber": 4,
+            "tileNumber": 6,
             "description": "See hundreds of industry experts, Microsoft executives, and MVPs speaking at Microsoft Ignite.",
             "link": "/speakers",
             "linkText": "View speakers",
@@ -25,7 +41,7 @@
         },
         {
             "title": "Tech Community",
-            "tileNumber": 3,
+            "tileNumber": 5,
             "description": "Connect, collaborate, share and learn with other attendees, speakers and experts.",
             "link": "//techcommunity.microsoft.com/t5/Microsoft-Ignite/ct-p/MicrosoftIgnite",
             "linkText": "Join a conversation",
@@ -34,7 +50,7 @@
         },
         {
             "title": "Download the App Now",
-            "tileNumber": 2,
+            "tileNumber": 3,
             "description": "The Microsoft Ignite App has everything you need to create an unforgettable experience at the event.",
             "link": "/mobileapp",
             "linkText": "Select your OS",
