@@ -25,11 +25,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56492\" class=\"c-hyperlink\">HOL3084: Manage Microsoft Office 365</a>
+                            <a href=\"/labs/56492?source=learning-paths%2F1@Learning%20Path\" class=\"c-hyperlink\">HOL3084: Manage Microsoft Office 365</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56505\" class=\"c-hyperlink\">HOL3097: Troubleshooting Microsoft Office 365</a>
+                            <a href=\"/labs/56505?source=learning-paths%2F1@Learning%20Path\" class=\"c-hyperlink\">HOL3097: Troubleshooting Microsoft Office 365</a>
                         </li>
                     </ul>
                 </div>
@@ -67,7 +67,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Modern Workplace Area</p>
+                            <a href=\"/map/50004\" class=\"c-hyperlink\">Modern Workplace Area</a>
                         </li>
                     </ul>
                 </div>
@@ -87,19 +87,19 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57288\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"/certificationexams/57288?source=learning-paths%2F1@Learning%20Path\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57289\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
+                            <a href=\"/certificationexams/57289?source=learning-paths%2F1@Learning%20Path\" class=\"c-hyperlink\">70-347: Enabling Office 365 Services</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\" >
-                            <a href=\"/sessions/55028\" class=\"c-hyperlink\">BRK3159: Cert Exam Prep: 70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"/sessions/55028?source=learning-paths%2F1@Learning%20Path\" class=\"c-hyperlink\">BRK3159: Cert Exam Prep: 70-346: Managing Office 365 Identities and Requirements</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\" >
-                            <a href=\"/sessions/55029\" class=\"c-hyperlink\">BRK3160: Cert Exam Prep: 70-347: Enabling Office 365 Services</a>
+                            <a href=\"/sessions/55029?source=learning-paths%2F1@Learning%20Path\" class=\"c-hyperlink\">BRK3160: Cert Exam Prep: 70-347: Enabling Office 365 Services</a>
                         </li>
                     </ul>
                 </div>
@@ -149,15 +149,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56517\" class=\"c-hyperlink\">HOL3109: Deploy Microsoft Office as a service</a>
+                            <a href=\"/labs/56517?source=learning-paths%2F2@Learning%20Path\" class=\"c-hyperlink\">HOL3109: Deploy Microsoft Office as a service</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56485\" class=\"c-hyperlink\">HOL3077: Microsoft Intune automation with Microsoft Graph API and PowerShell</a>
+                            <a href=\"/labs/56485?source=learning-paths%2F2@Learning%20Path\" class=\"c-hyperlink\">HOL3077: Microsoft Intune automation with Microsoft Graph API and PowerShell</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56523\" class=\"c-hyperlink\">HOL3115: Deploy and manage Windows as a service</a>
+                            <a href=\"/labs/56523?source=learning-paths%2F2@Learning%20Path\" class=\"c-hyperlink\">HOL3115: Deploy and manage Windows as a service</a>
                         </li>
                     </ul>
                 </div>
@@ -195,10 +195,10 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Modern Workplace Area</p>
+                            <a href=\"/map/50004\" class=\"c-hyperlink\">Modern Workplace Area</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Surface Device Area</p>
+                            <a href=\"/map/50000\" class=\"c-hyperlink\">Surface Device Area</a>
                         </li>
                     </ul>
                 </div>
@@ -218,15 +218,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57319\" class=\"c-hyperlink\">70-398: Planning for and Managing Devices in the Enterprise</a>
+                            <a href=\"/certificationexams/57319?source=learning-paths%2F2@Learning%20Path\" class=\"c-hyperlink\">70-398: Planning for and Managing Devices in the Enterprise</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57299\" class=\"c-hyperlink\">70-697: Configuring Windows Devices</a>
+                            <a href=\"/certificationexams/57299?source=learning-paths%2F2@Learning%20Path\" class=\"c-hyperlink\">70-697: Configuring Windows Devices</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57292\" class=\"c-hyperlink\">70-698: Installing and Configuring Windows 10</a>
+                            <a href=\"/certificationexams/57292?source=learning-paths%2F2@Learning%20Path\" class=\"c-hyperlink\">70-698: Installing and Configuring Windows 10</a>
                         </li>
                     </ul>
                 </div>
@@ -243,7 +243,7 @@ Topics of interest:
                             <a href=\"https://fasttrack.microsoft.com\"class=\"c-hyperlink\">Microsoft FastTrack</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\">
+                        <li class=\"persona-detail-sidebar__link\" hidden>
                             <p href=\"#\"class=\"c-hyperlink\">Microsoft Tech Academy</p>
                         </li>
                     </ul>
@@ -275,19 +275,19 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56514\" class=\"c-hyperlink\">HOL3106: Configure PSTN conferencing</a>
+                            <a href=\"/labs/56514?source=learning-paths%2F3@Learning%20Path\" class=\"c-hyperlink\">HOL3106: Configure PSTN conferencing</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56515\" class=\"c-hyperlink\">HOL3107: Configuring Cloud PBX with on-premises connectivity</a>
+                            <a href=\"/labs/56515?source=learning-paths%2F3@Learning%20Path\" class=\"c-hyperlink\">HOL3107: Configuring Cloud PBX with on-premises connectivity</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56516\" class=\"c-hyperlink\">HOL3108: Configuring Cloud PBX with PSTN calling</a>
+                            <a href=\"/labs/56516?source=learning-paths%2F3@Learning%20Path\" class=\"c-hyperlink\">HOL3108: Configuring Cloud PBX with PSTN calling</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56518\" class=\"c-hyperlink\">HOL3110: Schedule and produce broadcast meetings</a>
+                            <a href=\"/labs/56518?source=learning-paths%2F3@Learning%20Path\" class=\"c-hyperlink\">HOL3110: Schedule and produce broadcast meetings</a>
                         </li>
                     </ul>
                 </div>
@@ -325,7 +325,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Modern Workplace Area</p>
+                            <a href=\"/map/50004\" class=\"c-hyperlink\">Modern Workplace Area</a>
                         </li>
                     </ul>
                 </div>
@@ -345,11 +345,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57310\" class=\"c-hyperlink\">70-333: Deploying Enterprise Voice with Skype for Business 2015</a>
+                            <a href=\"/certificationexams/57310?source=learning-paths%2F3@Learning%20Path\" class=\"c-hyperlink\">70-333: Deploying Enterprise Voice with Skype for Business 2015</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57311\" class=\"c-hyperlink\">70-334: Core Solutions of Microsoft Skype for Business 2015</a>
+                            <a href=\"/certificationexams/57311?source=learning-paths%2F3@Learning%20Path\" class=\"c-hyperlink\">70-334: Core Solutions of Microsoft Skype for Business 2015</a>
                         </li>
                     </ul>
                 </div>
@@ -366,7 +366,7 @@ Topics of interest:
                             <a href=\"https://fasttrack.microsoft.com\"class=\"c-hyperlink\">Microsoft FastTrack</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\">
+                        <li class=\"persona-detail-sidebar__link\" hidden>
                             <p href=\"#\"class=\"c-hyperlink\">Microsoft Tech Academy</p>
                         </li>
                     </ul>
@@ -397,23 +397,23 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56409\" class=\"c-hyperlink\">HOL3005: Build your first Microsoft Office Add-in with Visual Studio</a>
+                            <a href=\"/labs/56409?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">HOL3005: Build your first Microsoft Office Add-in with Visual Studio</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56411\" class=\"c-hyperlink\">HOL3007: Connect to applications within Microsoft Outlook</a>
+                            <a href=\"/labs/56411?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">HOL3007: Connect to applications within Microsoft Outlook</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56413\" class=\"c-hyperlink\">HOL3009: Build a connected mobile app with Microsoft Graph</a>
+                            <a href=\"/labs/56413?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">HOL3009: Build a connected mobile app with Microsoft Graph</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56414\" class=\"c-hyperlink\">HOL3010: Build your first SharePoint Framework part</a>
+                            <a href=\"/labs/56414?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">HOL3010: Build your first SharePoint Framework part</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56415\" class=\"c-hyperlink\">HOL3011: Advanced SharePoint Framework: Connect and customize your parts to data</a>
+                            <a href=\"/labs/56415?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">HOL3011: Advanced SharePoint Framework: Connect and customize your parts to data</a>
                         </li>
                     </ul>
                 </div>
@@ -451,7 +451,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Modern Workplace Area – Office Dev</p>
+                            <a href=\"/map/50005\" class=\"c-hyperlink\">Modern Workplace Area – Office Dev</a>
                         </li>
                     </ul>
                 </div>
@@ -471,15 +471,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57333\" class=\"c-hyperlink\">70-480: Programming in HTML5 with JavaScript and CSS3</a>
+                            <a href=\"/certificationexams/57333?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">70-480: Programming in HTML5 with JavaScript and CSS3</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57291\" class=\"c-hyperlink\">70-483: Programming in C#</a>
+                            <a href=\"/certificationexams/57291?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">70-483: Programming in C#</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57334\" class=\"c-hyperlink\">70-486: Developing ASP.NET MVC Web Applications</a>
+                            <a href=\"/certificationexams/57334?source=learning-paths%2F4@Learning%20Path\" class=\"c-hyperlink\">70-486: Developing ASP.NET MVC Web Applications</a>
                         </li>
                     </ul>
                 </div>
@@ -496,7 +496,7 @@ Topics of interest:
                             <a href=\"https://dev.office.com/\"class=\"c-hyperlink\">Office Dev Center</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\">
+                        <li class=\"persona-detail-sidebar__link\" hidden>
                             <p href=\"#\" class=\"c-hyperlink\">Microsoft Tech Academy</p>
                         </li>
                     </ul>
@@ -527,11 +527,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56447\" class=\"c-hyperlink\">HOL3039: Using Ansible for Azure Open Source IaaS Automation</a>
+                            <a href=\"/labs/56447?source=learning-paths%2F5@Learning%20Path\" class=\"c-hyperlink\">HOL3039: Using Ansible for Azure Open Source IaaS Automation</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56587\" class=\"c-hyperlink\">HOL3139: Implement CI/CD pipeline using popular Open Source platforms such as GIT, Jenkins and Azure Container Services</a>
+                            <a href=\"/labs/56587?source=learning-paths%2F5@Learning%20Path\" class=\"c-hyperlink\">HOL3139: Implement CI/CD pipeline using popular Open Source platforms such as GIT, Jenkins and Azure Container Services</a>
                         </li>
                     </ul>
                 </div>
@@ -569,7 +569,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p href=\"#\" class=\"c-hyperlink\">Applications & Infrastructure area</p>
+                            <a href=\"/map/50006\" class=\"c-hyperlink\">Applications & Infrastructure area</a>
                         </li>
                     </ul>
                 </div>
@@ -589,15 +589,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57333\" class=\"c-hyperlink\">70-480: Programming in HTML5 with JavaScript and CSS3</a>
+                            <a href=\"/certificationexams/57333?source=learning-paths%2F5@Learning%20Path\" class=\"c-hyperlink\">70-480: Programming in HTML5 with JavaScript and CSS3</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57296\" class=\"c-hyperlink\">70-533: Implementing Microsoft Azure Infrastructure Solutions</a>
+                            <a href=\"/certificationexams/57296?source=learning-paths%2F5@Learning%20Path\" class=\"c-hyperlink\">70-533: Implementing Microsoft Azure Infrastructure Solutions</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57298\" class=\"c-hyperlink\">70-534: Architecting Microsoft Azure Solutions</a>
+                            <a href=\"/certificationexams/57298?source=learning-paths%2F5@Learning%20Path\" class=\"c-hyperlink\">70-534: Architecting Microsoft Azure Solutions</a>
                         </li>
                     </ul>
                 </div>
@@ -640,11 +640,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56585\" class=\"c-hyperlink\">HOL2009: Getting Started with Git in Visual Studio</a>
+                            <a href=\"/labs/56585?source=learning-paths%2F6@Learning%20Path\" class=\"c-hyperlink\">HOL2009: Getting Started with Git in Visual Studio</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56571\" class=\"c-hyperlink\">HOL3131: Build Smarter Apps with Xamarin & the Intelligent Cloud</a>
+                            <a href=\"/labs/56571?source=learning-paths%2F6@Learning%20Path\" class=\"c-hyperlink\">HOL3131: Build Smarter Apps with Xamarin & the Intelligent Cloud</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
@@ -686,11 +686,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Visual Studio, Visual Studio Code, Visual Studio Team Services, Visual Studio Mobile Center, Developer Tools for Azure, Xamarin, Booths</p>
+                            <a href=\"/map/50007\" class=\"c-hyperlink\">Visual Studio, Visual Studio Code, Visual Studio Team Services, Visual Studio Mobile Center, Developer Tools for Azure, Xamarin, Booths</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">.NET & Languages Booths</p>
+                            <a href=\"/map/50008\" class=\"c-hyperlink\">.NET & Languages Booths</a>
                         </li>
                     </ul>
                 </div>
@@ -710,7 +710,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57291\" class=\"c-hyperlink\">70-483: Programming in C#</a>
+                            <a href=\"/certificationexams/57291?source=learning-paths%2F6@Learning%20Path\" class=\"c-hyperlink\">70-483: Programming in C#</a>
                         </li>
                     </ul>
                 </div>
@@ -770,11 +770,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56574\" class=\"c-hyperlink\">HOL3134: Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
+                            <a href=\"/labs/56574?source=learning-paths%2F7@Learning%20Path\" class=\"c-hyperlink\">HOL3134: Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56580\" class=\"c-hyperlink\">HOL3136: Deploying Docker Container Apps to Azure App Services</a>
+                            <a href=\"/labs/56580?source=learning-paths%2F7@Learning%20Path\" class=\"c-hyperlink\">HOL3136: Deploying Docker Container Apps to Azure App Services</a>
                         </li>
                     </ul>
                 </div>
@@ -812,11 +812,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">.NET, Developer Tools for Azure Booth</P>
+                            <a href=\"/map/50008\" class=\"c-hyperlink\">.NET, Developer Tools for Azure Booth</a>
                         </li>
 
                          <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Visual Studio, Visual Studio Code, Xamarin Booths</P>
+                            <a href=\"/map/50007\" class=\"c-hyperlink\">Visual Studio, Visual Studio Code, Xamarin Booths</a>
                         </li>
                     </ul>
                 </div>
@@ -836,11 +836,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57334\" class=\"c-hyperlink\">70-486: Developing ASP.NET MVC Web Applications</a>
+                            <a href=\"/certificationexams/57334?source=learning-paths%2F7@Learning%20Path\" class=\"c-hyperlink\">70-486: Developing ASP.NET MVC Web Applications</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57335\" class=\"c-hyperlink\">70-487: Developing Microsoft Azure and Web Services</a>
+                            <a href=\"/certificationexams/57335?source=learning-paths%2F7@Learning%20Path\" class=\"c-hyperlink\">70-487: Developing Microsoft Azure and Web Services</a>
                         </li>
                     </ul>
                 </div>
@@ -908,15 +908,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56569\" class=\"c-hyperlink\">HOL3130: Build & Test, See how Mobile Center helps you ship apps faster</a>
+                            <a href=\"/labs/56569?source=learning-paths%2F8@Learning%20Path\" class=\"c-hyperlink\">HOL3130: Build & Test, See how Mobile Center helps you ship apps faster</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56574\" class=\"c-hyperlink\">HOL3134: Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
+                            <a href=\"/labs/56574?source=learning-paths%2F8@Learning%20Path\" class=\"c-hyperlink\">HOL3134: Continuous Deployment of ASP.NET Core Websites to Azure with VSTS</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56585\" class=\"c-hyperlink\">HOL2009: Getting Started with Git in Visual Studio</a>
+                            <a href=\"/labs/56585?source=learning-paths%2F8@Learning%20Path\" class=\"c-hyperlink\">HOL2009: Getting Started with Git in Visual Studio</a>
                         </li>
                     </ul>
                 </div>
@@ -954,11 +954,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Visual Studio Team Services & DevOps Booth</p>
+                            <a href=\"/map/50009\" class=\"c-hyperlink\">Visual Studio Team Services & DevOps Booth</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Visual Studio and Visual Studio Mobile Center Booth</p>
+                            <a href=\"/map/50008\" class=\"c-hyperlink\">Visual Studio and Visual Studio Mobile Center Booth</a>
                         </li>
                     </ul>
                 </div>
@@ -978,15 +978,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57338\" class=\"c-hyperlink\">70-496: Administering Visual Studio Team Foundation Server</a>
+                            <a href=\"/certificationexams/57338?source=learning-paths%2F8@Learning%20Path\" class=\"c-hyperlink\">70-496: Administering Visual Studio Team Foundation Server</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57339\" class=\"c-hyperlink\">70-497: Software Testing with Visual Studio</a>
+                            <a href=\"/certificationexams/57339?source=learning-paths%2F8@Learning%20Path\" class=\"c-hyperlink\">70-497: Software Testing with Visual Studio</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57340\" class=\"c-hyperlink\">70-498: Delivering Continuous Value with Visual Studio Application Lifecycle Management</a>
+                            <a href=\"/certificationexams/57340?source=learning-paths%2F8@Learning%20Path\" class=\"c-hyperlink\">70-498: Delivering Continuous Value with Visual Studio Application Lifecycle Management</a>
                         </li>
                     </ul>
                 </div>
@@ -1043,11 +1043,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59171\" class=\"c-hyperlink\">HOL3160: Deploying Highly Available Virtual Machines</a>
+                            <a href=\"/labs/59171?source=learning-paths%2F9@Learning%20Path\" class=\"c-hyperlink\">HOL3160: Deploying Highly Available Virtual Machines</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59172\" class=\"c-hyperlink\">HOL3161: Microsoft Azure Networking Concepts</a>
+                            <a href=\"/labs/59172?source=learning-paths%2F9@Learning%20Path\" class=\"c-hyperlink\">HOL3161: Microsoft Azure Networking Concepts</a>
                         </li>
                     </ul>
                 </div>
@@ -1085,15 +1085,15 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Azure IaaS expo (compute/storage/networking)</p>
+                            <a href=\"/map/50006\" class=\"c-hyperlink\">Azure IaaS expo (compute/storage/networking)</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Azure Resource Manager</p>
+                            <a href=\"/map/50006\" class=\"c-hyperlink\">Azure Resource Manager</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Microsoft Evaluation Center - Windows Server 2016</p>
+                            <a href=\"/map/50010\" class=\"c-hyperlink\">Microsoft Evaluation Center - Windows Server 2016</a>
                         </li>
                     </ul>
                 </div>
@@ -1113,7 +1113,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57296\" class=\"c-hyperlink\">70-533: Implementing Azure Infrastructure Solutions</a>
+                            <a href=\"/certificationexams/57296?source=learning-paths%2F9@Learning%20Path\" class=\"c-hyperlink\">70-533: Implementing Azure Infrastructure Solutions</a>
                         </li>
                     </ul>
                 </div>
@@ -1166,7 +1166,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59173\" class=\"c-hyperlink\">Secure and manage your Azure resources</a>
+                            <a href=\"/labs/59173?source=learning-paths%2F10@Learning%20Path\" class=\"c-hyperlink\">Secure and manage your Azure resources</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\" hidden>
@@ -1208,11 +1208,11 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Monitoring & Analytics</p>
+                            <a href=\"/map/50011\" class=\"c-hyperlink\">Monitoring & Analytics</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Azure Migration</p>
+                            <a href=\"/map/50006\" class=\"c-hyperlink\">Azure Migration</a>
                         </li>
                     </ul>
                 </div>
@@ -1232,7 +1232,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57298\" class=\"c-hyperlink\">70-534: Architecting Microsoft Azure Solutions</a>
+                            <a href=\"/certificationexams/57298?source=learning-paths%2F10@Learning%20Path\" class=\"c-hyperlink\">70-534: Architecting Microsoft Azure Solutions</a>
                         </li>
                     </ul>
                 </div>
@@ -1246,7 +1246,7 @@ Topics of interest:
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"http://aka.ms/whitepaperonwecurewellmanaged\" class=\"c-hyperlink\">Read technical whitepaper on Azure Security and Management</a>
+                            <a href=\"https://docs.microsoft.com/en-us/azure/security/azure-security-management\" class=\"c-hyperlink\">Read technical whitepaper on Azure Security and Management</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
@@ -1281,23 +1281,23 @@ Topics of interest:
                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
 
                 <div class=\"persona-detail-sidebar__sub-section\">
-                    <h5 class=\"c-heading-5 f-lean\">Continued Learning</h5>
+                    <h5 class=\"c-heading-5 f-lean\">Labs</h5>
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56492\" class=\"c-hyperlink\">HOL3084: Manage Microsoft Office 365</a>
+                            <a href=\"/labs/56492?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">HOL3084: Manage Microsoft Office 365</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56495\" class=\"c-hyperlink\">HOL3087: Configuring, managing and using OneDrive for Business</a>
+                            <a href=\"/labs/56495?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">HOL3087: Configuring, managing and using OneDrive for Business</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56503\" class=\"c-hyperlink\">HOL3095: Administering and Using Microsoft Teams</a>
+                            <a href=\"/labs/56503?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">HOL3095: Administering and Using Microsoft Teams</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56508\" class=\"c-hyperlink\">HOL3100: Configuring, managing and using OneDrive for Business</a>
+                            <a href=\"/labs/56508?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">HOL3100: Configuring, managing and using OneDrive for Business</a>
                         </li>
                     </ul>
                 </div>
@@ -1320,7 +1320,7 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Modern Workplace Area</p>
+                            <a href=\"/map/50004\" class=\"c-hyperlink\">Modern Workplace Area</a>
                         </li>
                     </ul>
                 </div>
@@ -1329,19 +1329,19 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">MCSE Productivity Solutions Expert</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57315\" class=\"c-hyperlink\">70-345: Designing and Deploying Microsoft Exchange Server 2016</a>
+                            <a href=\"/certificationexams/57315?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">70-345: Designing and Deploying Microsoft Exchange Server 2016</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57312\" class=\"c-hyperlink\">70-339: Managing Microsoft SharePoint Server 2016</a>
+                            <a href=\"/certificationexams/57312?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">70-339: Managing Microsoft SharePoint Server 2016</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57310\" class=\"c-hyperlink\">70-333: Deploying Enterprise Voice with Skype for Business 2015</a>
+                            <a href=\"/certificationexams/57310?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">70-333: Deploying Enterprise Voice with Skype for Business 2015</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57311\" class=\"c-hyperlink\">70-334: Core Solutions of Microsoft Skype for Business 2015</a>
+                            <a href=\"/certificationexams/57311?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">70-334: Core Solutions of Microsoft Skype for Business 2015</a>
                         </li>
 
                         <li hidden class=\"persona-detail-sidebar__link\">
@@ -1349,15 +1349,15 @@ Topics of interest:
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57309\" class=\"c-hyperlink\">70-332: Advanced Solutions of Microsoft SharePoint Server 2013</a>
+                            <a href=\"/certificationexams/57309?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">70-332: Advanced Solutions of Microsoft SharePoint Server 2013</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57313\" class=\"c-hyperlink\">70-341: Core Solutions of Microsoft Exchange Server 2013</a>
+                            <a href=\"/certificationexams/57313?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">70-341: Core Solutions of Microsoft Exchange Server 2013</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57314\" class=\"c-hyperlink\">70-342: Advanced Solutions of Microsoft Exchange Server 2013</a>
+                            <a href=\"/certificationexams/57314?source=learning-paths%2F11@Learning%20Path\" class=\"c-hyperlink\">70-342: Advanced Solutions of Microsoft Exchange Server 2013</a>
                         </li>
                     </ul>
                 </div>
@@ -1405,27 +1405,27 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56511\" class=\"c-hyperlink\">HOL3103: Using Office 365 Advanced Security</a>
+                            <a href=\"/labs/56511?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">HOL3103: Using Office 365 Advanced Security</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56513\" class=\"c-hyperlink\">HOL3105: Configure and use Microsoft Office 365 security and compliance features</a>
+                            <a href=\"/labs/56513?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">HOL3105: Configure and use Microsoft Office 365 security and compliance features</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56520\" class=\"c-hyperlink\">HOL3112: Office 365 Threat Protection</a>
+                            <a href=\"/labs/56520?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">HOL3112: Office 365 Threat Protection</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56524\" class=\"c-hyperlink\">HOL3116: Deploy Credential Guard</a>
+                            <a href=\"/labs/56524?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">HOL3116: Deploy Credential Guard</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56525\" class=\"c-hyperlink\">HOL3117: Deploy Device Guard</a>
+                            <a href=\"/labs/56525?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">HOL3117: Deploy Device Guard</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56526\" class=\"c-hyperlink\">HOL3118: Deploy Windows Information Protection</a>
+                            <a href=\"/labs/56526?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">HOL3118: Deploy Windows Information Protection</a>
                         </li>
                     </ul>
                     <div class=\"persona-detail-sidebar__sub-section\">
@@ -1446,7 +1446,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Modern Workplace Area</p>
+                            <a href=\"/map/50004\" class=\"c-hyperlink\">Modern Workplace Area</a>
                         </li>
                     </ul>
                 </div>
@@ -1455,11 +1455,11 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57288\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"/certificationexams/57288?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">70-346: Managing Office 365 Identities and Requirements</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/sessions/55028\" class=\"c-hyperlink\">BRK3159: Cert Exam Prep: Exam 70-346: Managing Office 365 Identities and Requirements</a>
+                            <a href=\"/sessions/55028?source=learning-paths%2F12@Learning%20Path\" class=\"c-hyperlink\">BRK3159: Cert Exam Prep: Exam 70-346: Managing Office 365 Identities and Requirements</a>
                         </li>
                     </ul>
                 </div>
@@ -1502,32 +1502,32 @@ Topics of interest:
             "SidebarContent": "<div class=\"persona-detail-sidebar__section persona-detail-sidebar__section--washed\">
                 <h4 class=\"c-heading-4 f-lean\">Immersion Zone</h4>
 
-                <div class=\"persona-detail-sidebar__sub-section\" hidden>
+                <div class=\"persona-detail-sidebar__sub-section\">
                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
 
                     <h5 class=\"c-heading-5 f-lean\">SQL Server 2017 - Data Management</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59165\" class=\"c-hyperlink\">HOL1354: Mission Critical and Hyperscale Performance - Built In</a>
+                            <a href=\"/labs/59165?source=learning-paths%2F13@Learning%20Path\" class=\"c-hyperlink\">HOL1354: Mission Critical and Hyperscale Performance - Built In</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59166\" class=\"c-hyperlink\">HOL3155: Security and Advanced Analytics - Built In</a>
+                            <a href=\"/labs/59166?source=learning-paths%2F13@Learning%20Path\" class=\"c-hyperlink\">HOL3155: Security and Advanced Analytics - Built In</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59167\" class=\"c-hyperlink\">HOL3156: Azure Data Services – Relational Workloads</a>
+                            <a href=\"/labs/59167?source=learning-paths%2F13@Learning%20Path\" class=\"c-hyperlink\">HOL3156: Azure Data Services – Relational Workloads</a>
                         </li>
                     </ul>
 
                     <h5 class=\"c-heading-5 f-lean\">Azure Data Services for Developers</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59168\" class=\"c-hyperlink\">HOL3157: Modernizing LOB Apps</a>
+                            <a href=\"/labs/59168?source=learning-paths%2F13@Learning%20Path\" class=\"c-hyperlink\">HOL3157: Modernizing LOB Apps</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59168\" class=\"c-hyperlink\">HOL3158: Evolving SQL workloads from software to SaaS</a>
+                            <a href=\"/labs/59169?source=learning-paths%2F13@Learning%20Path\" class=\"c-hyperlink\">HOL3158: Evolving SQL workloads from software to SaaS</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/59169\" class=\"c-hyperlink\">HOL3159: Modernizing Cloud based Web Apps</a>
+                            <a href=\"/labs/59170?source=learning-paths%2F13@Learning%20Path\" class=\"c-hyperlink\">HOL3159: Modernizing Cloud based Web Apps</a>
                         </li>
                     </ul>
                 </div>
@@ -1548,11 +1548,11 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">Expo</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">SQL Server 2017</p>
+                            <a href=\"/map/50012\" class=\"c-hyperlink\">SQL Server 2017</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">App Innovation / Data for Developers</p>
+                            <a href=\"/map/50006\" class=\"c-hyperlink\">App Innovation / Data for Developers</a>
                         </li>
                     </ul>
                 </div>
@@ -1561,7 +1561,7 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">Certification Exams</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57293\" class=\"c-hyperlink\">70-473: Designing and Implementing Cloud Data Platform Solutions</a>
+                            <a href=\"/certificationexams/57293?source=learning-paths%2F13@Learning%20Path\" class=\"c-hyperlink\">70-473: Designing and Implementing Cloud Data Platform Solutions</a>
                         </li>
                     </ul>
                 </div>
@@ -1614,11 +1614,11 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56436\" class=\"c-hyperlink\">HOL3028: Big data: Exploring Apache Spark and scaling out R Server with Azure HDInsight</a>
+                            <a href=\"/labs/56436?source=learning-paths%2F14@Learning%20Path\" class=\"c-hyperlink\">HOL3028: Big data: Exploring Apache Spark and scaling out R Server with Azure HDInsight</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56575\" class=\"c-hyperlink\">HOL2002: Authoring Reports with Power BI Desktop</a>
+                            <a href=\"/labs/56575?source=learning-paths%2F14@Learning%20Path\" class=\"c-hyperlink\">HOL2002: Authoring Reports with Power BI Desktop</a>
                         </li>
                     </ul>
                 </div>
@@ -1660,7 +1660,7 @@ Topics of interest:
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Business Intelligence</p>
+                            <a href=\"/map/50002\" class=\"c-hyperlink\">Business Intelligence</a>
                         </li>
                     </ul>
                 </div>
@@ -1680,7 +1680,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57294\" class=\"c-hyperlink\">70-475: Designing and Implementing Big Data Analytics Solutions</a>
+                            <a href=\"/certificationexams/57294?source=learning-paths%2F14@Learning%20Path\" class=\"c-hyperlink\">70-475: Designing and Implementing Big Data Analytics Solutions</a>
                         </li>
                     </ul>
                 </div>
@@ -1732,7 +1732,7 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56473\" class=\"c-hyperlink\">HOL3065: Building a virtual salesperson using Beacon and Microsoft Dynamics 365</a>
+                            <a href=\"/labs/56473?source=learning-paths%2F15@Learning%20Path\" class=\"c-hyperlink\">HOL3065: Building a virtual salesperson using Beacon and Microsoft Dynamics 365</a>
                         </li>
                     </ul>
                 </div>
@@ -1752,35 +1752,39 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Sales (with LinkedIn)</p>
+                            <a href=\"/map/50013\" class=\"c-hyperlink\">Sales (with LinkedIn)</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Marketing (with Adobe)</p>
+                            <a href=\"/map/50014\" class=\"c-hyperlink\">Marketing (with Adobe)</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Finance and Operations</p>
+                            <a href=\"/map/50015\" class=\"c-hyperlink\">Business edition</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Customer Service</p>
+                            <a href=\"/map/50015\" class=\"c-hyperlink\">Finance and Operations</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Project Service Automation</p>
+                            <a href=\"/map/50015\" class=\"c-hyperlink\">Customer Service</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Field Service</p>
+                            <a href=\"/map/50015\"  class=\"c-hyperlink\">Project Service Automation</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Retail</p>
+                            <a href=\"/map/50015\" class=\"c-hyperlink\">Field Service</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Talent</p>
+                            <a href=\"/map/50015\" class=\"c-hyperlink\">Retail</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"/map/50015\" class=\"c-hyperlink\">Talent</a>
                         </li>
                     </ul>
                 </div>
@@ -1793,19 +1797,19 @@ Topics of interest:
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57382\" class=\"c-hyperlink\">MB2-715: Microsoft Dynamics 365 customer engagement Online Deployment</a>
+                            <a href=\"/certificationexams/57382?source=learning-paths%2F15@Learning%20Path\" class=\"c-hyperlink\">MB2-715: Microsoft Dynamics 365 customer engagement Online Deployment</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57384\" class=\"c-hyperlink\">MB2-716: Microsoft Dynamics 365 Customization and Configuration</a>
+                            <a href=\"/certificationexams/57374?source=learning-paths%2F15@Learning%20Path\" class=\"c-hyperlink\">MB2-716: Microsoft Dynamics 365 Customization and Configuration</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57375\" class=\"c-hyperlink\">MB2-717: Microsoft Dynamics 365 for Sales</a>
+                            <a href=\"/certificationexams/57375?source=learning-paths%2F15@Learning%20Path\" class=\"c-hyperlink\">MB2-717: Microsoft Dynamics 365 for Sales</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/certificationexams/57376\" class=\"c-hyperlink\">MB2-718: Microsoft Dynamics 365 for Customer Service</a>
+                            <a href=\"/certificationexams/57376?source=learning-paths%2F15@Learning%20Path\" class=\"c-hyperlink\">MB2-718: Microsoft Dynamics 365 for Customer Service</a>
                         </li>
                     </ul>
                 </div>
@@ -1843,7 +1847,7 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56475\" class=\"c-hyperlink\">HOL3067: Introduction to Microsoft PowerApps</a>
+                            <a href=\"/labs/56475?source=learning-paths%2F16@Learning%20Path\" class=\"c-hyperlink\">HOL3067: Introduction to Microsoft PowerApps</a>
                         </li>
                     </ul>
                 </div>
@@ -1881,19 +1885,19 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">PowerApps</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">PowerApps</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Microsoft Flow</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">Microsoft Flow</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Microsoft Stream</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">Microsoft Stream</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Common Data Service</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">Common Data Service</a>
                         </li>
                     </ul>
                 </div>
@@ -1953,13 +1957,13 @@ Topics of interest:
                     <h5 class=\"c-heading-5 f-lean\">Labs</h5>
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56471\" class=\"c-hyperlink\">HOL3063: Build planet-scale, low latency apps with Azure Cosmos DB</a>
+                            <a href=\"/labs/56471?source=learning-paths%2F17@Learning%20Path\" class=\"c-hyperlink\">HOL3063: Build planet-scale, low latency apps with Azure Cosmos DB</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56580\" class=\"c-hyperlink\">HOL3136: Deploying Docker container apps to Azure App Services</a>
+                            <a href=\"/labs/56580?source=learning-paths%2F17@Learning%20Path\" class=\"c-hyperlink\">HOL3136: Deploying Docker container apps to Azure App Services</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"/labs/56587\" class=\"c-hyperlink\">HOL3139: Implement CI/CD pipeline with open source platforms like GIT, Jenkins & Azure Container Services</a>
+                            <a href=\"/labs/56587?source=learning-paths%2F17@Learning%20Path\" class=\"c-hyperlink\">HOL3139: Implement CI/CD pipeline with open source platforms like GIT, Jenkins & Azure Container Services</a>
                         </li>
                     </ul>
                 </div>
@@ -1997,22 +2001,22 @@ Topics of interest:
 
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Serverless (Functions, Logic Apps)</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">Serverless (Functions, Logic Apps)</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Containers</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">Containers</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">App Service</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">App Service</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Service Fabric</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">Service Fabric</a>
                         </li>
                         <li class=\"persona-detail-sidebar__link\">
-                            <p class=\"c-hyperlink\">Enterprise Integration</p>
+                            <a href=\"/map/50016\" class=\"c-hyperlink\">Enterprise Integration</a>
                         </li>
                     </ul>
                 </div>

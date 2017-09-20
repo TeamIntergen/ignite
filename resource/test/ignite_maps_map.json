@@ -1119,21 +1119,21 @@
         "RoomImageName": "",
         "DisplayName": "OCCC W207 AB",
         "FloorImageName": "",
-        "OriginalSerial": "OCCC W207 A-B@OCCC_West_1"
+        "OriginalSerial": "OCCC W207 AB@OCCC_West_1"
       },
       {
         "RoomId": "1385",
         "RoomImageName": "",
         "DisplayName": "OCCC W208 AB",
         "FloorImageName": "",
-        "OriginalSerial": "OCCC W208 A-B@OCCC_West_1"
+        "OriginalSerial": "OCCC W208 AB@OCCC_West_1"
       },
       {
         "RoomId": "1381",
         "RoomImageName": "",
         "DisplayName": "OCCC W204 AB",
         "FloorImageName": "",
-        "OriginalSerial": "OCCC W204 A-B@OCCC_West_1"
+        "OriginalSerial": "OCCC W204 AB@OCCC_West_1"
       },
       {
         "RoomId": "#N/A",
@@ -1268,9 +1268,22 @@
         "FloorImageName": "",
         "OriginalSerial": "OCCC W414@OCCC_West_3"
       },
-      {"RoomId":"50000","RoomImageName":"","DisplayName":"Windows Devices","FloorImageName":"","OriginalSerial":"Windows Devices@OCCC_Central_Hall_0"},
+      {"RoomId":"50000","RoomImageName":"","DisplayName":"Booth Windows Devices","FloorImageName":"","OriginalSerial":"Windows Devices@OCCC_Central_Hall_0"},
       {"RoomId":"50001","RoomImageName":"","DisplayName":"Azure Infrastructure","FloorImageName":"","OriginalSerial":"Azure Infrastructure@OCCC_Central_Hall_0"},
-      {"RoomId":"50002","RoomImageName":"","DisplayName":"Big Data","FloorImageName":"","OriginalSerial":"Big Data@OCCC_Central_Hall_0"},
-      {"RoomId":"50003","RoomImageName":"","DisplayName":"Customer Immersion Experience","FloorImageName":"","OriginalSerial":"Immersion/CIE Rooms@Hyatt_Regency_0"}
+      {"RoomId":"50002","RoomImageName":"","DisplayName":"Booth Microsoft AI Big Data","FloorImageName":"","OriginalSerial":"Microsoft AI Big Data@OCCC_Central_Hall_0"},
+      {"RoomId":"50003","RoomImageName":"","DisplayName":"Customer Immersion Experience","FloorImageName":"","OriginalSerial":"Immersion/CIE Rooms@Hyatt_Regency_0"},
+      {"RoomId":"50004","RoomImageName":"","DisplayName":"Booth Creativity","FloorImageName":"","OriginalSerial":"Creativity@OCCC_Central_Hall_0"},
+      {"RoomId":"50005","RoomImageName":"","DisplayName":"Booth FastTrack Microsoft 365","FloorImageName":"","OriginalSerial":"FastTrack Microsoft 365@OCCC_Central_Hall_0"},
+      {"RoomId":"50006","RoomImageName":"","DisplayName":"Booth Azure Infrastructure","FloorImageName":"","OriginalSerial":"Azure Infrastructure@OCCC_Central_Hall_0"},
+      {"RoomId":"50007","RoomImageName":"","DisplayName":"Booth DevTools","FloorImageName":"","OriginalSerial":"DevTools@OCCC_Central_Hall_0"},
+      {"RoomId":"50008","RoomImageName":"","DisplayName":"Booth Languages","FloorImageName":"","OriginalSerial":"Languages@OCCC_Central_Hall_0"},
+      {"RoomId":"50009","RoomImageName":"","DisplayName":"Booth DevOps","FloorImageName":"","OriginalSerial":"DevOps@OCCC_Central_Hall_0"},
+      {"RoomId":"50010","RoomImageName":"","DisplayName":"Booth Microsoft Evaluation","FloorImageName":"","OriginalSerial":"Microsoft Evaluation@OCCC_Central_Hall_0"},
+      {"RoomId":"50011","RoomImageName":"","DisplayName":"Booth Azure Management","FloorImageName":"","OriginalSerial":"Azure Management@OCCC_Central_Hall_0"},
+      {"RoomId":"50012","RoomImageName":"","DisplayName":"Booth Azure Marketplace AppSource","FloorImageName":"","OriginalSerial":"Azure Marketplace AppSource@OCCC_Central_Hall_0"},
+      {"RoomId":"50013","RoomImageName":"","DisplayName":"Booth OCCC South – Expo Theater #12","FloorImageName":"","OriginalSerial":"OCCC South – Expo Theater #12@OCCC_Central_Hall_0"},
+      {"RoomId":"50014","RoomImageName":"","DisplayName":"Booth 1501","FloorImageName":"","OriginalSerial":"1501@OCCC_Central_Hall_0"},
+      {"RoomId":"50015","RoomImageName":"","DisplayName":"Booth Dynamics 365","FloorImageName":"","OriginalSerial":"Dynamics 365@OCCC_Central_Hall_0"},
+      {"RoomId":"50016","RoomImageName":"","DisplayName":"Booth App Plat","FloorImageName":"","OriginalSerial":"App Plat@OCCC_Central_Hall_0"}
    ]
 }
