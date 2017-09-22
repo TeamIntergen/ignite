@@ -59,5 +59,9 @@
         "HubbId": 1917,
         "SessionTypeName":"Microsoft Ignite Luncheon",
         "SessionSets": ["Session Catalog", "Schedule Builder", "My Schedule"]
+    }, {
+        "HubbId": 2067,
+        "SessionTypeName":"Customer & Partner Lightning Talks",
+        "SessionSets": ["Session Catalog", "Schedule Builder", "My Schedule"]
     }]
 }
