@@ -273,6 +273,36 @@
                     "Identifier": "My Schedule - Attendee"
                 }
             ]
+        },
+        {
+            "Identifiers": [
+                "OnDemand"
+            ],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": false,
+                "ScheduleBuilder": false,
+                "MobileApp": false,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": false
+            },
+            "VisibleAttendeeTypes": [
+            ],
+            "Reporting": {
+                "SessionCounts": false
+            },
+            "EvalAccess": [],
+            "SessionSetAccess": [{
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog (Mktg Site)"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Schedule Builder - OnDemand"
+                }
+            ]
         }
     ]
 }

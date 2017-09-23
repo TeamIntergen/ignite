@@ -68,6 +68,11 @@
             "HubbId": 1890,
             "SessionTypeName": "Certification Exam",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 2068,
+            "SessionTypeName": "Hit Refresh",
+            "SessionSets": ["Schedule Builder - OnDemand"]
         }
     ]
 }
