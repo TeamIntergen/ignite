@@ -1095,6 +1095,10 @@ Topics of interest:
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"/map/50010\" class=\"c-hyperlink\">Microsoft Evaluation Center - Windows Server 2016</a>
                         </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"/map/50010\" class=\"c-hyperlink\">Microsoft Evaluation Center Project Honolulu Demo, Thu 9/28 at 11AM</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -1136,6 +1140,10 @@ Topics of interest:
 
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"http://www.Azure.Microsoft.com/Essentials \" class=\"c-hyperlink\">Azure Essentials</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016\" class=\"c-hyperlink\">Windows Server 2016 Eval</a>
                         </li>
                     </ul>
                 </div>
@@ -1662,6 +1670,14 @@ Topics of interest:
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"/map/50002\" class=\"c-hyperlink\">Business Intelligence</a>
                         </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"/map/50010\" class=\"c-hyperlink\">Microsoft Evaluation Center Power BI Demo, Wed 9/27 at 10AM</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"/map/50010\" class=\"c-hyperlink\">Microsoft Evaluation Center: SQL Server 2017 & Power BI</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -1698,11 +1714,23 @@ Topics of interest:
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
-                            <a href=\"https://mva.microsoft.com/en-US/training-courses/data-series-analytics-bi-power-bi-17708?l=uGTGJnp2D_6611787171\" class=\"c-hyperlink\">Power BI</a>
+                            <a href=\"https://mva.microsoft.com/en-US/training-courses/data-series-analytics-bi-power-bi-17708?l=uGTGJnp2D_6611787171\" class=\"c-hyperlink\">Power BI (Video)</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/pbidt\" class=\"c-hyperlink\">Power BI Desktop</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://www.microsoft.com/en-us/evalcenter/evaluate-power-bi-pro \" class=\"c-hyperlink\">Power BI Pro</a>
                         </li>
 
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"https://mva.microsoft.com/en-US/training-courses/data-series-platform-data-warehousing-17697?l=R4oa94o2D_9411787171\" class=\"c-hyperlink\">SQL Data Warehouse</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/sqlserverctp\" class=\"c-hyperlink\">SQL Server 2017</a>
                         </li>
                     </ul>
                 </div>
@@ -1899,6 +1927,10 @@ Topics of interest:
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"/map/50016\" class=\"c-hyperlink\">Common Data Service</a>
                         </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"/map/50010\" class=\"c-hyperlink\">Microsoft Evaluation Center PowerApps demo Wed 9/27 @ 3:30PM</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -1928,6 +1960,10 @@ Topics of interest:
                     <ul class=\"persona-detail-sidebar__link-list\">
                         <li class=\"persona-detail-sidebar__link\">
                             <a href=\"https://powerapps.microsoft.com/en-us/guided-learning\" class=\"c-hyperlink\">PowerApps Guided Learning Path</a>
+                        </li>
+
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://aka.ms/PA2\" class=\"c-hyperlink\">Power Apps Eval</a>
                         </li>
                     </ul>
                 </div>
