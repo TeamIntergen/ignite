@@ -56,7 +56,7 @@
     {"roomId":"1804","roomImageName":"hilton-lobby-red.png","roomName":"Red-08","displayName":"Red-08","floorImageName":"levels-hilton-lobby.png"},
     {"roomId":"1805","roomImageName":"hilton-lobby-red.png","roomName":"Red-09","displayName":"Red-09","floorImageName":"levels-hilton-lobby.png"},
     {"roomId":"1806","roomImageName":"hilton-lobby-red.png","roomName":"Red-10","displayName":"Red-10","floorImageName":"levels-hilton-lobby.png"},
-    {"roomId":"60001","roomImageName":"hilton-lobby-red.png","roomName":"","displayName":"Hilton Lobby","floorImageName":"levels-hilton-lobby.png"},
-    {"roomId":"60002","roomImageName":"hilton-lower-promenade.png","roomName":"","displayName":"Hilton Lower Level","floorImageName":"levels-hilton-lower.png"}
+    {"roomId":"60001","roomImageName":"hilton-lobby-blank.png","roomName":"","displayName":"Hilton Lobby","floorImageName":"levels-hilton-lobby.png"},
+    {"roomId":"60002","roomImageName":"hilton-lower-blank.png","roomName":"","displayName":"Hilton Lower Level","floorImageName":"levels-hilton-lower.png"}
    ]
 }
