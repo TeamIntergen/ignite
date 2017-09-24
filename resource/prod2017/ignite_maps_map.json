@@ -947,6 +947,8 @@
      {"RoomId":"50013","RoomImageName":"","DisplayName":"Booth OCCC South – Expo Theater #12","FloorImageName":"","OriginalSerial":"OCCC South %E2%80%93 Expo Theater %2312@OCCC_Central_Hall_0"},
      {"RoomId":"50014","RoomImageName":"","DisplayName":"Booth 1501","FloorImageName":"","OriginalSerial":"1501@OCCC_Central_Hall_0"},
      {"RoomId":"50015","RoomImageName":"","DisplayName":"Booth Dynamics 365","FloorImageName":"","OriginalSerial":"Dynamics 365@OCCC_Central_Hall_0"},
-     {"RoomId":"50016","RoomImageName":"","DisplayName":"Booth App Plat","FloorImageName":"","OriginalSerial":"App Plat@OCCC_Central_Hall_0"}
+     {"RoomId":"50016","RoomImageName":"","DisplayName":"Booth App Plat","FloorImageName":"","OriginalSerial":"App Plat@OCCC_Central_Hall_0"},
+     {"RoomId":"50017","RoomImageName":"","DisplayName":"Booth Hands on Learning ","FloorImageName":"","OriginalSerial":"Hands on Learning @Hyatt_Regency_0"},
+     {"RoomId":"50018","RoomImageName":"","DisplayName":"Booth PEACOCK SPRING","FloorImageName":"","OriginalSerial":"PEACOCK SPRING@Hyatt_Regency_1"}
   ]
 }
