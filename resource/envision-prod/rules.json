@@ -57,6 +57,18 @@
                 "Mobile": true,
                 "WebSite": true
             }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": [
+                    "Breakout Session",
+                    "Workshop",
+                    "Roundtable",
+                    "Keynote",
+                    "Fireside Chat",
+                    "Featured Session"
+                ],
+                "Mobile": true,
+                "WebSite": true
+            }, {
                 "Identifier": "Microsoft Sessions",
                 "SessionTypes": [
                     "Breakout Session",
@@ -136,6 +148,18 @@
             "EvalAccess": [{
                 "Identifier": "PostEventSurvey",
                 "SessionTypes": [null],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": [
+                    "Breakout Session",
+                    "Workshop",
+                    "Roundtable",
+                    "Keynote",
+                    "Fireside Chat",
+                    "Featured Session"
+                ],
                 "Mobile": true,
                 "WebSite": true
             }, {
@@ -220,6 +244,18 @@
             "EvalAccess": [{
                 "Identifier": "PostEventSurvey",
                 "SessionTypes": [null],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": [
+                    "Breakout Session",
+                    "Workshop",
+                    "Roundtable",
+                    "Keynote",
+                    "Fireside Chat",
+                    "Featured Session"
+                ],
                 "Mobile": true,
                 "WebSite": true
             }, {
