@@ -117,9 +117,9 @@ Topics of interest:
                         <a href=\"https://fasttrack.microsoft.com\" class=\"c-hyperlink\">Microsoft Fast Track</a>
                     </li>
                 </ul>
-                <ul class=\"persona-detail-sidebar__link-list\" hidden>
+                <ul class=\"persona-detail-sidebar__link-list\">
                     <li class=\"persona-detail-sidebar__link\">
-                        <a href=\"#\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
+                        <a href=\"https://techacademy.microsoft.com/\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
                     </li>
                 </ul>
             </div>
@@ -243,8 +243,8 @@ Topics of interest:
                             <a href=\"https://fasttrack.microsoft.com\"class=\"c-hyperlink\">Microsoft FastTrack</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\" hidden>
-                            <p href=\"#\"class=\"c-hyperlink\">Microsoft Tech Academy</p>
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://techacademy.microsoft.com/\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
                         </li>
                     </ul>
                 </div>
@@ -366,8 +366,8 @@ Topics of interest:
                             <a href=\"https://fasttrack.microsoft.com\"class=\"c-hyperlink\">Microsoft FastTrack</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\" hidden>
-                            <p href=\"#\"class=\"c-hyperlink\">Microsoft Tech Academy</p>
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://techacademy.microsoft.com/\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
                         </li>
                     </ul>
                 </div>
@@ -496,8 +496,8 @@ Topics of interest:
                             <a href=\"https://dev.office.com/\"class=\"c-hyperlink\">Office Dev Center</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\" hidden>
-                            <p href=\"#\" class=\"c-hyperlink\">Microsoft Tech Academy</p>
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://techacademy.microsoft.com/\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
                         </li>
                     </ul>
                 </div>
@@ -1382,8 +1382,8 @@ Topics of interest:
                             <a href=\"https://fasttrack.microsoft.com/\" class=\"c-hyperlink\">Microsoft FastTrack</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\" hidden>
-                            <a href=\"#\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://techacademy.microsoft.com/\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
                         </li>
 
                     </ul>
@@ -1483,8 +1483,8 @@ Topics of interest:
                             <a href=\"https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/ct-p/SecurityPrivacyCompliance\" class=\"c-hyperlink\">Microsoft Tech Community – Security, Privacy & Compliance Community</a>
                         </li>
 
-                        <li class=\"persona-detail-sidebar__link\" hidden>
-                            <a href=\"#\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
+                        <li class=\"persona-detail-sidebar__link\">
+                            <a href=\"https://techacademy.microsoft.com/\" class=\"c-hyperlink\">Microsoft Tech Academy</a>
                         </li>
 
                     </ul>
