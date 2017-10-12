@@ -73,6 +73,11 @@
             "HubbId": 2068,
             "SessionTypeName": "Hit Refresh",
             "SessionSets": ["Schedule Builder - OnDemand"]
+        },
+        {
+            "HubbId": 2070,
+            "SessionTypeName": "Microsoft Ignite online show",
+            "SessionSets": ["Schedule Builder - OnDemand"]
         }
     ]
 }

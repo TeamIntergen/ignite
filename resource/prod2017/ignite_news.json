@@ -1,15 +1,8 @@
 {
-    "NewsItems": [{
-            "title": "Submit Feedback",
-            "tileNumber": 1,
-            "description": "Your feedback is extremely valuable and helps shape future Microsoft Ignite events.",
-            "link": "/evaluations",
-            "linkText": "My Evaluations",
-            "image": "images/news/evaluations-1.png"
-        },
+    "NewsItems": [
         {
             "title": "Sessions On-Demand",
-            "tileNumber": 2,
+            "tileNumber": 1,
             "description": "Missed a session? Watch thousands of hours of content from Microsoft Ignite.",
             "link": "/videos",
             "linkText": "On-Demand",
@@ -17,7 +10,7 @@
         },
         {
             "title": "Meet the speakers",
-            "tileNumber": 4,
+            "tileNumber": 2,
             "description": "See hundreds of industry experts, Microsoft executives, and MVPs speaking at Microsoft Ignite.",
             "link": "/speakers",
             "linkText": "View speakers",
