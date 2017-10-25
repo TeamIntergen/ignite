@@ -24,6 +24,14 @@
             "linkText": "Join a conversation",
             "linkTarget": "_blank",
             "image": "images/news/tech-community.png"
-        }
+        },
+        {
+            "title": "Learning Paths",
+            "tileNumber": 4,
+            "description": "Choose a role based Learning Path to help you plan out your week of sessions and activities.",
+            "link": "/learning-paths",
+            "linkText": "Learning Paths",
+            "image": "images/news/learning-paths.png"
+        },
     ]
 }
