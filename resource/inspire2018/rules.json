@@ -19,7 +19,7 @@
             "SessionSetAccess": [{
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
-                    "Identifier": "Session Catalog (Mktg Site)"
+                    "Identifier": "Session Catalog"
                 }
             ]
         },
@@ -227,7 +227,7 @@
             "SessionSetAccess": [{
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
-                    "Identifier": "Session Catalog (Mktg Site)"
+                    "Identifier": "Session Catalog"
                 },
                 {
                     "ApplicableFrom": null,
