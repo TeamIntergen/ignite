@@ -25,7 +25,8 @@
         },
         {
             "Identifiers": [
-                "Partner - All Access"
+                "Partner - All Access",
+                "MS - All Access"
             ],
             "Access": {
                 "SessionCatalog": true,
@@ -36,7 +37,8 @@
                 "MobileAppMessaging": true
             },
             "VisibleAttendeeTypes": [
-                "Partner - All Access"
+                "Partner - All Access",
+                "MS - All Access"
             ],
             "Reporting": {
                 "SessionCounts": true
@@ -85,154 +87,6 @@
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "My Schedule - Attendee"
-                }
-            ]
-        },
-        {
-            "Identifiers": [
-                "Staff External",
-                "Staff Microsoft",
-                "Staff External - GA converted",
-                "Staff External - Sponsor/Exhibitor converted",
-                "Staff Microsoft - GA converted",
-                "Crew",
-                "Microsoft Envision Crew",
-                "Microsoft Envision Experiences Staff External",
-                "Microsoft Envision Experiences Staff Internal",
-                "Microsoft Envision Staff Microsoft",
-                "Booth Staff Sponsor",
-                "Booth Staff Exhibitor",
-                "Booth Staff Microsoft",
-                "Booth Staff External",
-                "Expo Only"
-            ],
-            "Access": {
-                "SessionCatalog": true,
-                "MyIgnite": true,
-                "ScheduleBuilder": true,
-                "MobileApp": true,
-                "MeetingScheduler": true,
-                "MobileAppMessaging": true
-            },
-            "VisibleAttendeeTypes": [
-                "Attendee Customer & Partner",
-                "Attendee Sponsor",
-                "Attendee Exhibitor",
-                "Attendee Microsoft",
-                "Attendee Student",
-                "Attendee Faculty/Staff",
-                "Attendee Data Science",
-                "Microsoft Envision Attendee",
-                "Microsoft Envision Attendee Microsoft",
-                "Microsoft Envision Attendee Sponsor",
-                "Substituted Attendee",
-                "Microsoft Envision Day Pass ",
-                "Staff External",
-                "Staff Microsoft",
-                "Staff External - GA converted",
-                "Staff External - Sponsor/Exhibitor converted",
-                "Staff Microsoft - GA converted",
-                "Microsoft Envision Experiences Staff External",
-                "Microsoft Envision Experiences Staff Internal",
-                "Microsoft Envision Staff Microsoft",
-                "Booth Staff Sponsor",
-                "Booth Staff Exhibitor",
-                "Booth Staff Microsoft",
-                "Booth Staff External",
-                "Speaker External",
-                "Speaker Microsoft",
-                "Speaker Day Pass External",
-                "Speaker Day Pass Microsoft",
-                "Microsoft Envision Speaker Customer",
-                "Microsoft Envision Speaker External",
-                "Microsoft Envision Speaker Internal",
-                "Media",
-                "Microsoft Envision Media",
-                "Crew",
-                "Microsoft Envision Crew",
-                "Expo Only",
-                "Day Pass Attendee Customer & Partner",
-                "Staff Day Pass External",
-                "Staff Day Pass Microsoft",
-                "Microsoft Envision Plus"
-            ],
-            "Reporting": {
-                "SessionCounts": false
-            },
-            "EvalAccess": [{
-                "Identifier": "PostEventSurvey",
-                "SessionTypes": ["Post Event  Survey"],
-                "Mobile": true,
-                "WebSite": true
-            }, {
-                "Identifier": "RegularSessionEvaluations",
-                "SessionTypes": [
-                    "Breakout: 45 minute",
-                    "Breakout: 75 minute",
-                    "General Session",
-                    "Microsoft Studio",
-                    "Theater",
-                    "Workshop",
-                    "MVP PreDay",
-                    "Pre-Day Training"
-                ],
-                "Mobile": true,
-                "WebSite": true
-            }, {
-                "Identifier": "KeynoteAfternoonEvaluation",
-                "SessionTypes": ["Technology Keynote"],
-                "Mobile": true,
-                "WebSite": true
-            }, {
-                "Identifier": "KeynoteMorningEvaluation",
-                "SessionTypes": ["Vision Keynote"],
-                "Mobile": true,
-                "WebSite": true
-            }],
-            "SessionSetAccess": [{
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Schedule Builder - Attendee"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Lab"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "My Schedule - Attendee"
-                }
-            ]
-        },
-        {
-            "Identifiers": [
-                "OnDemand"
-            ],
-            "Access": {
-                "SessionCatalog": true,
-                "MyIgnite": false,
-                "ScheduleBuilder": false,
-                "MobileApp": false,
-                "MeetingScheduler": false,
-                "MobileAppMessaging": false
-            },
-            "VisibleAttendeeTypes": [
-            ],
-            "Reporting": {
-                "SessionCounts": false
-            },
-            "EvalAccess": [],
-            "SessionSetAccess": [{
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Session Catalog"
-                },
-                {
-                    "ApplicableFrom": null,
-                    "ApplicableTo": null,
-                    "Identifier": "Schedule Builder - OnDemand"
                 }
             ]
         }

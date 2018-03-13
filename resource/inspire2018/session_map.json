@@ -1,12 +1,12 @@
 {
     "SessionSetMap": [{
             "HubbId": 1670,
-            "SessionTypeName": "Strategic Meeting",
+            "SessionTypeName": "Featured",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1830,
-            "SessionTypeName": "General",
+            "SessionTypeName": "General Session",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
         },
         {
@@ -31,12 +31,12 @@
         },
         {
             "HubbId": 1672,
-            "SessionTypeName": "Immersive Experience",
+            "SessionTypeName": "Immersive",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
         },
         {
             "HubbId": 1669,
-            "SessionTypeName": "Regional General",
+            "SessionTypeName": "Regional",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
         },
         {
@@ -46,77 +46,7 @@
         },
         {
             "HubbId": 1671,
-            "SessionTypeName": "Discussion Group",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 1842,
-            "SessionTypeName": "Vision Keynote Monday",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 1860,
-            "SessionTypeName": "Agenda",
-            "SessionSets": ["My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 1891,
-            "SessionTypeName": "Vision Keynote Tuesday",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 1890,
-            "SessionTypeName": "Vision Keynote Wednesday",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2068,
-            "SessionTypeName": "Partner Session",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Pre-Day Sessions",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Showcase Keynote",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Strategy",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Tech Leaders Forum",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Theater: Community",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Theater: Microsoft",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Theater: Sponsor",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "What's New",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 2070,
-            "SessionTypeName": "Women in Technology",
+            "SessionTypeName": "Group Discussion",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
         }
     ]
