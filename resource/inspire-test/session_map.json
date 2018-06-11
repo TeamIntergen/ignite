@@ -1,0 +1,53 @@
+{
+    "SessionSetMap": [{
+            "HubbId": 1670,
+            "SessionTypeName": "Featured",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1830,
+            "SessionTypeName": "General Session",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1798,
+            "SessionTypeName": "Breakout",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1795,
+            "SessionTypeName": "Power",
+            "SessionSets": ["Schedule Builder - Attendee", "Lab", "My Schedule - Attendee", "Session Catalog"]
+        },
+        {
+            "HubbId": 1797,
+            "SessionTypeName": "Panel",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1673,
+            "SessionTypeName": "Workshop",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1672,
+            "SessionTypeName": "Immersive",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1669,
+            "SessionTypeName": "Area General Sessions",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1796,
+            "SessionTypeName": "The Commons Theater",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1671,
+            "SessionTypeName": "Group Discussion",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        }
+    ]
+}

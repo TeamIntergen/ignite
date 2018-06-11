@@ -225,7 +225,6 @@
                 "MobileAppMessaging": true,
                 "ReadyRestricted": true
             },
-
             "MeetingRuleset": "ReadyManager",
             "VisibleAttendeeTypes": [
                 "Partner - All Access",
