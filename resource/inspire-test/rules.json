@@ -25,6 +25,54 @@
             ]
         },
         {
+            "Identifiers": ["LearningPaths"],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": false,
+                "ScheduleBuilder": false,
+                "MobileApp": false,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": false,
+                "LocationBasedMessaging": false,
+                "ReadyRestricted": false
+            },
+            "VisibleAttendeeTypes": [],
+            "Reporting": {
+                "SessionCounts": false
+            },
+            "EvalAccess": [],
+            "SessionSetAccess": [{
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Learning Paths"
+                }
+            ]
+        },
+        {
+            "Identifiers": ["VideoOnDemand"],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": false,
+                "ScheduleBuilder": false,
+                "MobileApp": false,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": false,
+                "LocationBasedMessaging": false,
+                "ReadyRestricted": false
+            },
+            "VisibleAttendeeTypes": [],
+            "Reporting": {
+                "SessionCounts": false
+            },
+            "EvalAccess": [],
+            "SessionSetAccess": [{
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "VOD"
+                }
+            ]
+        },
+        {
             "Identifiers": [
                 "Partner - All Access",
                 "Partner - Day Pass",
@@ -61,7 +109,9 @@
                 "MS Staff",
                 "Crew",
                 "MS Lounge & Booth Staff",
-                "Attendee Manager Select"
+                "Attendee Manager Select",
+                "Attendee Manager",
+                "Attendee Select"
             ],
             "Reporting": {
                 "SessionCounts": true
@@ -156,7 +206,9 @@
                 "MS Staff",
                 "Crew",
                 "MS Lounge & Booth Staff",
-                "Attendee Manager Select"
+                "Attendee Manager Select",
+                "Attendee Manager",
+                "Attendee Select"
             ],
             "Reporting": {
                 "SessionCounts": true
@@ -225,6 +277,82 @@
                 "MobileAppMessaging": true,
                 "ReadyRestricted": true
             },
+
+            "MeetingRuleset": "ReadyManagerSelect",
+            "VisibleAttendeeTypes": [
+                "Partner - All Access",
+                "Partner - Day Pass",
+                "Partner - Sponsor All Access",
+                "Partner Speaker",
+                "Partner Keynote Speaker",
+                "Partner Speaker Day Pass",
+                "Partner - Sponsor Booth Staff",
+                "Press/Analyst",
+                "MS - All Access",
+                "MS Day Pass",
+                "MS Exhibitor Attendee",
+                "MS Speaker",
+                "MS Keynote Speaker",
+                "MS Staff",
+                "Crew",
+                "MS Lounge & Booth Staff",
+                "Attendee Manager Select",
+                "Attendee Manager",
+                "Attendee Select"
+            ],
+            "Reporting": {
+                "SessionCounts": true
+            },
+            "EvalAccess": [{
+                "Identifier": "PreEventSurvey",
+                "SessionTypes": ["Pre Event  Survey"],
+                "Mobile": false,
+                "WebSite": false
+            },{
+                "Identifier": "PostEventSurvey",
+                "SessionTypes": ["Post Event  Survey"],
+                "Mobile": false,
+                "WebSite": false
+            }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": [
+                    "Breakout: 45 minute",
+                    "Breakout: 75 minute",
+                    "General Session",
+                    "Microsoft Studio",
+                    "Theater",
+                    "Workshop",
+                    "MVP PreDay",
+                    "Pre-Day Training"
+                ],
+                "Mobile": false,
+                "WebSite": false
+            }, {
+                "Identifier": "KeynoteAfternoonEvaluation",
+                "SessionTypes": ["Technology Keynote"],
+                "Mobile": false,
+                "WebSite": false
+            }, {
+                "Identifier": "KeynoteMorningEvaluation",
+                "SessionTypes": ["Vision Keynote"],
+                "Mobile": false,
+                "WebSite": false
+            }],
+            "SessionSetAccess": []
+        },{
+            "Identifiers": [
+                "Attendee Manager"
+            ],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": true,
+                "ScheduleBuilder": false,
+                "MobileApp": true,
+                "MeetingScheduler": true,
+                "MobileAppMessaging": true,
+                "ReadyRestricted": true
+            },
+
             "MeetingRuleset": "ReadyManager",
             "VisibleAttendeeTypes": [
                 "Partner - All Access",
@@ -243,7 +371,84 @@
                 "MS Staff",
                 "Crew",
                 "MS Lounge & Booth Staff",
-                "Attendee Manager Select"
+                "Attendee Manager Select",
+                "Attendee Manager",
+                "Attendee Select"
+            ],
+            "Reporting": {
+                "SessionCounts": true
+            },
+            "EvalAccess": [{
+                "Identifier": "PreEventSurvey",
+                "SessionTypes": ["Pre Event  Survey"],
+                "Mobile": false,
+                "WebSite": false
+            },{
+                "Identifier": "PostEventSurvey",
+                "SessionTypes": ["Post Event  Survey"],
+                "Mobile": false,
+                "WebSite": false
+            }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": [
+                    "Breakout: 45 minute",
+                    "Breakout: 75 minute",
+                    "General Session",
+                    "Microsoft Studio",
+                    "Theater",
+                    "Workshop",
+                    "MVP PreDay",
+                    "Pre-Day Training"
+                ],
+                "Mobile": false,
+                "WebSite": false
+            }, {
+                "Identifier": "KeynoteAfternoonEvaluation",
+                "SessionTypes": ["Technology Keynote"],
+                "Mobile": false,
+                "WebSite": false
+            }, {
+                "Identifier": "KeynoteMorningEvaluation",
+                "SessionTypes": ["Vision Keynote"],
+                "Mobile": false,
+                "WebSite": false
+            }],
+            "SessionSetAccess": []
+        },{
+            "Identifiers": [
+                "Attendee Select"
+            ],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": true,
+                "ScheduleBuilder": false,
+                "MobileApp": true,
+                "MeetingScheduler": true,
+                "MobileAppMessaging": true,
+                "ReadyRestricted": true
+            },
+
+            "MeetingRuleset": "ReadyGeneral",
+            "VisibleAttendeeTypes": [
+                "Partner - All Access",
+                "Partner - Day Pass",
+                "Partner - Sponsor All Access",
+                "Partner Speaker",
+                "Partner Keynote Speaker",
+                "Partner Speaker Day Pass",
+                "Partner - Sponsor Booth Staff",
+                "Press/Analyst",
+                "MS - All Access",
+                "MS Day Pass",
+                "MS Exhibitor Attendee",
+                "MS Speaker",
+                "MS Keynote Speaker",
+                "MS Staff",
+                "Crew",
+                "MS Lounge & Booth Staff",
+                "Attendee Manager Select",
+                "Attendee Manager",
+                "Attendee Select"
             ],
             "Reporting": {
                 "SessionCounts": true

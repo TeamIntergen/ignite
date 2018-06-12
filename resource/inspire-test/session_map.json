@@ -2,52 +2,77 @@
     "SessionSetMap": [{
             "HubbId": 1670,
             "SessionTypeName": "Featured",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1830,
             "SessionTypeName": "General Session",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
+        },
+        {
+            "HubbId": 1830,
+            "SessionTypeName": "Segment General Session",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1798,
             "SessionTypeName": "Breakout",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
-        },
-        {
-            "HubbId": 1795,
-            "SessionTypeName": "Power",
-            "SessionSets": ["Schedule Builder - Attendee", "Lab", "My Schedule - Attendee", "Session Catalog"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1797,
             "SessionTypeName": "Panel",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1673,
             "SessionTypeName": "Workshop",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1672,
             "SessionTypeName": "Immersive",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1669,
             "SessionTypeName": "Area General Sessions",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1796,
             "SessionTypeName": "The Commons Theater",
-            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
         },
         {
             "HubbId": 1671,
             "SessionTypeName": "Group Discussion",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
+        },
+        {
+            "HubbId": 1671,
+            "SessionTypeName": "Corenote",
+            "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee", "VOD"]
+        },
+        {
+            "HubbId": 1671,
+            "SessionTypeName": "Agenda",
+            "SessionSets": ["My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1671,
+            "SessionTypeName": "Learning Paths",
+            "SessionSets": ["Learning Paths"]
+        },
+        {
+            "HubbId": 1671,
+            "SessionTypeName": "Networking Event",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1671,
+            "SessionTypeName": "Meet Ups",
+            "SessionSets": ["Schedule Builder - Attendee", "My Schedule - Attendee"]
         }
     ]
 }
