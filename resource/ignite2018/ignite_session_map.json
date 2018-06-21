@@ -1,0 +1,49 @@
+{
+    "SessionSetMap": [
+        {
+          "SessionTypeName": "Keynote",
+          "HubbId": 2185,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Breakout: 45 Minute",
+          "HubbId": 2186,
+          "SessionSets": [ "June26Sessions", "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Hands-on Lab",
+          "HubbId": 2187,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Breakout: 75 Minute",
+          "HubbId": 2188,
+          "SessionSets": [ "June26Sessions", "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Microsoft Studio",
+          "HubbId": 2189,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "General Session",
+          "HubbId": 2191,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Pre-Day Workshop",
+          "HubbId": 2192,
+          "SessionSets": [ "June26Sessions", "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Theater",
+          "HubbId": 2193,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Immersion Workshop",
+          "HubbId": 2195,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        }
+    ]
+}
