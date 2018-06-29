@@ -266,7 +266,8 @@
             ]
         },{
             "Identifiers": [
-                "Attendee Manager Select"
+                "Attendee Manager Select",
+                "Speaker Internal Manager Select"
             ],
             "Access": {
                 "SessionCatalog": true,
@@ -416,7 +417,8 @@
             "SessionSetAccess": []
         },{
             "Identifiers": [
-                "Attendee Select"
+                "Attendee Select",
+                "Speaker Internal Select"
             ],
             "Access": {
                 "SessionCatalog": true,
