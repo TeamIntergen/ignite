@@ -68,6 +68,11 @@
             "HubbId": 1671,
             "SessionTypeName": "Networking Event",
             "SessionSets": ["Schedule Builder - Attendee", "Session Catalog", "My Schedule - Attendee"]
+        },
+        {
+            "HubbId": 1671,
+            "SessionTypeName": "Meet Ups",
+            "SessionSets": ["Schedule Builder - Attendee", "My Schedule - Attendee"]
         }
     ]
 }
