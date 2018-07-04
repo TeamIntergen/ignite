@@ -1,0 +1,43 @@
+{
+    "SessionLengthMap": [{
+            "SessionTypeName": "Breakout",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Keynote",
+            "SessionLength": 90
+        },
+        {
+            "SessionTypeName": "Featured Session",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "EBC",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Fireside Chat",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Roundtable",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Workshop",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Break",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Lab",
+            "SessionLength": 45
+        },
+        {
+            "SessionTypeName": "Locknote",
+            "SessionLength": 45
+        }
+    ]
+}

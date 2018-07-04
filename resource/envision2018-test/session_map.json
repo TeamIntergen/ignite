@@ -1,0 +1,27 @@
+{
+    "SessionSetMap": [{
+        "HubbId": 2219,
+        "SessionTypeName": "Fireside Chat",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
+    },
+    {
+        "HubbId": 2220,
+        "SessionTypeName": "Breakout Session",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
+    },
+    {
+        "HubbId": 2227,
+        "SessionTypeName": "Roundtable",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
+    },
+    {
+        "HubbId": 2228,
+        "SessionTypeName": "Workshop",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
+    },
+    {
+        "HubbId": 2224,
+        "SessionTypeName": "Keynote",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
+    }]
+}
