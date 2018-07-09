@@ -23,5 +23,10 @@
         "HubbId": 2224,
         "SessionTypeName": "Keynote",
         "SessionSets": ["Session Catalog", "Schedule Builder"]
+    },
+    {
+        "HubbId": 2226,
+        "SessionTypeName": "Main Stage",
+        "SessionSets": ["Session Catalog", "Schedule Builder"]
     }]
 }
