@@ -111,7 +111,9 @@
                 "MS Lounge & Booth Staff",
                 "Attendee Manager Select",
                 "Attendee Manager",
-                "Attendee Select"
+                "Attendee Select",
+                "Speaker Internal Manager Select",
+                "Speaker Internal Select"
             ],
             "Reporting": {
                 "SessionCounts": true
@@ -208,7 +210,9 @@
                 "MS Lounge & Booth Staff",
                 "Attendee Manager Select",
                 "Attendee Manager",
-                "Attendee Select"
+                "Attendee Select",
+                "Speaker Internal Manager Select",
+                "Speaker Internal Select"
             ],
             "Reporting": {
                 "SessionCounts": true
@@ -299,7 +303,9 @@
                 "MS Lounge & Booth Staff",
                 "Attendee Manager Select",
                 "Attendee Manager",
-                "Attendee Select"
+                "Attendee Select",
+                "Speaker Internal Manager Select",
+                "Speaker Internal Select"
             ],
             "Reporting": {
                 "SessionCounts": true
@@ -374,7 +380,9 @@
                 "MS Lounge & Booth Staff",
                 "Attendee Manager Select",
                 "Attendee Manager",
-                "Attendee Select"
+                "Attendee Select",
+                "Speaker Internal Manager Select",
+                "Speaker Internal Select"
             ],
             "Reporting": {
                 "SessionCounts": true
@@ -450,7 +458,9 @@
                 "MS Lounge & Booth Staff",
                 "Attendee Manager Select",
                 "Attendee Manager",
-                "Attendee Select"
+                "Attendee Select",
+                "Speaker Internal Manager Select",
+                "Speaker Internal Select"
             ],
             "Reporting": {
                 "SessionCounts": true
