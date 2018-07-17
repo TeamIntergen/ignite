@@ -1,0 +1,126 @@
+[
+    {
+        "sidebarType": "sessions",
+        "metadata": [
+            {
+                "title": "Session Code",
+                "layout": "no-link",
+                "listings": "",
+                "subtype": "sessionCode",
+                "subMetadata": []
+            },
+            {
+                "title": "Session Type",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "sessionType",
+                "subMetadata": [
+                    {
+                        "title": "",
+                        "layout": "no-link",
+                        "listings": "time",
+                        "subtype": "durationInMinutes",
+                        "subMetadata": []
+                    }
+                ]
+            },
+            {
+                "title": "Level",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "level",
+                "subMetadata": []
+            },
+            {
+                "title": "Product",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "products",
+                "subMetadata": []
+            },
+            {
+                "title": "Format",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "format",
+                "subMetadata": []
+            },
+            {
+                "title": "Session Links",
+                "layout": "",
+                "listings": "filters",
+                "subtype": "links",
+                "subMetadata": [
+                    {
+                        "title": "Live Stream",
+                        "layout": "link",
+                        "listings": "link",
+                        "subtype": "liveStream",
+                        "subMetadata": []
+                    },
+                    {
+                        "title": "SlideDeck",
+                        "layout": "link",
+                        "listings": "link",
+                        "subtype": "slideDeck",
+                        "subMetadata": []
+                    },
+                    {
+                        "title": "Download Video Link",
+                        "layout": "link",
+                        "listings": "link",
+                        "subtype": "downloadVideoLink",
+                        "subMetadata": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "sidebarType": "sponsors",
+        "metadata": [
+            {
+                "title": "Company Website",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "website",
+                "subMetadata": []
+            },
+            {
+                "title": "LinkedIn",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "linkedInUrl",
+                "subMetadata": []
+            },
+            {
+                "title": "Twitter",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "twitterUrl",
+                "subMetadata": []
+            },
+            {
+                "title": "Facebook",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "facebookUrl",
+                "subMetadata": []
+            },
+            {
+                "title": "Blog",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "blogUrl",
+                "subMetadata": []
+            },
+            {
+                "title": "Youtube",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "youtubeUrl",
+                "subMetadata": []
+            }
+        ]
+    }
+]
