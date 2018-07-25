@@ -1,0 +1,162 @@
+    [
+      {
+        "HeadingTitle": "Attendee Profile",
+        "ItemsToShow": [{
+          "DisplayTitle": "Picture",
+          "Link": "ProfileImage",
+          "Style": "picture",
+          "Class": "",
+          "Path": "detail.profiledImage",
+          "Value": ""
+        },{
+          "DisplayTitle": "Job Title",
+          "Link": "Title",
+          "Style": "inputText",
+          "Class": "",
+          "Path": "detail.title",
+          "Value": ""
+        },{
+          "DisplayTitle": "Job Category",
+          "Link": "JobCategory",
+          "Style": "Options",
+          "Class": "",
+          "Path": "detail.jobCategory",
+          "Value": ""
+        },{
+          "DisplayTitle": "Company",
+          "Link": "Company",
+          "Style": "inputText",
+          "Class": "",
+          "Path": "detail.company",
+          "Value": ""
+        },{
+          "DisplayTitle": "Biography",
+          "Link": "Biography",
+          "Style": "textArea",
+          "Class": "",
+          "Path": "detail.biography",
+          "Value": ""
+        },{
+          "DisplayTitle": "LinkedIn",
+          "Link": "LinkedIn",
+          "Style": "inputText",
+          "Class": "",
+          "Path": "social.linkedIn",
+          "Value": "",
+          "Regex": "https?://.*linkedin.com/in/.+"
+        },{
+          "DisplayTitle": "Twitter",
+          "Link": "Twitter",
+          "Style": "inputText",
+          "Class": "",
+          "Path": "social.twitter",
+          "Value": "",
+          "Regex": "@([A-Za-z0-9_]+)$"
+        }]
+      },
+      {
+        "HeadingTitle": "Company Profile",
+        "ItemsToShow": [{
+          "DisplayTitle": "Website",
+          "Link": "Website",
+          "Style": "inputText",
+          "Class": "",
+          "Path": "social.website",
+          "Value": ""
+        },{
+          "DisplayTitle": "Country",
+          "Link": "Country",
+          "Style": "Options",
+          "Class": "",
+          "Path": "detail.country",
+          "Value": ""
+        },{
+          "DisplayTitle": "Company Size",
+          "Link": "CompanySize",
+          "Style": "Options",
+          "Class": "",
+          "Path": "detail.companySize",
+          "Value": ""
+        },{
+          "DisplayTitle": "Customer Segment",
+          "Link": "CustomerSegment",
+          "Style": "multiSelect",
+          "Class": "",
+          "Path": "detail.customerSegment",
+          "Value": ""
+        },{
+          "DisplayTitle": "Competencies",
+          "Link": "Competencies",
+          "Style": "multiSelect",
+          "Class": "",
+          "Path": "detail.competencies",
+          "Value": ""
+        },{
+          "DisplayTitle": "Industry Focus",
+          "Link": "IndustryFocus",
+          "Style": "nestedSelect",
+          "Class": "",
+          "Path": "detail.industryFocus",
+          "Value": ""
+        },{
+          "DisplayTitle": "Business Focus",
+          "Link": "BusinessFocus",
+          "Style": "nestedSelect",
+          "Class": "",
+          "Path": "detail.businessFocus",
+          "Value": ""
+        }]
+      },
+      {
+        "HeadingTitle": "Settings",
+        "ItemsToShow": [{
+          "DisplayTitle": "Login",
+          "Link": "Email",
+          "Style": "readonly",
+          "Class": "",
+          "Path": "contacts.authentication"
+        },{
+          "DisplayTitle": "Notifications",
+          "Link": "NotificationEmail",
+          "Style": "readonly",
+          "Class": "",
+          "Path": "contacts.notification"
+        },{
+          "DisplayTitle": "Privacy",
+          "Link": "Privacy",
+          "Style": "multiCheckbox",
+          "Class": "",
+          "Path": "contacts.notification",
+          "Options": [{
+              "DisplayTitle": "Make my profile searchable",
+              "Link": "CanBeFound",
+              "Style": "checkbox",
+              "Class": "",
+              "Path": "optins.canBefound",
+              "Value": ""
+          },{
+              "DisplayTitle": "Show sessions I have added to my schedule",
+              "Link": "CanShareSession",
+              "Style": "checkbox",
+              "Class": "",
+              "Path": "optins.canShareSessions",
+              "Value": ""
+          },{
+              "DisplayTitle": "I am available for meetings",
+              "Link": "CanAttendMeetings",
+              "Style": "checkbox",
+              "Class": "",
+              "Path": "optins.canAttendMeetings",
+              "Value": ""
+          },{
+              "DisplayTitle": "Make my profile publicly available",
+              "Link": "IsPubliclyVisible",
+              "Style": "checkbox",
+              "Class": "",
+              "Path": "optins.isPubliclyVisible",
+              "Value": ""
+          }
+        ]
+        }]
+    }
+    ]
