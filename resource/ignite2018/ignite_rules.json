@@ -34,7 +34,7 @@
             ]
         },
         {
-            "Identifiers": ["MSI Crew"],
+            "Identifiers": ["MSI Crew", "MSI Attendee Customer & Partner"],
             "Access": {
                 "SessionCatalog": true,
                 "MyIgnite": true,
@@ -44,7 +44,7 @@
                 "MobileAppMessaging": true,
                 "LocationBasedMessaging": true
             },
-            "VisibleAttendeeTypes": ["MSI Crew"],
+            "VisibleAttendeeTypes": ["MSI Crew", "MSI Attendee Customer & Partner"],
             "Reporting": {
                 "SessionCounts": true
             },
