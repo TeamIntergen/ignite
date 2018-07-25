@@ -6,7 +6,7 @@
           "Link": "ProfileImage",
           "Style": "picture",
           "Class": "",
-          "Path": "detail.profiledImage",
+          "Path": "detail.profileImage",
           "Value": ""
         },{
           "DisplayTitle": "Job Title",
@@ -20,7 +20,7 @@
           "Link": "JobCategory",
           "Style": "Options",
           "Class": "",
-          "Path": "detail.jobCategory",
+          "Path": "detail.jobCategory.value",
           "Value": ""
         },{
           "DisplayTitle": "Company",
@@ -75,7 +75,7 @@
           "Link": "CompanySize",
           "Style": "Options",
           "Class": "",
-          "Path": "detail.companySize",
+          "Path": "detail.companySize.value",
           "Value": ""
         },{
           "DisplayTitle": "Customer Segment",
