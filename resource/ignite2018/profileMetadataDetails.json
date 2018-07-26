@@ -3,42 +3,43 @@
         "HeadingTitle": "Attendee Profile",
         "ItemsToShow": [{
           "DisplayTitle": "Picture",
-          "Link": "ProfileImage",
+          "FieldName": "ProfileImage",
           "Style": "picture",
           "Class": "",
           "Path": "detail.profileImage",
           "Value": ""
         },{
           "DisplayTitle": "Job Title",
-          "Link": "Title",
+          "FieldName": "Title",
           "Style": "inputText",
           "Class": "",
           "Path": "detail.title",
           "Value": ""
         },{
           "DisplayTitle": "Job Category",
-          "Link": "JobCategory",
+          "FieldName": "JobCategory",
           "Style": "Options",
           "Class": "",
           "Path": "detail.jobCategory.value",
-          "Value": ""
+          "Value": "",
+          "OptionsPath": "jobCategories"
         },{
           "DisplayTitle": "Company",
-          "Link": "Company",
+          "FieldName": "Company",
           "Style": "inputText",
           "Class": "",
           "Path": "detail.company",
           "Value": ""
         },{
           "DisplayTitle": "Biography",
-          "Link": "Biography",
+          "FieldName": "Biography",
           "Style": "textArea",
           "Class": "",
           "Path": "detail.biography",
           "Value": ""
         },{
           "DisplayTitle": "LinkedIn",
-          "Link": "LinkedIn",
+          "FieldName": "LinkedIn",
           "Style": "inputText",
           "Class": "",
           "Path": "social.linkedIn",
@@ -46,7 +47,7 @@
           "Regex": "https?://.*linkedin.com/in/.+"
         },{
           "DisplayTitle": "Twitter",
-          "Link": "Twitter",
+          "FieldName": "Twitter",
           "Style": "inputText",
           "Class": "",
           "Path": "social.twitter",
@@ -58,99 +59,105 @@
         "HeadingTitle": "Company Profile",
         "ItemsToShow": [{
           "DisplayTitle": "Website",
-          "Link": "Website",
+          "FieldName": "Website",
           "Style": "inputText",
           "Class": "",
           "Path": "social.website",
           "Value": ""
         },{
           "DisplayTitle": "Country",
-          "Link": "Country",
+          "FieldName": "Country",
           "Style": "Options",
           "Class": "",
           "Path": "detail.country",
-          "Value": ""
+          "Value": "",
+          "OptionsPath": "countryList"
         },{
           "DisplayTitle": "Company Size",
-          "Link": "CompanySize",
+          "FieldName": "CompanySize",
           "Style": "Options",
           "Class": "",
           "Path": "detail.companySize.value",
-          "Value": ""
+          "Value": "",
+          "OptionsPath": "companySizes"
         },{
           "DisplayTitle": "Customer Segment",
-          "Link": "CustomerSegment",
+          "FieldName": "CustomerSegment",
           "Style": "multiSelect",
           "Class": "",
           "Path": "detail.customerSegment",
-          "Value": ""
+          "Value": "",
+          "OptionsPath": "customerSegments"
         },{
           "DisplayTitle": "Competencies",
-          "Link": "Competencies",
+          "FieldName": "Competencies",
           "Style": "multiSelect",
           "Class": "",
           "Path": "detail.competencies",
-          "Value": ""
+          "Value": "",
+          "OptionsPath": "competencies"
         },{
           "DisplayTitle": "Industry Focus",
-          "Link": "IndustryFocus",
+          "FieldName": "IndustryFocus",
           "Style": "nestedSelect",
           "Class": "",
           "Path": "detail.industryFocus",
-          "Value": ""
+          "Value": "",
+          "OptionsPath": "industryFocuses"
         },{
           "DisplayTitle": "Business Focus",
-          "Link": "BusinessFocus",
+          "FieldName": "BusinessFocus",
           "Style": "nestedSelect",
           "Class": "",
           "Path": "detail.businessFocus",
-          "Value": ""
+          "Value": "",
+          "OptionsPath": "businessFocuses"
         }]
       },
       {
         "HeadingTitle": "Settings",
         "ItemsToShow": [{
           "DisplayTitle": "Login",
-          "Link": "Email",
+          "FieldName": "Email",
           "Style": "readonly",
           "Class": "",
           "Path": "contacts.authentication"
         },{
           "DisplayTitle": "Notifications",
-          "Link": "NotificationEmail",
+          "FieldName": "NotificationEmail",
           "Style": "readonly",
           "Class": "",
           "Path": "contacts.notification"
         },{
           "DisplayTitle": "Privacy",
-          "Link": "Privacy",
+          "FieldName": "Privacy",
           "Style": "multiCheckbox",
           "Class": "",
           "Path": "contacts.notification",
           "Options": [{
               "DisplayTitle": "Make my profile searchable",
-              "Link": "CanBeFound",
+              "FieldName": "CanBeFound",
               "Style": "checkbox",
               "Class": "",
               "Path": "optins.canBefound",
               "Value": ""
           },{
               "DisplayTitle": "Show sessions I have added to my schedule",
-              "Link": "CanShareSession",
+              "FieldName": "CanShareSession",
               "Style": "checkbox",
               "Class": "",
               "Path": "optins.canShareSessions",
               "Value": ""
           },{
               "DisplayTitle": "I am available for meetings",
-              "Link": "CanAttendMeetings",
+              "FieldName": "CanAttendMeetings",
               "Style": "checkbox",
               "Class": "",
               "Path": "optins.canAttendMeetings",
               "Value": ""
           },{
               "DisplayTitle": "Make my profile publicly available",
-              "Link": "IsPubliclyVisible",
+              "FieldName": "IsPubliclyVisible",
               "Style": "checkbox",
               "Class": "",
               "Path": "optins.isPubliclyVisible",
