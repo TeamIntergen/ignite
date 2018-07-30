@@ -134,5 +134,82 @@
                 "subMetadata": []
             },
         ]
+    },{
+        "sidebarType": "attendees",
+        "metadata": [
+            {
+                "title": "Company Website",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "website",
+                "subMetadata": []
+            },{
+                "title": "Twitter",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "twitter",
+                "subMetadata": []
+            },{
+                "title": "LinkedIn",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "linkedin",
+                "subMetadata": []
+            },{
+                "title": "Job Category",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "jobCategory",
+                "subMetadata": []
+            },{
+                "title": "Competency",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "competencies",
+                "subMetadata": []
+            },{
+                "title": "Industry Focus",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "industryFocus",
+                "subMetadata": []
+            },{
+                "title": "Business Focus",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "businessFocus",
+                "subMetadata": []
+            },{
+                "title": "Country",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "country",
+                "subMetadata": []
+            },{
+                "title": "Company Size",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "companySize",
+                "subMetadata": []
+            },{
+                "title": "Customer Segment",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "customerSegment",
+                "subMetadata": []
+            },{
+                "title": "Organization Membership",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "organizations",
+                "subMetadata": []
+            },{
+                "title": "WPC's Attended",
+                "layout": "link",
+                "listings": "filters",
+                "subtype": "wpcAttended",
+                "subMetadata": []
+            }
+	    ]
     }
 ]
