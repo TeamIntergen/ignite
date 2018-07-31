@@ -44,6 +44,31 @@
           "SessionTypeName": "Immersion Workshop",
           "HubbId": 2195,
           "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Diversity & Tech Power Lunch",
+          "HubbId": 2263,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "MVP Pre-Day Workshop",
+          "HubbId": 2264,
+          "SessionSets": [ "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Agenda",
+          "HubbId": 2267,
+          "SessionSets": [ "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Podcast",
+          "HubbId": 2268,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+        },
+        {
+          "SessionTypeName": "Community Meetup",
+          "HubbId": 2269,
+          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
         }
     ]
 }
