@@ -19,6 +19,32 @@
                 "ApplicableFrom": null,
                 "ApplicableTo": null,
                 "Identifier": "Session Catalog"
+            },
+            {
+            "Identifiers": ["Microsoft Envision Attendee"],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": true,
+                "ScheduleBuilder": true,
+                "MobileApp": true,
+                "MeetingScheduler": true,
+                "MobileAppMessaging": true,
+                "LocationBasedMessaging": true
+            },
+            "VisibleAttendeeTypes": ["Microsoft Envision Attendee"],
+            "Reporting": {
+                "SessionCounts": false
+            },
+            "EvalAccess": [],
+            "SessionSetAccess": [{
+                "ApplicableFrom": null,
+                "ApplicableTo": null,
+                "Identifier": "Session Catalog"
+            },
+            {
+                "ApplicableFrom": null,
+                "ApplicableTo": null,
+                "Identifier": "Schedule Builder"
             }]
         }
     ]
