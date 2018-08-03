@@ -1,74 +1,89 @@
 {
     "SessionSetMap": [
         {
-          "SessionTypeName": "Keynote",
+          "SessionTypeName": "Vision Keynote",
           "HubbId": 2185,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
           "SessionTypeName": "Breakout: 45 Minute",
           "HubbId": 2186,
-          "SessionSets": [ "June26Sessions", "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
           "SessionTypeName": "Hands-on Lab",
           "HubbId": 2187,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
           "SessionTypeName": "Breakout: 75 Minute",
           "HubbId": 2188,
-          "SessionSets": [ "June26Sessions", "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
-          "SessionTypeName": "Microsoft Studio",
+          "SessionTypeName": "Microsoft Mechanics Live",
           "HubbId": 2189,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
           "SessionTypeName": "General Session",
           "HubbId": 2191,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
           "SessionTypeName": "Pre-Day Workshop",
           "HubbId": 2192,
-          "SessionSets": [ "June26Sessions", "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
           "SessionTypeName": "Theater",
           "HubbId": 2193,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
           "SessionTypeName": "Immersion Workshop",
           "HubbId": 2195,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
-          "SessionTypeName": "Diversity & Tech Power Lunch",
-          "HubbId": 2263,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+            "HubbId": 2263,
+            "SessionTypeName": "Diversity & Tech Power Lunch",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
-          "SessionTypeName": "MVP Pre-Day Workshop",
-          "HubbId": 2264,
-          "SessionSets": [ "My Schedule - Attendee" ]
+            "HubbId": 2264,
+            "SessionTypeName": "MVP Pre-Day Workshop",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
-          "SessionTypeName": "Agenda",
-          "HubbId": 2267,
-          "SessionSets": [ "My Schedule - Attendee" ]
+            "HubbId": 2267,
+            "SessionTypeName": "Agenda",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
-          "SessionTypeName": "Podcast",
-          "HubbId": 2268,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+            "HubbId": 2268,
+            "SessionTypeName": "Podcast",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
-          "SessionTypeName": "Community Meetup",
-          "HubbId": 2269,
-          "SessionSets": [ "Schedule Builder - Attendee", "Session Catalog (Mktg Site)", "My Schedule - Attendee" ]
+            "HubbId": 2269,
+            "SessionTypeName": "Community Meetup",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+        },
+        {
+            "HubbId": 2270,
+            "SessionTypeName": "Certification Exam",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+        },
+        {
+            "HubbId": 2271,
+            "SessionTypeName": "Technology Keynote",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+        },
+        {
+            "HubbId": 2273,
+            "SessionTypeName": "Technology Workshop",
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         }
-    ]
+      ]
 }

@@ -30,6 +30,11 @@
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "Schedule Builder - OnDemand"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog - August 2018"
                 }
             ]
         },
@@ -91,7 +96,37 @@
                 {
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
+                    "Identifier": "Schedule Builder - Attendee"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "My Schedule - Attendee"
+                },                 
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
                     "Identifier": "Schedule Builder - OnDemand"
+                },                 
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Schedule Builder - 2018"
+                },                 
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "My Schedule - 2018"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog - 2018"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog - August 2018"
                 }
             ]
         }
