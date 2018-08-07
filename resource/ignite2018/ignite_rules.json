@@ -39,7 +39,10 @@
             ]
         },
         {
-            "Identifiers": ["MSI Crew", "MSI Attendee Customer & Partner"],
+            "Identifiers": [
+                "MSI Crew", 
+                "MSI Attendee Customer & Partner",
+                "Microsoft Envision Attendee"],
             "Access": {
                 "SessionCatalog": true,
                 "MyIgnite": true,
@@ -49,7 +52,11 @@
                 "MobileAppMessaging": true,
                 "LocationBasedMessaging": true
             },
-            "VisibleAttendeeTypes": ["MSI Crew", "MSI Attendee Customer & Partner"],
+            "VisibleAttendeeTypes": [
+                "MSI Crew", 
+                "MSI Attendee Customer & Partner",
+                "Microsoft Envision Attendee"
+            ],
             "Reporting": {
                 "SessionCounts": true
             },
