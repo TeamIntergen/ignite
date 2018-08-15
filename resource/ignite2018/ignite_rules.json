@@ -40,7 +40,7 @@
         },
         {
             "Identifiers": [
-                "MSI Crew", 
+                "MSI Crew",
                 "MSI Attendee Customer & Partner",
                 "Microsoft Envision Attendee"],
             "Access": {
@@ -53,7 +53,7 @@
                 "LocationBasedMessaging": true
             },
             "VisibleAttendeeTypes": [
-                "MSI Crew", 
+                "MSI Crew",
                 "MSI Attendee Customer & Partner",
                 "Microsoft Envision Attendee"
             ],
@@ -109,17 +109,17 @@
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "My Schedule - Attendee"
-                },                 
+                },
                 {
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "Schedule Builder - OnDemand"
-                },                 
+                },
                 {
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
                     "Identifier": "Schedule Builder - 2018"
-                },                 
+                },
                 {
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
@@ -145,7 +145,7 @@
                 "MobileApp": false,
                 "MeetingScheduler": false,
                 "MobileAppMessaging": false,
-                "LocationBasedMessaging": false,
+                "LocationBasedMessaging": false
             },
             "VisibleAttendeeTypes": [],
             "Reporting": {
@@ -158,6 +158,30 @@
                     "Identifier": "Learning Paths"
                 }
             ]
+        },{
+            "Identifiers": [
+                "Remote Attendee"
+            ],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": true,
+                "ScheduleBuilder": true,
+                "MobileApp": false,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": false,
+                "LocationBasedMessaging": false
+            },
+            "VisibleAttendeeTypes": [
+            ],
+            "Reporting": {
+                "SessionCounts": false
+            },
+            "EvalAccess": [],
+            "SessionSetAccess": [{
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Schedule Builder - Remote 2018"
+            }]
         }
     ]
 }

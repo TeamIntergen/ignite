@@ -3,12 +3,12 @@
         {
           "SessionTypeName": "Vision Keynote",
           "HubbId": 2185,
-          "SessionSets": [ "Schedule Builder - 2018", "My Schedule - 2018" ]
+          "SessionSets": [ "Schedule Builder - 2018", "My Schedule - 2018", "Schedule Builder - Remote 2018" ]
         },
         {
           "SessionTypeName": "Breakout: 45 Minute",
           "HubbId": 2186,
-          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018", "Schedule Builder - Remote 2018" ]
         },
         {
           "SessionTypeName": "Hands-on Lab",
@@ -18,7 +18,7 @@
         {
           "SessionTypeName": "Breakout: 75 Minute",
           "HubbId": 2188,
-          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018", "Schedule Builder - Remote 2018" ]
         },
         {
           "SessionTypeName": "Microsoft Mechanics Live",
@@ -28,17 +28,17 @@
         {
           "SessionTypeName": "General Session",
           "HubbId": 2191,
-          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018", "Schedule Builder - Remote 2018" ]
         },
         {
           "SessionTypeName": "Pre-Day Workshop",
           "HubbId": 2192,
-          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+          "SessionSets": [ "Session Catalog - August 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018", "Schedule Builder - Remote 2018" ]
         },
         {
           "SessionTypeName": "Theater",
           "HubbId": 2193,
-          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+          "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018", "Schedule Builder - Remote 2018" ]
         },
         {
           "SessionTypeName": "Immersion Workshop",
@@ -53,7 +53,7 @@
         {
             "HubbId": 2264,
             "SessionTypeName": "MVP Pre-Day Workshop",
-            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+            "SessionSets": [ "My Schedule - 2018" ]
         },
         {
             "HubbId": 2267,
@@ -78,12 +78,17 @@
         {
             "HubbId": 2271,
             "SessionTypeName": "Technology Keynote",
-            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+            "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018", "Schedule Builder - Remote 2018" ]
         },
         {
             "HubbId": 2273,
             "SessionTypeName": "Technology Workshop",
             "SessionSets": [ "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
+        },
+        {
+            "HubbId": 2300,
+            "SessionTypeName": "Learning Path",
+            "SessionSets": [ "Learning Path" ]
         }
       ]
 }
