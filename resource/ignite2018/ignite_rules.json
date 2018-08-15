@@ -136,6 +136,28 @@
                     "Identifier": "Session Catalog - August 2018"
                 }
             ]
+        },{
+            "Identifiers": ["LearningPaths"],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": false,
+                "ScheduleBuilder": false,
+                "MobileApp": false,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": false,
+                "LocationBasedMessaging": false,
+            },
+            "VisibleAttendeeTypes": [],
+            "Reporting": {
+                "SessionCounts": false
+            },
+            "EvalAccess": [],
+            "SessionSetAccess": [{
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Learning Paths"
+                }
+            ]
         }
     ]
 }
