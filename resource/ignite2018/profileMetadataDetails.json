@@ -1,4 +1,4 @@
-    [
+[
       {
         "HeadingTitle": "Attendee Profile",
         "ItemsToShow": [{
@@ -80,38 +80,6 @@
           "Path": "detail.companySize.value",
           "Value": "",
           "OptionsPath": "companySizes"
-        },{
-          "DisplayTitle": "Customer Segment",
-          "FieldName": "CustomerSegment",
-          "Style": "multiSelect",
-          "Class": "",
-          "Path": "detail.customerSegment",
-          "Value": "",
-          "OptionsPath": "customerSegments"
-        },{
-          "DisplayTitle": "Competencies",
-          "FieldName": "Competencies",
-          "Style": "multiSelect",
-          "Class": "",
-          "Path": "detail.competencies",
-          "Value": "",
-          "OptionsPath": "competencies"
-        },{
-          "DisplayTitle": "Industry Focus",
-          "FieldName": "IndustryFocus",
-          "Style": "nestedSelect",
-          "Class": "",
-          "Path": "detail.industryFocus",
-          "Value": "",
-          "OptionsPath": "industryFocuses"
-        },{
-          "DisplayTitle": "Business Focus",
-          "FieldName": "BusinessFocus",
-          "Style": "nestedSelect",
-          "Class": "",
-          "Path": "detail.businessFocus",
-          "Value": "",
-          "OptionsPath": "businessFocuses"
         }]
       },
       {
@@ -135,11 +103,11 @@
           "Class": "",
           "Path": "contacts.notification",
           "Options": [{
-              "DisplayTitle": "Make my profile searchable",
+              "DisplayTitle": "Make my profile publicly available for meetings and messages",
               "FieldName": "CanBeFound",
               "Style": "checkbox",
               "Class": "",
-              "Path": "optins.canBefound",
+              "Path": "optins.canBeFound",
               "Value": ""
           },{
               "DisplayTitle": "Show sessions I have added to my schedule",
@@ -147,13 +115,6 @@
               "Style": "checkbox",
               "Class": "",
               "Path": "optins.canShareSessions",
-              "Value": ""
-          },{
-              "DisplayTitle": "I am available for meetings",
-              "FieldName": "CanAttendMeetings",
-              "Style": "checkbox",
-              "Class": "",
-              "Path": "optins.canAttendMeetings",
               "Value": ""
           },{
               "DisplayTitle": "Make my profile publicly available",
