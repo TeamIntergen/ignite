@@ -84,7 +84,7 @@
                 "MyIgnite": true,
                 "ScheduleBuilder": true,
                 "MobileApp": true,
-                "MeetingScheduler": true,
+                "MeetingScheduler": false,
                 "MobileAppMessaging": true,
                 "LocationBasedMessaging": true,
                 "InPersonExperience": true
