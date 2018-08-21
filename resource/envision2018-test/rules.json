@@ -72,10 +72,10 @@
                 "SessionCatalog": true,
                 "MyIgnite": true,
                 "ScheduleBuilder": true,
-                "MobileApp": true,
-                "MeetingScheduler": true,
-                "MobileAppMessaging": true,
-                "LocationBasedMessaging": true
+                "MobileApp": false,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": false,
+                "LocationBasedMessaging": false
             },
             "VisibleAttendeeTypes": [
                 "Microsoft Envision Attendee",
