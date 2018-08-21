@@ -227,7 +227,7 @@
             "SessionSetAccess": [{
                     "ApplicableFrom": null,
                     "ApplicableTo": null,
-                    "Identifier": "Learning Paths"
+                    "Identifier": "Learning Path"
                 }
             ]
         },{
