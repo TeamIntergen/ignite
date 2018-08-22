@@ -1,6 +1,9 @@
 {
-    "UserAccess": [{
-            "Identifiers": ["Anonymous"],
+    "UserAccess": [
+        {
+            "Identifiers": [
+                "Anonymous"
+            ],
             "Access": {
                 "SessionCatalog": true,
                 "MyIgnite": false,
@@ -15,11 +18,125 @@
                 "SessionCounts": false
             },
             "EvalAccess": [],
-            "SessionSetAccess": [{
-                "ApplicableFrom": null,
-                "ApplicableTo": null,
-                "Identifier": "Session Catalog"
-            }]
+            "SessionSetAccess": [
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog"
+                }
+            ]
+        },
+        {
+            "Identifiers": [
+                "Microsoft Envision Attendee",
+                "Microsoft Envision Attendee Microsoft",
+                "Microsoft Envision Attendee Microsoft Executive",
+                "Microsoft Envision Attendee Sponsor",
+                "MSI Attendee Customer & Partner",
+                "MSI Attendee Sponsor",
+                "MSI Attendee Exhibitor",
+                "MSI Attendee Microsoft",
+                "MSI Attendee Microsoft CVP Exec",
+                "MSI Attendee Student",
+                "MSI Attendee Faculty/Staff",
+                "Microsoft Envision Experiences Staff External",
+                "Microsoft Envision Experiences Staff Internal",
+                "Microsoft Envision Staff Microsoft",
+                "MSI Staff External",
+                "MSI Staff Microsoft",
+                "MSI Staff External - GA converted",
+                "MSI Staff Microsoft - GA converted",
+                "Microsoft Envision Media",
+                "MSI Media",
+                "Microsoft Envision Speaker Customer",
+                "Microsoft Envision Speaker External",
+                "Microsoft Envision Speaker Internal",
+                "MSI Speaker External",
+                "MSI Speaker Microsoft",
+                "MSI Speaker Day Pass External",
+                "MSI Speaker Day Pass Microsoft",
+                "Microsoft Envision Crew",
+                "MSI Crew",
+                "MSI Booth Staff Sponsor",
+                "MSI Booth Staff Exhibitor",
+                "MSI Booth Staff Microsoft",
+                "MSI Booth Staff External",
+                "MSI Expo Only",
+                "Day Pass Attendee Customer & Partner",
+                "Staff Day Pass External",
+                "Staff Day Pass Microsoft"
+            ],
+            "Access": {
+                "SessionCatalog": true,
+                "MyIgnite": true,
+                "ScheduleBuilder": true,
+                "MobileApp": false,
+                "MeetingScheduler": false,
+                "MobileAppMessaging": false,
+                "LocationBasedMessaging": false
+            },
+            "VisibleAttendeeTypes": [
+                "Microsoft Envision Attendee",
+                "Microsoft Envision Attendee Microsoft",
+                "Microsoft Envision Attendee Microsoft Executive",
+                "Microsoft Envision Attendee Sponsor",
+                "MSI Attendee Customer & Partner",
+                "MSI Attendee Sponsor",
+                "MSI Attendee Exhibitor",
+                "MSI Attendee Microsoft",
+                "MSI Attendee Microsoft CVP Exec",
+                "MSI Attendee Student",
+                "MSI Attendee Faculty/Staff",
+                "Microsoft Envision Experiences Staff External",
+                "Microsoft Envision Experiences Staff Internal",
+                "Microsoft Envision Staff Microsoft",
+                "MSI Staff External",
+                "MSI Staff Microsoft",
+                "MSI Staff External - GA converted",
+                "MSI Staff Microsoft - GA converted",
+                "Microsoft Envision Media",
+                "MSI Media",
+                "Microsoft Envision Speaker Customer",
+                "Microsoft Envision Speaker External",
+                "Microsoft Envision Speaker Internal",
+                "MSI Speaker External",
+                "MSI Speaker Microsoft",
+                "MSI Speaker Day Pass External",
+                "MSI Speaker Day Pass Microsoft",
+                "Microsoft Envision Crew",
+                "MSI Crew",
+                "MSI Booth Staff Sponsor",
+                "MSI Booth Staff Exhibitor",
+                "MSI Booth Staff Microsoft",
+                "MSI Booth Staff External",
+                "Expo Only",
+                "MSI Expo Only",
+                "Day Passes",
+                "Day Pass Attendee Customer & Partner",
+                "Staff Day Pass External",
+                "Staff Day Pass Microsoft"
+            ],
+            "Reporting": {
+                "SessionCounts": false
+            },
+            "EvalAccess": [],
+            "SessionSetAccess": [
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Session Catalog"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "Schedule Builder"
+                },
+                {
+                    "ApplicableFrom": null,
+                    "ApplicableTo": null,
+                    "Identifier": "My Schedule"
+                }
+            ]
         }
     ]
 }
