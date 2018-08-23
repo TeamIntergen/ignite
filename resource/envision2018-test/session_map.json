@@ -4,7 +4,7 @@
         "HubbId": 2224,
         "SessionTypeName": "Keynote",
         "SessionSets": ["Session Catalog", "Schedule Builder", "My Schedule"]
-    },    
+    },
     {
         "HubbId": 2220,
         "SessionTypeName": "Breakout Session",
@@ -28,7 +28,7 @@
     {
         "HubbId": 2301,
         "SessionTypeName": "Tour",
-        "SessionSets": []
+        "SessionSets": ["Schedule Builder", "My Schedule"]
     },
     {
         "HubbId": 2218,
