@@ -16,14 +16,6 @@
           "Path": "detail.title",
           "Value": ""
         },{
-          "DisplayTitle": "Job Category",
-          "FieldName": "JobCategory",
-          "Style": "Options",
-          "Class": "",
-          "Path": "detail.jobCategory.value",
-          "Value": "",
-          "OptionsPath": "jobCategories"
-        },{
           "DisplayTitle": "Company",
           "FieldName": "Company",
           "Style": "inputText",
@@ -73,13 +65,29 @@
           "Value": "",
           "OptionsPath": "countryList"
         },{
-          "DisplayTitle": "Company Size",
-          "FieldName": "CompanySize",
-          "Style": "Options",
+          "DisplayTitle": "Product",
+          "FieldName": "Product",
+          "Style": "nestedSelect",
           "Class": "",
-          "Path": "detail.companySize.value",
+          "Path": "detail.products",
           "Value": "",
-          "OptionsPath": "companySizes"
+          "OptionsPath": "product"
+        },{
+          "DisplayTitle": "Solution Area",
+          "FieldName": "SolutionArea",
+          "Style": "nestedSelect",
+          "Class": "",
+          "Path": "detail.solutionArea",
+          "Value": "",
+          "OptionsPath": "solutionArea"
+        },{
+          "DisplayTitle": "Community Focus",
+          "FieldName": "CommunityFocus",
+          "Style": "multiSelect",
+          "Class": "",
+          "Path": "detail.communityFocus",
+          "Value": "",
+          "OptionsPath": "communityFocus"
         }]
       },
       {
