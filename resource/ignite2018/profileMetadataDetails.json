@@ -111,11 +111,11 @@
           "Class": "",
           "Path": "contacts.notification",
           "Options": [{
-              "DisplayTitle": "Make my profile publicly available for meetings and messages",
-              "FieldName": "CanBeFound",
+              "DisplayTitle": "Make my profile publicly available",
+              "FieldName": "IsPubliclyVisible",
               "Style": "checkbox",
               "Class": "",
-              "Path": "optins.canBeFound",
+              "Path": "optins.isPubliclyVisible",
               "Value": ""
           },{
               "DisplayTitle": "Show sessions I have added to my schedule",
@@ -125,11 +125,11 @@
               "Path": "optins.canShareSessions",
               "Value": ""
           },{
-              "DisplayTitle": "Make my profile publicly available",
-              "FieldName": "IsPubliclyVisible",
+              "DisplayTitle": "Make my profile publicly available for meetings and messages",
+              "FieldName": "CanBeFound",
               "Style": "checkbox",
               "Class": "",
-              "Path": "optins.isPubliclyVisible",
+              "Path": "optins.canBeFound",
               "Value": ""
           }
         ]
