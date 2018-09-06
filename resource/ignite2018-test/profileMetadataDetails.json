@@ -30,6 +30,22 @@
           "Path": "detail.biography",
           "Value": ""
         },{
+          "DisplayTitle": "Blog",
+          "FieldName": "Blog",
+          "Style": "inputText",
+          "Class": "",
+          "Path": "social.blog",
+          "Value": "",
+          "Regex": ""
+        },{
+          "DisplayTitle": "Facebook",
+          "FieldName": "Facebook",
+          "Style": "inputText",
+          "Class": "",
+          "Path": "social.facebook",
+          "Value": "",
+          "Regex": ""
+        },{
           "DisplayTitle": "LinkedIn",
           "FieldName": "LinkedIn",
           "Style": "inputText",
@@ -64,6 +80,14 @@
           "Path": "detail.country",
           "Value": "",
           "OptionsPath": "countryList"
+        },{
+          "DisplayTitle": "Industry",
+          "FieldName": "Industry",
+          "Style": "nestedSelect",
+          "Class": "",
+          "Path": "detail.industry",
+          "Value": "",
+          "OptionsPath": "industry"
         },{
           "DisplayTitle": "Product",
           "FieldName": "Product",
