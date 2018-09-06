@@ -173,8 +173,8 @@
             {
                 "title": "Industry",
                 "layout": "link",
-                "listings": "filters",
-                "subtype": "industryFocus",
+                "listings": "leafNodeFilters",
+                "subtype": "industry",
                 "subMetadata": []
             },
             {
@@ -187,14 +187,14 @@
             {
                 "title": "Product Expertise",
                 "layout": "link",
-                "listings": "filters",
+                "listings": "leafNodeFilters",
                 "subtype": "products",
                 "subMetadata": []
             },
             {
                 "title": "Solution Expertise",
                 "layout": "link",
-                "listings": "filters",
+                "listings": "leafNodeFilters",
                 "subtype": "solutionAreas",
                 "subMetadata": []
             },
