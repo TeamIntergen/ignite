@@ -1,0 +1,44 @@
+{
+  "SessionLengthMap": [
+    {
+      "SessionTypeName": "Breakout: 45 Minute",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Breakout: 75 Minute",
+      "SessionLength": 75
+    },
+    {
+      "SessionTypeName": "Theater",
+      "SessionLength": 20
+    },
+    {
+      "SessionTypeName": "Vision Keynote",
+      "SessionLength": 60
+    },
+    {
+      "SessionTypeName": "Technology Keynote",
+      "SessionLength": 90
+    },
+    {
+      "SessionTypeName": "Immersion Workshop",
+      "SessionLength": 75
+    },
+    {
+      "SessionTypeName": "Community Meetup",
+      "SessionLength": 75
+    },
+    {
+      "SessionTypeName": "Diversity & Tech Power Lunch",
+      "SessionLength": 60
+    },
+    {
+      "SessionTypeName": "Idea Swap & Mentoring ",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Microsoft Mechanics Live",
+      "SessionLength": 20
+    }
+  ]
+}
