@@ -13,7 +13,7 @@
         {
             "SessionTypeName": "Hands-on Lab",
             "HubbId": 2187,
-            "SessionSets": [ "My Schedule - 2018" ]
+            "SessionSets": [ "My Schedule - 2018", "Session Catalog 2018", "Schedule Builder - 2018", "My Schedule - 2018" ]
         },
         {
             "SessionTypeName": "Breakout: 75 Minute",
@@ -84,6 +84,11 @@
             "HubbId": 2300,
             "SessionTypeName": "Learning Path",
             "SessionSets": [ "Learning Path" ]
+        },
+        {
+            "HubbId": 2302,
+            "SessionTypeName": "Idea Swap & Mentoring ",
+            "SessionSets": [ "Schedule Builder - 2018", "My Schedule - 2018" ]
         }
       ]
 }
