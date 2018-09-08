@@ -173,7 +173,7 @@
             {
                 "title": "Industry",
                 "layout": "link",
-                "listings": "leafNodeFilters",
+                "listings": "filters",
                 "subtype": "industry",
                 "subMetadata": []
             },
