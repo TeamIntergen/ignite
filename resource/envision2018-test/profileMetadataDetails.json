@@ -125,7 +125,7 @@
               "Path": "optins.canShareSessions",
               "Value": ""
           },{
-              "DisplayTitle": "Make my profile publicly available",
+              "DisplayTitle": "Allow me to share my profile publicly",
               "FieldName": "IsPubliclyVisible",
               "Style": "checkbox",
               "Class": "",
