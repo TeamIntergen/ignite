@@ -39,5 +39,10 @@
         "HubbId": 2222,
         "SessionTypeName": "Agenda",
         "SessionSets": ["My Schedule"]
+    },
+    {
+        "HubbId": 2303,
+        "Name": "Microsoft Ignite Workshop",
+        "SessionSets": ["Schedule Builder", "My Schedule"]
     }]
 }

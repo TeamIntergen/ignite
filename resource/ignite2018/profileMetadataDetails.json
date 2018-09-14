@@ -1,163 +1,163 @@
 [
-      {
-        "HeadingTitle": "Attendee Profile",
-        "ItemsToShow": [{
-          "DisplayTitle": "Picture",
-          "FieldName": "ProfileImage",
-          "Style": "picture",
+  {
+    "HeadingTitle": "Attendee Profile",
+    "ItemsToShow": [{
+      "DisplayTitle": "Picture",
+      "FieldName": "ProfileImage",
+      "Style": "picture",
+      "Class": "",
+      "Path": "detail.profileImage",
+      "Value": ""
+    },{
+      "DisplayTitle": "Job Title",
+      "FieldName": "Title",
+      "Style": "inputText",
+      "Class": "",
+      "Path": "detail.title",
+      "Value": ""
+    },{
+      "DisplayTitle": "Company",
+      "FieldName": "Company",
+      "Style": "inputText",
+      "Class": "",
+      "Path": "detail.company",
+      "Value": ""
+    },{
+      "DisplayTitle": "Biography",
+      "FieldName": "Biography",
+      "Style": "textArea",
+      "Class": "",
+      "Path": "detail.biography",
+      "Value": ""
+    },{
+      "DisplayTitle": "Blog",
+      "FieldName": "Blog",
+      "Style": "inputText",
+      "Class": "",
+      "Path": "social.blog",
+      "Value": "",
+      "Regex": "^https?://.+$"
+    },{
+      "DisplayTitle": "Facebook",
+      "FieldName": "Facebook",
+      "Style": "inputText",
+      "Class": "",
+      "Path": "social.facebook",
+      "Value": "",
+      "Regex": "^http[s]?://(www|[a-zA-Z]{2}-[a-zA-Z]{2}).facebook.com/(pages/[a-zA-Z0-9.-]+[0-9]+|[a-zA-Z0-9.-]+)[/]?$"
+    },{
+      "DisplayTitle": "LinkedIn",
+      "FieldName": "LinkedIn",
+      "Style": "inputText",
+      "Class": "",
+      "Path": "social.linkedIn",
+      "Value": "",
+      "Regex": "https?://.*linkedin.com/in/.+"
+    },{
+      "DisplayTitle": "Twitter",
+      "FieldName": "Twitter",
+      "Style": "inputText",
+      "Class": "",
+      "Path": "social.twitter",
+      "Value": "",
+      "Regex": "@([A-Za-z0-9_]+)$"
+    }]
+  },
+  {
+    "HeadingTitle": "Company Profile",
+    "ItemsToShow": [{
+      "DisplayTitle": "Website",
+      "FieldName": "Website",
+      "Style": "inputText",
+      "Class": "",
+      "Path": "social.website",
+      "Value": "",
+      "Regex": "^https?://.+$"
+    },{
+      "DisplayTitle": "Country",
+      "FieldName": "Country",
+      "Style": "Options",
+      "Class": "",
+      "Path": "detail.country",
+      "Value": "",
+      "OptionsPath": "countryList"
+    },{
+      "DisplayTitle": "Industry",
+      "FieldName": "Industry",
+      "Style": "Options",
+      "Class": "",
+      "Path": "detail.industry",
+      "Value": "",
+      "OptionsPath": "industry"
+    },{
+      "DisplayTitle": "Product",
+      "FieldName": "Product",
+      "Style": "nestedSelect",
+      "Class": "",
+      "Path": "detail.products",
+      "Value": "",
+      "OptionsPath": "product"
+    },{
+      "DisplayTitle": "Solution Area",
+      "FieldName": "SolutionArea",
+      "Style": "nestedSelect",
+      "Class": "",
+      "Path": "detail.solutionArea",
+      "Value": "",
+      "OptionsPath": "solutionArea"
+    },{
+      "DisplayTitle": "Community Focus",
+      "FieldName": "CommunityFocus",
+      "Style": "multiSelect",
+      "Class": "",
+      "Path": "detail.communityFocus",
+      "Value": "",
+      "OptionsPath": "communityFocus"
+    }]
+  },
+  {
+    "HeadingTitle": "Settings",
+    "ItemsToShow": [{
+      "DisplayTitle": "Login",
+      "FieldName": "Email",
+      "Style": "readonly",
+      "Class": "",
+      "Path": "contacts.authentication"
+    },{
+      "DisplayTitle": "Notifications",
+      "FieldName": "NotificationEmail",
+      "Style": "readonly",
+      "Class": "",
+      "Path": "contacts.notification"
+    },{
+      "DisplayTitle": "Privacy",
+      "FieldName": "Privacy",
+      "Style": "multiCheckbox",
+      "Class": "",
+      "Path": "contacts.notification",
+      "Options": [{
+          "DisplayTitle": "Make my profile visible in the Microsoft Ignite directory and make me available for meetings and messaging",
+          "FieldName": "CanBeFound",
+          "Style": "checkbox",
           "Class": "",
-          "Path": "detail.profileImage",
+          "Path": "optins.canBeFound",
           "Value": ""
-        },{
-          "DisplayTitle": "Job Title",
-          "FieldName": "Title",
-          "Style": "inputText",
+      },{
+          "DisplayTitle": "Show sessions I have added to my schedule",
+          "FieldName": "CanShareSession",
+          "Style": "checkbox",
           "Class": "",
-          "Path": "detail.title",
+          "Path": "optins.canShareSessions",
           "Value": ""
-        },{
-          "DisplayTitle": "Company",
-          "FieldName": "Company",
-          "Style": "inputText",
+      },{
+          "DisplayTitle": "Allow me to share my profile publicly",
+          "FieldName": "IsPubliclyVisible",
+          "Style": "checkbox",
           "Class": "",
-          "Path": "detail.company",
+          "Path": "optins.isPubliclyVisible",
           "Value": ""
-        },{
-          "DisplayTitle": "Biography",
-          "FieldName": "Biography",
-          "Style": "textArea",
-          "Class": "",
-          "Path": "detail.biography",
-          "Value": ""
-        },{
-          "DisplayTitle": "Blog",
-          "FieldName": "Blog",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.blog",
-          "Value": "",
-          "Regex": "^https?://.+$"
-        },{
-          "DisplayTitle": "Facebook",
-          "FieldName": "Facebook",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.facebook",
-          "Value": "",
-          "Regex": "^http[s]?://(www|[a-zA-Z]{2}-[a-zA-Z]{2}).facebook.com/(pages/[a-zA-Z0-9.-]+[0-9]+|[a-zA-Z0-9.-]+)[/]?$"
-        },{
-          "DisplayTitle": "LinkedIn",
-          "FieldName": "LinkedIn",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.linkedIn",
-          "Value": "",
-          "Regex": "https?://.*linkedin.com/in/.+"
-        },{
-          "DisplayTitle": "Twitter",
-          "FieldName": "Twitter",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.twitter",
-          "Value": "",
-          "Regex": "@([A-Za-z0-9_]+)$"
-        }]
-      },
-      {
-        "HeadingTitle": "Company Profile",
-        "ItemsToShow": [{
-          "DisplayTitle": "Website",
-          "FieldName": "Website",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.website",
-          "Value": "",
-          "Regex": "^https?://.+$"
-        },{
-          "DisplayTitle": "Country",
-          "FieldName": "Country",
-          "Style": "Options",
-          "Class": "",
-          "Path": "detail.country",
-          "Value": "",
-          "OptionsPath": "countryList"
-        },{
-          "DisplayTitle": "Industry",
-          "FieldName": "Industry",
-          "Style": "nestedSelect",
-          "Class": "",
-          "Path": "detail.industry",
-          "Value": "",
-          "OptionsPath": "industry"
-        },{
-          "DisplayTitle": "Product",
-          "FieldName": "Product",
-          "Style": "nestedSelect",
-          "Class": "",
-          "Path": "detail.products",
-          "Value": "",
-          "OptionsPath": "product"
-        },{
-          "DisplayTitle": "Solution Area",
-          "FieldName": "SolutionArea",
-          "Style": "nestedSelect",
-          "Class": "",
-          "Path": "detail.solutionArea",
-          "Value": "",
-          "OptionsPath": "solutionArea"
-        },{
-          "DisplayTitle": "Community Focus",
-          "FieldName": "CommunityFocus",
-          "Style": "multiSelect",
-          "Class": "",
-          "Path": "detail.communityFocus",
-          "Value": "",
-          "OptionsPath": "communityFocus"
-        }]
-      },
-      {
-        "HeadingTitle": "Settings",
-        "ItemsToShow": [{
-          "DisplayTitle": "Login",
-          "FieldName": "Email",
-          "Style": "readonly",
-          "Class": "",
-          "Path": "contacts.authentication"
-        },{
-          "DisplayTitle": "Notifications",
-          "FieldName": "NotificationEmail",
-          "Style": "readonly",
-          "Class": "",
-          "Path": "contacts.notification"
-        },{
-          "DisplayTitle": "Privacy",
-          "FieldName": "Privacy",
-          "Style": "multiCheckbox",
-          "Class": "",
-          "Path": "contacts.notification",
-          "Options": [{
-              "DisplayTitle": "Make my profile visible in the Microsoft Ignite directory and make me available for meetings and messaging",
-              "FieldName": "CanBeFound",
-              "Style": "checkbox",
-              "Class": "",
-              "Path": "optins.canBeFound",
-              "Value": ""
-          },{
-              "DisplayTitle": "Show sessions I have added to my schedule",
-              "FieldName": "CanShareSession",
-              "Style": "checkbox",
-              "Class": "",
-              "Path": "optins.canShareSessions",
-              "Value": ""
-          },{
-              "DisplayTitle": "Allow me to share my profile publicly",
-              "FieldName": "IsPubliclyVisible",
-              "Style": "checkbox",
-              "Class": "",
-              "Path": "optins.isPubliclyVisible",
-              "Value": ""
-          }
-        ]
-        }]
-    }
+      }
     ]
+    }]
+}
+]
