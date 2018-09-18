@@ -31,6 +31,7 @@
                 "Microsoft Envision Attendee",
                 "Microsoft Envision Attendee Microsoft",
                 "Microsoft Envision Attendee Microsoft Executive",
+                "Microsoft Envision Non-Attending Speaker Assistant",
                 "Microsoft Envision Attendee Sponsor",
                 "MSI Attendee Customer & Partner",
                 "MSI Attendee Sponsor",
@@ -79,6 +80,7 @@
                 "Microsoft Envision Attendee",
                 "Microsoft Envision Attendee Microsoft",
                 "Microsoft Envision Attendee Microsoft Executive",
+                "Microsoft Envision Non-Attending Speaker Assistant"
                 "Microsoft Envision Attendee Sponsor",
                 "MSI Attendee Customer & Partner",
                 "MSI Attendee Sponsor",
@@ -119,7 +121,32 @@
             "Reporting": {
                 "SessionCounts": false
             },
-            "EvalAccess": [],
+            "EvalAccess": [{
+                "Identifier": "PostEventSurvey",
+                "SessionTypes": ["Post Event  Survey"],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": [
+                    "Breakout Session",
+                    "Microsoft Ignite Workshop",
+                    "Roundtable",
+                    "Workshop"
+                ],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "MainStageEvaluation",
+                "SessionTypes": ["Main Stage"],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "Keynote",
+                "SessionTypes": ["Keynote"],
+                "Mobile": true,
+                "WebSite": true
+            }],
             "SessionSetAccess": [
                 {
                     "ApplicableFrom": null,
