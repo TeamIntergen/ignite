@@ -1,0 +1,289 @@
+[
+    {
+        "start": "2018-09-25T08:45:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Day 2 Intro",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-25T09:00:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-25T10:15:00-04:00",
+        "showType": "Interview",
+        "title": "Interview with Microsoft CVP Corey Sanders",
+        "hosts": ["Rick Claus"],
+        "guests": ["Corey Sanders"]
+    },
+    {
+        "start": "2018-09-25T10:45:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-25T12:00:00-04:00",
+        "showType": "Interview",
+        "title": "All About Exchange 2019",
+        "hosts": ["Phoummala Schmitt"],
+        "guests": ["Greg Taylor"]
+    },
+    {
+        "start": "2018-09-25T12:15:00-04:00",
+        "showType": "Interview",
+        "title": "Visual Studio Live Code",
+        "hosts": ["Christina Warren"],
+        "guests": ["Burke Holland"]
+    },
+    {
+        "start": "2018-09-25T12:30:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-25T13:45:00-04:00",
+        "showType": "Interview",
+        "title": "Azure Serverless",
+        "hosts": ["Christina Warren"],
+        "guests": ["Jeff Hollan"]
+    },
+    {
+        "start": "2018-09-25T14:00:00-04:00",
+        "showType": "Interview",
+        "title": "Collaborating with MS Teams",
+        "hosts": ["Sonia Cuff"],
+        "guests": ["Anne Michaels"]
+    },
+    {
+        "start": "2018-09-25T14:15:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-25T15:30:00-04:00",
+        "showType": "Interview",
+        "title": "Server Migration",
+        "hosts": ["Pierre Roman"],
+        "guests": ["Ned Pyle"]
+    },
+    {
+        "start": "2018-09-25T15:45:00-04:00",
+        "showType": "Interview",
+        "title": "OpSec with CVP Ann Johnson",
+        "hosts": ["Joey Snow"],
+        "guests": ["Ann Johnson"]
+    },
+    {
+        "start": "2018-09-25T16:00:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-25T17:15:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Day 2 Wrap-up",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-26T08:45:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Day 3 Intro",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-26T09:00:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-26T10:15:00-04:00",
+        "showType": "Interview",
+        "title": "Outlook Mobile Client in the Enterprise",
+        "hosts": ["Phoummala Schmitt"],
+        "guests": ["Ross Smith IV"]
+    },
+    {
+        "start": "2018-09-26T10:30:00-04:00",
+        "showType": "Interview",
+        "title": "Identity and Microsoft 365 Secure Store",
+        "hosts": ["Joey Snow"],
+        "guests": ["Nitika Gupta"]
+    },
+    {
+        "start": "2018-09-26T10:45:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-26T12:00:00-04:00",
+        "showType": "Interview",
+        "title": "#FiveThings Live with John Papa",
+        "hosts": ["Christina Warren"],
+        "guests": ["John Papa"]
+    },
+    {
+        "start": "2018-09-26T12:15:00-04:00",
+        "showType": "Interview",
+        "title": "Azure Idenity",
+        "hosts": ["Christina Warren"],
+        "guests": ["Colleen Williams"]
+    },
+    {
+        "start": "2018-09-26T12:30:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-26T13:45:00-04:00",
+        "showType": "Interview",
+        "title": "Getting the Most Out of ACR Build Tasks",
+        "hosts": ["John Papa"],
+        "guests": ["Steve Lasker"]
+    },
+    {
+        "start": "2018-09-26T14:00:00-04:00",
+        "showType": "Interview",
+        "title": "Deploying and Managing IoT From an Ops Perspective",
+        "hosts": ["Anthony Bartolo"],
+        "guests": ["Olivier Bloch"]
+    },
+    {
+        "start": "2018-09-26T14:15:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-26T15:30:00-04:00",
+        "showType": "Interview",
+        "title": "A Conversation with Azure CTO, Mark Russinovich",
+        "hosts": ["Christina Warren", "Rick Claus"],
+        "guests": ["Mark Russinovich"]
+    },
+    {
+        "start": "2018-09-26T16:00:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-26T17:15:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Day 3 Wrap-up",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-27T08:45:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Day 4 Intro",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-27T09:00:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-27T10:15:00-04:00",
+        "showType": "Interview",
+        "title": "The Windows Admin Center",
+        "hosts": ["Pierre Roman"],
+        "guests": ["Samuel Li", "Haley Rowland"]
+    },
+    {
+        "start": "2018-09-27T10:30:00-04:00",
+        "showType": "Interview",
+        "title": "Introducing Microsoft Learn",
+        "hosts": ["Anthony Bartolo"],
+        "guests": ["Adrian Stevens", "Mark Smith", "Bob Tabor"]
+    },
+    {
+        "start": "2018-09-27T10:45:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-27T12:00:00-04:00",
+        "showType": "Interview",
+        "title": "Everything You Need to Know About Microsoft's HCI",
+        "hosts": ["Phoummala Schmitt"],
+        "guests": ["Carmen Crincoli"]
+    },
+    {
+        "start": "2018-09-27T12:15:00-04:00",
+        "showType": "Interview",
+        "title": "Hybrid: From the Top Down",
+        "hosts": ["Pierre Roman"],
+        "guests": ["Jeff Woolsey"]
+    },
+    {
+        "start": "2018-09-27T12:30:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-27T13:45:00-04:00",
+        "showType": "Interview",
+        "title": "Driving Your Career Through Change",
+        "hosts": ["Sonia Cuff"],
+        "guests": ["Jeffrey Snover"]
+    },
+    {
+        "start": "2018-09-27T14:00:00-04:00",
+        "showType": "Interview",
+        "title": "Discussing Azure AD with CVP Alex Simons",
+        "hosts": ["Joey Snow"],
+        "guests": ["Alex Simons"]
+    },
+    {
+        "start": "2018-09-27T14:15:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-27T15:30:00-04:00",
+        "showType": "Interview",
+        "title": "Building a More Diverse and Inclusive Team",
+        "hosts": ["Christina Warren"],
+        "guests": ["Phoummala Schmitt"]
+    },
+    {
+        "start": "2018-09-27T15:45:00-04:00",
+        "showType": "Interview",
+        "title": "Java at Microsoft",
+        "hosts": ["Bruno Borges"]
+    },
+    {
+        "start": "2018-09-27T16:00:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-27T17:15:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Day 4 Wrap-up",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-28T17:08:45-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Day 5 Intro",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-28T17:09:00-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-28T17:10:15-04:00",
+        "showType": "Interview",
+        "title": "Channel 9 Live Content"
+    },
+    {
+        "start": "2018-09-28T17:10:30-04:00",
+        "showType": "Interview",
+        "title": "Dealing with and Managing Burn Out",
+        "hosts": ["Christina Warren"],
+        "guests": ["Sonia Cuff"]
+    },
+    {
+        "start": "2018-09-28T17:10:45-04:00",
+        "showType": "Breakout"
+    },
+    {
+        "start": "2018-09-28T17:12:00-04:00",
+        "showType": "Interview",
+        "title": "Battledecks: Ignite Edition",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    },
+    {
+        "start": "2018-09-28T17:12:15-04:00",
+        "showType": "Segment",
+        "title": "Ignite: Ignite Wrap-up and Goodbye",
+        "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
+    }
+]
