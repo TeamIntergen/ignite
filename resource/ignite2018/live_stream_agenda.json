@@ -249,39 +249,39 @@
         "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
     },
     {
-        "start": "2018-09-28T17:08:45-04:00",
+        "start": "2018-09-28T08:45-04:00",
         "showType": "Segment",
         "title": "Ignite: Day 5 Intro",
         "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
     },
     {
-        "start": "2018-09-28T17:09:00-04:00",
+        "start": "2018-09-28T09:00-04:00",
         "showType": "Breakout"
     },
     {
-        "start": "2018-09-28T17:10:15-04:00",
+        "start": "2018-09-28T10:15-04:00",
         "showType": "Interview",
         "title": "Channel 9 Live Content"
     },
     {
-        "start": "2018-09-28T17:10:30-04:00",
+        "start": "2018-09-28T10:30-04:00",
         "showType": "Interview",
         "title": "Dealing with and Managing Burn Out",
         "hosts": ["Christina Warren"],
         "guests": ["Sonia Cuff"]
     },
     {
-        "start": "2018-09-28T17:10:45-04:00",
+        "start": "2018-09-28T10:45-04:00",
         "showType": "Breakout"
     },
     {
-        "start": "2018-09-28T17:12:00-04:00",
+        "start": "2018-09-28T12:00-04:00",
         "showType": "Interview",
         "title": "Battledecks: Ignite Edition",
         "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
     },
     {
-        "start": "2018-09-28T17:12:15-04:00",
+        "start": "2018-09-28T12:15-04:00",
         "showType": "Segment",
         "title": "Ignite: Ignite Wrap-up and Goodbye",
         "hosts": ["Christina Warren", "Rick Claus", "Joey Snow"]
