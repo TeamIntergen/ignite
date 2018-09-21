@@ -1,5 +1,35 @@
 [
     {
+        "start": "2018-09-24T08:30:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite Day 1 Online Live Pre-Show",
+        "hosts": ["Seth Juarez", "Julia White", "Paul Thurrott", "Mary Jo Foley"]
+    },
+    {
+        "start": "2018-09-24T10:15:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite Day 1 Online Live Keynote Recap Show",
+        "hosts": ["Seth Juarez", "Mary Jo Foley", "Paul Thurrott", "Marty Choate"]
+    },
+    {
+        "start": "2018-09-24T12:30:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite Day 1 Online Live Midday Show",
+        "hosts": ["Seth Juarez", "James Phillips", "Naomi Moneypenny", "Simon Hodgkinson", "Rob Lefferts", "Anna Chu", "Michael Kophs", "Stephen Rose", "Rick Claus", "Shona Chee", "Charles Lamanna", "Buck Woody", "John White", "Alex Bradley", "Arun Ulag"]
+    },
+    {
+        "start": "2018-09-24T15:30:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite Day 1 Online Live Afternoon Show",
+        "hosts": ["Seth Juarez", "Michael Kophs", "Jeff Hollan"]
+    },
+    {
+        "start": "2018-09-24T17:15:00-04:00",
+        "showType": "Segment",
+        "title": "Ignite Day 1 Online Live End of Day SHow",
+        "hosts": ["Seth Juarez"]
+    },
+    {
         "start": "2018-09-25T08:45:00-04:00",
         "showType": "Segment",
         "title": "Ignite: Day 2 Intro",
