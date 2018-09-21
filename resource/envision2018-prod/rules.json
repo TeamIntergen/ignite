@@ -119,7 +119,32 @@
             "Reporting": {
                 "SessionCounts": false
             },
-            "EvalAccess": [],
+            "EvalAccess": [{
+                "Identifier": "PostEventSurvey",
+                "SessionTypes": ["Post Event  Survey"],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "RegularSessionEvaluations",
+                "SessionTypes": [
+                    "Breakout Session",
+                    "Microsoft Ignite Workshop",
+                    "Roundtable",
+                    "Workshop"
+                ],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "MainStageEvaluation",
+                "SessionTypes": ["Main Stage"],
+                "Mobile": true,
+                "WebSite": true
+            }, {
+                "Identifier": "Keynote",
+                "SessionTypes": ["Keynote"],
+                "Mobile": true,
+                "WebSite": true
+            }],
             "SessionSetAccess": [
                 {
                     "ApplicableFrom": null,
