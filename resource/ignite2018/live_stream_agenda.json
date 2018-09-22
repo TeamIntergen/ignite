@@ -37,7 +37,8 @@
     },
     {
         "start": "2018-09-25T09:00:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 64651
     },
     {
         "start": "2018-09-25T10:15:00-04:00",
@@ -48,7 +49,8 @@
     },
     {
         "start": "2018-09-25T10:45:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 65977
     },
     {
         "start": "2018-09-25T12:00:00-04:00",
@@ -66,7 +68,8 @@
     },
     {
         "start": "2018-09-25T12:30:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 64557
     },
     {
         "start": "2018-09-25T13:45:00-04:00",
@@ -84,7 +87,8 @@
     },
     {
         "start": "2018-09-25T14:15:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 66014
     },
     {
         "start": "2018-09-25T15:30:00-04:00",
@@ -102,7 +106,8 @@
     },
     {
         "start": "2018-09-25T16:00:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 66005
     },
     {
         "start": "2018-09-25T17:15:00-04:00",
@@ -118,7 +123,8 @@
     },
     {
         "start": "2018-09-26T09:00:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 65383
     },
     {
         "start": "2018-09-26T10:15:00-04:00",
@@ -136,7 +142,8 @@
     },
     {
         "start": "2018-09-26T10:45:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 65633
     },
     {
         "start": "2018-09-26T12:00:00-04:00",
@@ -154,7 +161,8 @@
     },
     {
         "start": "2018-09-26T12:30:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 65011
     },
     {
         "start": "2018-09-26T13:45:00-04:00",
@@ -172,7 +180,8 @@
     },
     {
         "start": "2018-09-26T14:15:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 65780
     },
     {
         "start": "2018-09-26T15:30:00-04:00",
@@ -183,7 +192,8 @@
     },
     {
         "start": "2018-09-26T16:00:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 64693
     },
     {
         "start": "2018-09-26T17:15:00-04:00",
@@ -199,7 +209,8 @@
     },
     {
         "start": "2018-09-27T09:00:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 64566
     },
     {
         "start": "2018-09-27T10:15:00-04:00",
@@ -217,7 +228,8 @@
     },
     {
         "start": "2018-09-27T10:45:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 64671
     },
     {
         "start": "2018-09-27T12:00:00-04:00",
@@ -235,7 +247,8 @@
     },
     {
         "start": "2018-09-27T12:30:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 66597
     },
     {
         "start": "2018-09-27T13:45:00-04:00",
@@ -253,7 +266,8 @@
     },
     {
         "start": "2018-09-27T14:15:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 65008
     },
     {
         "start": "2018-09-27T15:30:00-04:00",
@@ -270,7 +284,8 @@
     },
     {
         "start": "2018-09-27T16:00:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 65916
     },
     {
         "start": "2018-09-27T17:15:00-04:00",
@@ -286,7 +301,8 @@
     },
     {
         "start": "2018-09-28T09:00-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 66609
     },
     {
         "start": "2018-09-28T10:15-04:00",
@@ -302,7 +318,8 @@
     },
     {
         "start": "2018-09-28T10:45-04:00",
-        "showType": "Breakout"
+        "showType": "Breakout",
+        "sessionId": 64689
     },
     {
         "start": "2018-09-28T12:00-04:00",
