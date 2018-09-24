@@ -6,10 +6,30 @@
         "hosts": ["Seth Juarez", "Julia White", "Paul Thurrott", "Mary Jo Foley"]
     },
     {
+        "start": "2018-09-24T09:00:00-04:00",
+        "showType": "Vision Keynote",
+        "sessionId": 66931
+    },
+    {
         "start": "2018-09-24T10:15:00-04:00",
         "showType": "Segment",
         "title": "Ignite Day 1 Online Live Keynote Recap Show",
         "hosts": ["Seth Juarez", "Mary Jo Foley", "Paul Thurrott", "Marty Choate"]
+    },
+    {
+        "start": "2018-09-24T11:00:00-04:00",
+        "showType": "Technology Keynote",
+        "sessionId": 66679
+    },
+    {
+        "start": "2018-09-24T11:00:00-04:00",
+        "showType": "Technology Keynote",
+        "sessionId": 66692
+    },
+    {
+        "start": "2018-09-24T11:00:00-04:00",
+        "showType": "Technology Keynote",
+        "sessionId": 66693
     },
     {
         "start": "2018-09-24T12:30:00-04:00",
@@ -18,10 +38,55 @@
         "hosts": ["Seth Juarez", "James Phillips", "Naomi Moneypenny", "Simon Hodgkinson", "Rob Lefferts", "Anna Chu", "Michael Kophs", "Stephen Rose", "Rick Claus", "Shona Chee", "Charles Lamanna", "Buck Woody", "John White", "Alex Bradley", "Arun Ulag"]
     },
     {
+        "start": "2018-09-24T02:15:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66676
+    },
+    {
+        "start": "2018-09-24T02:15:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66697
+    },
+    {
+        "start": "2018-09-24T02:15:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66623
+    },
+    {
+        "start": "2018-09-24T02:15:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66695
+    },
+    {
+        "start": "2018-09-24T02:15:00-04:00",
+        "showType": "General Session",
+        "sessionId": 65378
+    },
+    {
+        "start": "2018-09-24T02:15:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66696
+    },
+    {
         "start": "2018-09-24T15:30:00-04:00",
         "showType": "Segment",
         "title": "Ignite Day 1 Online Live Afternoon Show",
         "hosts": ["Seth Juarez", "Michael Kophs", "Jeff Hollan"]
+    },
+    {
+        "start": "2018-09-24T04:00:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66699
+    },
+    {
+        "start": "2018-09-24T04:00:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66698
+    },
+    {
+        "start": "2018-09-24T04:00:00-04:00",
+        "showType": "General Session",
+        "sessionId": 66664
     },
     {
         "start": "2018-09-24T17:15:00-04:00",
