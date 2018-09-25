@@ -1,6 +1,25 @@
 [{
     "sidebarType": "sessions",
     "metadata": [{
+            "title": "Session Links",
+            "layout": "no-link",
+            "listings": "",
+            "subtype": "",
+            "subMetadata": [{
+                "title": "View Slide Deck",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "slideDeck",
+                "subMetadata": []
+            },{
+                "title": "Download Video",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "downloadVideoLink",
+                "subMetadata": []
+            }]
+        },
+        {
             "title": "Session Code",
             "layout": "no-link",
             "listings": "",
@@ -24,7 +43,7 @@
             "title": "Level",
             "layout": "link",
             "listings": "filters",
-            "subtype": "level",
+           "subtype": "level",
             "subMetadata": []
         },
         {
@@ -92,6 +111,25 @@
 {
     "sidebarType": "videos",
     "metadata": [{
+            "title": "Session Links",
+            "layout": "no-link",
+            "listings": "",
+            "subtype": "",
+            "subMetadata": [{
+                "title": "View Slide Deck",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "slideDeck",
+                "subMetadata": []
+            },{
+                "title": "Download Video",
+                "layout": "link",
+                "listings": "link",
+                "subtype": "downloadVideoLink",
+                "subMetadata": []
+            }]
+        },
+        {
             "title": "Session Code",
             "layout": "no-link",
             "listings": "",
@@ -125,6 +163,7 @@
             "subtype": "products",
             "subMetadata": []
         },
+
     ]
 }, {
     "sidebarType": "attendees",
