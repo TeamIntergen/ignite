@@ -1,6 +1,25 @@
 [{
         "sidebarType": "sessions",
-        "metadata": [{
+        "metadata": [{ 
+            "title": "Session Links", 
+            "layout": "no-link", 
+            "listings": "", 
+            "subtype": "", 
+            "subMetadata": [{ 
+                "title": "View Slide Deck", 
+                "layout": "link", 
+                "listings": "link", 
+                "subtype": "slideDeck", 
+                "subMetadata": [] 
+            },{ 
+                "title": "Download Video", 
+                "layout": "link", 
+                "listings": "link", 
+                "subtype": "downloadVideoLink", 
+                "subMetadata": [] 
+            }] 
+        }, 
+        {
                 "title": "Session Code",
                 "layout": "no-link",
                 "listings": "",
@@ -91,7 +110,26 @@
     },
     {
         "sidebarType": "videos",
-        "metadata": [{
+        "metadata": [{ 
+            "title": "Session Links", 
+            "layout": "no-link", 
+            "listings": "", 
+            "subtype": "", 
+            "subMetadata": [{ 
+                "title": "View Slide Deck", 
+                "layout": "link", 
+                "listings": "link", 
+                "subtype": "slideDeck", 
+                "subMetadata": [] 
+            },{ 
+                "title": "Download Video", 
+                "layout": "link", 
+                "listings": "link", 
+                "subtype": "downloadVideoLink", 
+                "subMetadata": [] 
+            }] 
+        }, 
+        {
                 "title": "Session Code",
                 "layout": "no-link",
                 "listings": "",
