@@ -1,0 +1,24 @@
+{
+  "SessionLengthMap": [
+    {
+      "SessionTypeName": "Breakout",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Keynote",
+      "SessionLength": 90
+    },
+    {
+      "SessionTypeName": "Lab",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Theater",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Technology Sneak Peeks",
+      "SessionLength": 45
+    }
+  ]
+}

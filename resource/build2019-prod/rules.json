@@ -1,0 +1,94 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": ["Anonymous"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Comp Academic",
+        "Comp General Attendee",
+        "General Attendee Cross Charge",
+        "Paid General Attendee Beyond Capacity",
+        "Paid General Attendee Full Price",
+        "Paid General Attendee Partial",
+        "Student Cross Charge",
+        "Pre-Registered Attendee",
+        "Comp Microsoft Attendee",
+        "Microsoft Attendee Cross Charge",
+        "Paid Microsoft Attendee",
+        "Paid Microsoft Attendee Beyond Capacity",
+        "Staff Chaperone /ADA Support",
+        "Staff Microsoft",
+        "Financial Analyst",
+        "Speaker External",
+        "Speaker Microsoft",
+        "Staff External",
+        "Staff Partner Booths",
+        "Analyst",
+        "Press",
+        "Press Staff",
+        "Crew"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true
+      },
+      "VisibleAttendeeTypes": [
+        "Comp Academic",
+        "Comp General Attendee",
+        "General Attendee Cross Charge",
+        "Paid General Attendee Beyond Capacity",
+        "Paid General Attendee Full Price",
+        "Paid General Attendee Partial",
+        "Student Cross Charge",
+        "Pre-Registered Attendee",
+        "Comp Microsoft Attendee",
+        "Microsoft Attendee Cross Charge",
+        "Paid Microsoft Attendee",
+        "Paid Microsoft Attendee Beyond Capacity",
+        "Staff Chaperone /ADA Support",
+        "Staff Microsoft",
+        "Financial Analyst",
+        "Speaker External",
+        "Speaker Microsoft",
+        "Staff External",
+        "Staff Partner Booths",
+        "Analyst",
+        "Press",
+        "Press Staff",
+        "Crew"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": []
+    }
+  ]
+}

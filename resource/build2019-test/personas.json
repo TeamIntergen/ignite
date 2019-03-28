@@ -1,0 +1,288 @@
+{
+    "Personas": [
+        {
+            "Id": "1",
+            "DisplayName": "Application Admin",
+            "Description" : "I administer various applications at my company from in-house Line of Business apps, to some of our standardized Office 365 workloads, including Exchange and SharePoint.
+
+Content that I am interested in at Ignite
+•	Insights on Office 365 administration
+•	Mobile app deployment and management
+•	Manging Office migrations in a an “always up-to-date” product lifecycle
+•	Managing access to web applications with Azure
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application%20Admin.png?raw=true",
+            "SessionsAttending" : [
+                "38471","1261","39171",
+                "3082","3204","3016","3175", "2961",
+                "39172","1261","39171",
+                "3144","35275","1260","2959","20638"
+            ]
+        },
+        {
+            "Id": "2",
+            "DisplayName": "Application Developer",
+            "Description" : "I am focused on translating software requirements into workable programming code and maintaining and developing programs for use in our business.
+
+Content that I am interested in at Ignite
+•	UX design for Windows store apps
+•	Developing for Office 365
+•	Leveraging Azure as a development platform
+•	Microsoft APIs for LoB integrations
+•	Latest news about Microsoft development tools
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application Developer.png?raw=true",
+            "SessionsAttending" : [
+                "38471","2747","39172","39171",
+                "20664","3202","2673","3120","3217",
+                "2769","3083","3207","36913","2828",
+                "3081","22117","3190","3095","20634","20568","20586","2571",
+                "2575","3130","2631"
+            ]
+        },
+        {
+            "Id": "3",
+            "DisplayName": "Database Administrator",
+            "Description" : "As a database admin my core responsibilities include and cloud-based database capacity planning, installation, database design, performance monitoring, as well as backup and data recovery. I am also expanding into creating Business Intelligence solutions at my company.
+
+Content that I am interested in at Ignite
+•	Latest information on SQL and roadmap
+•	Machine learning
+•	Leveraging Azure for high performance database management
+•	BI solutions
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Administrator.png?raw=true",
+            "SessionsAttending" : [
+                "15873","2548","39172","39171",
+                "20550","2685","15874","2822","2975",
+                "2987","3001","2990",
+                "3095","5928","20553","2988",
+                "2781","5942","15846"
+            ]
+        },
+        {
+            "Id": "4",
+            "DisplayName": "Database Developer",
+            "Description" : "As a Database Developer I develop and maintain on-premises and cloud databases across the organization, while ensuring high levels of data availability. I evaluate and advise on all technology components, such as software, hardware, and networking capabilities, for database management systems and applications. As part of my role I am also responsible for implementing data dashboards to all levels of the organization.
+
+Content that I am interested in at Ignite
+•	The latest SQL developments and roadmap
+•	How I can leverage PowerBi to gain even more value from the all the data in my company
+•	Building scalable applications with Azure
+
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Database Developer.png?raw=true",
+            "SessionsAttending" : [
+                "15873","20700","39172","39171",
+                "3064","2654","2901","2887","36902","2998",
+                "14817","20691","2633","20665","2990",
+                "4094","22117","5938","5937",
+                "5931","3053"
+            ]
+        },
+        {
+            "Id": "5",
+            "DisplayName": "End User Support",
+            "Description" : "I am responsible for the end user support at my company. I am the point of contact for troubleshooting applications, but also support them when they are looking for new products or features to perform their work. Besides providing general IT support I am an advocate towards the business to improve end-user productivity
+
+Content that I am interested in at Ignite
+•	Tips and tricks about troubleshooting our IT workplace from Desktop to the Exchange server
+•	Latest developments in end-user productivity: New products, new features and what’s coming
+
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/End User Support.png?raw=true",
+            "SessionsAttending" : [
+                "20582","2730","39172","39171",
+                "4077","1300","20703","13777","20602",
+                "20691","2809","1278","20577","4996","5001","4071",
+                "4083","1276","39135","20670","1239","2806",
+                "2997","15846"
+            ]
+        },
+        {
+            "Id": "6",
+            "DisplayName": "IT Cloud Infrastructure",
+            "Description" : "I manage my company’s IT infrastructure and we recently moved a part of our data storage onto Azure.
+
+Content that I am interested in at Ignite
+•	Azure IaaS and PaaS
+•	Optimizing our network to deal with the rapidly increasing bandwidth demand
+•	Latest Office 365 developments of applications, security and administration
+•	Best practices for Identity management
+•	IoT
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Cloud Infrastructure.png?raw=true",
+            "SessionsAttending" : [
+                "3091","1261","39172","39171",
+                "1333","35275","3148","20578","3187","20683","2778","3195",
+                "3008","2660","1334","2557","2982","3015",
+                "3082","20584","3161","15845",
+                "2739","4087","14816"
+            ]
+        },
+        {
+            "Id": "7",
+            "DisplayName": "IT Desktop",
+            "Description" : "I am a Desktop administrator and in charge of the my company’s client workstation deployment, maintenance, processes and technologies. Our machines currently run Windows 7 and Office 2013.
+
+Content that I am interested in at Ignite
+•	latest Windows 10 developments
+•	Managing Windows as a Service and the advancements in security.
+•	The new Office deployment Click-to-Run technology
+•	Deployment options for the traditional desktop and our mobile clients with Intune and SCCM
+
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Desktop.png?raw=true",
+            "SessionsAttending" : [
+                "1240","39172","39171",
+                "19287","1300","20663","34967","13783","20669","2697","2992",
+                "2809","15848","3062","39132","2994","2763",
+                "1244","2694","2856","2799","15845",
+                "3218","2969"
+            ]
+        },
+        {
+            "Id": "9",
+            "DisplayName": "IT Hybrid Infrastructure",
+            "Description" : "At my company we run a hybrid environment, with some of our core services running in the Microsoft cloud and some still in our own datacenter. I am attending Ignite to find out about the newest developments of Microsoft’s on-premises server products and how I can best integrate them with everything we have running in the cloud.
+
+Content that I am interested in at Ignite
+Office 365 hybrid options
+Creating seamless hybrid environments leveraging ExpressRoute
+Managing identities
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Hybrid Infrastructure.png?raw=true",
+            "SessionsAttending" : [
+                "20537","2870","1380","39172","39171",
+                "2841","1376","2920","2908","20646",
+                "3114","4086","20690","2757","2539","3013",
+                "2862","2878","22117","20671","2858",
+                "2965","4087","2722"
+            ]
+        },
+        {
+            "Id": "10",
+            "DisplayName": "IT On-premises Infrastructure",
+            "Description" : "My company is still committed to running all of our services on-premises, in our own datacenter, but with Azure stack and hybrid capabilities in Office 365 there are many new options that I am interested in.
+
+Content that I am interested in at Ignite
+•	Azure stack
+•	SharePoint Server 2016
+•	Exchange Server 2016
+•	Windows Server 2016
+
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT On Premises Infrastructure.png?raw=true",
+            "SessionsAttending" : [
+                "20684","2870","20536","39172","39171",
+                "13781","3113","1368","39115","39114",
+                "39128","2645","4085","2601",
+                "2862","3022","1379","22110","1241","15845",
+                "4087","2636","15846"
+            ]
+        },
+        {
+            "Id": "11",
+            "DisplayName": "IT Power User",
+            "Description" : "I enjoy knowing about every last feature in applications like Excel, Visio or our Line of Business apps. People come to me when they have a question about features and how to do things in the latest Office applications or on Windows.
+
+Content that I am interested in at Ignite
+•	Latest feature releases across Office 365 and the Office suite
+•	Dynamics developments
+•	Improving productivity in the workplace
+
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Power User.png?raw=true",
+            "SessionsAttending" : [
+                "36927","2730","5008","1305","39172","39171",
+                "20647","1351","4078","20604","1297","20703","1313","3225",
+                "22112","1298","1307","1394","20566","20631","1306","4071","4078",
+                "1286","5927","20563","20670","1239","20626",
+                "2658","3212","1363"
+            ]
+        },
+        {
+            "Id": "12",
+            "DisplayName": "LOB Application Specialist",
+            "Description" : "I am in charge of managing my company’s Line of Business application landscape and the integration to our standardized workloads.
+Content that I am interested in at Ignite
+
+•	Dynamics CRM
+•	SharePoint workflows
+•	Modern application management options
+•	Integrating BI functionalities into existing LoB apps
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/LOB Application Specialist.png?raw=true",
+            "SessionsAttending" : [
+                "20684","2564","1316","35365","39172","39171",
+                "20647","14820","20598","2898","3088","20638","3084",
+                "2563","2743","2560","2828",
+                "2572","22121","20571","20601","2902","20586","2571",
+                "4984","2943","2897"
+            ]
+        },
+        {
+            "Id": "13",
+            "DisplayName": "Unified Communications",
+            "Description" : "I am in charge of the communication infrastructure at my company. I run our PBX system, Lync 2013 and also support the integration with Exchange and other communication platforms.
+
+Content that I am interested in at Ignite
+•	Skype for Business Cloud PBX
+•	Skype for Business PSTN Calling
+•	Skype for Business PSTN Conferencing
+•	Office 365 Groups and Yammer news
+•	Surface Hub
+
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Unified Communications.png?raw=true",
+            "SessionsAttending" : [
+                "20617","2553","20704","39172","39171",
+                "20701","2596","2672","22115","2562",
+                "20623","4992","20688","20585",
+                "1381","5927","1239","2612",
+                "2719","2997","2996"
+            ]
+        },
+        {
+            "Id": "14",
+            "DisplayName": "Web or Mobile Developer",
+            "Description" : "I am an independent developer of web and mobile applications. As a developer I am responsible for the coding, innovative design and layout of websites from concept to site layout and function. I also develop native mobile experiences for all mobile platforms.
+
+Content that I am interested in at Ignite
+•	DevOps
+•	.NET
+•	Debugging
+•	Azure developer tools
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Web or Mobile Devoloper.png?raw=true",
+            "SessionsAttending" : [
+                "2747","20705","39172","39171",
+                "20664","2984","2881","2673","16925","20574",
+                "20603","2563","2633","3210","3132","2753",
+                "2712","2789","2756","20634","20568","2710",
+                "2575","3130","2897"
+            ]
+        },
+        {
+            "Id": "15",
+            "DisplayName": "IT Enthusiast",
+            "Description" : "I am technology lover and try to always be up-to-date with the latest trends, product and feature developments. I am excited about getting insights on how companies like Microsoft run their own IT infrastructure and where the industry is headed.
+
+Content that I am interested in at Ignite
+Microsoft’s product roadmaps
+HoloLens
+Industry best practices
+Microsoft insights
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/IT Enthusiast.png?raw=true",
+            "SessionsAttending" : [
+                "20685","4090","39172","39171",
+                "3153","3","20676","1318","4072","1289",
+                "39132","20691","1285","2934","20530","13803","22108","3112",
+                "2635","37004","15847","2953","1241","15845",
+                "5942","2997","3053"
+            ]
+        }
+    ]
+
+}

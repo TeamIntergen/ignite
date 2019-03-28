@@ -15,7 +15,7 @@ Rules for Ignite platform
 
  There are a collection of rules file for each environment that is being managed. There is a folder per set of files under ```/resource```
 
- The session\_length\_map.json file exits to provide a fall-back for the lenght of a session (determined by it's type) while the session has no assigned timeslot.
+ The session\_length\_map.json file exits to provide a fall-back for the length of a session (determined by it's type) while the session has no assigned timeslot.
 
  The central rules are enclosed in the rules.json and session\_map.json files.
  The rules in these files are used to determine access to sessions, users, evaluations and system features.
