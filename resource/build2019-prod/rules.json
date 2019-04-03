@@ -88,7 +88,18 @@
         "SessionCounts": false
       },
       "EvalAccess": [],
-      "SessionSetAccess": []
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Schedule Builder"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
     }
   ]
 }
