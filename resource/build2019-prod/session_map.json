@@ -13,7 +13,7 @@
     {
       "HubbId": 2623,
       "SessionTypeName": "Lab",
-      "SessionSets": "Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2624,
