@@ -3,27 +3,27 @@
     {
       "HubbId": 2622,
       "SessionTypeName": "Keynote",
-      "SessionSets": ["Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2621,
       "SessionTypeName": "Breakout",
-      "SessionSets": ["Session Catalog", "Schedule Builder", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2623,
       "SessionTypeName": "Lab",
-      "SessionSets": ["Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2624,
       "SessionTypeName": "Theater",
-      "SessionSets": ["Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2625,
       "SessionTypeName": "Technology Sneak Peeks",
-      "SessionSets": ["Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     }
   ]
 }
