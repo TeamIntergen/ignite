@@ -9,7 +9,8 @@
         "MobileApp": false,
         "MeetingScheduler": false,
         "MobileAppMessaging": false,
-        "LocationBasedMessaging": false
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
       },
       "VisibleAttendeeTypes": [],
       "Reporting": {
@@ -82,7 +83,8 @@
         "MobileApp": true,
         "MeetingScheduler": false,
         "MobileAppMessaging": true,
-        "LocationBasedMessaging": true
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
       },
       "VisibleAttendeeTypes": [
         "Comp Academic",
