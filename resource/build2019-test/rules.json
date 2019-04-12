@@ -82,6 +82,7 @@
         "ScheduleBuilder": true,
         "MobileApp": true,
         "MeetingScheduler": false,
+        "SideMeetings": true,
         "MobileAppMessaging": true,
         "LocationBasedMessaging": true,
         "InPersonExperience": true
