@@ -57,7 +57,7 @@
                 "FieldName": "Tags",
                 "Style": "multiSelect",
                 "Class": "",
-                "Path": "details.tags",
+                "Path": "detail.tags",
                 "Value": "",
                 "OptionsPath": "tags"
             }
