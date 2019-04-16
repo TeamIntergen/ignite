@@ -1,138 +1,66 @@
 [
-      {
+    {
         "HeadingTitle": "Attendee Profile",
-        "ItemsToShow": [{
-          "DisplayTitle": "Picture",
-          "FieldName": "ProfileImage",
-          "Style": "picture",
-          "Class": "",
-          "Path": "detail.profileImage",
-          "Value": ""
-        },{
-          "DisplayTitle": "Job Title",
-          "FieldName": "Title",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "detail.title",
-          "Value": ""
-        },{
-          "DisplayTitle": "Job Category",
-          "FieldName": "JobCategory",
-          "Style": "Options",
-          "Class": "",
-          "Path": "detail.jobCategory.value",
-          "Value": "",
-          "OptionsPath": "jobCategories"
-        },{
-          "DisplayTitle": "Company",
-          "FieldName": "Company",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "detail.company",
-          "Value": ""
-        },{
-          "DisplayTitle": "Country",
-          "FieldName": "Country",
-          "Style": "Options",
-          "Class": "",
-          "Path": "detail.country",
-          "Value": "",
-          "OptionsPath": "countryList"
-        },{
-          "DisplayTitle": "Website",
-          "FieldName": "Website",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.website",
-          "Value": ""
-        },{
-          "DisplayTitle": "Biography",
-          "FieldName": "Biography",
-          "Style": "textArea",
-          "Class": "",
-          "Path": "detail.biography",
-          "Value": ""
-        },{
-          "DisplayTitle": "LinkedIn",
-          "FieldName": "LinkedIn",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.linkedIn",
-          "Value": "",
-          "Regex": "https?://.*linkedin.com/in/.+"
-        },{
-          "DisplayTitle": "Twitter",
-          "FieldName": "Twitter",
-          "Style": "inputText",
-          "Class": "",
-          "Path": "social.twitter",
-          "Value": "",
-          "Regex": "@([A-Za-z0-9_]+)$"
-        }]
-      },
-      {
-        "HeadingTitle": "Company Profile",
-        "ItemsToShow": [{
-          "DisplayTitle": "Industry",
-          "FieldName": "IndustryFocus",
-          "Style": "nestedSelect",
-          "Class": "",
-          "Path": "detail.industryFocus",
-          "Value": "",
-          "OptionsPath": "industryFocus"
-        },{
-          "DisplayTitle": "Primary Business Focus",
-          "FieldName": "BusinessFocus",
-          "Style": "multiSelect",
-          "Class": "",
-          "Path": "detail.businessFocus",
-          "Value": "",
-          "OptionsPath": "businessFocus"
-        }]
-      },
-      {
-        "HeadingTitle": "Settings",
-        "ItemsToShow": [{
-          "DisplayTitle": "Login",
-          "FieldName": "Email",
-          "Style": "readonly",
-          "Class": "",
-          "Path": "contacts.authentication"
-        },{
-          "DisplayTitle": "Notifications",
-          "FieldName": "NotificationEmail",
-          "Style": "readonly",
-          "Class": "",
-          "Path": "contacts.notification"
-        },{
-          "DisplayTitle": "Privacy",
-          "FieldName": "Privacy",
-          "Style": "multiCheckbox",
-          "Class": "",
-          "Path": "contacts.notification",
-          "Options": [{
-              "DisplayTitle": "Make my profile publicly available for meetings and messages",
-              "FieldName": "CanBeFound",
-              "Style": "checkbox",
-              "Class": "",
-              "Path": "optins.canBeFound",
-              "Value": ""
-          },{
-              "DisplayTitle": "Show sessions I have added to my schedule",
-              "FieldName": "CanShareSession",
-              "Style": "checkbox",
-              "Class": "",
-              "Path": "optins.canShareSessions",
-              "Value": ""
-          },{
-              "DisplayTitle": "Allow me to share my profile publicly",
-              "FieldName": "IsPubliclyVisible",
-              "Style": "checkbox",
-              "Class": "",
-              "Path": "optins.isPubliclyVisible",
-              "Value": ""
-          }
+        "ItemsToShow": [
+            {
+                "DisplayTitle": "Photo",
+                "FieldName": "ProfileImage",
+                "Style": "picture",
+                "Class": "",
+                "Path": "detail.profileImage",
+                "Value": ""
+            },
+            {
+                "DisplayTitle": "Job Title",
+                "FieldName": "Title",
+                "Style": "inputText",
+                "Class": "",
+                "Path": "detail.title",
+                "Value": ""
+            },
+            {
+                "DisplayTitle": "Company",
+                "FieldName": "Company",
+                "Style": "inputText",
+                "Class": "",
+                "Path": "detail.company",
+                "Value": ""
+            },
+            {
+                "DisplayTitle": "Biography",
+                "FieldName": "Biography",
+                "Style": "textArea",
+                "Class": "",
+                "Path": "detail.biography",
+                "Value": ""
+            },
+            {
+                "DisplayTitle": "LinkedIn",
+                "FieldName": "LinkedIn",
+                "Style": "inputText",
+                "Class": "",
+                "Path": "social.linkedIn",
+                "Value": "",
+                "Regex": "https?://.*linkedin.com/in/.+"
+            },
+            {
+                "DisplayTitle": "Twitter",
+                "FieldName": "Twitter",
+                "Style": "inputText",
+                "Class": "",
+                "Path": "social.twitter",
+                "Value": "",
+                "Regex": "@([A-Za-z0-9_]+)$"
+            },
+            {
+                "DisplayTitle": "Tags",
+                "FieldName": "Tags",
+                "Style": "multiSelect",
+                "Class": "",
+                "Path": "details.tags",
+                "Value": "",
+                "OptionsPath": "tags"
+            }
         ]
-        }]
     }
-    ]
+]
