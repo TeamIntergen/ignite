@@ -3,7 +3,7 @@
     {
       "HubbId": 2622,
       "SessionTypeName": "Keynote",
-      "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2621,
@@ -11,19 +11,34 @@
       "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
-      "HubbId": 2623,
-      "SessionTypeName": "Lab",
-      "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
+      "HubbId": 2626,
+      "SessionTypeName": "MS Build Live",
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2624,
       "SessionTypeName": "Theater",
-      "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     },
     {
       "HubbId": 2625,
       "SessionTypeName": "Technology Sneak Peeks",
-      "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
+    },
+    {
+      "HubbId": 2623,
+      "SessionTypeName": "Technology Keynote",
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
+    },
+    {
+      "HubbId": 2633,
+      "SessionTypeName": "Code Lab",
+      "SessionSets": ["Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
+    },
+    {
+      "HubbId": 2627,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["My Schedule"]
     }
   ]
 }
