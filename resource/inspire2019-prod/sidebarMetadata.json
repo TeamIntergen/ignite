@@ -1,0 +1,264 @@
+[
+  {
+    "sidebarType": "sessions",
+    "metadata": [
+      {
+        "title": "Session Code",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "sessionCode",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": [
+          {
+            "title": "",
+            "layout": "no-link",
+            "listings": "time",
+            "subtype": "durationInMinutes",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "Level",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Links",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sidebarType": "sponsors",
+    "metadata": [
+      {
+        "title": "Company Website",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "website",
+        "subMetadata": []
+      },
+      {
+        "title": "LinkedIn",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "linkedInUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "Twitter",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "twitterUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "Facebook",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "facebookUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "Blog",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "blogUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "Youtube",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "youtubeUrl",
+        "subMetadata": []
+      }
+    ]
+  },
+  {
+    "sidebarType": "videos",
+    "metadata": [
+      {
+        "title": "Session Links",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "Session Code",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "sessionCode",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": [
+          {
+            "title": "",
+            "layout": "no-link",
+            "listings": "time",
+            "subtype": "durationInMinutes",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "Session Length",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "durationInMinutes",
+        "subMetadata": []
+      },
+      {
+        "title": "Product",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "products",
+        "subMetadata": []
+      }
+    ]
+  },
+  {
+    "sidebarType": "attendees",
+    "metadata": [
+      {
+        "title": "LinkedIn",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "linkedin",
+        "subMetadata": []
+      },
+      {
+        "title": "Twitter",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "twitter",
+        "subMetadata": []
+      },
+      {
+        "title": "Facebook",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "facebook",
+        "subMetadata": []
+      },
+      {
+        "title": "Blog",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "blog",
+        "subMetadata": []
+      },
+      {
+        "title": "Website",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "website",
+        "subMetadata": []
+      },
+      {
+        "title": "Country",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "country",
+        "subMetadata": []
+      },
+      {
+        "title": "Industry",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "industry",
+        "subMetadata": []
+      },
+      {
+        "title": "Job Category",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "jobCategory",
+        "subMetadata": []
+      },
+      {
+        "title": "Product Expertise",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "products",
+        "subMetadata": []
+      },
+      {
+        "title": "Solution Expertise",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "solutionAreas",
+        "subMetadata": []
+      },
+      {
+        "title": "Community Focus",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "communityFocus",
+        "subMetadata": []
+      },
+      {
+        "title": "",
+        "layout": "indicator",
+        "listings": "indicator",
+        "subtype": "affiliation",
+        "subMetadata": []
+      }
+    ]
+  }
+]

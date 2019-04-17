@@ -1,0 +1,24 @@
+{
+    "Personas": [
+        {
+            "Id": "1",
+            "DisplayName": "Application Admin",
+            "Description" : "I administer various applications at my company from in-house Line of Business apps, to some of our standardized Office 365 workloads, including Exchange and SharePoint.
+
+Content that I am interested in at Ignite
+•	Insights on Office 365 administration
+•	Mobile app deployment and management
+•	Manging Office migrations in a an “always up-to-date” product lifecycle
+•	Managing access to web applications with Azure
+",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application%20Admin.png?raw=true",
+            "SessionsAttending" : [
+                "38471","1261","39171",
+                "3082","3204","3016","3175", "2961",
+                "39172","1261","39171",
+                "3144","35275","1260","2959","20638"
+            ]
+        }
+    ]
+
+}

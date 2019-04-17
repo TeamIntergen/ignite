@@ -84,7 +84,8 @@
         "MeetingScheduler": false,
         "MobileAppMessaging": true,
         "LocationBasedMessaging": true,
-        "InPersonExperience": true
+        "InPersonExperience": true,
+        "SideMeetings": true
       },
       "VisibleAttendeeTypes": [
         "Comp Academic",

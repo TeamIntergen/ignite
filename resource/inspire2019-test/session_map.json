@@ -1,0 +1,125 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1670,
+      "SessionTypeName": "Featured",
+      "SessionSets": ["VOD", "2018 - VOD"]
+    },
+    {
+      "HubbId": 1830,
+      "SessionTypeName": "Segment General Session",
+      "SessionSets": ["VOD", "2018 - VOD"]
+    },
+    {
+      "HubbId": 1830,
+      "SessionTypeName": "Area General Session",
+      "SessionSets": ["VOD", "2018 - VOD"]
+    },
+    {
+      "HubbId": 1798,
+      "SessionTypeName": "Breakout",
+      "SessionSets": ["VOD", "2018 - VOD"]
+    },
+    {
+      "HubbId": 1796,
+      "SessionTypeName": "The Commons Theater",
+      "SessionSets": ["VOD", "2018 - VOD"]
+    },
+    {
+      "HubbId": 2622,
+      "SessionTypeName": "General Session",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD",
+        "2018 - VOD"
+      ]
+    },
+    {
+      "HubbId": 2621,
+      "SessionTypeName": "Power",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD"
+      ]
+    },
+    {
+      "HubbId": 2626,
+      "SessionTypeName": "Panel",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD",
+        "2018 - VOD"
+      ]
+    },
+    {
+      "HubbId": 2624,
+      "SessionTypeName": "Workshop",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD",
+        "2018 - VOD"
+      ]
+    },
+    {
+      "HubbId": 2625,
+      "SessionTypeName": "Immersive",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD",
+        "2018 - VOD"
+      ]
+    },
+    {
+      "HubbId": 2623,
+      "SessionTypeName": "Group Discussion",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD",
+        "2018 - VOD"
+      ]
+    },
+    {
+      "HubbId": 2633,
+      "SessionTypeName": "Corenote",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD",
+        "2018 - VOD"
+      ]
+    },
+    {
+      "HubbId": 2633,
+      "SessionTypeName": "Presentation",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD"
+      ]
+    },
+    {
+      "HubbId": 2633,
+      "SessionTypeName": "Learning Paths",
+      "SessionSets": ["Learning Paths"]
+    },
+    {
+      "HubbId": 2627,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["My Schedule"]
+    }
+  ]
+}
