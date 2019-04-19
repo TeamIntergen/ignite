@@ -16,7 +16,10 @@
                 "Style": "inputText",
                 "Class": "",
                 "Path": "detail.title",
-                "Value": ""
+                "Value": "",
+                "Required": true,
+                "Regex": "^\\S{2}.{0,73}$",
+                "RegexValidationText": "Please ensure Job Title is between 2 and 75 characters in length."
             },
             {
                 "DisplayTitle": "Company",
@@ -24,7 +27,10 @@
                 "Style": "inputText",
                 "Class": "",
                 "Path": "detail.company",
-                "Value": ""
+                "Value": "",
+                "Required": true,
+                "Regex": "^\\S{2}.{0,73}$",
+                "RegexValidationText": "Please ensure Company is between 2 and 75 characters in length."
             },
             {
                 "DisplayTitle": "Biography",
