@@ -3,13 +3,6 @@
     "sidebarType": "sessions",
     "metadata": [
       {
-        "title": "Session Code",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "sessionCode",
-        "subMetadata": []
-      },
-      {
         "title": "Session Type",
         "layout": "link",
         "listings": "filters",
@@ -32,33 +25,25 @@
         "subMetadata": []
       },
       {
-        "title": "Topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "topic",
+        "title": "Business Outcome",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "businessOutcome",
         "subMetadata": []
       },
       {
-        "title": "Session Links",
+        "title": "Business Outcome 2",
         "layout": "no-link",
         "listings": "",
-        "subtype": "",
-        "subMetadata": [
-          {
-            "title": "View Slide Deck",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "slideDeck",
-            "subMetadata": []
-          },
-          {
-            "title": "Download Video",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "downloadVideoLink",
-            "subMetadata": []
-          }
-        ]
+        "subtype": "businessOutcomeTwo",
+        "subMetadata": []
+      },
+      {
+        "title": "Resources",
+        "layout": "link",
+        "listings": "leafNodeLinks",
+        "subtype": "sessionLinks",
+        "subMetadata": []
       }
     ]
   },
