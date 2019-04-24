@@ -3,6 +3,13 @@
     "sidebarType": "sessions",
     "metadata": [
       {
+        "title": "Session Code",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "sessionCode",
+        "subMetadata": []
+      },
+      {
         "title": "Session Type",
         "layout": "link",
         "listings": "filters",
