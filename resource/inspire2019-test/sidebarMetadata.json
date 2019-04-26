@@ -46,6 +46,13 @@
         "subMetadata": []
       },
       {
+        "title": "Content Area",
+        "layout": "",
+        "listings": "list-item",
+        "subtype": "contentArea",
+        "subMetadata": []
+      },
+      {
         "title": "Resources",
         "layout": "link",
         "listings": "leafNodeLinks",
