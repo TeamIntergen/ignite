@@ -32,20 +32,6 @@
         "subMetadata": []
       },
       {
-        "title": "Business Outcome",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "businessOutcome",
-        "subMetadata": []
-      },
-      {
-        "title": "Business Outcome 2",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "businessOutcomeTwo",
-        "subMetadata": []
-      },
-      {
         "title": "Content Area",
         "layout": "",
         "listings": "list-item",
