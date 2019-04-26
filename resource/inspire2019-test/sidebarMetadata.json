@@ -26,8 +26,8 @@
       },
       {
         "title": "Level",
-        "layout": "link",
-        "listings": "filters",
+        "layout": "no-link",
+        "listings": "",
         "subtype": "level",
         "subMetadata": []
       },
