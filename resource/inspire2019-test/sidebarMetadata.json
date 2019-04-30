@@ -3,14 +3,14 @@
     "sidebarType": "sessions",
     "metadata": [
       {
-        "title": "Session Code",
+        "title": "Session code",
         "layout": "no-link",
         "listings": "",
         "subtype": "sessionCode",
         "subMetadata": []
       },
       {
-        "title": "Session Type",
+        "title": "Session type",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
@@ -32,10 +32,17 @@
         "subMetadata": []
       },
       {
-        "title": "Content Area",
+        "title": "Content area",
         "layout": "",
         "listings": "list-item",
         "subtype": "contentArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Products",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "products",
         "subMetadata": []
       },
       {
