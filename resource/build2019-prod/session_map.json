@@ -43,7 +43,7 @@
     {
       "HubbId": 2637,
       "SessionTypeName": "Pre-Record",
-      "SessionSets": []
+      "SessionSets": ["Schedule Builder"]
     },
     {
       "HubbId": 2639,
