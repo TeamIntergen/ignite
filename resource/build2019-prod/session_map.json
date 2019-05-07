@@ -43,7 +43,7 @@
     {
       "HubbId": 2637,
       "SessionTypeName": "Pre-Record",
-      "SessionSets": ["Schedule Builder"]
+      "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder"]
     },
     {
       "HubbId": 2639,
@@ -63,7 +63,7 @@
     {
       "HubbId": 2640,
       "SessionTypeName": "Imagine Cup",
-      "SessionSets": ["Schedule Builder", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder", "My Schedule"]
     }
   ]
 }
