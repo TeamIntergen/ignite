@@ -42,7 +42,7 @@
         "title": "Products",
         "layout": "link",
         "listings": "leafNodeFilters",
-        "subtype": "products",
+        "subtype": "product",
         "subMetadata": []
       },
       {

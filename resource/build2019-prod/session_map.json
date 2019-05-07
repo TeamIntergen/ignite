@@ -43,7 +43,11 @@
     {
       "HubbId": 2637,
       "SessionTypeName": "Pre-Record",
+<<<<<<< HEAD
       "SessionSets": ["Session Catalog", "Schedule Builder - Remote", "Schedule Builder"]
+=======
+      "SessionSets": ["Schedule Builder"]
+>>>>>>> origin/master
     },
     {
       "HubbId": 2639,

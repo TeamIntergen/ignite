@@ -3,14 +3,14 @@
     "sidebarType": "sessions",
     "metadata": [
       {
-        "title": "Session Code",
+        "title": "Session code",
         "layout": "no-link",
         "listings": "",
         "subtype": "sessionCode",
         "subMetadata": []
       },
       {
-        "title": "Session Type",
+        "title": "Session type",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
@@ -26,9 +26,23 @@
       },
       {
         "title": "Level",
-        "layout": "link",
-        "listings": "filters",
+        "layout": "no-link",
+        "listings": "",
         "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "Content area",
+        "layout": "",
+        "listings": "list-item",
+        "subtype": "contentArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Products",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "product",
         "subMetadata": []
       },
       {
@@ -91,28 +105,6 @@
     "sidebarType": "videos",
     "metadata": [
       {
-        "title": "Session Links",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "",
-        "subMetadata": [
-          {
-            "title": "View Slide Deck",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "slideDeck",
-            "subMetadata": []
-          },
-          {
-            "title": "Download Video",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "downloadVideoLink",
-            "subMetadata": []
-          }
-        ]
-      },
-      {
         "title": "Session Code",
         "layout": "no-link",
         "listings": "",
@@ -142,11 +134,54 @@
         "subMetadata": []
       },
       {
-        "title": "Product",
+        "title": "Level",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "Priority Content",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "priorityTrack",
+        "subMetadata": []
+      },
+      {
+        "title": "Business Focus",
         "layout": "link",
         "listings": "filters",
-        "subtype": "products",
+        "subtype": "businessFocus",
         "subMetadata": []
+      },
+      {
+        "title": "Target Audience",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "targetAudience",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Resources",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
       }
     ]
   },
