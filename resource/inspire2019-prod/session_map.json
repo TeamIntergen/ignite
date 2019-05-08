@@ -38,7 +38,7 @@
     },
     {
       "HubbId": 2621,
-      "SessionTypeName": "Power",
+      "SessionTypeName": "Power Session",
       "SessionSets": [
         "Session Catalog",
         "Schedule Builder",
@@ -48,7 +48,7 @@
     },
     {
       "HubbId": 2626,
-      "SessionTypeName": "Panel",
+      "SessionTypeName": "Panel Session",
       "SessionSets": [
         "Session Catalog",
         "Schedule Builder",
