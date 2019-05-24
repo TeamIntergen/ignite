@@ -27,11 +27,12 @@
     },
     {
       "Identifiers": [
-        "Wristband Day Pass (internal use)", 
-        "Substituted Attendee Partner", 
-        "Substituted Attendee MS", 
+        "Wristband Day Pass (internal use)",
+        "Substituted Attendee Partner",
+        "Substituted Attendee MS",
         "Non-Attending Manager",
-        "Ready Attendee"],
+        "Ready Attendee"
+      ],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": false,
@@ -99,6 +100,31 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Schedule Builder"
+        }
+      ]
+    },
+    {
+      "Identifiers": ["Learning Paths"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Learning Paths"
         }
       ]
     }
