@@ -1,66 +1,102 @@
 [
-    {
-        "HeadingTitle": "Attendee Profile",
-        "ItemsToShow": [
-            {
-                "DisplayTitle": "Photo",
-                "FieldName": "ProfileImage",
-                "Style": "picture",
-                "Class": "",
-                "Path": "detail.profileImage",
-                "Value": ""
-            },
-            {
-                "DisplayTitle": "Job Title",
-                "FieldName": "Title",
-                "Style": "inputText",
-                "Class": "",
-                "Path": "detail.title",
-                "Value": ""
-            },
-            {
-                "DisplayTitle": "Company",
-                "FieldName": "Company",
-                "Style": "inputText",
-                "Class": "",
-                "Path": "detail.company",
-                "Value": ""
-            },
-            {
-                "DisplayTitle": "Biography",
-                "FieldName": "Biography",
-                "Style": "textArea",
-                "Class": "",
-                "Path": "detail.biography",
-                "Value": ""
-            },
-            {
-                "DisplayTitle": "LinkedIn",
-                "FieldName": "LinkedIn",
-                "Style": "inputText",
-                "Class": "",
-                "Path": "social.linkedIn",
-                "Value": "",
-                "Regex": "https?://.*linkedin.com/in/.+"
-            },
-            {
-                "DisplayTitle": "Twitter",
-                "FieldName": "Twitter",
-                "Style": "inputText",
-                "Class": "",
-                "Path": "social.twitter",
-                "Value": "",
-                "Regex": "@([A-Za-z0-9_]+)$"
-            },
-            {
-                "DisplayTitle": "Tags",
-                "FieldName": "Tags",
-                "Style": "multiSelect",
-                "Class": "",
-                "Path": "details.tags",
-                "Value": "",
-                "OptionsPath": "tags"
-            }
-        ]
-    }
+  {
+    "HeadingTitle": "Attendee Profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Job Title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Company",
+        "FieldName": "Company",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "Regex": "https?://.*linkedin.com/in/.+"
+      },
+      {
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "Regex": "@([A-Za-z0-9_]+)$"
+      },
+      {
+        "DisplayTitle": "Job Category",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory"
+      },
+      {
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment"
+      },
+      {
+        "DisplayTitle": "Business Focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.businessFocus",
+        "Value": "",
+        "OptionsPath": "businessFocus"
+      },
+      {
+        "DisplayTitle": "Industry Focus",
+        "FieldName": "IndustryFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.industryFocus",
+        "Value": "",
+        "OptionsPath": "industryFocus"
+      },
+      {
+        "DisplayTitle": "Solution Area",
+        "FieldName": "SolutionArea",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.priorityContentAreas",
+        "Value": "",
+        "OptionsPath": "priorityContentAreas"
+      }
+    ]
+  }
 ]
