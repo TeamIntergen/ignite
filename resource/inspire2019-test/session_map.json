@@ -26,6 +26,16 @@
       "SessionSets": ["VOD", "2018 - VOD"]
     },
     {
+      "HubbId": 1670,
+      "SessionTypeName": "Featured Session",
+      "SessionSets": [
+        "Session Catalog",
+        "Schedule Builder",
+        "My Schedule",
+        "VOD"
+      ]
+    },
+    {
       "HubbId": 2622,
       "SessionTypeName": "General Session",
       "SessionSets": [
