@@ -53,6 +53,15 @@
         "Regex": "@([A-Za-z0-9_]+)$"
       },
       {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "Regex": "^https?://.+$"
+      },
+      {
         "DisplayTitle": "Job Category",
         "FieldName": "JobCategory",
         "Style": "selectGroup",
@@ -156,7 +165,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Please update title for 'Send to Calendar'",
+            "DisplayTitle": "Send MyInspire schedule items to my personal calendar",
             "FieldName": "CanSendToCalendar",
             "Style": "checkbox",
             "Class": "",
