@@ -51,7 +51,12 @@
         "Path": "social.twitter",
         "Value": "",
         "Regex": "@([A-Za-z0-9_]+)$"
-      },
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Company Profile",
+    "ItemsToShow": [
       {
         "DisplayTitle": "Job Category",
         "FieldName": "JobCategory",

@@ -60,7 +60,12 @@
         "Path": "social.website",
         "Value": "",
         "Regex": "^https?://.+$"
-      },
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Company Profile",
+    "ItemsToShow": [
       {
         "DisplayTitle": "Job Category",
         "FieldName": "JobCategory",
