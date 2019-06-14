@@ -51,6 +51,13 @@
         "listings": "leafNodeLinks",
         "subtype": "sessionLinks",
         "subMetadata": []
+      },
+      {
+        "title": "Trailer",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "sessionTrailer",
+        "subMetadata": []
       }
     ]
   },
@@ -203,38 +210,10 @@
         "subMetadata": []
       },
       {
-        "title": "Facebook",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "facebook",
-        "subMetadata": []
-      },
-      {
-        "title": "Blog",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "blog",
-        "subMetadata": []
-      },
-      {
         "title": "Website",
         "layout": "link",
         "listings": "link",
         "subtype": "website",
-        "subMetadata": []
-      },
-      {
-        "title": "Country",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "country",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industry",
         "subMetadata": []
       },
       {
@@ -245,31 +224,31 @@
         "subMetadata": []
       },
       {
-        "title": "Product Expertise",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "products",
-        "subMetadata": []
-      },
-      {
-        "title": "Solution Expertise",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "solutionAreas",
-        "subMetadata": []
-      },
-      {
-        "title": "Community Focus",
+        "title": "Industry Focus",
         "layout": "link",
         "listings": "filters",
-        "subtype": "communityFocus",
+        "subtype": "industryFocus",
         "subMetadata": []
       },
       {
-        "title": "",
-        "layout": "indicator",
-        "listings": "indicator",
-        "subtype": "affiliation",
+        "title": "Business Focus",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "businessFocus",
+        "subMetadata": []
+      },
+      {
+        "title": "Customer Segment",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "customerSegment",
+        "subMetadata": []
+      },
+      {
+        "title": "Solution Area",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "solutionArea",
         "subMetadata": []
       }
     ]
