@@ -110,6 +110,15 @@
         "Path": "detail.priorityContentAreas",
         "Value": "",
         "OptionsPath": "priorityContentAreas"
+      },
+      {
+        "DisplayTitle": "Line of Business",
+        "FieldName": "LineOfBusiness",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.lineOfBusiness",
+        "Value": "",
+        "OptionsPath": "lineOfBusiness"
       }
     ]
   },
