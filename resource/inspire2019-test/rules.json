@@ -131,11 +131,6 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Session Catalog"
-        },
-        {
-          "ApplicableFrom": null,
-          "ApplicableTo": null,
           "Identifier": "Schedule Builder"
         },
         {
