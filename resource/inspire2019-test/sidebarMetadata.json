@@ -224,6 +224,13 @@
         "subMetadata": []
       },
       {
+        "title": "Country",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "areaCountry",
+        "subMetadata": []
+      },
+      {
         "title": "Industry Focus",
         "layout": "link",
         "listings": "filters",
