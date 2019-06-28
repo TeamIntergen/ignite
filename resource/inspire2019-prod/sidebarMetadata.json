@@ -226,7 +226,7 @@
       {
         "title": "Country",
         "layout": "link",
-        "listings": "leafNodeFilters"
+        "listings": "leafNodeFilters",
         "subtype": "areaCountry",
         "subMetadata": []
       },
