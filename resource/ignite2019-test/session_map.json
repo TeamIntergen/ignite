@@ -1,0 +1,64 @@
+{
+  "SessionSetMap": [
+    {
+        "SessionTypeName": "Vision Keynote",
+        "HubbId": 2642,
+        "SessionSets": [ "Session Catalog 2019"]
+    },
+    {
+        "SessionTypeName": "Breakout: 75 Minute",
+        "HubbId": 2643,
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "SessionTypeName": "Breakout: 45 Minute",
+        "HubbId": 2644,
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "SessionTypeName": "Theater",
+        "HubbId": 2645,
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "SessionTypeName": "Pre-Day Workshop",
+        "HubbId": 2646,
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "HubbId": 2267,
+        "SessionTypeName": "MVP Pre-day Workshop",
+        "SessionSets": [ "My Schedule" ]
+    },
+    {
+        "HubbId": 2735,
+        "Name": "Podcast Audio: 60 minutes",
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "HubbId": 2736,
+        "Name": "Podcast Video: 60 minutes",
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "HubbId": 2737,
+        "Name": "Unconfererence: 75 minutes",
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "HubbId": 2738,
+        "Name": "Exam Prep Session: 45 minute",
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "HubbId": 2966,
+        "Name": "Module: 45 minutes",
+        "SessionSets": [ "Session Catalog 2019" ]
+    },
+    {
+        "HubbId": 2967,
+        "Name": "Learning Path",
+        "SessionSets": [ "Session Catalog 2019" ]
+    }
+  ]
+}
