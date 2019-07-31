@@ -1,9 +1,9 @@
 [
   {
-    "HeadingTitle": "Attendee Profile",
+    "HeadingTitle": "translate.profile.label.attendee-profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Photo",
+        "DisplayTitle": "translate.profile.label.profile-image",
         "FieldName": "ProfileImage",
         "Style": "picture",
         "Class": "",
@@ -11,7 +11,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Job Title",
+        "DisplayTitle": "translate.profile.label.title",
         "FieldName": "Title",
         "Style": "inputText",
         "Class": "",
@@ -19,7 +19,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Company",
+        "DisplayTitle": "translate.profile.label.company",
         "FieldName": "Company",
         "Style": "inputText",
         "Class": "",
@@ -27,7 +27,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Biography",
+        "DisplayTitle": "translate.profile.label.biography",
         "FieldName": "Biography",
         "Style": "textArea",
         "Class": "",
@@ -35,7 +35,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "LinkedIn",
+        "DisplayTitle": "translate.profile.label.linked-in",
         "FieldName": "LinkedIn",
         "Style": "inputText",
         "Class": "",
@@ -44,7 +44,7 @@
         "Regex": "https?://.*linkedin.com/in/.+"
       },
       {
-        "DisplayTitle": "Twitter",
+        "DisplayTitle": "translate.profile.label.twitter",
         "FieldName": "Twitter",
         "Style": "inputText",
         "Class": "",
@@ -53,7 +53,7 @@
         "Regex": "@([A-Za-z0-9_]+)$"
       },
       {
-        "DisplayTitle": "Website",
+        "DisplayTitle": "translate.profile.label.website",
         "FieldName": "Website",
         "Style": "inputText",
         "Class": "",
@@ -64,10 +64,10 @@
     ]
   },
   {
-    "HeadingTitle": "Company Profile",
+    "HeadingTitle": "translate.profile.label.company-profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Job Category",
+        "DisplayTitle": "translate.profile.label.job-category",
         "FieldName": "JobCategory",
         "Style": "selectGroup",
         "Class": "",
@@ -76,7 +76,7 @@
         "OptionsPath": "jobCategory"
       },
       {
-        "DisplayTitle": "Customer Segment",
+        "DisplayTitle": "translate.profile.label.customer-segment",
         "FieldName": "CustomerSegment",
         "Style": "multiSelect",
         "Class": "",
@@ -85,7 +85,7 @@
         "OptionsPath": "customerSegment"
       },
       {
-        "DisplayTitle": "Business Focus",
+        "DisplayTitle": "translate.profile.label.business-focus",
         "FieldName": "BusinessFocus",
         "Style": "nestedSelect",
         "Class": "",
@@ -94,7 +94,7 @@
         "OptionsPath": "businessFocus"
       },
       {
-        "DisplayTitle": "Industry Focus",
+        "DisplayTitle": "translate.profile.label.industry-focus",
         "FieldName": "IndustryFocus",
         "Style": "nestedSelect",
         "Class": "",
@@ -103,7 +103,7 @@
         "OptionsPath": "industryFocus"
       },
       {
-        "DisplayTitle": "Solution Area",
+        "DisplayTitle": "translate.profile.label.solution-area",
         "FieldName": "SolutionArea",
         "Style": "nestedSelect",
         "Class": "",
@@ -112,7 +112,7 @@
         "OptionsPath": "priorityContentAreas"
       },
       {
-        "DisplayTitle": "Line of Business",
+        "DisplayTitle": "translate.profile.label.line-of-business",
         "FieldName": "LineOfBusiness",
         "Style": "Options",
         "Class": "",
@@ -123,31 +123,31 @@
     ]
   },
   {
-    "HeadingTitle": "Settings",
+    "HeadingTitle": "translate.profile.label.settings",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Login",
+        "DisplayTitle": "translate.profile.label.login",
         "FieldName": "Email",
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.authentication"
       },
       {
-        "DisplayTitle": "Notifications",
+        "DisplayTitle": "translate.profile.label.notification-email",
         "FieldName": "NotificationEmail",
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "Privacy",
+        "DisplayTitle": "translate.profile.label.privacy",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
           {
-            "DisplayTitle": "Make my profile visible in the MyInspire directory and allow me to receive messages from other attendees",
+            "DisplayTitle": "translate.profile.label.can-be-found",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
@@ -155,7 +155,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Display the sessions on my schedule on my profile page",
+            "DisplayTitle": "translate.profile.label.can-share-sessions",
             "FieldName": "CanShareSessions",
             "Style": "checkbox",
             "Class": "",
@@ -163,7 +163,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Allow other attendees to invite me to meetings",
+            "DisplayTitle": "translate.profile.label.can-attend-meetings",
             "FieldName": "CanAttendMeetings",
             "Style": "checkbox",
             "Class": "",
@@ -171,7 +171,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Make my profile publicly available for sharing outside of MyInspire",
+            "DisplayTitle": "translate.profile.label.is-publicly-visible",
             "FieldName": "IsPubliclyVisible",
             "Style": "checkbox",
             "Class": "",
@@ -179,7 +179,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Do not send MyInspire schedule items to my personal calendar. For your convenience, you are opted in by default.",
+            "DisplayTitle": "translate.profile.label.can-send-to-calendar",
             "FieldName": "CanSendToCalendar",
             "Style": "checkbox",
             "Class": "",
