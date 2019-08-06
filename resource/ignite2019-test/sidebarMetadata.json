@@ -3,14 +3,14 @@
     "sidebarType": "sessions",
     "metadata": [
       {
-        "title": "Session code",
+        "title": "translate.filters.session-code",
         "layout": "no-link",
         "listings": "",
         "subtype": "sessionCode",
         "subMetadata": []
       },
       {
-        "title": "Session type",
+        "title": "translate.filters.session-type",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
@@ -25,58 +25,39 @@
         ]
       },
       {
-        "title": "Level",
-        "layout": "no-link",
-        "listings": "",
+        "title": "translate.filters.learning-path",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "learningPath",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.filters.level",
+        "layout": "link",
+        "listings": "filters",
         "subtype": "level",
         "subMetadata": []
       },
       {
-        "title": "Content area",
-        "layout": "",
-        "listings": "list-item",
-        "subtype": "contentArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Products",
+        "title": "translate.filters.product",
         "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "product",
+        "listings": "filters",
+        "subtype": "products",
         "subMetadata": []
       },
       {
-        "title": "Resources",
+        "title": "translate.filters.format",
         "layout": "link",
-        "listings": "leafNodeLinks",
-        "subtype": "sessionLinks",
+        "listings": "filters",
+        "subtype": "format",
         "subMetadata": []
       },
       {
-        "title": "Session Links",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "",
-        "subMetadata": [
-          {
-            "title": "Trailer",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "sessionTrailer",
-            "subMetadata": [
-              
-            ]
-          },
-          {
-            "title": "View Slide Deck",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "slideDeck",
-            "subMetadata": [
-              
-            ]
-          }
-        ]
+        "title": "translate.filters.topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
       }
     ]
   },
