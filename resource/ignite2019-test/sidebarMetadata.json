@@ -65,42 +65,42 @@
     "sidebarType": "sponsors",
     "metadata": [
       {
-        "title": "Company Website",
+        "title": "translate.filters.company-website",
         "layout": "link",
         "listings": "link",
         "subtype": "website",
         "subMetadata": []
       },
       {
-        "title": "LinkedIn",
+        "title": "translate.profile.label.linked-in",
         "layout": "link",
         "listings": "link",
         "subtype": "linkedInUrl",
         "subMetadata": []
       },
       {
-        "title": "Twitter",
+        "title": "translate.generic.labels.twitter",
         "layout": "link",
         "listings": "link",
         "subtype": "twitterUrl",
         "subMetadata": []
       },
       {
-        "title": "Facebook",
+        "title": "translate.generic.labels.facebook",
         "layout": "link",
         "listings": "link",
         "subtype": "facebookUrl",
         "subMetadata": []
       },
       {
-        "title": "Blog",
+        "title": "translate.generic.labels.blog",
         "layout": "link",
         "listings": "link",
         "subtype": "blogUrl",
         "subMetadata": []
       },
       {
-        "title": "Youtube",
+        "title": "translate.generic.labels.youtube",
         "layout": "link",
         "listings": "link",
         "subtype": "youtubeUrl",
