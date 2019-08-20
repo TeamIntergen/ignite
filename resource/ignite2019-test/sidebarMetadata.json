@@ -27,7 +27,7 @@
       {
         "title": "translate.filters.learning-path",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "learningPath",
         "subMetadata": []
       },
@@ -41,7 +41,7 @@
       {
         "title": "translate.filters.product",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "products",
         "subMetadata": []
       },
