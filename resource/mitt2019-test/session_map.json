@@ -1,57 +1,47 @@
 {
   "SessionSetMap": [
     {
-        "SessionTypeName": "Vision Keynote",
-        "HubbId": 2642,
-        "SessionSets": [ "Session Catalog 2019"]
-    },
-    {
-        "SessionTypeName": "Breakout: 75 Minute",
-        "HubbId": 2643,
+        "SessionTypeName": "The Opener",
+        "HubbId": 2979,
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "SessionTypeName": "Breakout: 45 Minute",
-        "HubbId": 2644,
+        "SessionTypeName": "Theatre: 15 minutes",
+        "HubbId": 2981,
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "SessionTypeName": "Theater",
-        "HubbId": 2645,
+        "SessionTypeName": "Breakout: 45 minutes",
+        "HubbId": 2976,
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "SessionTypeName": "Pre-Day Workshop",
-        "HubbId": 2646,
+        "SessionTypeName": "Workshop: 90 minutes",
+        "HubbId": 2982,
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "HubbId": 2267,
-        "SessionTypeName": "MVP Pre-day Workshop",
-        "SessionSets": [ "My Schedule" ]
-    },
-    {
-        "HubbId": 2735,
-        "Name": "Podcast Audio: 60 minutes",
+        "SessionTypeName": "Workshop: 45 minutes",
+        "HubbId": 2983,
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "HubbId": 2736,
-        "Name": "Podcast Video: 60 minutes",
+        "HubbId": 3226,
+        "SessionTypeName": "Unconference: 15 Minutes",
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "HubbId": 2737,
-        "Name": "Unconfererence: 75 minutes",
+        "HubbId": 3227,
+        "Name": "Unconference: 45 Minutes",
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "HubbId": 2738,
-        "Name": "Exam Prep Session: 45 minute",
+        "HubbId": 2978,
+        "Name": "Panel: 30 minutes",
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },
     {
-        "HubbId": 2966,
+        "HubbId": 2977,
         "Name": "Module: 45 minutes",
         "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
     },

@@ -1,0 +1,193 @@
+[
+  {
+    "HeadingTitle": "translate.profile.label.attendee-profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "translate.profile.label.profile-image",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.company",
+        "FieldName": "Company",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.linked-in",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "Regex": "https?://.*linkedin.com/in/.+"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "Regex": "@([A-Za-z0-9_]+)$"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "Regex": "^https?://.+$"
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "translate.profile.label.company-profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "translate.profile.label.job-category",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.customer-segment",
+        "FieldName": "CustomerSegment",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.business-focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.businessFocus",
+        "Value": "",
+        "OptionsPath": "businessFocus"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.industry-focus",
+        "FieldName": "IndustryFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.industryFocus",
+        "Value": "",
+        "OptionsPath": "industryFocus"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.solution-area",
+        "FieldName": "SolutionArea",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.priorityContentAreas",
+        "Value": "",
+        "OptionsPath": "priorityContentAreas"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.line-of-business",
+        "FieldName": "LineOfBusiness",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.lineOfBusiness",
+        "Value": "",
+        "OptionsPath": "lineOfBusiness"
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "translate.profile.label.settings",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "translate.profile.label.login",
+        "FieldName": "Email",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.authentication"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.notification-email",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.notification"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.privacy",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+          {
+            "DisplayTitle": "translate.profile.label.can-be-found",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile.label.can-share-sessions",
+            "FieldName": "CanShareSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile.label.can-attend-meetings",
+            "FieldName": "CanAttendMeetings",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canAttendMeetings",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile.label.is-publicly-visible",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile.label.can-send-to-calendar",
+            "FieldName": "CanSendToCalendar",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canSendToCalendar",
+            "Value": ""
+          }
+        ]
+      }
+    ]
+  }
+]
