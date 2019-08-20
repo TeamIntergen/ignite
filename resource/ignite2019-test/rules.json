@@ -22,7 +22,38 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Session Catalog 2019"
-        },{
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2018"
+        }
+      ]
+    },
+    {
+      "Identifiers": ["Attendee", "Attendee Microsoft", "Day Pass Attendee"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2019"
+        },
+        {
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Session Catalog 2018"
