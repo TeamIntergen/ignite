@@ -1,0 +1,263 @@
+[
+  {
+    "sidebarType": "sessions",
+    "metadata": [
+      {
+        "title": "translate.filters.session-code",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "sessionCode",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.filters.session-type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": [
+          {
+            "title": "",
+            "layout": "no-link",
+            "listings": "time",
+            "subtype": "durationInMinutes",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "translate.filters.learning-path",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "learningPath",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.filters.level",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.filters.product",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "products",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.filters.format",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "format",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.filters.topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
+      }
+    ]
+  },
+  {
+    "sidebarType": "sponsors",
+    "metadata": [
+      {
+        "title": "translate.filters.company-website",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "website",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.profile.label.linked-in",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "linkedInUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.generic.labels.twitter",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "twitterUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.generic.labels.facebook",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "facebookUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.generic.labels.blog",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "blogUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.generic.labels.youtube",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "youtubeUrl",
+        "subMetadata": []
+      }
+    ]
+  },
+  {
+    "sidebarType": "videos",
+    "metadata": [
+      {
+        "title": "Session Code",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "sessionCode",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": [
+          {
+            "title": "",
+            "layout": "no-link",
+            "listings": "time",
+            "subtype": "durationInMinutes",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "Session Length",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "durationInMinutes",
+        "subMetadata": []
+      },
+      {
+        "title": "Level",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "Priority Content",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "priorityTrack",
+        "subMetadata": []
+      },
+      {
+        "title": "Business Focus",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "businessFocus",
+        "subMetadata": []
+      },
+      {
+        "title": "Target Audience",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "targetAudience",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Resources",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sidebarType": "attendees",
+    "metadata": [
+      {
+        "title": "LinkedIn",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "linkedin",
+        "subMetadata": []
+      },
+      {
+        "title": "Twitter",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "twitter",
+        "subMetadata": []
+      },
+      {
+        "title": "Website",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "website",
+        "subMetadata": []
+      },
+      {
+        "title": "Job Category",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "jobCategory",
+        "subMetadata": []
+      },
+      {
+        "title": "Country",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "areaCountry",
+        "subMetadata": []
+      },
+      {
+        "title": "Industry Focus",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "industryFocus",
+        "subMetadata": []
+      },
+      {
+        "title": "Business Focus",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "businessFocus",
+        "subMetadata": []
+      },
+      {
+        "title": "Customer Segment",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "customerSegment",
+        "subMetadata": []
+      },
+      {
+        "title": "Solution Area",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "solutionArea",
+        "subMetadata": []
+      }
+    ]
+  }
+]
