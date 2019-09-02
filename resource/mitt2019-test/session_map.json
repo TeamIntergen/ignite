@@ -1,59 +1,63 @@
 {
   "SessionSetMap": [
     {
-        "SessionTypeName": "Learning Path",
-        "HubbId": 2967,
-        "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
+      "SessionTypeName": "Breakout: 45 Minute",
+      "HubbId": 2976,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "SessionTypeName": "The Opener",
-        "HubbId": 2979,
-        "SessionSets": [ "Session Scheduler" ]
+      "SessionTypeName": "Module: 45 Minute",
+      "HubbId": 2977,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
-        "SessionTypeName": "Theatre: 15 minutes",
-        "HubbId": 2981,
-        "SessionSets": [ "Session Scheduler" ]
+      "SessionTypeName": "Panel: 30 Minute",
+      "HubbId": 2978,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "SessionTypeName": "Breakout: 45 minutes",
-        "HubbId": 2976,
-        "SessionSets": [ "Session Scheduler" ]
+      "SessionTypeName": "The Opener",
+      "HubbId": 2979,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "SessionTypeName": "Workshop: 90 minutes",
-        "HubbId": 2982,
-        "SessionSets": [ "Session Scheduler" ]
+      "SessionTypeName": "Theater: 15 Minute",
+      "HubbId": 2981,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "SessionTypeName": "Workshop: 45 minutes",
-        "HubbId": 2983,
-        "SessionSets": [ "Session Scheduler" ]
+      "SessionTypeName": "Workshop: 90 Minute",
+      "HubbId": 2982,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "HubbId": 3226,
-        "SessionTypeName": "Unconference: 15 Minutes",
-        "SessionSets": [ "Session Scheduler" ]
+      "SessionTypeName": "Workshop: 45 Minute",
+      "HubbId": 2983,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "HubbId": 3227,
-        "Name": "Unconference: 45 Minutes",
-        "SessionSets": [ "Session Scheduler" ]
+      "SessionTypeName": "Unconference: 15 Minute",
+      "HubbId": 3226,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "HubbId": 2978,
-        "Name": "Panel: 30 minutes",
-        "SessionSets": [ "Session Scheduler" ]
+      "HubbId": 3227,
+      "Name": "Unconference: 45 Minute",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-        "HubbId": 2977,
-        "Name": "Module: 45 minutes",
-        "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
+      "SessionTypeName": "Learning Path",
+      "HubbId": 2967,
+      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
     },
     {
-        "HubbId": 2967,
-        "Name": "Learning Path",
-        "SessionSets": [ "Session Catalog 2019", "Session Scheduler" ]
+      "HubbId": 2980,
+      "Name": "Staffing Place Holder",
+      "SessionSets": []
     }
   ]
 }

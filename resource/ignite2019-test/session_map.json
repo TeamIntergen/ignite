@@ -1,64 +1,151 @@
 {
   "SessionSetMap": [
     {
-      "SessionTypeName": "Vision Keynote",
-      "HubbId": 2642,
-      "SessionSets": []
+      "SessionTypeName": "Breakout: 45 Minute",
+      "HubbId": 2644,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
     },
     {
       "SessionTypeName": "Breakout: 75 Minute",
       "HubbId": 2643,
-      "SessionSets": ["Session Scheduler"]
+      "SessionSets": [
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
     },
     {
-      "SessionTypeName": "Breakout: 45 Minute",
-      "HubbId": 2644,
-      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
-    },
-    {
-      "SessionTypeName": "Theater",
-      "HubbId": 2645,
-      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
-    },
-    {
-      "SessionTypeName": "Pre-Day Workshop",
-      "HubbId": 2646,
-      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
-    },
-    {
-      "HubbId": 2267,
-      "SessionTypeName": "MVP Pre-day Workshop",
-      "SessionSets": ["My Schedule"]
-    },
-    {
-      "HubbId": 2735,
-      "Name": "Podcast Audio: 60 minutes",
-      "SessionSets": ["Session Scheduler"]
-    },
-    {
-      "HubbId": 2736,
-      "Name": "Podcast Video: 60 minutes",
-      "SessionSets": ["Session Scheduler"]
-    },
-    {
-      "HubbId": 2737,
-      "Name": "Unconfererence: 75 minutes",
-      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
+      "SessionTypeName": "Diversity & Tech Empower Lunch",
+      "HubbId": 3065,
+      "SessionSets": [
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
     },
     {
       "HubbId": 2738,
       "Name": "Exam Prep Session: 45 minute",
+      "SessionSets": [
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "HubbId": 2972,
+      "Name": "Hands-on Lab",
       "SessionSets": ["Session Scheduler"]
     },
     {
-      "HubbId": 2966,
-      "Name": "Module: 45 minutes",
-      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
+      "HubbId": 2973,
+      "Name": "Immersion Workshop",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 2974,
+      "Name": "Interactive Session",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 2967,
       "Name": "Learning Path",
-      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "HubbId": 2966,
+      "Name": "Module: 45 minutes",
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "HubbId": 2647,
+      "SessionTypeName": "MVP Pre-day Workshop",
+      "SessionSets": ["My Schedule"]
+    },
+
+    {
+      "HubbId": 2984,
+      "SessionTypeName": "Opener",
+      "SessionSets": [
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "HubbId": 2735,
+      "Name": "Podcast Audio: 60 minutes",
+      "SessionSets": []
+    },
+    {
+      "HubbId": 2736,
+      "Name": "Podcast Video: 60 minutes",
+      "SessionSets": []
+    },
+    {
+      "SessionTypeName": "Pre-Day Workshop",
+      "HubbId": 2646,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
+    },
+    {
+      "SessionTypeName": "Technology Keynote",
+      "HubbId": 2968,
+      "SessionSets": [
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "SessionTypeName": "Technology Workshop",
+      "HubbId": 2971,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "SessionTypeName": "Theater: 20 Minute",
+      "HubbId": 2645,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "HubbId": 2737,
+      "Name": "Unconfererence: 75 minutes",
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
+    },
+    {
+      "SessionTypeName": "Vision Keynote",
+      "HubbId": 2642,
+      "SessionSets": [
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
     }
   ]
 }

@@ -22,11 +22,26 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Session Catalog 2019"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2018"
         }
       ]
     },
     {
-      "Identifiers": ["Attendee", "Attendee Microsoft", "Crew"],
+      "Identifiers": [
+        "Corp",
+        "Crew",
+        "Field",
+        "General Attendee",
+        "Press/Analyst",
+        "Speaker",
+        "Sponsor",
+        "Staff",
+        "WINHEC"
+      ],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": true,
@@ -37,7 +52,17 @@
         "LocationBasedMessaging": true,
         "InPersonExperience": true
       },
-      "VisibleAttendeeTypes": ["Attendee", "Attendee Microsoft", "Crew"],
+      "VisibleAttendeeTypes": [
+        "Corp",
+        "Crew",
+        "Field",
+        "General Attendee",
+        "Press/Analyst",
+        "Speaker",
+        "Sponsor",
+        "Staff",
+        "WINHEC"
+      ],
       "Reporting": {
         "SessionCounts": true
       },
@@ -47,6 +72,16 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2019"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2018"
         }
       ]
     }
