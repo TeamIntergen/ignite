@@ -14,6 +14,7 @@
       "SessionTypeName": "Breakout: 75 Minute",
       "HubbId": 2643,
       "SessionSets": [
+        "Session Catalog 2019",
         "Session Scheduler",
         "My Schedule",
         "Schedule Builder - Remote"
@@ -23,6 +24,7 @@
       "SessionTypeName": "Diversity & Tech Empower Lunch",
       "HubbId": 3065,
       "SessionSets": [
+        "Session Catalog 2019",
         "Session Scheduler",
         "My Schedule",
         "Schedule Builder - Remote"
@@ -32,6 +34,7 @@
       "HubbId": 2738,
       "Name": "Exam Prep Session: 45 minute",
       "SessionSets": [
+        "Session Catalog 2019",
         "Session Scheduler",
         "My Schedule",
         "Schedule Builder - Remote"
@@ -40,17 +43,19 @@
     {
       "HubbId": 2972,
       "Name": "Hands-on Lab",
-      "SessionSets": ["Session Scheduler"]
+      "SessionSets": [
+        "Session Catalog 2019","Session Scheduler"]
     },
     {
       "HubbId": 2973,
       "Name": "Immersion Workshop",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019","Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 2974,
       "Name": "Interactive Session",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Catalog 2019","Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 2967,
@@ -81,6 +86,7 @@
       "HubbId": 2984,
       "SessionTypeName": "Opener",
       "SessionSets": [
+        "Session Catalog 2019",
         "Session Scheduler",
         "My Schedule",
         "Schedule Builder - Remote"
@@ -109,6 +115,7 @@
       "SessionTypeName": "Technology Keynote",
       "HubbId": 2968,
       "SessionSets": [
+        "Session Catalog 2019",
         "Session Scheduler",
         "My Schedule",
         "Schedule Builder - Remote"
@@ -117,7 +124,8 @@
     {
       "SessionTypeName": "Technology Workshop",
       "HubbId": 2971,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019","Session Scheduler", "My Schedule"]
     },
     {
       "SessionTypeName": "Theater: 20 Minute",
@@ -142,6 +150,7 @@
       "SessionTypeName": "Vision Keynote",
       "HubbId": 2642,
       "SessionSets": [
+        "Session Catalog 2019",
         "Session Scheduler",
         "My Schedule",
         "Schedule Builder - Remote"
