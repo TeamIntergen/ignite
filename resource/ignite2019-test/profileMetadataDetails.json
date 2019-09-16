@@ -163,14 +163,6 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "translate.profile.label.can-attend-meetings",
-            "FieldName": "CanAttendMeetings",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canAttendMeetings",
-            "Value": ""
-          },
-          {
             "DisplayTitle": "translate.profile.label.is-publicly-visible",
             "FieldName": "IsPubliclyVisible",
             "Style": "checkbox",
