@@ -63,18 +63,14 @@
             "layout": "link",
             "listings": "link",
             "subtype": "sessionTrailer",
-            "subMetadata": [
-              
-            ]
+            "subMetadata": []
           },
           {
             "title": "View Slide Deck",
             "layout": "link",
             "listings": "link",
             "subtype": "slideDeck",
-            "subMetadata": [
-              
-            ]
+            "subMetadata": []
           }
         ]
       }

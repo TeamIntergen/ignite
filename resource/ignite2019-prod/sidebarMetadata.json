@@ -58,6 +58,13 @@
         "listings": "filters",
         "subtype": "topic",
         "subMetadata": []
+      },
+      {
+        "title": "translate.filters.tech-community",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "techCommunityUrl",
+        "subMetadata": []
       }
     ]
   },
