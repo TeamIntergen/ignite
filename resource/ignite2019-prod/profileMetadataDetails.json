@@ -60,6 +60,15 @@
         "Path": "social.website",
         "Value": "",
         "Regex": "^https?://.+$"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.tech-community-account",
+        "FieldName": "TechCommunityAccount",
+        "Style": "techCommunityButton",
+        "Class": "",
+        "Path": "techCommunity",
+        "Value": "",
+        "Regex": ""
       }
     ]
   },
