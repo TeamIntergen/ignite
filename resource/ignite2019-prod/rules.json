@@ -29,6 +29,31 @@
           "Identifier": "Session Catalog 2018"
         }
       ]
+    },{
+      "Identifiers": [
+          "Remote Attendee"
+      ],
+      "Access": {
+          "SessionCatalog": true,
+          "MyIgnite": true,
+          "ScheduleBuilder": true,
+          "MobileApp": false,
+          "MeetingScheduler": false,
+          "MobileAppMessaging": false,
+          "LocationBasedMessaging": false,
+          "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [
+      ],
+      "Reporting": {
+          "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [{
+              "ApplicableFrom": null,
+              "ApplicableTo": null,
+              "Identifier": "Schedule Builder - Remote"
+      }]
     },
     {
       "Identifiers": [
