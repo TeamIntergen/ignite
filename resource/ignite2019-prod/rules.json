@@ -130,6 +130,7 @@
         "Crew",
         "Media",
         "Microsoft Customer Meeting Participant",
+        "OpenHackAttendee",
         "Speaker/Staff Microsoft",
         "Speaker/Staff External",
         "Speaker/Staff Day Pass"
@@ -139,6 +140,64 @@
       },
       "EvalAccess": [],
       "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2019"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2018"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "OpenHackAttendee"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Analyst",
+        "Attendee",
+        "Attendee - Sponsor/Exhibitor",
+        "Attendee Microsoft",
+        "Booth Staff Sponsor/Exhibitor",
+        "Booth Staff Microsoft",
+        "Booth Staff Other",
+        "Communications Staff",
+        "Crew",
+        "Media",
+        "Microsoft Customer Meeting Participant",
+        "OpenHackAttendee",
+        "Speaker/Staff Microsoft",
+        "Speaker/Staff External",
+        "Speaker/Staff Day Pass"
+      ],
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "OpenHack"
+        },
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,

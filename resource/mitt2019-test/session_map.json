@@ -50,9 +50,14 @@
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
+      "SessionTypeName": "Unconference: 70 Minute",
+      "HubbId": 2981,
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
       "SessionTypeName": "Learning Path",
       "HubbId": 2967,
-      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
+      "SessionSets": ["Session Catalog 2019"]
     },
     {
       "HubbId": 2980,

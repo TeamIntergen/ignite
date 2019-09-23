@@ -155,6 +155,28 @@
         "My Schedule",
         "Schedule Builder - Remote"
       ]
+    },
+    {
+      "SessionTypeName": "OpenHack",
+      "HubbId": 3317,
+      "SessionSets": [
+        "OpenHack",
+        "My Schedule"
+      ]
+    },
+    {
+      "SessionTypeName": "Leadership Forum",
+      "HubbId": 3318,
+      "SessionSets": [
+        "My Schedule"
+      ]
+    },
+    {
+      "SessionTypeName": "Agenda",
+      "HubbId": 3315,
+      "SessionSets": [
+        "My Schedule"
+      ]
     }
   ]
 }
