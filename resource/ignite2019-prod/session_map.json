@@ -43,19 +43,25 @@
     {
       "HubbId": 2972,
       "Name": "Hands-on Lab",
-      "SessionSets": [
-        "Session Catalog 2019","Session Scheduler"]
+      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
     },
     {
       "HubbId": 2973,
       "Name": "Immersion Workshop",
       "SessionSets": [
-        "Session Catalog 2019","Session Scheduler", "My Schedule"]
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "HubbId": 2974,
       "Name": "Interactive Session",
-      "SessionSets": ["Session Catalog 2019","Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "HubbId": 2967,
@@ -125,7 +131,10 @@
       "SessionTypeName": "Technology Workshop",
       "HubbId": 2971,
       "SessionSets": [
-        "Session Catalog 2019","Session Scheduler", "My Schedule"]
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Theater: 20 Minute",
@@ -159,24 +168,17 @@
     {
       "SessionTypeName": "OpenHack",
       "HubbId": 3317,
-      "SessionSets": [
-        "OpenHack",
-        "My Schedule"
-      ]
+      "SessionSets": ["OpenHack"]
     },
     {
       "SessionTypeName": "Leadership Forum",
       "HubbId": 3318,
-      "SessionSets": [
-        "My Schedule"
-      ]
+      "SessionSets": ["Leadership"]
     },
     {
       "SessionTypeName": "Agenda",
       "HubbId": 3315,
-      "SessionSets": [
-        "My Schedule"
-      ]
+      "SessionSets": ["My Schedule"]
     }
   ]
 }
