@@ -19,6 +19,15 @@
         "Value": ""
       },
       {
+        "DisplayTitle": "translate.profile.label.job-role",
+        "FieldName": "JobRole",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.jobRole",
+        "Value": "jobRole",
+        "OptionsPath": "jobRole"
+      },
+      {
         "DisplayTitle": "translate.profile.label.company",
         "FieldName": "Company",
         "Style": "inputText",
@@ -73,61 +82,34 @@
     ]
   },
   {
-    "HeadingTitle": "translate.profile.label.company-profile",
+    "HeadingTitle": "translate.profile.label.recommendations",
     "ItemsToShow": [
       {
-        "DisplayTitle": "translate.profile.label.job-category",
-        "FieldName": "JobCategory",
-        "Style": "selectGroup",
-        "Class": "",
-        "Path": "detail.jobCategory",
-        "Value": "",
-        "OptionsPath": "jobCategory"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.customer-segment",
-        "FieldName": "CustomerSegment",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.customerSegment",
-        "Value": "",
-        "OptionsPath": "customerSegment"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.business-focus",
-        "FieldName": "BusinessFocus",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.businessFocus",
-        "Value": "",
-        "OptionsPath": "businessFocus"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.industry-focus",
-        "FieldName": "IndustryFocus",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.industryFocus",
-        "Value": "",
-        "OptionsPath": "industryFocus"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.solution-area",
-        "FieldName": "SolutionArea",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.priorityContentAreas",
-        "Value": "",
-        "OptionsPath": "priorityContentAreas"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.line-of-business",
-        "FieldName": "LineOfBusiness",
+        "DisplayTitle": "translate.profile.label.industry",
+        "FieldName": "industry",
         "Style": "Options",
         "Class": "",
-        "Path": "detail.lineOfBusiness",
+        "Path": "detail.industry",
         "Value": "",
-        "OptionsPath": "lineOfBusiness"
+        "OptionsPath": "industry"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.topics-of-interest",
+        "FieldName": "topicsOfInterest",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.topicsOfInterest",
+        "Value": "",
+        "OptionsPath": "topicsOfInterest"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.products-of-interest",
+        "FieldName": "productsOfInterest",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.productsOfInterest",
+        "Value": "",
+        "OptionsPath": "productsOfInterest"
       }
     ]
   },
@@ -161,30 +143,6 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile.label.can-share-sessions",
-            "FieldName": "CanShareSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canShareSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile.label.is-publicly-visible",
-            "FieldName": "IsPubliclyVisible",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile.label.can-send-to-calendar",
-            "FieldName": "CanSendToCalendar",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canSendToCalendar",
             "Value": ""
           }
         ]
