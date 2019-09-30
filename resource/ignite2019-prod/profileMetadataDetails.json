@@ -117,21 +117,6 @@
             "Class": "",
             "Path": "optins.canBeFound",
             "Value": ""
-          },{	
-            "DisplayTitle": "translate.profile.label.can-share-sessions",	
-            "FieldName": "CanShareSessions",	
-            "Style": "checkbox",	
-            "Class": "",	
-            "Path": "optins.canShareSessions",	
-            "Value": ""	
-          },	
-          {	
-            "DisplayTitle": "translate.profile.label.is-publicly-visible",	
-            "FieldName": "IsPubliclyVisible",	
-            "Style": "checkbox",	
-            "Class": "",	
-            "Path": "optins.isPubliclyVisible",	
-            "Value": ""	
           }
         ]
       }
