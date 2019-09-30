@@ -102,23 +102,6 @@
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.notification"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.privacy",
-        "FieldName": "Privacy",
-        "Style": "multiCheckbox",
-        "Class": "",
-        "Path": "contacts.notification",
-        "Options": [
-          {
-            "DisplayTitle": "translate.profile.label.can-be-found",
-            "FieldName": "CanBeFound",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canBeFound",
-            "Value": ""
-          }
-        ]
       }
     ]
   }
