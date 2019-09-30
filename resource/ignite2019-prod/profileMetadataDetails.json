@@ -44,33 +44,6 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "translate.profile.label.linked-in",
-        "FieldName": "LinkedIn",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.linkedIn",
-        "Value": "",
-        "Regex": "https?://.*linkedin.com/in/.+"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.twitter",
-        "FieldName": "Twitter",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.twitter",
-        "Value": "",
-        "Regex": "@([A-Za-z0-9_]+)$"
-      },
-      {
-        "DisplayTitle": "translate.profile.label.website",
-        "FieldName": "Website",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.website",
-        "Value": "",
-        "Regex": "^https?://.+$"
-      },
-      {
         "DisplayTitle": "translate.profile.label.tech-community-account",
         "FieldName": "TechCommunityAccount",
         "Style": "techCommunityButton",
@@ -144,6 +117,21 @@
             "Class": "",
             "Path": "optins.canBeFound",
             "Value": ""
+          },{	
+            "DisplayTitle": "translate.profile.label.can-share-sessions",	
+            "FieldName": "CanShareSessions",	
+            "Style": "checkbox",	
+            "Class": "",	
+            "Path": "optins.canShareSessions",	
+            "Value": ""	
+          },	
+          {	
+            "DisplayTitle": "translate.profile.label.is-publicly-visible",	
+            "FieldName": "IsPubliclyVisible",	
+            "Style": "checkbox",	
+            "Class": "",	
+            "Path": "optins.isPubliclyVisible",	
+            "Value": ""	
           }
         ]
       }
