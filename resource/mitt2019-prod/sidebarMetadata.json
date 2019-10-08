@@ -27,7 +27,7 @@
       {
         "title": "translate.filters.learning-path",
         "layout": "link",
-        "listings": "leafNodeFilters",
+        "listings": "filters",
         "subtype": "learningPath",
         "subMetadata": []
       },
