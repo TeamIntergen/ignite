@@ -30,12 +30,12 @@
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-      "SessionTypeName": "Workshop: 90 Minute",
+      "SessionTypeName": "Workshop: 120 Minute",
       "HubbId": 2982,
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-      "SessionTypeName": "Workshop: 45 Minute",
+      "SessionTypeName": "Workshop: 215 Minute",
       "HubbId": 2983,
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
