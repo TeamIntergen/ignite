@@ -29,31 +29,36 @@
           "Identifier": "Session Catalog 2018"
         }
       ]
-    },{
-      "Identifiers": [
-          "Remote Attendee"
-      ],
+    },
+    {
+      "Identifiers": ["Remote Attendee"],
       "Access": {
-          "SessionCatalog": true,
-          "MyIgnite": true,
-          "ScheduleBuilder": true,
-          "MobileApp": false,
-          "MeetingScheduler": false,
-          "MobileAppMessaging": false,
-          "LocationBasedMessaging": false,
-          "InPersonExperience": false
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
       },
-      "VisibleAttendeeTypes": [
-      ],
+      "VisibleAttendeeTypes": [],
       "Reporting": {
-          "SessionCounts": false
+        "SessionCounts": false
       },
       "EvalAccess": [],
-      "SessionSetAccess": [{
-              "ApplicableFrom": null,
-              "ApplicableTo": null,
-              "Identifier": "Schedule Builder - Remote"
-      }]
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Schedule Builder - Remote"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog 2018"
+        }
+      ]
     },
     {
       "Identifiers": [
@@ -165,9 +170,7 @@
       ]
     },
     {
-      "Identifiers": [
-        "OpenHackAttendee"
-      ],
+      "Identifiers": ["OpenHackAttendee"],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": true,
@@ -230,9 +233,7 @@
       ]
     },
     {
-      "Identifiers": [
-        "LeadershipOpenHackAttendee"
-      ],
+      "Identifiers": ["LeadershipOpenHackAttendee"],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": true,
@@ -305,9 +306,7 @@
       ]
     },
     {
-      "Identifiers": [
-        "LeadershipAttendee"
-      ],
+      "Identifiers": ["LeadershipAttendee"],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": true,
