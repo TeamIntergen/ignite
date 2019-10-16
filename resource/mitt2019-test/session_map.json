@@ -3,7 +3,11 @@
     {
       "SessionTypeName": "Breakout: 45 Minute",
       "HubbId": 2976,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Module: 45 Minute",
@@ -17,37 +21,61 @@
     {
       "SessionTypeName": "Panel: 30 Minute",
       "HubbId": 2978,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "The Opener",
       "HubbId": 2979,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Theater: 15 Minute",
       "HubbId": 2981,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Workshop: 120 Minute",
       "HubbId": 2982,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Workshop: 195 Minute",
       "HubbId": 2983,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Unconference: 70 Minute",
       "HubbId": 3227,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Learning Path",
       "HubbId": 3288,
-      "SessionSets": ["Session Catalog 2019"]
+      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
     },
     {
       "HubbId": 2980,
