@@ -166,6 +166,16 @@
       ]
     },
     {
+      "SessionTypeName": "Innovation Keynote",
+      "HubbId": 3321,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
       "SessionTypeName": "OpenHack",
       "HubbId": 3317,
       "SessionSets": ["OpenHack"]
