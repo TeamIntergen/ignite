@@ -21,7 +21,7 @@
       ]
     },
     {
-      "SessionTypeName": "Diversity & Tech Empower Lunch",
+      "SessionTypeName": "Diversity and Inclusion Empower Session",
       "HubbId": 3065,
       "SessionSets": [
         "Session Catalog 2019",
@@ -194,6 +194,16 @@
       "SessionTypeName": "Agenda",
       "HubbId": 3315,
       "SessionSets": ["My Schedule"]
+    },
+    {
+      "SessionTypeName": "Microsoft Ignite Live",
+      "HubbId": 3322,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
     }
   ]
 }
