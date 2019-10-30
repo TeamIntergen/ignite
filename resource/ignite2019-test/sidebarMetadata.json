@@ -65,6 +65,35 @@
         "listings": "link",
         "subtype": "techCommunityUrl",
         "subMetadata": []
+      },
+      {
+        "title": "Session Links",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          },
+          {
+            "title": "Resources",
+            "layout": "link",
+            "listings": "leafNodeLinks",
+            "subtype": "sessionLinks",
+            "subMetadata": []
+          }
+        ]
       }
     ]
   },

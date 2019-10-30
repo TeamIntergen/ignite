@@ -59,7 +59,7 @@
                 "listings": "leafNodeFilters",
                 "subtype": "products",
                 "subMetadata": []
-            },
+            }
         ]
     },
     {
@@ -162,7 +162,7 @@
                 "listings": "filters",
                 "subtype": "products",
                 "subMetadata": []
-            },
+            }
         ]
     }, {
         "sidebarType": "attendees",
