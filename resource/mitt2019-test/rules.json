@@ -40,7 +40,8 @@
         "Speaker",
         "Sponsor",
         "Staff",
-        "WINHEC"
+        "WINHEC",
+        "TTD"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -61,7 +62,8 @@
         "Speaker",
         "Sponsor",
         "Staff",
-        "WINHEC"
+        "WINHEC",
+        "TTD"
       ],
       "Reporting": {
         "SessionCounts": true
