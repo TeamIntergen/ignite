@@ -60,14 +60,14 @@
         "subMetadata": []
       },
       {
-        "title": "translate.filters.tech-community",
+        "title": "translate.discussion.labels.related",
         "layout": "link",
         "listings": "link",
         "subtype": "techCommunityUrl",
         "subMetadata": []
       },
       {
-        "title": "Session Links",
+        "title": "translate.session.labels.links",
         "layout": "no-link",
         "listings": "",
         "subtype": "",
@@ -85,15 +85,15 @@
             "listings": "link",
             "subtype": "downloadVideoLink",
             "subMetadata": []
-          },
-          {
-            "title": "Resources",
-            "layout": "link",
-            "listings": "leafNodeLinks",
-            "subtype": "sessionLinks",
-            "subMetadata": []
           }
         ]
+      },
+      {
+        "title": "translate.session.labels.resources",
+        "layout": "link",
+        "listings": "leafNodeLinks",
+        "subtype": "sessionLinks",
+        "subMetadata": []
       }
     ]
   },
