@@ -32,7 +32,7 @@
     },
     {
       "HubbId": 2738,
-      "Name": "Exam Prep Session: 45 minute",
+      "SessionTypeName": "Exam Prep Session: 45 minute",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -42,12 +42,12 @@
     },
     {
       "HubbId": 2972,
-      "Name": "Hands-on Lab",
+      "SessionTypeName": "Hands-on Lab",
       "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
     },
     {
       "HubbId": 2973,
-      "Name": "Immersion Workshop",
+      "SessionTypeName": "Immersion Workshop",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -56,7 +56,7 @@
     },
     {
       "HubbId": 2974,
-      "Name": "Interactive Session",
+      "SessionTypeName": "Interactive Session",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -65,7 +65,7 @@
     },
     {
       "HubbId": 2967,
-      "Name": "Learning Path",
+      "SessionTypeName": "Learning Path",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -74,7 +74,7 @@
     },
     {
       "HubbId": 2966,
-      "Name": "Module: 45 minutes",
+      "SessionTypeName": "Module: 45 minutes",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -100,12 +100,12 @@
     },
     {
       "HubbId": 2735,
-      "Name": "Podcast Audio: 60 minutes",
+      "SessionTypeName": "Podcast Audio: 60 minutes",
       "SessionSets": []
     },
     {
       "HubbId": 2736,
-      "Name": "Podcast Video: 60 minutes",
+      "SessionTypeName": "Podcast Video: 60 minutes",
       "SessionSets": []
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "HubbId": 2737,
-      "Name": "Unconfererence: 75 minutes",
+      "SessionTypeName": "Unconfererence: 75 minutes",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
