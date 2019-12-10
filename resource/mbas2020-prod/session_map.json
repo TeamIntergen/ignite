@@ -1,0 +1,14 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "20-minute Theater Session",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "45-minute Breakout Session",
+      "SessionSets": ["Session Catalog"]
+    }    
+  ]
+}

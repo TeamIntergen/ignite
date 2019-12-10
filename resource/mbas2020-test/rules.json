@@ -1,0 +1,169 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": ["Anonymous"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Wristband Day Pass (internal use)",
+        "Substituted Attendee Partner",
+        "Substituted Attendee MS",
+        "Non-Attending Manager",
+        "Ready Attendee"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Crew",
+        "Customer/Student - All Access",
+        "Customer/Student - Speaker Day Pass",
+        "MS - All Access",
+        "MS Corenote Speaker",
+        "MS Day Pass",
+        "MS Lounge & Booth Staff",
+        "MS Speaker Internal",
+        "Partner - All Access",
+        "Partner - Day Pass",
+        "Partner - Sponsor All Access",
+        "Partner - Sponsor Booth Staff",
+        "Press/Analyst",
+        "Speaker External",
+        "Speaker External Corenote",
+        "Speaker External Day Pass"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Crew",
+        "Customer/Student - All Access",
+        "Customer/Student - Speaker Day Pass",
+        "MS - All Access",
+        "MS Corenote Speaker",
+        "MS Day Pass",
+        "MS Lounge & Booth Staff",
+        "MS Speaker Internal",
+        "Partner - All Access",
+        "Partner - Day Pass",
+        "Partner - Sponsor All Access",
+        "Partner - Sponsor Booth Staff",
+        "Press/Analyst",
+        "Ready Attendee",
+        "Speaker External",
+        "Speaker External Corenote",
+        "Speaker External Day Pass",        
+        "Attendee",
+        "Attendee Aspire",
+        "Attendee Manager",
+        "Attendee Aspire Select",
+        "Attendee Manager Technical",
+        "Attendee Onboarding",
+        "Attendee Select",
+        "Attendee Technical",
+        "Attendee Technical Aspire",
+        "Executive",
+        "Content Lead and Support",
+        "Corenote Demo Staff",
+        "Speaker External Sponsor",
+        "Speaker Internal",
+        "Speaker Internal Manager",
+        "Speaker Internal Manager Select",
+        "Speaker Internal Manager Technical",
+        "Speaker Internal Select",
+        "Speaker Internal Technical"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Schedule Builder"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    },
+    {
+      "Identifiers": ["Learning Paths"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Learning Paths"
+        }
+      ]
+    }
+  ]
+}
