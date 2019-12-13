@@ -40,8 +40,50 @@
         "Speaker",
         "Sponsor",
         "Staff",
+        "TTD"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Corp",
+        "Crew",
+        "Field",
+        "General Attendee",
+        "Press/Analyst",
+        "Speaker",
+        "Sponsor",
+        "Staff",
         "WINHEC",
         "TTD"
+      ],
+      "Reporting": {
+        "SessionCounts": true
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "WINHEC"
       ],
       "Access": {
         "SessionCatalog": true,

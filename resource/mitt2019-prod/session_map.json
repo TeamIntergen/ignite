@@ -64,6 +64,15 @@
       ]
     },
     {
+      "SessionTypeName": "WinHEC Session",
+      "HubbId": 3336,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "WINHEC Sessions",
+        "My Schedule"
+      ]
+    },
+    {
       "SessionTypeName": "Unconference: 70 Minute",
       "HubbId": 3227,
       "SessionSets": [
