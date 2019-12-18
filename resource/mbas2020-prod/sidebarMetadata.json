@@ -32,47 +32,11 @@
         "subMetadata": []
       },
       {
-        "title": "Content area",
-        "layout": "",
-        "listings": "list-item",
-        "subtype": "contentArea",
-        "subMetadata": []
-      },
-      {
         "title": "Products",
         "layout": "link",
         "listings": "leafNodeFilters",
-        "subtype": "product",
+        "subtype": "products",
         "subMetadata": []
-      },
-      {
-        "title": "Resources",
-        "layout": "link",
-        "listings": "leafNodeLinks",
-        "subtype": "sessionLinks",
-        "subMetadata": []
-      },
-      {
-        "title": "Session Links",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "",
-        "subMetadata": [
-          {
-            "title": "Trailer",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "sessionTrailer",
-            "subMetadata": []
-          },
-          {
-            "title": "View Slide Deck",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "slideDeck",
-            "subMetadata": []
-          }
-        ]
       }
     ]
   },
