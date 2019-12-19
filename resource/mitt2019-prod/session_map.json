@@ -82,6 +82,15 @@
       ]
     },
     {
+      "SessionTypeName": "Panel: 45 Minute",
+      "HubbId": 1,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
+    },
+    {
       "SessionTypeName": "Learning Path",
       "HubbId": 3288,
       "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
