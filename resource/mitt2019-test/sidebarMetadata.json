@@ -105,6 +105,13 @@
         "listings": "link",
         "subtype": "youtubeUrl",
         "subMetadata": []
+      },
+      {
+        "title": "translate.generic.labels.brochure",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "brochureUrl",
+        "subMetadata": []
       }
     ]
   },
