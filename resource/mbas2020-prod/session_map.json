@@ -9,6 +9,16 @@
       "HubbId": 1001,
       "SessionTypeName": "45-minute Breakout Session",
       "SessionSets": ["Session Catalog"]
-    }    
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Pre-Day Workshop",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "75-minute Workshop Session",
+      "SessionSets": []
+    }
   ]
 }
