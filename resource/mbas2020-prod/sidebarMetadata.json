@@ -3,14 +3,14 @@
     "sidebarType": "sessions",
     "metadata": [
       {
-        "title": "translate.filters.session-code",
+        "title": "Session code",
         "layout": "no-link",
         "listings": "",
         "subtype": "sessionCode",
         "subMetadata": []
       },
       {
-        "title": "translate.filters.session-type",
+        "title": "Session type",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
@@ -25,74 +25,17 @@
         ]
       },
       {
-        "title": "translate.filters.learning-path",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "learningPath",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.filters.level",
-        "layout": "link",
-        "listings": "filters",
+        "title": "Level",
+        "layout": "no-link",
+        "listings": "",
         "subtype": "level",
         "subMetadata": []
       },
       {
-        "title": "translate.filters.product",
+        "title": "Products",
         "layout": "link",
         "listings": "leafNodeFilters",
         "subtype": "products",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.filters.format",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "format",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.filters.topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "topic",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.discussion.labels.related",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "techCommunityUrl",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.session.labels.links",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "",
-        "subMetadata": [
-          {
-            "title": "View Slide Deck",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "slideDeck",
-            "subMetadata": []
-          },
-          {
-            "title": "Download Video",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "downloadVideoLink",
-            "subMetadata": []
-          }
-        ]
-      },
-      {
-        "title": "translate.session.labels.resources",
-        "layout": "link",
-        "listings": "leafNodeLinks",
-        "subtype": "sessionLinks",
         "subMetadata": []
       }
     ]
@@ -101,42 +44,42 @@
     "sidebarType": "sponsors",
     "metadata": [
       {
-        "title": "translate.filters.company-website",
+        "title": "Company Website",
         "layout": "link",
         "listings": "link",
         "subtype": "website",
         "subMetadata": []
       },
       {
-        "title": "translate.profile.label.linked-in",
+        "title": "LinkedIn",
         "layout": "link",
         "listings": "link",
         "subtype": "linkedInUrl",
         "subMetadata": []
       },
       {
-        "title": "translate.generic.labels.twitter",
+        "title": "Twitter",
         "layout": "link",
         "listings": "link",
         "subtype": "twitterUrl",
         "subMetadata": []
       },
       {
-        "title": "translate.generic.labels.facebook",
+        "title": "Facebook",
         "layout": "link",
         "listings": "link",
         "subtype": "facebookUrl",
         "subMetadata": []
       },
       {
-        "title": "translate.generic.labels.blog",
+        "title": "Blog",
         "layout": "link",
         "listings": "link",
         "subtype": "blogUrl",
         "subMetadata": []
       },
       {
-        "title": "translate.generic.labels.youtube",
+        "title": "Youtube",
         "layout": "link",
         "listings": "link",
         "subtype": "youtubeUrl",

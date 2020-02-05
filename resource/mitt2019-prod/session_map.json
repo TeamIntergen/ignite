@@ -3,7 +3,11 @@
     {
       "SessionTypeName": "Breakout: 45 Minute",
       "HubbId": 2976,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Module: 45 Minute",
@@ -17,46 +21,92 @@
     {
       "SessionTypeName": "Panel: 30 Minute",
       "HubbId": 2978,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "The Opener",
       "HubbId": 2979,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Theater: 15 Minute",
       "HubbId": 2981,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
-      "SessionTypeName": "Workshop: 90 Minute",
+      "SessionTypeName": "Workshop: 120 Minute",
       "HubbId": 2982,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
-      "SessionTypeName": "Workshop: 45 Minute",
+      "SessionTypeName": "Workshop: 195 Minute",
       "HubbId": 2983,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
-      "SessionTypeName": "Unconference: 15 Minute",
-      "HubbId": 3226,
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionTypeName": "WinHEC Session",
+      "HubbId": 3336,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "WINHEC Sessions",
+        "My Schedule"
+      ]
     },
     {
+      "SessionTypeName": "Unconference: 70 Minute",
       "HubbId": 3227,
-      "Name": "Unconference: 45 Minute",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
+    },
+    {
+      "SessionTypeName": "Panel: 45 Minute",
+      "HubbId": 1,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
+    },
+    {
+      "SessionTypeName": "CIE Customer Immersion Experience ",
+      "HubbId": 1,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Learning Path",
-      "HubbId": 2967,
+      "HubbId": 3288,
       "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
     },
     {
       "HubbId": 2980,
-      "Name": "Staffing Place Holder",
+      "SessionTypeName": "Staffing Place Holder",
       "SessionSets": []
     }
   ]

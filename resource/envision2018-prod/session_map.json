@@ -42,7 +42,7 @@
     },
     {
         "HubbId": 2303,
-        "Name": "Microsoft Ignite Workshop",
+        "SessionTypeName": "Microsoft Ignite Workshop",
         "SessionSets": ["Schedule Builder", "My Schedule"]
     }]
 }

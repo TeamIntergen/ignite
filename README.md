@@ -1,3 +1,5 @@
+**OBSOLETE** This has been [forked](https://github.com/TeamIntergen/ignite) to the [TeamIntergen](https://github.com/TeamIntergen/) organisation
+
 [![Build Status](https://travis-ci.org/intergenignite/ignite.svg?branch=master)](https://travis-ci.org/intergenignite/ignite)
 
 # Ignite Rules

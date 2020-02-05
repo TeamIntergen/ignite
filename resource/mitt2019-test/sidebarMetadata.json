@@ -27,7 +27,7 @@
       {
         "title": "translate.filters.learning-path",
         "layout": "link",
-        "listings": "leafNodeFilters",
+        "listings": "filters",
         "subtype": "learningPath",
         "subMetadata": []
       },
@@ -104,6 +104,13 @@
         "layout": "link",
         "listings": "link",
         "subtype": "youtubeUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.generic.labels.brochure",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "brochureUrl",
         "subMetadata": []
       }
     ]

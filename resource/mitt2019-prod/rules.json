@@ -40,14 +40,15 @@
         "Speaker",
         "Sponsor",
         "Staff",
-        "WINHEC"
+        "WINHEC",
+        "TTD"
       ],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": true,
         "ScheduleBuilder": true,
         "MobileApp": true,
-        "MeetingScheduler": true,
+        "MeetingScheduler": false,
         "MobileAppMessaging": true,
         "LocationBasedMessaging": true,
         "InPersonExperience": true
@@ -61,7 +62,8 @@
         "Speaker",
         "Sponsor",
         "Staff",
-        "WINHEC"
+        "WINHEC",
+        "TTD"
       ],
       "Reporting": {
         "SessionCounts": true
@@ -76,12 +78,12 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Session Catalog 2019"
+          "Identifier": "WINHEC Sessions"
         },
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Session Catalog 2018"
+          "Identifier": "My Schedule"
         }
       ]
     }

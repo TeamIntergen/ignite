@@ -21,7 +21,7 @@
       ]
     },
     {
-      "SessionTypeName": "Diversity & Tech Empower Lunch",
+      "SessionTypeName": "Diversity and Inclusion Empower Session",
       "HubbId": 3065,
       "SessionSets": [
         "Session Catalog 2019",
@@ -32,7 +32,7 @@
     },
     {
       "HubbId": 2738,
-      "Name": "Exam Prep Session: 45 minute",
+      "SessionTypeName": "Exam Prep Session: 45 minute",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -42,24 +42,30 @@
     },
     {
       "HubbId": 2972,
-      "Name": "Hands-on Lab",
-      "SessionSets": [
-        "Session Catalog 2019","Session Scheduler"]
+      "SessionTypeName": "Hands-on Lab",
+      "SessionSets": ["Session Catalog 2019", "Session Scheduler"]
     },
     {
       "HubbId": 2973,
-      "Name": "Immersion Workshop",
+      "SessionTypeName": "Immersion Workshop",
       "SessionSets": [
-        "Session Catalog 2019","Session Scheduler", "My Schedule"]
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "HubbId": 2974,
-      "Name": "Interactive Session",
-      "SessionSets": ["Session Catalog 2019","Session Scheduler", "My Schedule"]
+      "SessionTypeName": "Interactive Session",
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "HubbId": 2967,
-      "Name": "Learning Path",
+      "SessionTypeName": "Learning Path",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -68,7 +74,7 @@
     },
     {
       "HubbId": 2966,
-      "Name": "Module: 45 minutes",
+      "SessionTypeName": "Module: 45 minutes",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -94,12 +100,12 @@
     },
     {
       "HubbId": 2735,
-      "Name": "Podcast Audio: 60 minutes",
+      "SessionTypeName": "Podcast Audio: 60 minutes",
       "SessionSets": []
     },
     {
       "HubbId": 2736,
-      "Name": "Podcast Video: 60 minutes",
+      "SessionTypeName": "Podcast Video: 60 minutes",
       "SessionSets": []
     },
     {
@@ -125,7 +131,10 @@
       "SessionTypeName": "Technology Workshop",
       "HubbId": 2971,
       "SessionSets": [
-        "Session Catalog 2019","Session Scheduler", "My Schedule"]
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule"
+      ]
     },
     {
       "SessionTypeName": "Theater: 20 Minute",
@@ -139,7 +148,7 @@
     },
     {
       "HubbId": 2737,
-      "Name": "Unconfererence: 75 minutes",
+      "SessionTypeName": "Unconfererence: 75 minutes",
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",
@@ -149,6 +158,46 @@
     {
       "SessionTypeName": "Vision Keynote",
       "HubbId": 2642,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "SessionTypeName": "Innovation Keynote",
+      "HubbId": 3321,
+      "SessionSets": [
+        "Session Catalog 2019",
+        "Session Scheduler",
+        "My Schedule",
+        "Schedule Builder - Remote"
+      ]
+    },
+    {
+      "SessionTypeName": "OpenHack",
+      "HubbId": 3317,
+      "SessionSets": ["OpenHack"]
+    },
+    {
+      "SessionTypeName": "Leadership Forum",
+      "HubbId": 3318,
+      "SessionSets": ["My Schedule - Leadership"]
+    },
+    {
+      "SessionTypeName": "Leadership Forum Session",
+      "HubbId": 3320,
+      "SessionSets": ["Leadership"]
+    },
+    {
+      "SessionTypeName": "Agenda",
+      "HubbId": 3315,
+      "SessionSets": ["My Schedule"]
+    },
+    {
+      "SessionTypeName": "Microsoft Ignite Live",
+      "HubbId": 3322,
       "SessionSets": [
         "Session Catalog 2019",
         "Session Scheduler",

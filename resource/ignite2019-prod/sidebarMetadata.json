@@ -58,6 +58,42 @@
         "listings": "filters",
         "subtype": "topic",
         "subMetadata": []
+      },
+      {
+        "title": "translate.filters.tech-community",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "techCommunityUrl",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.session.labels.links",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "translate.session.labels.resources",
+        "layout": "link",
+        "listings": "leafNodeLinks",
+        "subtype": "sessionLinks",
+        "subMetadata": []
       }
     ]
   },
