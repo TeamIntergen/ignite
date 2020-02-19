@@ -76,13 +76,13 @@
         "OptionsPath": "jobRole"
       },
       {
-        "DisplayTitle": "Community",
-        "FieldName": "Community",
+        "DisplayTitle": "Communities",
+        "FieldName": "Communities",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.community",
+        "Path": "detail.communities",
         "Value": "",
-        "OptionsPath": "community"
+        "OptionsPath": "communities"
       },
       {
         "DisplayTitle": "Industry",
@@ -98,9 +98,9 @@
         "FieldName": "Products",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.products",
+        "Path": "detail.productsUsed",
         "Value": "",
-        "OptionsPath": "products"
+        "OptionsPath": "productsUsed"
       }
     ]
   },
