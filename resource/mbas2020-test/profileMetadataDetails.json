@@ -69,7 +69,7 @@
       {
         "DisplayTitle": "Job Category",
         "FieldName": "JobCategory",
-        "Style": "selectGroup",
+        "Style": "Options",
         "Class": "",
         "Path": "detail.jobRole",
         "Value": "",
@@ -78,7 +78,7 @@
       {
         "DisplayTitle": "Community",
         "FieldName": "Community",
-        "Style": "Options",
+        "Style": "multiSelect",
         "Class": "",
         "Path": "detail.community",
         "Value": "",
@@ -87,7 +87,7 @@
       {
         "DisplayTitle": "Industry",
         "FieldName": "Industry",
-        "Style": "nestedSelect",
+        "Style": "Options",
         "Class": "",
         "Path": "detail.industry",
         "Value": "",
@@ -96,7 +96,7 @@
       {
         "DisplayTitle": "Products",
         "FieldName": "Products",
-        "Style": "Options",
+        "Style": "multiSelect",
         "Class": "",
         "Path": "detail.products",
         "Value": "",
