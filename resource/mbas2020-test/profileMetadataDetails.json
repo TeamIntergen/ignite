@@ -78,7 +78,7 @@
       {
         "DisplayTitle": "Communities",
         "FieldName": "Communities",
-        "Style": "multiSelect",
+        "Style": "multiCheckbox",
         "Class": "",
         "Path": "detail.communities",
         "Value": "",
@@ -96,7 +96,7 @@
       {
         "DisplayTitle": "Products",
         "FieldName": "Products",
-        "Style": "multiSelect",
+        "Style": "nestedSelect",
         "Class": "",
         "Path": "detail.productsUsed",
         "Value": "",
