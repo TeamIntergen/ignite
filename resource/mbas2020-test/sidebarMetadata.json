@@ -203,17 +203,17 @@
         "subMetadata": []
       },
       {
-        "title": "Country",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "areaCountry",
+        "title": "Country of Business",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "businessCountry",
         "subMetadata": []
       },
       {
-        "title": "Industry Focus",
+        "title": "Industry",
         "layout": "link",
         "listings": "filters",
-        "subtype": "industryFocus",
+        "subtype": "industry",
         "subMetadata": []
       },
       {
@@ -235,6 +235,20 @@
         "layout": "link",
         "listings": "leafNodeFilters",
         "subtype": "solutionArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Communities",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "communities",
+        "subMetadata": []
+      },
+      {
+        "title": "Products Used",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "productsUsed",
         "subMetadata": []
       }
     ]
