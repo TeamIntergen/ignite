@@ -11,6 +11,22 @@
         "Value": ""
       },
       {
+        "DisplayTitle": "First Name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Last Name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+      {
         "DisplayTitle": "Job Title",
         "FieldName": "Title",
         "Style": "inputText",
@@ -24,6 +40,14 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.company",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Country of Business",
+        "FieldName": "CountryOfBusiness",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.businessCountry",
         "Value": ""
       },
       {
@@ -122,7 +146,7 @@
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "Privacy",
+        "DisplayTitle": "Privacy & Notifications",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
@@ -134,6 +158,30 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarAgendaItems",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarAgendaItems",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]
