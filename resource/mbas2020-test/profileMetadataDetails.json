@@ -3,6 +3,22 @@
     "HeadingTitle": "Attendee Profile",
     "ItemsToShow": [
       {
+        "DisplayTitle": "First Name",
+        "FieldName": "FirstName",
+        "Style": "readOnly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Last Name",
+        "FieldName": "LastName",
+        "Style": "readOnly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+      {
         "DisplayTitle": "Photo",
         "FieldName": "ProfileImage",
         "Style": "picture",
