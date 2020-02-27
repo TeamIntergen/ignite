@@ -13,7 +13,7 @@
       {
         "DisplayTitle": "First Name",
         "FieldName": "FirstName",
-        "Style": "inputText",
+        "Style": "readonly",
         "Class": "",
         "Path": "detail.firstName",
         "Value": ""
@@ -21,7 +21,7 @@
       {
         "DisplayTitle": "Last Name",
         "FieldName": "LastName",
-        "Style": "inputText",
+        "Style": "readonly",
         "Class": "",
         "Path": "detail.lastName",
         "Value": ""
