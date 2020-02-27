@@ -157,7 +157,7 @@
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.canBeFound",
+            "Path": "optins.isPubliclyVisible",
             "Value": ""
           },
           {
