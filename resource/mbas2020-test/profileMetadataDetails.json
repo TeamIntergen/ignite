@@ -157,7 +157,7 @@
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.isPubliclyVisible",
+            "Path": "optins.canBeFound",
             "Value": ""
           },
           {
@@ -168,7 +168,7 @@
             "Path": "optins.sendToCalendarSessions",
             "Value": ""
           },
-              {
+          {
             "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
             "FieldName": "SendToCalendarAgendaItems",
             "Style": "checkbox",
@@ -176,7 +176,7 @@
             "Path": "optins.sendToCalendarAgendaItems",
             "Value": ""
           },
-              {
+          {
             "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
             "FieldName": "SendToCalendarMeetingAppointments",
             "Style": "checkbox",
