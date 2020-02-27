@@ -43,6 +43,14 @@
         "Value": ""
       },
       {
+        "DisplayTitle": "Country of Business",
+        "FieldName": "CountryOfBusiness",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.countryOfbusiness",
+        "Value": ""
+      },
+      {
         "DisplayTitle": "Biography",
         "FieldName": "Biography",
         "Style": "textArea",
