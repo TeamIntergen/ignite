@@ -47,7 +47,7 @@
         "FieldName": "CountryOfBusiness",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.countryOfbusiness",
+        "Path": "detail.businessCountry",
         "Value": ""
       },
       {
