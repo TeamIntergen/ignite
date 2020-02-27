@@ -146,8 +146,8 @@
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "Privacy",
-        "FieldName": "Privacy",
+        "DisplayTitle": "Privacy & Notifications",
+        "FieldName": "PrivacyNotifications",
         "Style": "multiCheckbox",
         "Class": "",
         "Path": "contacts.notification",
@@ -158,6 +158,30 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarSessions",
+            "Value": ""
+          },
+              {
+            "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarAgendaItems",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarAgendaItems",
+            "Value": ""
+          },
+              {
+            "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]
