@@ -158,7 +158,7 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
+            "Value": "optins.canBeFound"
           },
           {
             "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
