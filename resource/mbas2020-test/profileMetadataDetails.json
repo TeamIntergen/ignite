@@ -147,7 +147,7 @@
       },
       {
         "DisplayTitle": "Privacy & Notifications",
-        "FieldName": "PrivacyNotifications",
+        "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
         "Path": "contacts.notification",
