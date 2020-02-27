@@ -3,9 +3,17 @@
     "HeadingTitle": "Attendee Profile",
     "ItemsToShow": [
       {
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": ""
+      },
+      {
         "DisplayTitle": "First Name",
         "FieldName": "FirstName",
-        "Style": "readOnly",
+        "Style": "inputText",
         "Class": "",
         "Path": "detail.firstName",
         "Value": ""
@@ -13,17 +21,9 @@
       {
         "DisplayTitle": "Last Name",
         "FieldName": "LastName",
-        "Style": "readOnly",
+        "Style": "inputText",
         "Class": "",
         "Path": "detail.lastName",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Photo",
-        "FieldName": "ProfileImage",
-        "Style": "picture",
-        "Class": "",
-        "Path": "detail.profileImage",
         "Value": ""
       },
       {
