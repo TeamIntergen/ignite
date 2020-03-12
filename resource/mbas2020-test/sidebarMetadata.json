@@ -41,14 +41,14 @@
       {
         "title": "Session Link",
         "layout": "link",
-        "listings": "",
+        "listings": "leafNodeLinks",
         "subtype": "sessionLinks",
         "subMetadata": []
       },
       {
         "title": "PowerPoint Link",
         "layout": "link",
-        "listings": "",
+        "listings": "link",
         "subtype": "slideDeck",
         "subMetadata": []
       }
