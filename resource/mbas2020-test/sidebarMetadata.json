@@ -37,6 +37,20 @@
         "listings": "leafNodeFilters",
         "subtype": "products",
         "subMetadata": []
+      },
+      {
+        "title": "Session Link",
+        "layout": "link",
+        "listings": "",
+        "subtype": "sessionLinks",
+        "subMetadata": []
+      },
+      {
+        "title": "PowerPoint Link",
+        "layout": "link",
+        "listings": "",
+        "subtype": "slideDeck",
+        "subMetadata": []
       }
     ]
   },
