@@ -161,27 +161,27 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarSessions",
+            "DisplayTitle": "Opt in to sending my sessions to my personal calendar. All registered are opted out to receive sessions on your personal calendar by default. Click this box if you want to receive these calendar appointments.",
+            "FieldName": "DoNotSendToCalendarSessions",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.sendToCalendarSessions",
+            "Path": "optins.doNotSendToCalendarSessions",
             "Value": ""
           },
           {
-            "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarAgendaItems",
+            "DisplayTitle": "Opt out of sending my keynotes and social events to my personal calendar. All registrants are opted in to receive keynotes and social events on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
+            "FieldName": "DoNotSendToCalendarAgendaItems",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.sendToCalendarAgendaItems",
+            "Path": "optins.doNotSendToCalendarAgendaItems",
             "Value": ""
           },
           {
-            "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarMeetingAppointments",
+            "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
+            "FieldName": "DoNotSendToCalendarMeetingAppointments",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.sendToCalendarMeetingAppointments",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]
