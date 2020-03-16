@@ -41,8 +41,8 @@
       {
         "title": "Session Link",
         "layout": "link",
-        "listings": "leafNodeLinks",
-        "subtype": "sessionLinks",
+        "listings": "link",
+        "subtype": "downloadVideoLink",
         "subMetadata": []
       },
       {
