@@ -32,9 +32,8 @@
     },
     {
       "HubbId": 9998,
-      "SessionTypeName": "Agenda",
+      "SessionTypeName": "Keynote Segment",
       "SessionSets": ["Session Scheduler"]
     }
-
   ]
 }
