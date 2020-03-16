@@ -29,6 +29,12 @@
       "HubbId": 9999,
       "SessionTypeName": "Agenda",
       "SessionSets": [ "My Schedule" ]
+    },
+    {
+      "HubbId": 9998,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["Session Scheduler"]
     }
+
   ]
 }
