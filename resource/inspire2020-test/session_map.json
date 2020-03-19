@@ -1,0 +1,34 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "20-minute Theater Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "45-minute Breakout Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Pre-Day Workshop",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "75-minute Workshop Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Executive Track",
+      "SessionSets": [ "Executive Track Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 9999,
+      "SessionTypeName": "Agenda",
+      "SessionSets": [ "My Schedule" ]
+    }
+  ]
+}
