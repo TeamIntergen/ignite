@@ -22,13 +22,13 @@
     },
     {
       "HubbId": 1004,
-      "SessionTypeName": "On-Demand Session",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionTypeName": "Executive Track",
+      "SessionSets": [ "Executive Track Session Scheduler", "My Schedule" ]
     },
     {
       "HubbId": 9999,
       "SessionTypeName": "Agenda",
-      "SessionSets": ["My Schedule"]
+      "SessionSets": [ "My Schedule" ]
     }
   ]
 }

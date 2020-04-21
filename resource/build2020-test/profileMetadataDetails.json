@@ -32,10 +32,7 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.title",
-        "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        }
+        "Value": ""
       },
       {
         "DisplayTitle": "Company",
@@ -43,10 +40,7 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.company",
-        "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        }
+        "Value": ""
       },
       {
         "DisplayTitle": "Country of Business",
@@ -167,27 +161,27 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Opt in to sending my sessions to my personal calendar. All registered are opted out to receive sessions on your personal calendar by default. Click this box if you want to receive these calendar appointments.",
-            "FieldName": "DoNotSendToCalendarSessions",
+            "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarSessions",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.doNotSendToCalendarSessions",
+            "Path": "optins.sendToCalendarSessions",
             "Value": ""
           },
           {
-            "DisplayTitle": "Opt out of sending my keynotes and social events to my personal calendar. All registrants are opted in to receive keynotes and social events on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
-            "FieldName": "DoNotSendToCalendarAgendaItems",
+            "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarAgendaItems",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.doNotSendToCalendarAgendaItems",
+            "Path": "optins.sendToCalendarAgendaItems",
             "Value": ""
           },
           {
-            "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
-            "FieldName": "DoNotSendToCalendarMeetingAppointments",
+            "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarMeetingAppointments",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
+            "Path": "optins.sendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]

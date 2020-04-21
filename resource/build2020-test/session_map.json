@@ -1,0 +1,49 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "Technology Keynote",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Learning Path",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "Module",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "MS Build Live",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Roundtable",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1006,
+      "SessionTypeName": "Student",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Theater",
+      "SessionSets": ["Session Catalog"]
+    },
+    {
+      "HubbId": 9999,
+      "SessionTypeName": "Breakout",
+      "SessionSets": ["Session Catalog"]
+    }
+  ]
+}
