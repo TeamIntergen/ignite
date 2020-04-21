@@ -167,22 +167,6 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Opt in to sending my sessions to my personal calendar. All registered are opted out to receive sessions on your personal calendar by default. Click this box if you want to receive these calendar appointments.",
-            "FieldName": "DoNotSendToCalendarSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Opt out of sending my keynotes and social events to my personal calendar. All registrants are opted in to receive keynotes and social events on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
-            "FieldName": "DoNotSendToCalendarAgendaItems",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarAgendaItems",
-            "Value": ""
-          },
-          {
             "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
             "FieldName": "DoNotSendToCalendarMeetingAppointments",
             "Style": "checkbox",
