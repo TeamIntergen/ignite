@@ -11,13 +11,13 @@
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1003,
-      "SessionTypeName": "Session with Q&A",
+      "HubbId": 1004,
+      "SessionTypeName": "On-Demand Session",
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1004,
-      "SessionTypeName": "On-Demand Session",
+      "HubbId": 1003,
+      "SessionTypeName": "Expert Connect",
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
