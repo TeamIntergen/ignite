@@ -99,7 +99,7 @@
       {
         "DisplayTitle": "Job Category",
         "FieldName": "JobCategory",
-        "Style": "Options",
+        "Style": "selectGroup",
         "Class": "",
         "Path": "detail.jobRole",
         "Value": "",
