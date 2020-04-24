@@ -98,12 +98,12 @@
     "ItemsToShow": [
       {
         "DisplayTitle": "Job Category",
-        "FieldName": "JobCategory",
-        "Style": "selectGroup",
+        "FieldName": "JobCategoryGroup",
+        "Style": "selectGroupGroup",
         "Class": "",
         "Path": "detail.jobCategory",
         "Value": "",
-        "OptionsPath": "jobCategory"
+        "OptionsPath": "jobCategoryGroup"
       },
       {
         "DisplayTitle": "Communities",
