@@ -101,7 +101,7 @@
         "FieldName": "JobCategoryGroup",
         "Style": "selectGroupGroup",
         "Class": "",
-        "Path": "detail.jobCategory",
+        "Path": "detail.jobCategoryGroup",
         "Value": "",
         "OptionsPath": "jobCategoryGroup"
       },
