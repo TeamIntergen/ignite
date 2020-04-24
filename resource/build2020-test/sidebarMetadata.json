@@ -40,10 +40,25 @@
       },
       {
         "title": "Resources",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "resources",
-        "subMetadata": []
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
       },
       {
         "title": "Related Links",
