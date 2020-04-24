@@ -39,17 +39,17 @@
         "subMetadata": []
       },
       {
-        "title": "Session Link",
+        "title": "Resources",
         "layout": "link",
         "listings": "link",
-        "subtype": "downloadVideoLink",
+        "subtype": "resources",
         "subMetadata": []
       },
       {
-        "title": "PowerPoint Link",
+        "title": "Related Links",
         "layout": "link",
         "listings": "link",
-        "subtype": "slideDeck",
+        "subtype": "sessionLinks",
         "subMetadata": []
       }
     ]
