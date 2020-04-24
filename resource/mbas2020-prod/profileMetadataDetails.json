@@ -163,7 +163,7 @@
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.isPubliclyVisible",
+            "Path": "optins.attendeeMessagingOptIn",
             "Value": ""
           },
           {
