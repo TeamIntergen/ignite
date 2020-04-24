@@ -63,7 +63,7 @@
       {
         "title": "Related Links",
         "layout": "link",
-        "listings": "link",
+        "listings": "leafNodeLinks",
         "subtype": "sessionLinks",
         "subMetadata": []
       }
