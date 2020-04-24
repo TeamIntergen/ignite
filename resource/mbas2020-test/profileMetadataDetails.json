@@ -101,9 +101,9 @@
         "FieldName": "JobCategory",
         "Style": "selectGroup",
         "Class": "",
-        "Path": "detail.jobRole",
+        "Path": "detail.jobCategory",
         "Value": "",
-        "OptionsPath": "jobRole"
+        "OptionsPath": "jobCategory"
       },
       {
         "DisplayTitle": "Communities",
