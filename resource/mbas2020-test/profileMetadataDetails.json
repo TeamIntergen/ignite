@@ -98,12 +98,12 @@
     "ItemsToShow": [
       {
         "DisplayTitle": "Job Category",
-        "FieldName": "JobCategory",
-        "Style": "Options",
+        "FieldName": "JobCategoryGroup",
+        "Style": "selectGroup",
         "Class": "",
-        "Path": "detail.jobRole",
+        "Path": "detail.jobCategoryGroup",
         "Value": "",
-        "OptionsPath": "jobRole"
+        "OptionsPath": "jobCategoryGroup"
       },
       {
         "DisplayTitle": "Communities",
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "HeadingTitle": "Settings",
+    "HeadingTitle": "Contact Preferences",
     "ItemsToShow": [
       {
         "DisplayTitle": "Login",
