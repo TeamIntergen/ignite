@@ -18,7 +18,7 @@
     {
       "HubbId": 1005,
       "SessionTypeName": "Expert Connect",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 9999,
