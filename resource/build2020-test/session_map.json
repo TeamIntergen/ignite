@@ -2,48 +2,53 @@
   "SessionSetMap": [
     {
       "HubbId": 1000,
-      "SessionTypeName": "Keynote",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "Community",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1001,
-      "SessionTypeName": "Technology Keynote",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "Digital Breakout",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1002,
-      "SessionTypeName": "Learning Path",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "Expert Connect",
+      "SessionSets": []
     },
     {
       "HubbId": 1003,
-      "SessionTypeName": "Module",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "Imagine Cup",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1004,
-      "SessionTypeName": "MS Build Live",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "Key Segment",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1005,
-      "SessionTypeName": "Roundtable",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "On-Demand Session",
+      "SessionSets": []
     },
     {
       "HubbId": 1006,
-      "SessionTypeName": "Student",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "Unplugged",
+      "SessionSets": []
     },
     {
       "HubbId": 1007,
-      "SessionTypeName": "Theater",
-      "SessionSets": ["Session Catalog"]
+      "SessionTypeName": "Build Live",
+      "SessionSets": []
     },
     {
-      "HubbId": 9999,
-      "SessionTypeName": "Breakout",
-      "SessionSets": ["Session Catalog"]
+      "HubbId": 1008,
+      "SessionTypeName": "Student",
+      "SessionSets": []
+    },
+    {
+      "HubbId": 1009,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["My Schedule"]
     }
   ]
 }
