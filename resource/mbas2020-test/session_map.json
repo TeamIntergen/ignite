@@ -21,6 +21,11 @@
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
+      "HubbId": 1006,
+      "SessionTypeName": "Executive Track",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
       "HubbId": 9999,
       "SessionTypeName": "Agenda",
       "SessionSets": ["My Schedule"]
