@@ -13,7 +13,7 @@
     {
       "HubbId": 1004,
       "SessionTypeName": "On-Demand Session",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1005,
