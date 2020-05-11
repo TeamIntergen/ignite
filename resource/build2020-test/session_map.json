@@ -43,7 +43,7 @@
     {
       "HubbId": 1008,
       "SessionTypeName": "Student",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
     },
     {
       "HubbId": 1009,
