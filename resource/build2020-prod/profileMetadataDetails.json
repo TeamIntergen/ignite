@@ -117,14 +117,6 @@
             "Class": "",
             "Path": "optins.isPubliclyVisible",
             "Value": ""
-          },
-          {
-            "DisplayTitle": "Do not automatically send any sessions I add to my MyBuild schedule to my calendar",
-            "FieldName": "SendToCalendarSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarSessions",
-            "Value": ""
           }
         ]
       }
