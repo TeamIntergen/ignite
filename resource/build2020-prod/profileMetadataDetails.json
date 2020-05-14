@@ -102,23 +102,6 @@
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.notification"
-      },
-      {
-        "DisplayTitle": "Privacy & Notifications",
-        "FieldName": "Privacy",
-        "Style": "multiCheckbox",
-        "Class": "",
-        "Path": "contacts.notification",
-        "Options": [
-          {
-            "DisplayTitle": "Make my profile visible in the MyBuild directory",
-            "FieldName": "CanBeFound",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
-            "Value": ""
-          }
-        ]
       }
     ]
   }
