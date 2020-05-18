@@ -29,9 +29,19 @@
       "Identifiers": [
         "Analyst",
         "Attendee",
+        "Booth Staff",
         "Crew",
+        "Crew (Core Team)",
+        "Crew (Eventforce)",
+        "Crew (Vendors)",
+        "Microsoft Employee",
+        "Microsoft Support Staff",
         "Press",
+        "Speaker External",
+        "Speaker Internal",
+        "Sponsor",
         "Student Partner"
+
       ],
       "Access": {
         "SessionCatalog": true,
@@ -46,8 +56,18 @@
       "VisibleAttendeeTypes": [
         "Analyst",
         "Attendee",
+        "Booth Staff",
         "Crew",
+        "Crew (Core Team)",
+        "Crew (Eventforce)",
+        "Crew (Vendors)",
+        "Executive Track",
+        "Microsoft Employee",
+        "Microsoft Support Staff",
         "Press",
+        "Speaker External",
+        "Speaker Internal",
+        "Sponsor",
         "Student Partner"
       ],
       "Reporting": {
@@ -55,6 +75,82 @@
       },
       "EvalAccess": [],
       "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    },
+    {
+      "Identifiers": ["Learning Paths"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Learning Paths"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Executive Track"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Analyst",
+        "Attendee",
+        "Booth Staff",
+        "Crew (Core Team)",
+        "Crew (Eventforce)",
+        "Crew (Vendors)",
+        "Executive Track",
+        "Microsoft Employee",
+        "Microsoft Support Staff",
+        "Press",
+        "Speaker External",
+        "Speaker Internal",
+        "Sponsor"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Executive Track Session Scheduler"
+        },
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
