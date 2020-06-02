@@ -1,0 +1,69 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "20-minute Theater Session",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "45-minute Breakout Session",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Pre-Day Workshop",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "75-minute Workshop Session",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Executive Track",
+      "SessionSets": [ "Executive Track Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Community",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1006,
+      "SessionTypeName": "Student",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Key Segment",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1008,
+      "SessionTypeName": "Digital Breakout",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1009,
+      "SessionTypeName": "Imagine Cup",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Build Live",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Pre-recorded Session",
+      "SessionSets": [ "Session Catalog", "Session Scheduler" ]
+    },
+    {
+      "HubbId": 9999,
+      "SessionTypeName": "Agenda",
+      "SessionSets": [ "My Schedule" ]
+    }
+  ]
+}
