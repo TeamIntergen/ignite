@@ -1,0 +1,59 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "Community",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "Digital Breakout",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Expert Connect",
+      "SessionSets": []
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "Imagine Cup",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Key Segment",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "On-Demand Session",
+      "SessionSets": []
+    },
+    {
+      "HubbId": 1006,
+      "SessionTypeName": "Unplugged",
+      "SessionSets": []
+    },
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Build Live",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1008,
+      "SessionTypeName": "Student",
+      "SessionSets": [ "Session Catalog", "Session Scheduler", "My Schedule" ]
+    },
+    {
+      "HubbId": 1009,
+      "SessionTypeName": "Agenda",
+      "SessionSets": [ "My Schedule" ]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Pre-recorded Session",
+      "SessionSets": [ "Session Catalog", "Session Scheduler" ]
+    }
+  ]
+}
