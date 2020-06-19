@@ -27,8 +27,18 @@
     },
     {
       "HubbId": 1010,
-      "SessionTypeName": "Pre-recorded Session",
+      "SessionTypeName": "Pre Record Sessions",
       "SessionSets": ["Session Catalog", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1011,
+      "SessionTypeName": "Area General Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1011,
+      "SessionTypeName": "Community",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 9999,
