@@ -32,6 +32,34 @@
         "subMetadata": []
       },
       {
+        "title": "Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+      {
+        "title": "Business focus",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "businessFocus",
+        "subMetadata": []
+      },
+      {
+        "title": "Line of business",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "lineOfBusiness",
+        "subMetadata": []
+      },
+      {
+        "title": "Partner Outcome",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "businessOutcome",
+        "subMetadata": []
+      },
+      {
         "title": "Products",
         "layout": "link",
         "listings": "leafNodeFilters",
