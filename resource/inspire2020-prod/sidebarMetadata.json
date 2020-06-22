@@ -32,13 +32,6 @@
         "subMetadata": []
       },
       {
-        "title": "Partner Outcome",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "businessOutcome",
-        "subMetadata": []
-      },
-      {
         "title": "Topic",
         "layout": "link",
         "listings": "filters",
@@ -57,6 +50,13 @@
         "layout": "link",
         "listings": "filters",
         "subtype": "lineOfBusiness",
+        "subMetadata": []
+      },
+      {
+        "title": "Partner Outcome",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "businessOutcome",
         "subMetadata": []
       },
       {
