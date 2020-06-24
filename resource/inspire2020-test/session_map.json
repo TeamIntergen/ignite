@@ -11,11 +11,6 @@
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1006,
-      "SessionTypeName": "On Demand",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
       "HubbId": 1007,
       "SessionTypeName": "Key Segment",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
@@ -36,8 +31,13 @@
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1011,
+      "HubbId": 1012,
       "SessionTypeName": "Community",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1013,
+      "SessionTypeName": "Connection Zone",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
