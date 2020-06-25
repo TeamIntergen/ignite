@@ -54,8 +54,8 @@
       },
       {
         "title": "Partner Outcome",
-        "layout": "link",
-        "listings": "filters",
+        "layout": "no-link",
+        "listings": "",
         "subtype": "businessOutcome",
         "subMetadata": []
       },
@@ -87,7 +87,7 @@
             "subMetadata": []
           }
         ]
-      }      
+      }
     ]
   },
   {
