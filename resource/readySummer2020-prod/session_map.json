@@ -2,86 +2,27 @@
   "SessionSetMap": [
     {
       "HubbId": 1000,
-      "SessionTypeName": "Area General Session",
+      "SessionTypeName": "Key Segment",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1001,
-      "SessionTypeName": "Coaching",
+      "SessionTypeName": "Connection Zone",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1002,
-      "SessionTypeName": "Corenote",
+      "SessionTypeName": "On Demand",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1003,
-      "SessionTypeName": "Digital Session",
+      "SessionTypeName": "Digital Breakout",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1004,
-      "SessionTypeName": "Feature",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1005,
-      "SessionTypeName": "OpenHack",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },{
-      "HubbId": 1006,
-      "SessionTypeName": "Panel",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1007,
-      "SessionTypeName": "Panel Discussion",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1008,
-      "SessionTypeName": "Power",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1009,
-      "SessionTypeName": "Presentation",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1010,
-      "SessionTypeName": "Ready Studio",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1011,
-      "SessionTypeName": "Tech Keynote",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1012,
-      "SessionTypeName": "Tech MeetUps",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1013,
-      "SessionTypeName": "Technical Lab",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1014,
-      "SessionTypeName": "Workshop",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1015,
-      "SessionTypeName": "Learning Path",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1016,
-      "SessionTypeName": "Certification",
+      "SessionTypeName": "General Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     }
   ]
