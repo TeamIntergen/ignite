@@ -32,9 +32,7 @@
         "External Event Support",
         "External Guests",
         "Executive",
-        "Speaker External",
-        "Speaker Internal",
-        "Non-Attending User"
+        "Speaker Internal"
       ],
       "Access": {
         "SessionCatalog": true,
