@@ -71,7 +71,7 @@
         "Class": "",
         "Path": "social.linkedIn",
         "Value": "",
-        "Regex": "https?://.*linkedin.com/in/.+"
+        "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))"
       },
       {
         "DisplayTitle": "Twitter",
@@ -80,7 +80,7 @@
         "Class": "",
         "Path": "social.twitter",
         "Value": "",
-        "Regex": "@([A-Za-z0-9_]+)$"
+        "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))"
       },
       {
         "DisplayTitle": "Website",
