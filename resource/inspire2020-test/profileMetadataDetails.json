@@ -159,7 +159,7 @@
         "Path": "contacts.notification",
         "Options": [
           {
-            "DisplayTitle": "Make my profile visible in the MyMBAS directory and allow me to receive messages and meeting invitations from other attendees",
+            "DisplayTitle": "Make my profile visible in the MyInspire directory and allow me to receive messages and meeting invitations from other attendees",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
@@ -167,23 +167,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.sendToCalendarSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarAgendaItems",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.sendToCalendarAgendaItems",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
+            "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
             "FieldName": "SendToCalendarMeetingAppointments",
             "Style": "checkbox",
             "Class": "",
