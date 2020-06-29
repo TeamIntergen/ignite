@@ -97,7 +97,7 @@
         "Value": "",
 		"OptionalAttributes": {
           "Regex": "^https?://.+$",
-		  "RegexValidationText": "Please enter in the form of 'http://*' or 'http://'"
+		  "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
 		}
       }
     ]
