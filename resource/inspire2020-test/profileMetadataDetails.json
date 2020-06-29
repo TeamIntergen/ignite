@@ -172,7 +172,7 @@
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.isPubliclyVisible",
+            "Path": "optins.canBeFound",
             "Value": ""
           },
           {
@@ -180,7 +180,7 @@
             "FieldName": "SendToCalendarMeetingAppointments",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.sendToCalendarMeetingAppointments",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]
