@@ -71,7 +71,9 @@
         "Class": "",
         "Path": "social.linkedIn",
         "Value": "",
-        "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))"
+		"OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))"
+		}
       },
       {
         "DisplayTitle": "Twitter",
@@ -80,7 +82,9 @@
         "Class": "",
         "Path": "social.twitter",
         "Value": "",
-        "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))"
+		"OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))"
+		}
       },
       {
         "DisplayTitle": "Website",
@@ -89,7 +93,9 @@
         "Class": "",
         "Path": "social.website",
         "Value": "",
-        "Regex": "^https?://.+$"
+		"OptionalAttributes": {
+          "Regex": "^https?://.+$"
+		}
       }
     ]
   },
