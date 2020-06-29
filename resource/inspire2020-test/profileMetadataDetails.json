@@ -72,7 +72,8 @@
         "Path": "social.linkedIn",
         "Value": "",
 		"OptionalAttributes": {
-          "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))"
+          "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))",
+		  "RegexValidationText": "Please enter in the form of 'https://www.linkedin.com/*'"
 		}
       },
       {
@@ -83,7 +84,8 @@
         "Path": "social.twitter",
         "Value": "",
 		"OptionalAttributes": {
-          "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))"
+          "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))",
+		  "RegexValidationText": "Please enter in the form of 'https://www.twitter.com/*'"
 		}
       },
       {
@@ -94,7 +96,8 @@
         "Path": "social.website",
         "Value": "",
 		"OptionalAttributes": {
-          "Regex": "^https?://.+$"
+          "Regex": "^https?://.+$",
+		  "RegexValidationText": "Please enter in the form of 'http://*' or 'http://'"
 		}
       }
     ]
