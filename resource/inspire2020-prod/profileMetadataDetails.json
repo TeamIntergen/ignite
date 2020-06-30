@@ -106,15 +106,6 @@
     "HeadingTitle": "Company Profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Job Category",
-        "FieldName": "JobCategory",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.jobRole",
-        "Value": "",
-        "OptionsPath": "jobRole"
-      },
-      {
         "DisplayTitle": "Business Focus",
         "FieldName": "BusinessFocus",
         "Style": "multiSelect",
@@ -126,7 +117,7 @@
       {
         "DisplayTitle": "Industry",
         "FieldName": "IndustryFocus",
-        "Style": "Options",
+        "Style": "multiSelect",
         "Class": "",
         "Path": "detail.industryFocus",
         "Value": "",
