@@ -115,31 +115,31 @@
         "OptionsPath": "jobRole"
       },
       {
-        "DisplayTitle": "Communities",
-        "FieldName": "Communities",
+        "DisplayTitle": "Business Focus",
+        "FieldName": "BusinessFocus",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.communities",
+        "Path": "detail.businessFocus",
         "Value": "",
-        "OptionsPath": "communities"
+        "OptionsPath": "businessFocus"
       },
       {
         "DisplayTitle": "Industry",
-        "FieldName": "Industry",
+        "FieldName": "IndustryFocus",
         "Style": "Options",
         "Class": "",
-        "Path": "detail.industry",
+        "Path": "detail.industryFocus",
         "Value": "",
-        "OptionsPath": "industry"
+        "OptionsPath": "industryFocus"
       },
       {
-        "DisplayTitle": "Products",
-        "FieldName": "Products",
-        "Style": "multiSelect",
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
+        "Style": "Options",
         "Class": "",
-        "Path": "detail.productsUsed",
+        "Path": "detail.customerSegment",
         "Value": "",
-        "OptionsPath": "productsUsed"
+        "OptionsPath": "customerSegment"
       }
     ]
   },
