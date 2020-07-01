@@ -117,7 +117,7 @@
       {
         "DisplayTitle": "Business Focus",
         "FieldName": "BusinessFocus",
-        "Style": "multiSelect",
+        "Style": "nestedSelect",
         "Class": "",
         "Path": "detail.businessFocus",
         "Value": "",
