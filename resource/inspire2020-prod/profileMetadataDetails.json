@@ -126,7 +126,7 @@
       {
         "DisplayTitle": "IndustryFocus",
         "FieldName": "IndustryFocus",
-        "Style": "nestedSelect",
+        "Style": "multiSelect",
         "Class": "",
         "Path": "detail.industryFocus",
         "Value": "",
