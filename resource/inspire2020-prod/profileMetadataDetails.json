@@ -99,6 +99,15 @@
           "Regex": "^https?://.+$",
 		  "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
 		}
+      },
+	  {
+        "DisplayTitle": "Attendee Type",
+        "FieldName": "FieldCorp",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.fieldCorp",
+        "Value": "",
+        "OptionsPath": "fieldCorp"
       }
     ]
   },
@@ -115,13 +124,13 @@
         "OptionsPath": "businessFocus"
       },
       {
-        "DisplayTitle": "Industry",
-        "FieldName": "IndustryFocus",
+        "DisplayTitle": "IndustryFocus",
+        "FieldName": "Industry",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.industryFocus",
+        "Path": "detail.industry",
         "Value": "",
-        "OptionsPath": "industryFocus"
+        "OptionsPath": "industry"
       },
       {
         "DisplayTitle": "Customer Segment",
