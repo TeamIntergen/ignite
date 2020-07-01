@@ -125,7 +125,7 @@
       },
       {
         "DisplayTitle": "IndustryFocus",
-        "FieldName": "Industry",
+        "FieldName": "IndustryFocus",
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.industry",
