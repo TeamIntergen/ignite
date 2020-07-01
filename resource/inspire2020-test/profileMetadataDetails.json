@@ -53,7 +53,7 @@
         "FieldName": "CountryOfBusiness",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.businessCountry",
+        "Path": "detail.country",
         "Value": ""
       },
       {
@@ -71,7 +71,10 @@
         "Class": "",
         "Path": "social.linkedIn",
         "Value": "",
-        "Regex": "https?://.*linkedin.com/in/.+"
+	"OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))",
+	  "RegexValidationText": "Please enter in the form of 'https://www.linkedin.com/*'"
+	}
       },
       {
         "DisplayTitle": "Twitter",
@@ -80,7 +83,10 @@
         "Class": "",
         "Path": "social.twitter",
         "Value": "",
-        "Regex": "@([A-Za-z0-9_]+)$"
+	"OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))",
+	  "RegexValidationText": "Please enter in the form of 'https://www.twitter.com/*'"
+	}
       },
       {
         "DisplayTitle": "Website",
@@ -89,7 +95,27 @@
         "Class": "",
         "Path": "social.website",
         "Value": "",
-        "Regex": "^https?://.+$"
+	"OptionalAttributes": {
+          "Regex": "^https?://.+$",
+	  "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+	}
+      },
+      {
+        "DisplayTitle": "Languages Spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Attendee Type",
+        "FieldName": "FieldCorp",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.fieldCorp",
+        "Value": "",
+        "OptionsPath": "fieldCorp"
       }
     ]
   },
@@ -97,40 +123,31 @@
     "HeadingTitle": "Company Profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Job Category",
-        "FieldName": "JobCategory",
-        "Style": "Options",
+        "DisplayTitle": "Business Focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
         "Class": "",
-        "Path": "detail.jobRole",
+        "Path": "detail.businessFocus",
         "Value": "",
-        "OptionsPath": "jobRole"
+        "OptionsPath": "businessFocus"
       },
       {
-        "DisplayTitle": "Communities",
-        "FieldName": "Communities",
+        "DisplayTitle": "Industry Focus",
+        "FieldName": "IndustryFocus",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.communities",
+        "Path": "detail.industryFocus",
         "Value": "",
-        "OptionsPath": "communities"
+        "OptionsPath": "industryFocus"
       },
       {
-        "DisplayTitle": "Industry",
-        "FieldName": "Industry",
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
         "Style": "Options",
         "Class": "",
-        "Path": "detail.industry",
+        "Path": "detail.customerSegment",
         "Value": "",
-        "OptionsPath": "industry"
-      },
-      {
-        "DisplayTitle": "Products",
-        "FieldName": "Products",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.productsUsed",
-        "Value": "",
-        "OptionsPath": "productsUsed"
+        "OptionsPath": "customerSegment"
       }
     ]
   },
@@ -163,7 +180,7 @@
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.isPubliclyVisible",
+            "Path": "optins.canBeFound",
             "Value": ""
           },
           {
@@ -171,7 +188,7 @@
             "FieldName": "SendToCalendarMeetingAppointments",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.sendToCalendarMeetingAppointments",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]
