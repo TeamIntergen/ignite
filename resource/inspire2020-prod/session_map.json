@@ -22,7 +22,7 @@
     },
     {
       "HubbId": 1010,
-      "SessionTypeName": "Pre Record Sessions",
+      "SessionTypeName": "Pre-recorded",
       "SessionSets": ["Session Catalog", "Session Scheduler"]
     },
     {
