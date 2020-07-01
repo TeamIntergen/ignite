@@ -126,11 +126,11 @@
       {
         "DisplayTitle": "Industry Focus",
         "FieldName": "IndustryFocus",
-        "Style": "multiSelect",
+        "Style": "nestedSelect",
         "Class": "",
-        "Path": "detail.industry",
+        "Path": "detail.industryFocus",
         "Value": "",
-        "OptionsPath": "industry"
+        "OptionsPath": "industryFocus"
       },
       {
         "DisplayTitle": "Customer Segment",
