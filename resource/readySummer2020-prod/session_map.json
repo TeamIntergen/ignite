@@ -12,7 +12,7 @@
     },
     {
       "HubbId": 1002,
-      "SessionTypeName": "On Demand",
+      "SessionTypeName": "Pre-recorded",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
