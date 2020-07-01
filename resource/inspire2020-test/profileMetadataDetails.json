@@ -101,6 +101,14 @@
 		}
       },
 	  {
+        "DisplayTitle": "Languages Spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "languagesSpoken",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+	  {
         "DisplayTitle": "Attendee Type",
         "FieldName": "FieldCorp",
         "Style": "Options",
