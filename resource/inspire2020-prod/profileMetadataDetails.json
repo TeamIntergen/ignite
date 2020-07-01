@@ -103,7 +103,7 @@
 	  {
         "DisplayTitle": "Languages Spoken",
         "FieldName": "LanguagesSpoken",
-        "Style": "languagesSpoken",
+        "Style": "inputText",
         "Class": "",
         "Path": "detail.languagesSpoken",
         "Value": ""
