@@ -71,10 +71,10 @@
         "Class": "",
         "Path": "social.linkedIn",
         "Value": "",
-		"OptionalAttributes": {
+		    "OptionalAttributes": {
           "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))",
-		  "RegexValidationText": "Please enter in the form of 'https://www.linkedin.com/*'"
-		}
+		      "RegexValidationText": "Please enter in the form of 'https://www.linkedin.com/*'"
+		    }
       },
       {
         "DisplayTitle": "Twitter",
@@ -83,10 +83,10 @@
         "Class": "",
         "Path": "social.twitter",
         "Value": "",
-		"OptionalAttributes": {
+		    "OptionalAttributes": {
           "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))",
-		  "RegexValidationText": "Please enter in the form of 'https://www.twitter.com/*'"
-		}
+		      "RegexValidationText": "Please enter in the form of 'https://www.twitter.com/*'"
+		    }
       },
       {
         "DisplayTitle": "Website",
@@ -95,12 +95,12 @@
         "Class": "",
         "Path": "social.website",
         "Value": "",
-		"OptionalAttributes": {
+		    "OptionalAttributes": {
           "Regex": "^https?://.+$",
-		  "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-		}
+		      "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+		    }
       },
-	  {
+	    {
         "DisplayTitle": "Languages Spoken",
         "FieldName": "LanguagesSpoken",
         "Style": "inputText",
@@ -108,7 +108,7 @@
         "Path": "detail.languagesSpoken",
         "Value": ""
       },
-	  {
+	    {
         "DisplayTitle": "Attendee Type",
         "FieldName": "FieldCorp",
         "Style": "Options",
