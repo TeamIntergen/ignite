@@ -49,12 +49,13 @@
         }
       },
       {
-        "DisplayTitle": "Country of Business",
-        "FieldName": "CountryOfBusiness",
-        "Style": "inputText",
+        "DisplayTitle": "Country",
+        "FieldName": "areaCountry",
+        "Style": "selectGroup",
         "Class": "",
-        "Path": "detail.country",
-        "Value": ""
+        "Path": "detail.areaCountry",
+        "Value": "",
+        "OptionsPath": "areaCountry"
       },
       {
         "DisplayTitle": "Biography",
@@ -122,6 +123,14 @@
   {
     "HeadingTitle": "Company Profile",
     "ItemsToShow": [
+      {
+        "DisplayTitle": "Country of Business",
+        "FieldName": "CountryOfBusiness",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.country",
+        "Value": ""
+      },
       {
         "DisplayTitle": "Business Focus",
         "FieldName": "BusinessFocus",
