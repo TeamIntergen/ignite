@@ -296,16 +296,9 @@
       },
       {
         "title": "Country of business",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "country",
-        "subMetadata": []
-      },
-      {
-        "title": "Country",
         "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "areaCountry",
+        "listings": "filters",
+        "subtype": "country",
         "subMetadata": []
       },
       {
