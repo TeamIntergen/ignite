@@ -53,7 +53,7 @@
         "subMetadata": []
       },
       {
-        "title": "Partner Outcome",
+        "title": "Partner outcome",
         "layout": "no-link",
         "listings": "",
         "subtype": "businessOutcome",
@@ -73,14 +73,14 @@
         "subtype": "",
         "subMetadata": [
           {
-            "title": "View Slide Deck",
+            "title": "View slide deck",
             "layout": "link",
             "listings": "link",
             "subtype": "slideDeck",
             "subMetadata": []
           },
           {
-            "title": "Download Video",
+            "title": "Download video",
             "layout": "link",
             "listings": "link",
             "subtype": "downloadVideoLink",
@@ -94,7 +94,7 @@
     "sidebarType": "sponsors",
     "metadata": [
       {
-        "title": "Company Website",
+        "title": "Company website",
         "layout": "link",
         "listings": "link",
         "subtype": "website",
@@ -246,42 +246,42 @@
         "subMetadata": []
       },
       {
-        "title": "Job Category",
+        "title": "Job category",
         "layout": "link",
         "listings": "filters",
         "subtype": "jobCategory",
         "subMetadata": []
       },
       {
-        "title": "Industry Focus",
+        "title": "Industry focus",
         "layout": "link",
         "listings": "filters",
         "subtype": "industryFocus",
         "subMetadata": []
       },
       {
-        "title": "Business Focus",
+        "title": "Business focus",
         "layout": "link",
         "listings": "filters",
         "subtype": "businessFocus",
         "subMetadata": []
       },
       {
-        "title": "Customer Segment",
+        "title": "Customer segment",
         "layout": "link",
         "listings": "leafNodeFilters",
         "subtype": "customerSegment",
         "subMetadata": []
       },
       {
-        "title": "Solution Area",
+        "title": "Solution area",
         "layout": "link",
         "listings": "leafNodeFilters",
         "subtype": "solutionArea",
         "subMetadata": []
       },
       {
-        "title": "Products Used",
+        "title": "Products used",
         "layout": "link",
         "listings": "leafNodeFilters",
         "subtype": "productsUsed",
@@ -295,7 +295,7 @@
         "subMetadata": []
       },
       {
-        "title": "Country of Business",
+        "title": "Country of business",
         "layout": "no-link",
         "listings": "",
         "subtype": "country",
@@ -309,14 +309,14 @@
         "subMetadata": []
       },
       {
-        "title": "Attendee Type",
+        "title": "Attendee type",
         "layout": "link",
         "listings": "filters",
         "subtype": "fieldCorp",
         "subMetadata": []
       },
       {
-        "title": "Languages Spoken",
+        "title": "Languages spoken",
         "layout": "no-link",
         "listings": "",
         "subtype": "languagesSpoken",
