@@ -303,15 +303,15 @@
       },
       {
         "title": "Country",
-        "layout": "no-link",
-        "listings": "",
+        "layout": "link",
+        "listings": "leafNodeFilters",
         "subtype": "areaCountry",
         "subMetadata": []
       },
       {
         "title": "Attendee Type",
-        "layout": "no-link",
-        "listings": "",
+        "layout": "link",
+        "listings": "filters",
         "subtype": "fieldCorp",
         "subMetadata": []
       },
