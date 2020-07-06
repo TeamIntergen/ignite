@@ -225,13 +225,6 @@
     "sidebarType": "attendees",
     "metadata": [
       {
-        "title": "Country of Business",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "countryOfBusiness",
-        "subMetadata": []
-      },
-      {
         "title": "LinkedIn",
         "layout": "link",
         "listings": "link",
@@ -260,10 +253,10 @@
         "subMetadata": []
       },
       {
-        "title": "Industry",
+        "title": "Industry Focus",
         "layout": "link",
         "listings": "filters",
-        "subtype": "industry",
+        "subtype": "industryFocus",
         "subMetadata": []
       },
       {
@@ -305,7 +298,28 @@
         "title": "Country of Business",
         "layout": "no-link",
         "listings": "",
-        "subtype": "businessCountry",
+        "subtype": "country",
+        "subMetadata": []
+      },
+      {
+        "title": "Country",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "areaCountry",
+        "subMetadata": []
+      },
+      {
+        "title": "Attendee Type",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "fieldCorp",
+        "subMetadata": []
+      },
+      {
+        "title": "Languages Spoken",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "languagesSpoken",
         "subMetadata": []
       }
     ]
