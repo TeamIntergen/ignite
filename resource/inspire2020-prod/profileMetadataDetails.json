@@ -49,15 +49,6 @@
         }
       },
       {
-        "DisplayTitle": "Country",
-        "FieldName": "areaCountry",
-        "Style": "selectGroup",
-        "Class": "",
-        "Path": "detail.areaCountry",
-        "Value": "",
-        "OptionsPath": "areaCountry"
-      },
-      {
         "DisplayTitle": "Biography",
         "FieldName": "Biography",
         "Style": "textArea",
