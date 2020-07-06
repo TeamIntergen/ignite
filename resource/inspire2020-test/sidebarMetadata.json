@@ -225,6 +225,13 @@
     "sidebarType": "attendees",
     "metadata": [
       {
+        "title": "Country of Business",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "countryOfBusiness",
+        "subMetadata": []
+      },
+      {
         "title": "LinkedIn",
         "layout": "link",
         "listings": "link",
