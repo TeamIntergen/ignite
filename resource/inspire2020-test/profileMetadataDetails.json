@@ -181,6 +181,22 @@
             "Class": "",
             "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
+          },
+          {
+            "DisplayTitle": "Display the sessions on my schedule on my profile page",
+            "FieldName": "CanShareSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Make my profile publicly available for sharing outside of MyInspire",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
+            "Value": ""
           }
         ]
       }
