@@ -175,13 +175,29 @@
             "Value": ""
           },
           {
+            "DisplayTitle": "Display the sessions on my schedule on my profile page",
+            "FieldName": "CanShareSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Make my profile publicly available for sharing outside of MyInspire",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
             "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
             "FieldName": "SendToCalendarMeetingAppointments",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
-          }
+          },
         ]
       }
     ]
