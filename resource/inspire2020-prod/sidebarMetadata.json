@@ -34,7 +34,7 @@
       {
         "title": "Topic",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "topic",
         "subMetadata": []
       },
