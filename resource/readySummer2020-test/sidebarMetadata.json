@@ -47,8 +47,8 @@
           {
             "title": "View Slide Deck",
             "layout": "link",
-            "listings": "link",
-            "subtype": "slideDeckMediusAuthenticated",
+            "listings": "linkMediusAuthenticated",
+            "subtype": "slideDeck",
             "subMetadata": []
           },
           {
