@@ -1,0 +1,85 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": ["Anonymous"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Partner All Access",
+        "Partner Sponsor All Access",
+        "Speaker External",
+        "Speaker External Corenote",
+        "MS All Access",
+        "Speaker Internal",
+        "Speaker Internal Corenote",
+        "Non-Attending Manager",
+        "Content Lead & Support",
+        "Media",
+        "Analyst",
+        "Crew"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Partner All Access",
+        "Partner Sponsor All Access",
+        "Speaker External",
+        "Speaker External Corenote",
+        "MS All Access",
+        "Speaker Internal",
+        "Speaker Internal Corenote",
+        "Non-Attending Manager",
+        "Content Lead & Support",
+        "Media",
+        "Analyst",
+        "Crew"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    }
+  ]
+}

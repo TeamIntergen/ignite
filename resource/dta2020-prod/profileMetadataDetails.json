@@ -1,0 +1,205 @@
+[
+  {
+    "HeadingTitle": "Attendee Profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "First Name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Last Name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Job Title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Company",
+        "FieldName": "Company",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))",
+          "RegexValidationText": "Please enter in the form of 'https://www.linkedin.com/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))",
+          "RegexValidationText": "Please enter in the form of 'https://www.twitter.com/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.+$",
+          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+        }
+      },
+      {
+        "DisplayTitle": "Languages Spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Company Profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Country of Business",
+        "FieldName": "CountryOfBusiness",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.country",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Business Focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.businessFocus",
+        "Value": "",
+        "OptionsPath": "businessFocus"
+      },
+      {
+        "DisplayTitle": "IndustryFocus",
+        "FieldName": "IndustryFocus",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.industryFocus",
+        "Value": "",
+        "OptionsPath": "industryFocus"
+      },
+      {
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment"
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Contact Preferences",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Login",
+        "FieldName": "Email",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.authentication"
+      },
+      {
+        "DisplayTitle": "Notifications",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.notification"
+      },
+      {
+        "DisplayTitle": "Privacy & Notifications",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+          {
+            "DisplayTitle": "Make my profile visible in the MyInspire directory and allow me to receive messages and meeting invitations from other attendees",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Display the sessions on my schedule on my profile page",
+            "FieldName": "CanShareSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Make my profile publicly available for sharing outside of MyInspire",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
+            "Value": ""
+          },
+        ]
+      }
+    ]
+  }
+]
