@@ -50,13 +50,6 @@
             "listings": "linkMediusAuthenticated",
             "subtype": "slideDeck",
             "subMetadata": []
-          },
-          {
-            "title": "Download Video",
-            "layout": "link",
-            "listings": "link",
-            "subtype": "downloadVideoLink",
-            "subMetadata": []
           }
         ]
       }
