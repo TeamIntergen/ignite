@@ -1,0 +1,49 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Executive Track",
+      "SessionSets": ["Executive Track Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Featured Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Key Segment",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1008,
+      "SessionTypeName": "Digital Breakout",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Pre-recorded",
+      "SessionSets": ["Session Catalog", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1011,
+      "SessionTypeName": "Area General Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1012,
+      "SessionTypeName": "Community",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1013,
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 9999,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["My Schedule"]
+    }
+  ]
+}
