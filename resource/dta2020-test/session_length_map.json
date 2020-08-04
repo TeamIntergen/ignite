@@ -1,0 +1,40 @@
+{
+  "SessionLengthMap": [
+    {
+      "SessionTypeName": "General Session",
+      "SessionLength": 60
+    },
+    {
+      "SessionTypeName": "Power",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Panel",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Theater",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Workshop",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Immersive",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Group Discussion",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Presentation",
+      "SessionLength": 45
+    },
+    {
+      "SessionTypeName": "Corenote",
+      "SessionLength": 90
+    }
+  ]
+}
