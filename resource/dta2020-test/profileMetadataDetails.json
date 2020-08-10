@@ -89,7 +89,7 @@
       {
         "DisplayTitle": "Partner Type",
         "FieldName": "",
-        "Style": "checkbox",
+        "Style": "Options",
         "Class": "",
         "Path": "detail.partnerType",
         "Value": "",
