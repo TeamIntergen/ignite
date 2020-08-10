@@ -71,7 +71,7 @@
       {
         "DisplayTitle": "Azure Expert Microsoft Solution Provider",
         "FieldName": "",
-        "Style": "multiCheckbox",
+        "Style": "checkbox",
         "Class": "",
         "Path": "detail.azureSolutionProvider",
         "Value": "",
@@ -89,7 +89,7 @@
       {
         "DisplayTitle": "Partner Type",
         "FieldName": "",
-        "Style": "multiCheckbox",
+        "Style": "checkbox",
         "Class": "",
         "Path": "detail.partnerType",
         "Value": "",
@@ -139,7 +139,7 @@
       {
         "DisplayTitle": "Microsoft Role",
         "FieldName": "",
-        "Style": "multiCheckbox",
+        "Style": "checkbox",
         "Class": "",
         "Path": "detail.supportingRole",
         "Value": "",
