@@ -57,30 +57,6 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "LinkedIn",
-        "FieldName": "LinkedIn",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.linkedIn",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))",
-          "RegexValidationText": "Please enter in the form of 'https://www.linkedin.com/*'"
-        }
-      },
-      {
-        "DisplayTitle": "Twitter",
-        "FieldName": "Twitter",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.twitter",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))",
-          "RegexValidationText": "Please enter in the form of 'https://www.twitter.com/*'"
-        }
-      },
-      {
         "DisplayTitle": "Website",
         "FieldName": "Website",
         "Style": "inputText",
@@ -93,11 +69,27 @@
         }
       },
       {
-        "DisplayTitle": "Languages Spoken",
-        "FieldName": "LanguagesSpoken",
-        "Style": "inputText",
+        "DisplayTitle": "Azure Expert Microsoft Solution Provider",
+        "FieldName": "",
+        "Style": "multiCheckbox",
         "Class": "",
-        "Path": "detail.languagesSpoken",
+        "Path": "detail.azureSolutionProvider",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Cloud Solution Provider",
+        "FieldName": "",
+        "Style": "checkbox",
+        "Class": "",
+        "Path": "detail.cloudSolutionProvider",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Partner Type",
+        "FieldName": "",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "detail.partnerType",
         "Value": ""
       }
     ]
@@ -106,39 +98,49 @@
     "HeadingTitle": "Company Profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Country of Business",
-        "FieldName": "CountryOfBusiness",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.country",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Business Focus",
-        "FieldName": "BusinessFocus",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.businessFocus",
-        "Value": "",
-        "OptionsPath": "businessFocus"
-      },
-      {
-        "DisplayTitle": "Industry Focus",
-        "FieldName": "IndustryFocus",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.industryFocus",
-        "Value": "",
-        "OptionsPath": "industryFocus"
-      },
-      {
         "DisplayTitle": "Customer Segment",
         "FieldName": "CustomerSegment",
         "Style": "Options",
         "Class": "",
         "Path": "detail.customerSegment",
         "Value": "",
-        "OptionsPath": "customerSegment"
+        "OptionsPath": ""
+      },
+      {
+        "DisplayTitle": "Industry Area",
+        "FieldName": "",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industryArea",
+        "Value": "",
+        "OptionsPath": ""
+      },
+      {
+        "DisplayTitle": "Solution Area/Practice Area",
+        "FieldName": "",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.profilePracticeArea",
+        "Value": "",
+        "OptionsPath": ""
+      },
+      {
+        "DisplayTitle": "Geographic Area",
+        "FieldName": "",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.ouArea",
+        "Value": "",
+        "OptionsPath": ""
+      },
+      {
+        "DisplayTitle": "Microsoft Role",
+        "FieldName": "",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "detail.supportingRole",
+        "Value": "",
+        "OptionsPath": ""
       }
     ]
   },
@@ -167,27 +169,11 @@
         "Path": "contacts.notification",
         "Options": [
           {
-            "DisplayTitle": "Make my profile visible in the MyInspire directory and allow me to receive messages and meeting invitations from other attendees",
+            "DisplayTitle": "Make my profile visible in the MyDta directory and allow me to receive messages and meeting invitations from other attendees",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Display the sessions on my schedule on my profile page",
-            "FieldName": "CanShareSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canShareSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Make my profile publicly available for sharing outside of MyInspire",
-            "FieldName": "IsPubliclyVisible",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
             "Value": ""
           },
           {
@@ -197,7 +183,7 @@
             "Class": "",
             "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
-          },
+          }
         ]
       }
     ]
