@@ -75,14 +75,14 @@
           {
             "title": "View slide deck",
             "layout": "link",
-            "listings": "link",
+            "listings": "linkMediusAuthenticated",
             "subtype": "slideDeck",
             "subMetadata": []
           },
           {
             "title": "Download video",
             "layout": "link",
-            "listings": "link",
+            "listings": "linkMediusAuthenticated",
             "subtype": "downloadVideoLink",
             "subMetadata": []
           }
