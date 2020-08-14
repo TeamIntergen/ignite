@@ -281,6 +281,34 @@
         "subMetadata": []
       },
       {
+        "title": "Industry Area",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "industryArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Profile Practice Area",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "profilePracticeArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Geographic Area",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "ouArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Partner Type",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "partnerType",
+        "subMetadata": []
+      },
+      {
         "title": "Products used",
         "layout": "link",
         "listings": "leafNodeFilters",
