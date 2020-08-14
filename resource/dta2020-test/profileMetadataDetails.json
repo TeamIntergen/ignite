@@ -68,7 +68,7 @@
           "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
         }
       },
-        {
+      {
         "DisplayTitle": "LinkedIn",
         "FieldName": "LinkedIn",
         "Style": "inputText",
@@ -94,7 +94,7 @@
       },
       {
         "DisplayTitle": "Azure Expert Microsoft Solution Provider",
-        "FieldName": "",
+        "FieldName": "azureSolutionProvider",
         "Style": "checkbox",
         "Class": "",
         "Path": "detail.azureSolutionProvider",
@@ -103,7 +103,7 @@
       },
       {
         "DisplayTitle": "Cloud Solution Provider",
-        "FieldName": "",
+        "FieldName": "cloudSolutionProvider",
         "Style": "checkbox",
         "Class": "",
         "Path": "detail.cloudSolutionProvider",
@@ -112,7 +112,7 @@
       },
       {
         "DisplayTitle": "Partner Type",
-        "FieldName": "",
+        "FieldName": "partnerType",
         "Style": "Options",
         "Class": "",
         "Path": "detail.partnerType",
@@ -135,7 +135,7 @@
       },
       {
         "DisplayTitle": "Industry Area",
-        "FieldName": "",
+        "FieldName": "industryArea",
         "Style": "Options",
         "Class": "",
         "Path": "detail.industryArea",
@@ -144,7 +144,7 @@
       },
       {
         "DisplayTitle": "Solution Area/Practice Area",
-        "FieldName": "",
+        "FieldName": "profilePracticeArea",
         "Style": "nestedSelect",
         "Class": "",
         "Path": "detail.profilePracticeArea",
@@ -153,7 +153,7 @@
       },
       {
         "DisplayTitle": "Geographic Area",
-        "FieldName": "",
+        "FieldName": "ouArea",
         "Style": "Options",
         "Class": "",
         "Path": "detail.ouArea",
@@ -162,7 +162,7 @@
       },
       {
         "DisplayTitle": "Microsoft Role",
-        "FieldName": "",
+        "FieldName": "supportingRole",
         "Style": "checkbox",
         "Class": "",
         "Path": "detail.supportingRole",
