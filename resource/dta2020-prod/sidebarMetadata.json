@@ -269,78 +269,57 @@
       {
         "title": "Customer segment",
         "layout": "link",
-        "listings": "leafNodeFilters",
+        "listings": "filters",
         "subtype": "customerSegment",
-        "subMetadata": []
-      },
-      {
-        "title": "Solution area",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "solutionArea",
         "subMetadata": []
       },
       {
         "title": "Industry Area",
         "layout": "link",
-        "listings": "leafNodeFilters",
+        "listings": "filters",
         "subtype": "industryArea",
         "subMetadata": []
       },
       {
         "title": "Profile Practice Area",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "profilePracticeArea",
         "subMetadata": []
       },
       {
         "title": "Geographic Area",
         "layout": "link",
-        "listings": "leafNodeFilters",
+        "listings": "filters",
         "subtype": "ouArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Microsoft Role",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "supportingRole",
+        "subMetadata": []
+      },
+      {
+        "title": "Azure Expert Microsoft Solution Provider",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "azureSolutionProvider",
+        "subMetadata": []
+      },
+      {
+        "title": "Cloud Solution Provider",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "cloudSolutionProvider",
         "subMetadata": []
       },
       {
         "title": "Partner Type",
         "layout": "link",
-        "listings": "leafNodeFilters",
+        "listings": "filters",
         "subtype": "partnerType",
-        "subMetadata": []
-      },
-      {
-        "title": "Products used",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "productsUsed",
-        "subMetadata": []
-      },
-      {
-        "title": "Communities",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "communities",
-        "subMetadata": []
-      },
-      {
-        "title": "Country of business",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "country",
-        "subMetadata": []
-      },
-      {
-        "title": "Attendee type",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "fieldCorp",
-        "subMetadata": []
-      },
-      {
-        "title": "Languages spoken",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "languagesSpoken",
         "subMetadata": []
       }
     ]
