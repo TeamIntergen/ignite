@@ -295,31 +295,17 @@
         "subMetadata": []
       },
       {
-        "title": "Microsoft Role",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "supportingRole",
-        "subMetadata": []
-      },
-      {
-        "title": "Azure Expert Microsoft Solution Provider",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "azureSolutionProvider",
-        "subMetadata": []
-      },
-      {
-        "title": "Cloud Solution Provider",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "cloudSolutionProvider",
-        "subMetadata": []
-      },
-      {
         "title": "Partner Type",
         "layout": "link",
         "listings": "filters",
         "subtype": "partnerType",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.filters.roles",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "roles",
         "subMetadata": []
       }
     ]
