@@ -1,0 +1,210 @@
+[
+  {
+    "HeadingTitle": "Attendee Profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "First Name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Last Name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Job Title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Company",
+        "FieldName": "Company",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.+$",
+          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+        }
+      },
+      {
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.twitter.com/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Azure Expert Microsoft Solution Provider",
+        "FieldName": "azureSolutionProvider",
+        "Style": "checkbox",
+        "Class": "",
+        "Path": "detail.azureSolutionProvider",
+        "Value": "",
+        "OptionsPath": "azureSolutionProvider"
+      },
+      {
+        "DisplayTitle": "Cloud Solution Provider",
+        "FieldName": "cloudSolutionProvider",
+        "Style": "checkbox",
+        "Class": "",
+        "Path": "detail.cloudSolutionProvider",
+        "Value": "",
+        "OptionsPath": "cloudSolutionProvider"
+      },
+      {
+        "DisplayTitle": "Partner Type",
+        "FieldName": "partnerType",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.partnerType",
+        "Value": "",
+        "OptionsPath": "partnerType"
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Company Profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment"
+      },
+      {
+        "DisplayTitle": "Industry Area",
+        "FieldName": "industryArea",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industryArea",
+        "Value": "",
+        "OptionsPath": "industryArea"
+      },
+      {
+        "DisplayTitle": "Solution Area/Practice Area",
+        "FieldName": "profilePracticeArea",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.profilePracticeArea",
+        "Value": "",
+        "OptionsPath": "profilePracticeArea"
+      },
+      {
+        "DisplayTitle": "Geographic Area",
+        "FieldName": "ouArea",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.ouArea",
+        "Value": "",
+        "OptionsPath": "ouArea"
+      },
+      {
+        "DisplayTitle": "Microsoft Role",
+        "FieldName": "supportingRole",
+        "Style": "checkbox",
+        "Class": "",
+        "Path": "detail.supportingRole",
+        "Value": "",
+        "OptionsPath": "supportingRole"
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Contact Preferences",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Login",
+        "FieldName": "Email",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.authentication"
+      },
+      {
+        "DisplayTitle": "Notifications",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.notification"
+      },
+      {
+        "DisplayTitle": "Privacy & Notifications",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+          {
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": ""
+          }
+        ]
+      }
+    ]
+  }
+]

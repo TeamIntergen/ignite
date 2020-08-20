@@ -1,0 +1,95 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": ["Anonymous"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Attendee",
+        "Pre-Registered Attendee",
+        "Non-Attending Group Manager",
+        "Substituted Attendee",
+        "Substituted Non Attendee",
+        "Attendee Microsoft",
+        "Attendee - Sponsor/Exhibitor",
+        "Media",
+        "Analyst",
+        "Speaker/Staff Microsoft",
+        "Speaker/Staff External",
+        "Speaker/Staff Day Pass",
+        "Microsoft Executive",
+        "Booth Staff Sponsor/Exhibitor",
+        "Crew",
+        "Content Lead & Support",
+        "Non-Attending Speaker Asst."
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Attendee",
+        "Pre-Registered Attendee",
+        "Non-Attending Group Manager",
+        "Substituted Attendee",
+        "Substituted Non Attendee",
+        "Attendee Microsoft",
+        "Attendee - Sponsor/Exhibitor",
+        "Media",
+        "Analyst",
+        "Speaker/Staff Microsoft",
+        "Speaker/Staff External",
+        "Speaker/Staff Day Pass",
+        "Microsoft Executive",
+        "Booth Staff Sponsor/Exhibitor",
+        "Crew",
+        "Content Lead & Support",
+        "Non-Attending Speaker Asst."
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    }
+  ]
+}
