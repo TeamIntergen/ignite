@@ -2,12 +2,12 @@
   "SessionSetMap": [
     {
       "HubbId": 1004,
-      "SessionTypeName": "Executive Track",
-      "SessionSets": ["Executive Track Session Scheduler", "My Schedule"]
+      "SessionTypeName": "Pre-Recorded for On Demand",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1005,
-      "SessionTypeName": "Featured Session",
+      "SessionTypeName": "Learning Path",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
@@ -22,17 +22,17 @@
     },
     {
       "HubbId": 1010,
-      "SessionTypeName": "Pre-recorded",
+      "SessionTypeName": "Pre-Recorded",
       "SessionSets": ["Session Catalog", "Session Scheduler"]
     },
     {
       "HubbId": 1011,
-      "SessionTypeName": "Area General Session",
+      "SessionTypeName": "Ask the Experts",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1012,
-      "SessionTypeName": "Community",
+      "SessionTypeName": "Learning Zone",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
