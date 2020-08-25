@@ -39,17 +39,17 @@
         "subMetadata": []
       },
       {
-        "title": "Business focus",
+        "title": "Track",
         "layout": "link",
         "listings": "filters",
-        "subtype": "businessFocus",
+        "subtype": "track",
         "subMetadata": []
       },
       {
-        "title": "Line of business",
+        "title": "Role",
         "layout": "link",
         "listings": "filters",
-        "subtype": "lineOfBusiness",
+        "subtype": "role",
         "subMetadata": []
       },
       {
@@ -60,10 +60,10 @@
         "subMetadata": []
       },
       {
-        "title": "Products",
+        "title": "Industry",
         "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "products",
+        "listings": "filters",
+        "subtype": "industry",
         "subMetadata": []
       },
       {
