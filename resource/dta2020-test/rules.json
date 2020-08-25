@@ -45,8 +45,10 @@
       "VisibleAttendeeTypes": [
         "Partner Attendee",
         "Sponsor Attendee",
+        "Crew",
         "External Speaker",
-        "Non-Attending Group Manager"
+        "Microsoft Attendee",
+        "Microsoft Speaker"
       ],
       "Reporting": {
         "SessionCounts": false
@@ -78,7 +80,10 @@
         "InPersonExperience": true
       },
       "VisibleAttendeeTypes": [
+        "Partner Attendee",
+        "Sponsor Attendee",
         "Crew",
+        "External Speaker",
         "Microsoft Attendee",
         "Microsoft Speaker"
       ],
