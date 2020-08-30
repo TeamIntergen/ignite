@@ -76,8 +76,8 @@
         "Path": "social.linkedIn",
         "Value": "",
         "OptionalAttributes": {
-          "Regex": "^https?://.*linkedin.com/in/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://.*linkedin.com/in/*' or 'https://.*linkedin.com/in/*'"
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
         }
       },
       {
@@ -88,8 +88,8 @@
         "Path": "social.twitter",
         "Value": "",
         "OptionalAttributes": {
-          "Regex": "^https?://.*twitter.com/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://.*twitter.com/*' or 'https://.*twitter.com/*'"
+          "Regex": "^https?://www.twitter.com/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
         }
       },
       {
