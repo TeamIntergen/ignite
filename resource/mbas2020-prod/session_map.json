@@ -2,33 +2,28 @@
   "SessionSetMap": [
     {
       "HubbId": 1000,
-      "SessionTypeName": "20-minute Theater Session",
+      "SessionTypeName": "Session with Q&A",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1001,
-      "SessionTypeName": "45-minute Breakout Session",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1002,
-      "SessionTypeName": "Pre-Day Workshop",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1003,
-      "SessionTypeName": "75-minute Workshop Session",
+      "SessionTypeName": "Key Segment",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1004,
-      "SessionTypeName": "Executive Track",
-      "SessionSets": [ "Executive Track Session Scheduler", "My Schedule" ]
+      "SessionTypeName": "On-Demand Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Expert Connect",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 9999,
       "SessionTypeName": "Agenda",
-      "SessionSets": [ "My Schedule" ]
+      "SessionSets": ["My Schedule"]
     }
   ]
 }

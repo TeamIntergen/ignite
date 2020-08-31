@@ -39,17 +39,32 @@
         "subMetadata": []
       },
       {
-        "title": "Session Link",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "downloadVideoLink",
-        "subMetadata": []
+        "title": "Resources",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View Slide Deck",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download Video",
+            "layout": "link",
+            "listings": "link",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
       },
       {
-        "title": "PowerPoint Link",
+        "title": "Related Links",
         "layout": "link",
-        "listings": "link",
-        "subtype": "slideDeck",
+        "listings": "leafNodeLinks",
+        "subtype": "sessionLinks",
         "subMetadata": []
       }
     ]

@@ -27,6 +27,14 @@
         "Value": ""
       },
       {
+        "DisplayTitle": "Gender Pronouns",
+        "FieldName": "genderPronouns",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.genderPronouns",
+        "Value": ""
+      },
+      {
         "DisplayTitle": "Job Title",
         "FieldName": "Title",
         "Style": "inputText",
@@ -43,19 +51,19 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Country of Business",
-        "FieldName": "CountryOfBusiness",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.businessCountry",
-        "Value": ""
-      },
-      {
         "DisplayTitle": "Biography",
         "FieldName": "Biography",
         "Style": "textArea",
         "Class": "",
         "Path": "detail.biography",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Languages Spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
         "Value": ""
       },
       {
@@ -75,56 +83,6 @@
         "Path": "social.twitter",
         "Value": "",
         "Regex": "@([A-Za-z0-9_]+)$"
-      },
-      {
-        "DisplayTitle": "Website",
-        "FieldName": "Website",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.website",
-        "Value": "",
-        "Regex": "^https?://.+$"
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Company Profile",
-    "ItemsToShow": [
-      {
-        "DisplayTitle": "Job Category",
-        "FieldName": "JobCategory",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.jobRole",
-        "Value": "",
-        "OptionsPath": "jobRole"
-      },
-      {
-        "DisplayTitle": "Communities",
-        "FieldName": "Communities",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.communities",
-        "Value": "",
-        "OptionsPath": "communities"
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "Industry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.industry",
-        "Value": "",
-        "OptionsPath": "industry"
-      },
-      {
-        "DisplayTitle": "Products",
-        "FieldName": "Products",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.productsUsed",
-        "Value": "",
-        "OptionsPath": "productsUsed"
       }
     ]
   },
@@ -144,47 +102,6 @@
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.notification"
-      },
-      {
-        "DisplayTitle": "Privacy & Notifications",
-        "FieldName": "Privacy",
-        "Style": "multiCheckbox",
-        "Class": "",
-        "Path": "contacts.notification",
-        "Options": [
-          {
-            "DisplayTitle": "Make my profile visible in the MyMBAS directory and allow me to receive messages and meeting invitations from other attendees",
-            "FieldName": "CanBeFound",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.sendToCalendarSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarAgendaItems",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.sendToCalendarAgendaItems",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.sendToCalendarMeetingAppointments",
-            "Value": ""
-          }
-        ]
       }
     ]
   }

@@ -30,6 +30,7 @@
         "Analyst",
         "Attendee",
         "Booth Staff",
+        "Crew",
         "Crew (Core Team)",
         "Crew (Eventforce)",
         "Crew (Vendors)",
@@ -38,7 +39,9 @@
         "Press",
         "Speaker External",
         "Speaker Internal",
-        "Sponsor"
+        "Sponsor",
+        "Student Partner"
+
       ],
       "Access": {
         "SessionCatalog": true,
@@ -54,6 +57,7 @@
         "Analyst",
         "Attendee",
         "Booth Staff",
+        "Crew",
         "Crew (Core Team)",
         "Crew (Eventforce)",
         "Crew (Vendors)",
@@ -63,7 +67,8 @@
         "Press",
         "Speaker External",
         "Speaker Internal",
-        "Sponsor"
+        "Sponsor",
+        "Student Partner"
       ],
       "Reporting": {
         "SessionCounts": false

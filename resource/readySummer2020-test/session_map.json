@@ -1,0 +1,29 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "Key Segment",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Pre-recorded",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "Digital Breakout",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "General Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    }
+  ]
+}
