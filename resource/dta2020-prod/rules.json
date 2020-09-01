@@ -29,10 +29,8 @@
       "Identifiers": [
         "Partner Attendee",
         "Sponsor Attendee",
-        "Crew",
         "External Speaker",
-        "Microsoft Attendee",
-        "Microsoft Speaker"
+        "Non-Attending Group Manager"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -66,6 +64,43 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "My Schedule"
+        }
+      ]
+    },
+    {
+      "Identifiers": ["Crew", "Microsoft Attendee", "Microsoft Speaker"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Partner Attendee",
+        "Sponsor Attendee",
+        "Crew",
+        "External Speaker",
+        "Microsoft Attendee",
+        "Microsoft Speaker"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule FTE"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler FTE"
         }
       ]
     }
