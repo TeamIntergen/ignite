@@ -91,33 +91,6 @@
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
         }
-      },
-      {
-        "DisplayTitle": "Azure Expert Microsoft Solution Provider",
-        "FieldName": "azureSolutionProvider",
-        "Style": "checkbox",
-        "Class": "",
-        "Path": "detail.azureSolutionProvider",
-        "Value": "",
-        "OptionsPath": "azureSolutionProvider"
-      },
-      {
-        "DisplayTitle": "Cloud Solution Provider",
-        "FieldName": "cloudSolutionProvider",
-        "Style": "checkbox",
-        "Class": "",
-        "Path": "detail.cloudSolutionProvider",
-        "Value": "",
-        "OptionsPath": "cloudSolutionProvider"
-      },
-      {
-        "DisplayTitle": "Partner Type",
-        "FieldName": "partnerType",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.partnerType",
-        "Value": "",
-        "OptionsPath": "partnerType"
       }
     ]
   },
@@ -125,49 +98,40 @@
     "HeadingTitle": "Company Profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Customer Segment",
-        "FieldName": "CustomerSegment",
-        "Style": "Options",
+        "DisplayTitle": "Role",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
         "Class": "",
-        "Path": "detail.customerSegment",
+        "Path": "detail.jobCategory",
         "Value": "",
-        "OptionsPath": "customerSegment"
+        "OptionsPath": "jobCategory"
       },
       {
-        "DisplayTitle": "Industry Area",
-        "FieldName": "industryArea",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.industryArea",
-        "Value": "",
-        "OptionsPath": "industryArea"
-      },
-      {
-        "DisplayTitle": "Solution Area/Practice Area",
-        "FieldName": "profilePracticeArea",
+        "DisplayTitle": "Products of interest",
+        "FieldName": "Products",
         "Style": "nestedSelect",
         "Class": "",
-        "Path": "detail.profilePracticeArea",
+        "Path": "detail.products",
         "Value": "",
-        "OptionsPath": "profilePracticeArea"
+        "OptionsPath": "products"
       },
       {
-        "DisplayTitle": "Geographic Area",
-        "FieldName": "ouArea",
+        "DisplayTitle": "Industry",
+        "FieldName": "industry",
         "Style": "Options",
         "Class": "",
-        "Path": "detail.ouArea",
+        "Path": "detail.industry",
         "Value": "",
-        "OptionsPath": "ouArea"
+        "OptionsPath": "industry"
       },
       {
-        "DisplayTitle": "Microsoft Role",
-        "FieldName": "supportingRole",
-        "Style": "checkbox",
+        "DisplayTitle": "Topic",
+        "FieldName": "topic",
+        "Style": "Options",
         "Class": "",
-        "Path": "detail.supportingRole",
+        "Path": "detail.topic",
         "Value": "",
-        "OptionsPath": "supportingRole"
+        "OptionsPath": "topic"
       }
     ]
   },
@@ -201,6 +165,22 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Show sessions I have added to my schedule",
+            "FieldName": "CanShareSession",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Allow me to share my profile publicly",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
             "Value": ""
           }
         ]

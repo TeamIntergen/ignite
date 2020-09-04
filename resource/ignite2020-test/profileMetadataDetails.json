@@ -166,6 +166,22 @@
             "Class": "",
             "Path": "optins.canBeFound",
             "Value": ""
+          },
+          {
+            "DisplayTitle": "Show sessions I have added to my schedule",
+            "FieldName": "CanShareSession",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Allow me to share my profile publicly",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
+            "Value": ""
           }
         ]
       }
