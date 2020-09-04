@@ -168,7 +168,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Show sessions I have added to my schedule",
+            "DisplayTitle": "translate.profile-edit.can-share-sessions",
             "FieldName": "CanShareSession",
             "Style": "checkbox",
             "Class": "",
@@ -176,7 +176,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Allow me to share my profile publicly",
+            "DisplayTitle": "translate.profile-edit.publicly-visible",
             "FieldName": "IsPubliclyVisible",
             "Style": "checkbox",
             "Class": "",
