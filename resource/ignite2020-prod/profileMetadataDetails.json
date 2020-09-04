@@ -182,6 +182,14 @@
             "Class": "",
             "Path": "optins.isPubliclyVisible",
             "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
+            "Value": ""
           }
         ]
       }

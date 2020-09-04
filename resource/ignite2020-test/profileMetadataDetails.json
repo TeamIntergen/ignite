@@ -184,7 +184,7 @@
             "Value": ""
           },
           {
-            "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
+            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
             "FieldName": "SendToCalendarMeetingAppointments",
             "Style": "checkbox",
             "Class": "",
