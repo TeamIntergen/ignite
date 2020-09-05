@@ -1,6 +1,6 @@
 [
   {
-    "HeadingTitle": "Attendee Profile",
+    "HeadingTitle": "Attendee information",
     "ItemsToShow": [
       {
         "DisplayTitle": "Photo",
@@ -11,7 +11,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "First Name",
+        "DisplayTitle": "First name",
         "FieldName": "FirstName",
         "Style": "readonly",
         "Class": "",
@@ -19,7 +19,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Last Name",
+        "DisplayTitle": "Last name",
         "FieldName": "LastName",
         "Style": "readonly",
         "Class": "",
@@ -27,7 +27,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Job Title",
+        "DisplayTitle": "Job title",
         "FieldName": "Title",
         "Style": "inputText",
         "Class": "",
@@ -91,11 +91,27 @@
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
         }
+      },
+      {
+        "DisplayTitle": "Languages spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
+        "Value": ""
       }
     ]
   },
   {
-    "HeadingTitle": "Company Profile",
+    "HeadingTitle": "Attendee profile",
     "ItemsToShow": [
       {
         "DisplayTitle": "Role",
@@ -136,7 +152,7 @@
     ]
   },
   {
-    "HeadingTitle": "Contact Preferences",
+    "HeadingTitle": "Contact preferences",
     "ItemsToShow": [
       {
         "DisplayTitle": "Login",
@@ -153,7 +169,7 @@
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "Privacy & Notifications",
+        "DisplayTitle": "Privacy & notifications",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
