@@ -57,30 +57,6 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "LinkedIn",
-        "FieldName": "LinkedIn",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.linkedIn",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^($|((http|https)?://.*linkedin\\.com/.+$))",
-          "RegexValidationText": "Please enter in the form of 'https://www.linkedin.com/*'"
-        }
-      },
-      {
-        "DisplayTitle": "Twitter",
-        "FieldName": "Twitter",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.twitter",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^($|((http|https)?://.*twitter\\.com/.+$))",
-          "RegexValidationText": "Please enter in the form of 'https://www.twitter.com/*'"
-        }
-      },
-      {
         "DisplayTitle": "Website",
         "FieldName": "Website",
         "Style": "inputText",
@@ -93,44 +69,61 @@
         }
       },
       {
-        "DisplayTitle": "Languages Spoken",
-        "FieldName": "LanguagesSpoken",
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.languagesSpoken",
-        "Value": ""
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.*linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://.*linkedin.com/in/*' or 'https://.*linkedin.com/in/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.*twitter.com/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://.*twitter.com/*' or 'https://.*twitter.com/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Azure Expert Microsoft Solution Provider",
+        "FieldName": "azureSolutionProvider",
+        "Style": "checkbox",
+        "Class": "",
+        "Path": "detail.azureSolutionProvider",
+        "Value": "",
+        "OptionsPath": "azureSolutionProvider"
+      },
+      {
+        "DisplayTitle": "Cloud Solution Provider",
+        "FieldName": "cloudSolutionProvider",
+        "Style": "checkbox",
+        "Class": "",
+        "Path": "detail.cloudSolutionProvider",
+        "Value": "",
+        "OptionsPath": "cloudSolutionProvider"
+      },
+      {
+        "DisplayTitle": "Partner Type",
+        "FieldName": "partnerType",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.partnerType",
+        "Value": "",
+        "OptionsPath": "partnerType"
       }
     ]
   },
   {
     "HeadingTitle": "Company Profile",
     "ItemsToShow": [
-      {
-        "DisplayTitle": "Country of Business",
-        "FieldName": "CountryOfBusiness",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.country",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Business Focus",
-        "FieldName": "BusinessFocus",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.businessFocus",
-        "Value": "",
-        "OptionsPath": "businessFocus"
-      },
-      {
-        "DisplayTitle": "IndustryFocus",
-        "FieldName": "IndustryFocus",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.industryFocus",
-        "Value": "",
-        "OptionsPath": "industryFocus"
-      },
       {
         "DisplayTitle": "Customer Segment",
         "FieldName": "CustomerSegment",
@@ -139,6 +132,42 @@
         "Path": "detail.customerSegment",
         "Value": "",
         "OptionsPath": "customerSegment"
+      },
+      {
+        "DisplayTitle": "Industry Area",
+        "FieldName": "industryArea",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industryArea",
+        "Value": "",
+        "OptionsPath": "industryArea"
+      },
+      {
+        "DisplayTitle": "Solution Area/Practice Area",
+        "FieldName": "profilePracticeArea",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.profilePracticeArea",
+        "Value": "",
+        "OptionsPath": "profilePracticeArea"
+      },
+      {
+        "DisplayTitle": "Geographic Area",
+        "FieldName": "ouArea",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.ouArea",
+        "Value": "",
+        "OptionsPath": "ouArea"
+      },
+      {
+        "DisplayTitle": "Microsoft Role",
+        "FieldName": "supportingRole",
+        "Style": "checkbox",
+        "Class": "",
+        "Path": "detail.supportingRole",
+        "Value": "",
+        "OptionsPath": "supportingRole"
       }
     ]
   },
@@ -167,35 +196,11 @@
         "Path": "contacts.notification",
         "Options": [
           {
-            "DisplayTitle": "Make my profile visible in the MyInspire directory and allow me to receive messages and meeting invitations from other attendees",
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Display the sessions on my schedule on my profile page",
-            "FieldName": "CanShareSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canShareSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Make my profile publicly available for sharing outside of MyInspire",
-            "FieldName": "IsPubliclyVisible",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "Opt Out of receiving meetings and appointments to my personal calendar. All registrants are opted in to receive meetings and appointments on your personal calendar by default. Click this box if you no longer want to receive these calendar appointments.",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]

@@ -27,18 +27,23 @@
     },
     {
       "Identifiers": [
-        "Partner All Access",
-        "Partner Sponsor All Access",
-        "Speaker External",
-        "Speaker External Corenote",
-        "MS All Access",
-        "Speaker Internal",
-        "Speaker Internal Corenote",
-        "Non-Attending Manager",
-        "Content Lead & Support",
+        "Attendee",
+        "Pre-Registered Attendee",
+        "Non-Attending Group Manager",
+        "Substituted Attendee",
+        "Substituted Non Attendee",
+        "Attendee Microsoft",
+        "Attendee - Sponsor/Exhibitor",
         "Media",
         "Analyst",
-        "Crew"
+        "Speaker/Staff Microsoft",
+        "Speaker/Staff External",
+        "Speaker/Staff Day Pass",
+        "Microsoft Executive",
+        "Booth Staff Sponsor/Exhibitor",
+        "Crew",
+        "Content Lead & Support",
+        "Non-Attending Speaker Asst."
       ],
       "Access": {
         "SessionCatalog": true,
@@ -51,18 +56,23 @@
         "InPersonExperience": true
       },
       "VisibleAttendeeTypes": [
-        "Partner All Access",
-        "Partner Sponsor All Access",
-        "Speaker External",
-        "Speaker External Corenote",
-        "MS All Access",
-        "Speaker Internal",
-        "Speaker Internal Corenote",
-        "Non-Attending Manager",
-        "Content Lead & Support",
+        "Attendee",
+        "Pre-Registered Attendee",
+        "Non-Attending Group Manager",
+        "Substituted Attendee",
+        "Substituted Non Attendee",
+        "Attendee Microsoft",
+        "Attendee - Sponsor/Exhibitor",
         "Media",
         "Analyst",
-        "Crew"
+        "Speaker/Staff Microsoft",
+        "Speaker/Staff External",
+        "Speaker/Staff Day Pass",
+        "Microsoft Executive",
+        "Booth Staff Sponsor/Exhibitor",
+        "Crew",
+        "Content Lead & Support",
+        "Non-Attending Speaker Asst."
       ],
       "Reporting": {
         "SessionCounts": false
