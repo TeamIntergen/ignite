@@ -175,6 +175,14 @@
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
+                    {
+            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
+            "Value": ""
+          },
           {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
@@ -197,14 +205,6 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.isPubliclyVisible",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]
