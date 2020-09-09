@@ -97,7 +97,7 @@
         "FieldName": "LanguagesSpoken",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.languagesSpoken",
+        "Path": "detail.languages",
         "Value": ""
       },
       {
