@@ -42,7 +42,7 @@
     },
     {
       "HubbId": 1014,
-      "SessionTypeName": "Ignite Live",
+      "SessionTypeName": "Microsoft Ignite Live",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
