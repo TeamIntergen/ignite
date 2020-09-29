@@ -118,9 +118,9 @@
         "FieldName": "JobCategory",
         "Style": "selectGroup",
         "Class": "",
-        "Path": "detail.jobCategory",
+        "Path": "detail.role",
         "Value": "",
-        "OptionsPath": "jobCategory"
+        "OptionsPath": "role"
       },
       {
         "DisplayTitle": "Products of interest",
