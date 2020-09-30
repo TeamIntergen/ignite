@@ -115,12 +115,12 @@
     "ItemsToShow": [
       {
         "DisplayTitle": "Role",
-        "FieldName": "JobCategory",
+        "FieldName": "ProfileRole",
         "Style": "selectGroup",
         "Class": "",
-        "Path": "detail.jobCategory",
+        "Path": "detail.role",
         "Value": "",
-        "OptionsPath": "jobCategory"
+        "OptionsPath": "profileRole"
       },
       {
         "DisplayTitle": "Products of interest",
