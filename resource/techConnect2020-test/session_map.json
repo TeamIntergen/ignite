@@ -52,7 +52,7 @@
     },
     {
       "HubbId": 1016,
-      "SessionTypeName": "Tech Chat",
+      "SessionTypeName": "Tech Chats",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
