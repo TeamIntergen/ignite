@@ -43,6 +43,34 @@
         "listings": "filters",
         "subtype": "learningZoneTopic",
         "subMetadata": []
+      },
+      {
+        "title": "Track",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "track",
+        "subMetadata": []
+      },
+      {
+        "title": "Sales Play",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "salesPlay",
+        "subMetadata": []
+      },
+      {
+        "title": "Timezone Region",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "timeZoneRegion",
+        "subMetadata": []
+      },
+      {
+        "title": "Roles",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "roles",
+        "subMetadata": []
       }
     ]
   },
