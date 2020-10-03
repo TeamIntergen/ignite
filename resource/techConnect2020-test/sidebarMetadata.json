@@ -310,14 +310,14 @@
         "title": "Role",
         "layout": "link",
         "listings": "filters",
-        "subtype": "profileRole",
+        "subtype": "role",
         "subMetadata": []
       },
       {
         "title": "Area",
         "layout": "link",
         "listings": "filter",
-        "subtype": "profileArea",
+        "subtype": "area",
         "subMetadata": []
       },
       {
@@ -337,7 +337,7 @@
       {
         "title": "Primary Track",
         "layout": "link",
-        "listings": "filter",
+        "listings": "filters",
         "subtype": "primaryTrack",
         "subMetadata": []
       },      
