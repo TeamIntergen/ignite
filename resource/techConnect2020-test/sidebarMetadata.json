@@ -316,7 +316,7 @@
       {
         "title": "Area",
         "layout": "link",
-        "listings": "filter",
+        "listings": "filters",
         "subtype": "area",
         "subMetadata": []
       },
