@@ -44,7 +44,7 @@
         "subtype": "learningZoneTopic",
         "subMetadata": []
       },
-       {
+      {
         "title": "Track",
         "layout": "link",
         "listings": "filters",
@@ -68,7 +68,7 @@
       {
         "title": "Roles",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "roles",
         "subMetadata": []
       }
@@ -340,7 +340,7 @@
         "listings": "filters",
         "subtype": "primaryTrack",
         "subMetadata": []
-      },      
+      },
       {
         "title": "Industries Worked",
         "layout": "link",
