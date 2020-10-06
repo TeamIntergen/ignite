@@ -61,6 +61,11 @@
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
+      "HubbId": 1017,
+      "SessionTypeName": "Tech Connect Welcome",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
       "HubbId": 9999,
       "SessionTypeName": "Agenda",
       "SessionSets": ["My Schedule"]
