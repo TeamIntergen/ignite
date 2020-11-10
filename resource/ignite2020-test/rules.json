@@ -28,6 +28,7 @@
     {
       "Identifiers": [
         "Attendee",
+        "General Attendee",
         "Pre-Registered Attendee",
         "Non-Attending Group Manager",
         "Substituted Attendee",
@@ -57,6 +58,7 @@
       },
       "VisibleAttendeeTypes": [
         "Attendee",
+        "General Attendee",
         "Pre-Registered Attendee",
         "Non-Attending Group Manager",
         "Substituted Attendee",
