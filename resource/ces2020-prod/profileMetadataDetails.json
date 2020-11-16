@@ -1,0 +1,174 @@
+[
+  {
+    "HeadingTitle": "Attendee information",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "First name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Last name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+       {
+        "DisplayTitle": "Job title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Company",
+        "FieldName": "Company",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Languages spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Attendee profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Role",
+        "FieldName": "ProfileRole",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.profileRole",
+        "Value": "",
+        "OptionsPath": "profileRole"
+      },
+      {
+        "DisplayTitle": "Industry",
+        "FieldName": "industry",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industry",
+        "Value": "",
+        "OptionsPath": "industry"
+      },
+      {
+        "DisplayTitle": "Profile Area",
+        "FieldName": "profileArea",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.profileArea",
+        "Value": "",
+        "OptionsPath": "profileArea"
+      },
+      {
+        "DisplayTitle": "Primary Track",
+        "FieldName": "primaryTrack",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.primaryTrack",
+        "Value": "",
+        "OptionsPath": "primaryTrack"
+      },
+    ]
+  },
+  {
+    "HeadingTitle": "Contact preferences",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Login",
+        "FieldName": "Email",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.authentication"
+      },
+      {
+        "DisplayTitle": "Notifications",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.notification"
+      },
+      {
+        "DisplayTitle": "Privacy & notifications",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+         {
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.can-share-sessions",
+            "FieldName": "CanShareSession",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          }
+        ]
+      }
+    ]
+  }
+]
