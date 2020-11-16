@@ -1,6 +1,5 @@
 [
   {
-    "HeadingTitle": "Attendee information",
     "ItemsToShow": [
       {
         "DisplayTitle": "Photo",
@@ -26,7 +25,7 @@
         "Path": "detail.lastName",
         "Value": ""
       },
-       {
+      {
         "DisplayTitle": "Job title",
         "FieldName": "Title",
         "Style": "inputText",
@@ -83,12 +82,7 @@
         "Class": "",
         "Path": "detail.timeZone",
         "Value": ""
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Attendee profile",
-    "ItemsToShow": [
+      },
       {
         "DisplayTitle": "Role",
         "FieldName": "ProfileRole",
@@ -125,11 +119,6 @@
         "Value": "",
         "OptionsPath": "primaryTrack"
       },
-    ]
-  },
-  {
-    "HeadingTitle": "Contact preferences",
-    "ItemsToShow": [
       {
         "DisplayTitle": "Login",
         "FieldName": "Email",
