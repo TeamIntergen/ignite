@@ -73,7 +73,7 @@ Rules for Ignite platform
 
  The Access sub-object is used to determine which features the user can access based upon their boolean flags.
 
- The VisibleAttendeeTypes array is used to determine which other attendeess are visible in the Attendee Networking tools.
+ The VisibleAttendeeTypes array is used to determine which other attendees are visible in the Attendee Networking tools.
 
  Reporting can safely be ignored
 
