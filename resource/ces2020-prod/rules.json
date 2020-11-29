@@ -27,24 +27,20 @@
     },
     {
       "Identifiers": [
-        "Attendee",
-        "Pre-Registered Attendee",
-        "Non-Attending Group Manager",
-        "Substituted Attendee",
-        "Substituted Non Attendee",
-        "Attendee Microsoft",
-        "Attendee - Sponsor/Exhibitor",
-        "Media",
-        "Analyst",
-        "Speaker/Staff Microsoft",
-        "Speaker/Staff External",
-        "Speaker/Staff Day Pass",
-        "Microsoft Executive",
-        "Booth Staff Sponsor/Exhibitor",
-        "Crew",
-        "Content Lead & Support",
-        "Non-Attending Speaker Asst.",
-        "Speaker Internal"
+        "Media - Media Company",
+        "Media - Industry Analyst",
+        "Media - Social Media Influencer",
+        "Media - Freelancer",
+        "Exhibitor",
+        "Speaker",
+        "Staff/Crew",
+        "Industry - VIP",
+        "Industry - Member",
+        "Industry - Alumni",
+        "Industry - Government",
+        "Industry - Delegation Leader",
+        "Industry - Guest",
+        "Industry - Other"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -57,24 +53,21 @@
         "InPersonExperience": true
       },
       "VisibleAttendeeTypes": [
-        "Attendee",
-        "Pre-Registered Attendee",
-        "Non-Attending Group Manager",
-        "Substituted Attendee",
-        "Substituted Non Attendee",
-        "Attendee Microsoft",
-        "Attendee - Sponsor/Exhibitor",
-        "Media",
-        "Analyst",
-        "Speaker/Staff Microsoft",
-        "Speaker/Staff External",
-        "Speaker/Staff Day Pass",
-        "Microsoft Executive",
-        "Booth Staff Sponsor/Exhibitor",
-        "Crew",
-        "Content Lead & Support",
-        "Non-Attending Speaker Asst.",
-        "Speaker Internal"
+        "Media - Media Company",
+        "Media - Industry Analyst",
+        "Media - Social Media Influencer",
+        "Media - Freelancer",
+        "Exhibitor",
+        "Speaker",
+        "Staff/Crew",
+        "Industry - VIP",
+        "Industry - Member",
+        "Industry - Alumni",
+        "Industry - Government",
+        "Industry - Delegation Leader",
+        "Industry - Guest",
+        "Industry - Other",
+        "MediaDay"
       ],
       "Reporting": {
         "SessionCounts": false
@@ -85,6 +78,59 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "MediaDay"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [
+        "Media - Media Company",
+        "Media - Industry Analyst",
+        "Media - Social Media Influencer",
+        "Media - Freelancer",
+        "Exhibitor",
+        "Speaker",
+        "Staff/Crew",
+        "Industry - VIP",
+        "Industry - Member",
+        "Industry - Alumni",
+        "Industry - Government",
+        "Industry - Delegation Leader",
+        "Industry - Guest",
+        "Industry - Other",
+        "MediaDay"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler - MediaDay"
         },
         {
           "ApplicableFrom": null,
