@@ -1,5 +1,52 @@
 [
   {
+    "sidebarType": "session-tags",
+    "metadata": [
+      {
+        "title": "Session type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": []
+      },
+      {
+        "title": "Level",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "Solution Area",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "solutionArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Theme",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "theme",
+        "subMetadata": []
+      },
+      {
+        "title": "Connection Zone Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "communityTopic",
+        "subMetadata": []
+      },
+      {
+        "title": "Learning Zone Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "learningZoneTopic",
+        "subMetadata": []
+      }
+    ]
+  },
+  {
     "sidebarType": "sessions",
     "metadata": [
       {
@@ -306,6 +353,41 @@
         "layout": "link",
         "listings": "filters",
         "subtype": "roles",
+        "subMetadata": []
+      },
+      {
+        "title": "Industry",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "industry",
+        "subMetadata": []
+      },
+      {
+        "title": "Products of Interest",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "products",
+        "subMetadata": []
+      },
+      {
+        "title": "Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+      {
+        "title": "Languages Spoken",
+        "layout": "link",
+        "listings": "",
+        "subtype": "languages",
+        "subMetadata": []
+      },
+      {
+        "title": "Preferred Time Zone",
+        "layout": "link",
+        "listings": "",
+        "subtype": "timeZone",
         "subMetadata": []
       }
     ]

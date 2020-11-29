@@ -28,7 +28,6 @@
     {
       "Identifiers": [
         "Attendee",
-        "General Attendee",
         "Pre-Registered Attendee",
         "Non-Attending Group Manager",
         "Substituted Attendee",
@@ -44,7 +43,8 @@
         "Booth Staff Sponsor/Exhibitor",
         "Crew",
         "Content Lead & Support",
-        "Non-Attending Speaker Asst."
+        "Non-Attending Speaker Asst.",
+        "Speaker Internal"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -58,7 +58,6 @@
       },
       "VisibleAttendeeTypes": [
         "Attendee",
-        "General Attendee",
         "Pre-Registered Attendee",
         "Non-Attending Group Manager",
         "Substituted Attendee",
@@ -74,7 +73,8 @@
         "Booth Staff Sponsor/Exhibitor",
         "Crew",
         "Content Lead & Support",
-        "Non-Attending Speaker Asst."
+        "Non-Attending Speaker Asst.",
+        "Speaker Internal"
       ],
       "Reporting": {
         "SessionCounts": false

@@ -26,7 +26,7 @@
         "Path": "detail.lastName",
         "Value": ""
       },
-      {
+       {
         "DisplayTitle": "Job title",
         "FieldName": "Title",
         "Style": "inputText",
@@ -57,18 +57,6 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Website",
-        "FieldName": "Website",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.website",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://.+$",
-          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        }
-      },
-      {
         "DisplayTitle": "LinkedIn",
         "FieldName": "LinkedIn",
         "Style": "inputText",
@@ -78,18 +66,6 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.linkedin.com/in/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
-        }
-      },
-      {
-        "DisplayTitle": "Twitter",
-        "FieldName": "Twitter",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.twitter",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.twitter.com/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
         }
       },
       {
@@ -115,21 +91,12 @@
     "ItemsToShow": [
       {
         "DisplayTitle": "Role",
-        "FieldName": "JobCategory",
+        "FieldName": "ProfileRole",
         "Style": "selectGroup",
         "Class": "",
-        "Path": "detail.jobCategory",
+        "Path": "detail.profileRole",
         "Value": "",
-        "OptionsPath": "jobCategory"
-      },
-      {
-        "DisplayTitle": "Products of interest",
-        "FieldName": "Products",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.products",
-        "Value": "",
-        "OptionsPath": "products"
+        "OptionsPath": "profileRole"
       },
       {
         "DisplayTitle": "Industry",
@@ -141,14 +108,23 @@
         "OptionsPath": "industry"
       },
       {
-        "DisplayTitle": "Topic",
-        "FieldName": "topic",
+        "DisplayTitle": "Profile Area",
+        "FieldName": "profileArea",
         "Style": "Options",
         "Class": "",
-        "Path": "detail.topic",
+        "Path": "detail.profileArea",
         "Value": "",
-        "OptionsPath": "topic"
-      }
+        "OptionsPath": "profileArea"
+      },
+      {
+        "DisplayTitle": "Primary Track",
+        "FieldName": "primaryTrack",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.primaryTrack",
+        "Value": "",
+        "OptionsPath": "primaryTrack"
+      },
     ]
   },
   {
@@ -175,15 +151,7 @@
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
-          {
-            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
-            "Value": ""
-          },
-          {
+         {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
@@ -197,14 +165,6 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canShareSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.publicly-visible",
-            "FieldName": "IsPubliclyVisible",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
             "Value": ""
           }
         ]
