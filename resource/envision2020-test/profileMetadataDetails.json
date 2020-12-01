@@ -1,6 +1,5 @@
 [
   {
-    "HeadingTitle": "Attendee information",
     "ItemsToShow": [
       {
         "DisplayTitle": "Photo",
@@ -27,15 +26,29 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Job title",
-        "FieldName": "Title",
+        "DisplayTitle": "Preferred First Name",
+        "FieldName": "PreferredFirst",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.title",
+        "Path": "detail.preferredFirst",
+        "Value": ""
+      },
+       {
+        "DisplayTitle": "Preferred Last Name",
+        "FieldName": "PreferredLast",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.preferredLast",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Job title",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
         "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        }
+        "OptionsPath": "jobCategory"
       },
       {
         "DisplayTitle": "Company",
@@ -45,8 +58,18 @@
         "Path": "detail.company",
         "Value": "",
         "OptionalAttributes": {
-          "MinimumLength": 2
+          "MinimumLength": "2",
+          "MaximumLength": "20"
         }
+      },
+      {
+        "DisplayTitle": "Industry",
+        "FieldName": "industry",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industry",
+        "Value": "",
+        "OptionsPath": "industry"
       },
       {
         "DisplayTitle": "Biography",
@@ -55,18 +78,6 @@
         "Class": "",
         "Path": "detail.biography",
         "Value": ""
-      },
-      {
-        "DisplayTitle": "Website",
-        "FieldName": "Website",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.website",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://.+$",
-          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        }
       },
       {
         "DisplayTitle": "LinkedIn",
@@ -93,110 +104,18 @@
         }
       },
       {
-        "DisplayTitle": "Languages spoken",
-        "FieldName": "LanguagesSpoken",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.languagesSpoken",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Preferred timezone",
-        "FieldName": "TimeZone",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.timeZone",
-        "Value": ""
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Attendee profile",
-    "ItemsToShow": [
-      {
-        "DisplayTitle": "Role",
-        "FieldName": "JobCategory",
-        "Style": "selectGroup",
-        "Class": "",
-        "Path": "detail.jobCategory",
-        "Value": "",
-        "OptionsPath": "jobCategory"
-      },
-      {
-        "DisplayTitle": "Products of interest",
-        "FieldName": "Products",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.products",
-        "Value": "",
-        "OptionsPath": "products"
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "industry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.industry",
-        "Value": "",
-        "OptionsPath": "industry"
-      },
-      {
-        "DisplayTitle": "Topic",
-        "FieldName": "topic",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.topic",
-        "Value": "",
-        "OptionsPath": "topic"
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Contact preferences",
-    "ItemsToShow": [
-      {
-        "DisplayTitle": "Login",
-        "FieldName": "Email",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "contacts.authentication"
-      },
-      {
-        "DisplayTitle": "Notifications",
-        "FieldName": "NotificationEmail",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "contacts.notification"
-      },
-      {
         "DisplayTitle": "Privacy & notifications",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
-                    {
-            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
-            "Value": ""
-          },
           {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.can-share-sessions",
-            "FieldName": "CanShareSession",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canShareSessions",
             "Value": ""
           },
           {
