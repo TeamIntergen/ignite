@@ -43,12 +43,12 @@
       },
       {
         "DisplayTitle": "Job title",
-        "FieldName": "JobCategory",
-        "Style": "selectGroup",
+        "FieldName": "JobTitle",
+        "Style": "Options",
         "Class": "",
-        "Path": "detail.jobCategory",
+        "Path": "detail.jobTitle",
         "Value": "",
-        "OptionsPath": "jobCategory"
+        "OptionsPath": "jobTitle"
       },
       {
         "DisplayTitle": "Company",
@@ -64,12 +64,12 @@
       },
       {
         "DisplayTitle": "Industry",
-        "FieldName": "industry",
+        "FieldName": "CompanyIndustry",
         "Style": "Options",
         "Class": "",
-        "Path": "detail.industry",
+        "Path": "detail.companyIndustry",
         "Value": "",
-        "OptionsPath": "industry"
+        "OptionsPath": "companyIndustry"
       },
       {
         "DisplayTitle": "Biography",
@@ -110,20 +110,20 @@
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
+         {
+            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
+            "Value": ""
+          },
           {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.publicly-visible",
-            "FieldName": "IsPubliclyVisible",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
             "Value": ""
           }
         ]
