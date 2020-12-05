@@ -31,7 +31,11 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.preferredFirst",
-        "Value": ""
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2,
+          "MaximumLength": 100
+        }
       },
        {
         "DisplayTitle": "Preferred Last Name",
@@ -39,7 +43,11 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.preferredLast",
-        "Value": ""
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2,
+          "MaximumLength": 100          
+        }
       },
       {
         "DisplayTitle": "Job title",
@@ -58,8 +66,8 @@
         "Path": "detail.company",
         "Value": "",
         "OptionalAttributes": {
-          "MinimumLength": "2",
-          "MaximumLength": "20"
+          "MinimumLength": 2,
+          "MaximumLength": 75
         }
       },
       {
@@ -88,7 +96,9 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^https?://www.linkedin.com/in/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'",
+          "MinimumLength": 1,
+          "MaximumLength": 100
         }
       },
       {
@@ -100,7 +110,9 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^https?://www.twitter.com/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
+          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'",
+          "MinimumLength": 1,
+          "MaximumLength": 50
         }
       },
       {
@@ -110,21 +122,16 @@
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
-         {
-            "DisplayTitle": "do-not-stc-meeting-appointments",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
-            "Value": ""
-          },
           {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
+            "Value": "",
+            "OptionalAttributes": {
+                "AriaLabel": "Click here to make your profile and information public in the attendee directory."
+              }
           }
         ]
       }
