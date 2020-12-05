@@ -171,7 +171,7 @@
       {
         "DisplayTitle": "I’m interested in",
         "FieldName": "topics",
-        "Style": "Options",
+        "Style": "multiSelect",
         "Class": "",
         "Path": "detail.topics",
         "Value": "",
@@ -180,7 +180,7 @@
       {
         "DisplayTitle": "I’m interested in connecting with",
         "FieldName": "jobTitlesInterested",
-        "Style": "Options",
+        "Style": "multiSelect",
         "Class": "",
         "Path": "detail.jobTilesInterested",
         "Value": "",
