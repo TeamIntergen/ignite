@@ -60,10 +60,10 @@
       },
       {
         "DisplayTitle": "Company",
-        "FieldName": "Company",
+        "FieldName": "CompanyName",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.company",
+        "Path": "detail.companyName",
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2,
