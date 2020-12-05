@@ -167,7 +167,25 @@
             "Value": ""
           }
         ]
-      }
+      },
+      {
+        "DisplayTitle": "I’m interested in",
+        "FieldName": "topics",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.topics",
+        "Value": "",
+        "OptionsPath": "interests"
+      },
+      {
+        "DisplayTitle": "I’m interested in connecting with",
+        "FieldName": "jobTitlesInterested",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.jobTilesInterested",
+        "Value": "",
+        "OptionsPath": "jobTilesInterested"
+      },
     ]
   }
 ]
