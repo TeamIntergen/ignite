@@ -1,6 +1,5 @@
 [
   {
-    "HeadingTitle": "Attendee information",
     "ItemsToShow": [
       {
         "DisplayTitle": "Photo",
@@ -40,7 +39,7 @@
       {
         "DisplayTitle": "Company",
         "FieldName": "Company",
-        "Style": "inputText",
+        "Style": "readonly",
         "Class": "",
         "Path": "detail.company",
         "Value": "",
@@ -57,16 +56,11 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "LinkedIn",
-        "FieldName": "LinkedIn",
-        "Style": "inputText",
+        "DisplayTitle": "Notification email",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
         "Class": "",
-        "Path": "social.linkedIn",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.linkedin.com/in/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
-        }
+        "Path": "contacts.notification"
       },
       {
         "DisplayTitle": "Languages spoken",
@@ -83,66 +77,78 @@
         "Class": "",
         "Path": "detail.timeZone",
         "Value": ""
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Attendee profile",
-    "ItemsToShow": [
+      },
       {
-        "DisplayTitle": "Role",
-        "FieldName": "ProfileRole",
-        "Style": "selectGroup",
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
         "Class": "",
-        "Path": "detail.profileRole",
+        "Path": "social.linkedIn",
         "Value": "",
-        "OptionsPath": "profileRole"
+        "OptionalAttributes": {
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+        }
       },
       {
-        "DisplayTitle": "Industry",
-        "FieldName": "industry",
-        "Style": "Options",
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
         "Class": "",
-        "Path": "detail.industry",
+        "Path": "social.twitter",
         "Value": "",
-        "OptionsPath": "industry"
+        "OptionalAttributes": {
+          "Regex": "^@[a-zA-Z0-9_]{1,15}",
+          "RegexValidationText": "Please your twitter handle starting with the @ symbol"
+        }
       },
       {
-        "DisplayTitle": "Profile Area",
-        "FieldName": "profileArea",
-        "Style": "Options",
+        "DisplayTitle": "Facebook",
+        "FieldName": "Facebook",
+        "Style": "inputText",
         "Class": "",
-        "Path": "detail.profileArea",
+        "Path": "social.facebook",
         "Value": "",
-        "OptionsPath": "profileArea"
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*facebook\\.com/.+$))",
+          "RegexValidationText": "Please your facebook.com url e.g. https://www.facebook.com/CES/"
+        }
       },
       {
-        "DisplayTitle": "Primary Track",
-        "FieldName": "primaryTrack",
-        "Style": "multiSelect",
+        "DisplayTitle": "Instagram",
+        "FieldName": "Instagram",
+        "Style": "inputText",
         "Class": "",
-        "Path": "detail.primaryTrack",
+        "Path": "social.instagram",
         "Value": "",
-        "OptionsPath": "primaryTrack"
-      },
-    ]
-  },
-  {
-    "HeadingTitle": "Contact preferences",
-    "ItemsToShow": [
-      {
-        "DisplayTitle": "Login",
-        "FieldName": "Email",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "contacts.authentication"
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*instagram\\.com/.+$))",
+          "RegexValidationText": "Please enter your facebook.com url e.g. https://www.instagram.com/CES/"
+        }
       },
       {
-        "DisplayTitle": "Notifications",
-        "FieldName": "NotificationEmail",
-        "Style": "readonly",
+        "DisplayTitle": "YouTube",
+        "FieldName": "YouTube",
+        "Style": "inputText",
         "Class": "",
-        "Path": "contacts.notification"
+        "Path": "social.youTube",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*youtube\\.com/.+$))",
+          "RegexValidationText": "Please enter your YouTube url e.g. http://www.youtube.com/user/cesonthetube"
+        }
+      },
+      {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.+$))",
+          "RegexValidationText": "Please enter your website url e.g. http://digital.ces.tech"
+        }
       },
       {
         "DisplayTitle": "Privacy & notifications",
@@ -158,16 +164,26 @@
             "Class": "",
             "Path": "optins.canBeFound",
             "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.can-share-sessions",
-            "FieldName": "CanShareSession",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canShareSessions",
-            "Value": ""
           }
         ]
+      },
+      {
+        "DisplayTitle": "I’m interested in",
+        "FieldName": "topics",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.topics",
+        "Value": "",
+        "OptionsPath": "interests"
+      },
+      {
+        "DisplayTitle": "I’m interested in connecting with",
+        "FieldName": "jobTitlesInterested",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.jobTilesInterested",
+        "Value": "",
+        "OptionsPath": "jobTilesInterested"
       }
     ]
   }
