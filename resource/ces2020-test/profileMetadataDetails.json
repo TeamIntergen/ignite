@@ -1,6 +1,5 @@
 [
   {
-    "HeadingTitle": "Attendee information",
     "ItemsToShow": [
       {
         "DisplayTitle": "Photo",
@@ -185,7 +184,7 @@
         "Path": "detail.jobTilesInterested",
         "Value": "",
         "OptionsPath": "jobTilesInterested"
-      },
+      }
     ]
   }
 ]
