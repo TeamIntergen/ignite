@@ -10,66 +10,10 @@
         "subMetadata": []
       },
       {
-        "title": "Level",
+        "title": "Topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "level",
-        "subMetadata": []
-      },
-      {
-        "title": "Solution Area",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "solutionArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Theme",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "theme",
-        "subMetadata": []
-      },
-      {
-        "title": "Connection Zone Topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "communityTopic",
-        "subMetadata": []
-      },
-      {
-        "title": "Learning Zone Topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "learningZoneTopic",
-        "subMetadata": []
-      },
-      {
-        "title": "Track",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "track",
-        "subMetadata": []
-      },
-      {
-        "title": "Sales Play",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "salesPlay",
-        "subMetadata": []
-      },
-      {
-        "title": "Timezone Region",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "timeZoneRegion",
-        "subMetadata": []
-      },
-      {
-        "title": "Roles",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "roles",
+        "subtype": "topic",
         "subMetadata": []
       }
     ]
