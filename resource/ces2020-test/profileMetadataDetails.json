@@ -92,7 +92,7 @@
       },
       {
         "DisplayTitle": "Twitter",
-        "FieldName": "Twitter",
+        "FieldName": "TwitterHandle",
         "Style": "inputText",
         "Class": "",
         "Path": "social.twitter",
