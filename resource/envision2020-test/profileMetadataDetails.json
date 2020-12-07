@@ -33,7 +33,6 @@
         "Path": "detail.preferredFirst",
         "Value": "",
         "OptionalAttributes": {
-          "MinimumLength": 2,
           "MaximumLength": 100
         }
       },
@@ -45,7 +44,6 @@
         "Path": "detail.preferredLast",
         "Value": "",
         "OptionalAttributes": {
-          "MinimumLength": 2,
           "MaximumLength": 100          
         }
       },
@@ -66,7 +64,6 @@
         "Path": "detail.companyName",
         "Value": "",
         "OptionalAttributes": {
-          "MinimumLength": 2,
           "MaximumLength": 75
         }
       },
@@ -97,7 +94,6 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.linkedin.com/in/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'",
-          "MinimumLength": 1,
           "MaximumLength": 100
         }
       },
@@ -111,7 +107,6 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'",
-          "MinimumLength": 1,
           "MaximumLength": 50
         }
       },
