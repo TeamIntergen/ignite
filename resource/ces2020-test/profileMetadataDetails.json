@@ -92,7 +92,7 @@
       },
       {
         "DisplayTitle": "Twitter",
-        "FieldName": "TwitterHandle",
+        "FieldName": "twitter",
         "Style": "inputText",
         "Class": "",
         "Path": "social.twitter",
@@ -135,7 +135,7 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^($|((http|https)?://.*youtube\\.com/.+$))",
-          "RegexValidationText": "Please enter your YouTube url e.g. http://www.youtube.com/user/cesonthetube"
+          "RegexValidationText": "Please enter your YouTube url e.g. https://www.youtube.com/user/cesonthetube"
         }
       },
       {
@@ -147,7 +147,7 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^($|((http|https)?://.+$))",
-          "RegexValidationText": "Please enter your website url e.g. http://digital.ces.tech"
+          "RegexValidationText": "Please enter your website url e.g. https://digital.ces.tech"
         }
       },
       {
