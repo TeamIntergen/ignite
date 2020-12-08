@@ -251,45 +251,10 @@
         "subMetadata": []
       },
       {
-        "title": "Role",
+        "title": "Interests",
         "layout": "link",
-        "listings": "filters",
-        "subtype": "role",
-        "subMetadata": []
-      },
-      {
-        "title": "Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "area",
-        "subMetadata": []
-      },
-      {
-        "title": "Languages Spoken",
-        "layout": "link",
-        "listings": "",
-        "subtype": "languagesSpoken",
-        "subMetadata": []
-      },
-      {
-        "title": "Preferred Time Zone",
-        "layout": "link",
-        "listings": "",
-        "subtype": "timeZone",
-        "subMetadata": []
-      },
-      {
-        "title": "Primary Track",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "primaryTrack",
-        "subMetadata": []
-      },
-      {
-        "title": "Industries Worked",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industry",
+        "listings": "link",
+        "subtype": "interests",
         "subMetadata": []
       }
     ]
