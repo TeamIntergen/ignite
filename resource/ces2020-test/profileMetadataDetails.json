@@ -92,14 +92,14 @@
       },
       {
         "DisplayTitle": "Twitter",
-        "FieldName": "twitter",
+        "FieldName": "Twitter",
         "Style": "inputText",
         "Class": "",
         "Path": "social.twitter",
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^@[a-zA-Z0-9_]{1,15}",
-          "RegexValidationText": "Please your twitter handle starting with the @ symbol"
+          "RegexValidationText": "Please enter your twitter handle starting with the @ symbol"
         }
       },
       {
@@ -135,7 +135,7 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^($|((http|https)?://.*youtube\\.com/.+$))",
-          "RegexValidationText": "Please enter your YouTube url e.g. https://www.youtube.com/user/cesonthetube"
+          "RegexValidationText": "Please enter your YouTube url e.g. http://www.youtube.com/user/cesonthetube"
         }
       },
       {
@@ -147,7 +147,7 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^($|((http|https)?://.+$))",
-          "RegexValidationText": "Please enter your website url e.g. https://digital.ces.tech"
+          "RegexValidationText": "Please enter your website url e.g. http://digital.ces.tech"
         }
       },
       {
@@ -169,16 +169,16 @@
       },
       {
         "DisplayTitle": "I’m interested in",
-        "FieldName": "topics",
+        "FieldName": "Interests",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.topics",
+        "Path": "detail.interests",
         "Value": "",
         "OptionsPath": "interests"
       },
       {
         "DisplayTitle": "I’m interested in connecting with",
-        "FieldName": "jobTitlesInterested",
+        "FieldName": "JobTitlesInterested",
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.jobTilesInterested",
