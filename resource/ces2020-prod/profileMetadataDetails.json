@@ -99,7 +99,7 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^@[a-zA-Z0-9_]{1,15}",
-          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
+          "RegexValidationText": "Please enter your twitter handle starting with the @ symbol"
         }
       },
       {
