@@ -244,16 +244,23 @@
     "sidebarType": "attendees",
     "metadata": [
       {
-        "title": "LinkedIn",
+        "title": "Languages Spoken",
         "layout": "link",
-        "listings": "link",
-        "subtype": "linkedin",
+        "listings": "",
+        "subtype": "languages",
+        "subMetadata": []
+      },
+      {
+        "title": "Preferred Time Zone",
+        "layout": "link",
+        "listings": "",
+        "subtype": "timeZone",
         "subMetadata": []
       },
       {
         "title": "Interests",
         "layout": "link",
-        "listings": "link",
+        "listings": "filters",
         "subtype": "interests",
         "subMetadata": []
       }
