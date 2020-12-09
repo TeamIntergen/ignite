@@ -151,23 +151,6 @@
         }
       },
       {
-        "DisplayTitle": "Privacy & notifications",
-        "FieldName": "Privacy",
-        "Style": "multiCheckbox",
-        "Class": "",
-        "Path": "contacts.notification",
-        "Options": [
-         {
-            "DisplayTitle": "translate.profile-edit.can-be-found-title",
-            "FieldName": "CanBeFound",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canBeFound",
-            "Value": ""
-          }
-        ]
-      },
-      {
         "DisplayTitle": "I’m interested in",
         "FieldName": "Interests",
         "Style": "multiSelect",
@@ -184,6 +167,23 @@
         "Path": "detail.jobTilesInterested",
         "Value": "",
         "OptionsPath": "jobTilesInterested"
+      },
+      {
+        "DisplayTitle": "Privacy & notifications",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+         {
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": ""
+          }
+        ]
       }
     ]
   }
