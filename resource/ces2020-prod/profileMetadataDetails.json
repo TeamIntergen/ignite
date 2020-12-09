@@ -99,7 +99,7 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^@[a-zA-Z0-9_]{1,15}",
-          "RegexValidationText": "Please your twitter handle starting with the @ symbol"
+          "RegexValidationText": "Please enter your twitter handle starting with the @ symbol"
         }
       },
       {
@@ -169,16 +169,16 @@
       },
       {
         "DisplayTitle": "I’m interested in",
-        "FieldName": "topics",
+        "FieldName": "Interests",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.topics",
+        "Path": "detail.interests",
         "Value": "",
         "OptionsPath": "interests"
       },
       {
         "DisplayTitle": "I’m interested in connecting with",
-        "FieldName": "jobTitlesInterested",
+        "FieldName": "JobTitlesInterested",
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.jobTilesInterested",
