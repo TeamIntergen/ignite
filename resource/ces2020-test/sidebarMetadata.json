@@ -259,7 +259,7 @@
       },
       {
         "title": "Interests",
-        "layout": "link",
+        "layout": "no-link",
         "listings": "filters",
         "subtype": "interests",
         "subMetadata": []
