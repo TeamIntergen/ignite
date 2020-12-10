@@ -26,28 +26,6 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Preferred First Name",
-        "FieldName": "PreferredFirst",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.preferredFirst",
-        "Value": "",
-        "OptionalAttributes": {
-          "MaximumLength": 100
-        }
-      },
-       {
-        "DisplayTitle": "Preferred Last Name",
-        "FieldName": "PreferredLast",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.preferredLast",
-        "Value": "",
-        "OptionalAttributes": {
-          "MaximumLength": 100          
-        }
-      },
-      {
         "DisplayTitle": "Job title",
         "FieldName": "JobTitle",
         "Style": "Options",
