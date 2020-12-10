@@ -135,6 +135,11 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
+          "Identifier": "My Schedule - MediaDay"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
           "Identifier": "My Schedule"
         }
       ]
