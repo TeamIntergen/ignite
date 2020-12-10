@@ -169,7 +169,7 @@
         "OptionsPath": "jobTilesInterested"
       },
       {
-        "DisplayTitle": "Privacy & notifications",
+        "DisplayTitle": "Networking Opt-In",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
