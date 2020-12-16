@@ -181,7 +181,10 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
+            "Value": "",
+            "OptionalAttributes": {
+              "AriaLabel": "translate.profile.info.attendee-directory"
+            }
           }
         ]
       }

@@ -181,7 +181,10 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
+            "Value": "",
+            "OptionalAttributes": {
+              "AriaLabel": "Click here to make your profile and information public in the attendee directory."
+            }
           }
         ]
       }

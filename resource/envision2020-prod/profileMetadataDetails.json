@@ -103,8 +103,8 @@
             "Path": "optins.canBeFound",
             "Value": "",
             "OptionalAttributes": {
-                "AriaLabel": "Click here to make your profile and information public in the attendee directory."
-              }
+              "AriaLabel": "Click here to make your profile and information public in the attendee directory."
+            }
           }
         ]
       }
