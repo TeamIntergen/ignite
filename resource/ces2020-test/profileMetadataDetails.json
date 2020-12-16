@@ -183,7 +183,7 @@
             "Path": "optins.canBeFound",
             "Value": "",
             "OptionalAttributes": {
-              "AriaLabel": "Make profile visible"
+              "AriaLabel": "translate.profile.info.attendee-directory"
             }
           }
         ]
