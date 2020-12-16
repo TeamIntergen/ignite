@@ -181,7 +181,10 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
+            "Value": "",
+            "OptionalAttributes": {
+              "AriaLabel": "Make profile visible"
+            }
           }
         ]
       }
