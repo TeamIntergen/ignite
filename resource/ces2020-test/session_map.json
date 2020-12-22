@@ -23,7 +23,7 @@
     {
       "HubbId": 1010,
       "SessionTypeName": "Exhibitor Presentation",
-      "SessionSets": ["Session Scheduler - Exhibitor", "My Schedule"]
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1011,
