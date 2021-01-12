@@ -13,7 +13,7 @@
     {
       "HubbId": 1007,
       "SessionTypeName": "Press Conference",
-      "SessionSets": ["Session Scheduler - MediaDay", "My Schedule - MediaDay"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1008,
