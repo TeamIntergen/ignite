@@ -27,7 +27,7 @@
     },
     {
       "HubbId": 1014,
-      "SessionTypeName": "Microsoft Ignite Live",
+      "SessionTypeName": "Studio",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
