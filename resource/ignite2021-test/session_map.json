@@ -7,7 +7,7 @@
     },
     {
       "HubbId": 1010,
-      "SessionTypeName": "On-Demand",
+      "SessionTypeName": "Session",
       "SessionSets": ["Session Catalog", "Session Scheduler","My Schedule"]
     },
     {
