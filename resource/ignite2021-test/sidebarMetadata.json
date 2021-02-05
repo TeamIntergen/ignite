@@ -174,13 +174,6 @@
         "listings": "filters",
         "subtype": "topic",
         "subMetadata": []
-      },
-      {
-        "title": "Youtube",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "youtubeUrl",
-        "subMetadata": []
       }
     ]
   },
