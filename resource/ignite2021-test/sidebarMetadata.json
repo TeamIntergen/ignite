@@ -143,43 +143,36 @@
       {
         "title": "Product",
         "layout": "link",
-        "listings": "link",
+        "listings": "filters",
         "subtype": "product",
         "subMetadata": []
       },
       {
         "title": "Industry",
         "layout": "link",
-        "listings": "link",
+        "listings": "filters",
         "subtype": "industry",
         "subMetadata": []
       },
       {
         "title": "Business Function",
         "layout": "link",
-        "listings": "link",
+        "listings": "filters",
         "subtype": "businessFocus",
         "subMetadata": []
       },
       {
         "title": "Partner Type",
         "layout": "link",
-        "listings": "link",
+        "listings": "filters",
         "subtype": "sponsorLevel",
         "subMetadata": []
       },
       {
         "title": "Topic",
         "layout": "link",
-        "listings": "link",
+        "listings": "filters",
         "subtype": "topic",
-        "subMetadata": []
-      },
-      {
-        "title": "Youtube",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "youtubeUrl",
         "subMetadata": []
       }
     ]
