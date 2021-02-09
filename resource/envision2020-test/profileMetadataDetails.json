@@ -105,6 +105,17 @@
             "OptionalAttributes": {
               "AriaLabel": "translate.profile.info.attendee-directory"
             }
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.avanade-opt-in-title",
+            "FieldName": "AvanadeOptIn",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.avanadeOptIn",
+            "Value": "",
+            "OptionalAttributes": {
+                "AriaLabel": "Click here to get information about Avanade's products and services."
+              }
           }
         ]
       }
