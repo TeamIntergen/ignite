@@ -1,6 +1,6 @@
 [
   {
-    "HeadingTitle": "Attendee information",
+    "HeadingTitle": "Attendee Profile",
     "ItemsToShow": [
       {
         "DisplayTitle": "Photo",
@@ -38,6 +38,14 @@
         }
       },
       {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
+      },
+      {
         "DisplayTitle": "Company",
         "FieldName": "Company",
         "Style": "inputText",
@@ -47,14 +55,6 @@
         "OptionalAttributes": {
           "MinimumLength": 2
         }
-      },
-      {
-        "DisplayTitle": "Biography",
-        "FieldName": "Biography",
-        "Style": "textArea",
-        "Class": "",
-        "Path": "detail.biography",
-        "Value": ""
       },
       {
         "DisplayTitle": "Website",
@@ -93,6 +93,42 @@
         }
       },
       {
+        "DisplayTitle": "Industry",
+        "FieldName": "industry",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industry",
+        "Value": "",
+        "OptionsPath": "industry"
+      },
+      {
+        "DisplayTitle": "Products of interest",
+        "FieldName": "Products",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.products",
+        "Value": "",
+        "OptionsPath": "products"
+      },
+      {
+        "DisplayTitle": "Role",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory"
+      },
+      {
+        "DisplayTitle": "Topic",
+        "FieldName": "topic",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.topic",
+        "Value": "",
+        "OptionsPath": "topic"
+      }
+      {
         "DisplayTitle": "Languages spoken",
         "FieldName": "LanguagesSpoken",
         "Style": "inputText",
@@ -107,47 +143,6 @@
         "Class": "",
         "Path": "detail.timeZone",
         "Value": ""
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Attendee profile",
-    "ItemsToShow": [
-      {
-        "DisplayTitle": "Role",
-        "FieldName": "JobCategory",
-        "Style": "selectGroup",
-        "Class": "",
-        "Path": "detail.jobCategory",
-        "Value": "",
-        "OptionsPath": "jobCategory"
-      },
-      {
-        "DisplayTitle": "Products of interest",
-        "FieldName": "Products",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.products",
-        "Value": "",
-        "OptionsPath": "products"
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "industry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.industry",
-        "Value": "",
-        "OptionsPath": "industry"
-      },
-      {
-        "DisplayTitle": "Topic",
-        "FieldName": "topic",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.topic",
-        "Value": "",
-        "OptionsPath": "topic"
       }
     ]
   },
@@ -175,14 +170,6 @@
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
-                    {
-            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
-            "Value": ""
-          },
           {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
@@ -205,6 +192,14 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.featured-partners",
+            "FieldName": "FeaturedPartners",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.featuredPartners",
             "Value": ""
           }
         ]
