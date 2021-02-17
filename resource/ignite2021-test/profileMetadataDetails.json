@@ -180,7 +180,7 @@
           },
           {
             "DisplayTitle": "translate.profile-edit.can-share-sessions",
-            "FieldName": "CanShareSession",
+            "FieldName": "CanShareSessions",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canShareSessions",
