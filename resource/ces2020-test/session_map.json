@@ -12,8 +12,8 @@
     },
     {
       "HubbId": 1007,
-      "SessionTypeName": "Media Day Press Conference",
-      "SessionSets": ["Session Scheduler - MediaDay", "My Schedule"]
+      "SessionTypeName": "Press Conference",
+      "SessionSets": ["Session Scheduler - MediaDay", "My Schedule - MediaDay"]
     },
     {
       "HubbId": 1008,

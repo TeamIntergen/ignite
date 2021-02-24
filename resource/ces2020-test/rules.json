@@ -33,7 +33,6 @@
         "Media - Freelancer",
         "Exhibitor",
         "Speaker",
-        "Staff/Crew",
         "Industry - VIP",
         "Industry - Member",
         "Industry - Alumni",
@@ -88,6 +87,7 @@
     },
     {
       "Identifiers": [
+        "Staff/Crew",
         "MediaDay"
       ],
       "Access": {
@@ -135,7 +135,17 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
+          "Identifier": "My Schedule - MediaDay"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
           "Identifier": "My Schedule"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler - Exhibitor"
         }
       ]
     }

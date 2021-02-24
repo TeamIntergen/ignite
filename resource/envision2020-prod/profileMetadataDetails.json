@@ -1,6 +1,5 @@
 [
   {
-    "HeadingTitle": "Attendee information",
     "ItemsToShow": [
       {
         "DisplayTitle": "Photo",
@@ -28,25 +27,32 @@
       },
       {
         "DisplayTitle": "Job title",
-        "FieldName": "Title",
-        "Style": "inputText",
+        "FieldName": "JobTitle",
+        "Style": "Options",
         "Class": "",
-        "Path": "detail.title",
+        "Path": "detail.jobTitle",
         "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        }
+        "OptionsPath": "jobTitle"
       },
       {
         "DisplayTitle": "Company",
-        "FieldName": "Company",
+        "FieldName": "CompanyName",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.company",
+        "Path": "detail.companyName",
         "Value": "",
         "OptionalAttributes": {
-          "MinimumLength": 2
+          "MaximumLength": 75
         }
+      },
+      {
+        "DisplayTitle": "Industry",
+        "FieldName": "CompanyIndustry",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.companyIndustry",
+        "Value": "",
+        "OptionsPath": "companyIndustry"
       },
       {
         "DisplayTitle": "Biography",
@@ -57,18 +63,6 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Website",
-        "FieldName": "Website",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.website",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://.+$",
-          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        }
-      },
-      {
         "DisplayTitle": "LinkedIn",
         "FieldName": "LinkedIn",
         "Style": "inputText",
@@ -77,7 +71,8 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^https?://www.linkedin.com/in/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'",
+          "MaximumLength": 100
         }
       },
       {
@@ -89,84 +84,9 @@
         "Value": "",
         "OptionalAttributes": {
           "Regex": "^https?://www.twitter.com/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
+          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'",
+          "MaximumLength": 50
         }
-      },
-      {
-        "DisplayTitle": "Languages spoken",
-        "FieldName": "LanguagesSpoken",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.languagesSpoken",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Preferred timezone",
-        "FieldName": "TimeZone",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.timeZone",
-        "Value": ""
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Attendee profile",
-    "ItemsToShow": [
-      {
-        "DisplayTitle": "Role",
-        "FieldName": "JobCategory",
-        "Style": "selectGroup",
-        "Class": "",
-        "Path": "detail.jobCategory",
-        "Value": "",
-        "OptionsPath": "jobCategory"
-      },
-      {
-        "DisplayTitle": "Products of interest",
-        "FieldName": "Products",
-        "Style": "nestedSelect",
-        "Class": "",
-        "Path": "detail.products",
-        "Value": "",
-        "OptionsPath": "products"
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "industry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.industry",
-        "Value": "",
-        "OptionsPath": "industry"
-      },
-      {
-        "DisplayTitle": "Topic",
-        "FieldName": "topic",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.topic",
-        "Value": "",
-        "OptionsPath": "topic"
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Contact preferences",
-    "ItemsToShow": [
-      {
-        "DisplayTitle": "Login",
-        "FieldName": "Email",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "contacts.authentication"
-      },
-      {
-        "DisplayTitle": "Notifications",
-        "FieldName": "NotificationEmail",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "contacts.notification"
       },
       {
         "DisplayTitle": "Privacy & notifications",
@@ -176,36 +96,26 @@
         "Path": "contacts.notification",
         "Options": [
           {
-            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
-            "FieldName": "SendToCalendarMeetingAppointments",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.doNotSendToCalendarMeetingAppointments",
-            "Value": ""
-          },
-          {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.canBeFound",
-            "Value": ""
+            "Value": "",
+            "OptionalAttributes": {
+              "AriaLabel": "Click here to make your profile and information public in the attendee directory."
+            }
           },
           {
-            "DisplayTitle": "translate.profile-edit.can-share-sessions",
-            "FieldName": "CanShareSession",
+            "DisplayTitle": "translate.profile-edit.avanade-opt-in-title",
+            "FieldName": "AvanadeOptIn",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.canShareSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.publicly-visible",
-            "FieldName": "IsPubliclyVisible",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.isPubliclyVisible",
-            "Value": ""
+            "Path": "optins.avanadeOptIn",
+            "Value": "",
+            "OptionalAttributes": {
+                "AriaLabel": "Click here to get information about Avanade's products and services."
+              }
           }
         ]
       }
