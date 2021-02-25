@@ -1,0 +1,193 @@
+[
+  {
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "First name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Last name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+       {
+        "DisplayTitle": "Job title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Company",
+        "FieldName": "Company",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
+      },
+      {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Notification email",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.notification"
+      },
+      {
+        "DisplayTitle": "Languages spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+        }
+      },
+      {
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^@[a-zA-Z0-9_]{1,15}",
+          "RegexValidationText": "Please enter your twitter handle starting with the @ symbol"
+        }
+      },
+      {
+        "DisplayTitle": "Facebook",
+        "FieldName": "Facebook",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.facebook",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*facebook\\.com/.+$))",
+          "RegexValidationText": "Please your facebook.com url e.g. https://www.facebook.com/CES/"
+        }
+      },
+      {
+        "DisplayTitle": "Instagram",
+        "FieldName": "Instagram",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.instagram",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*instagram\\.com/.+$))",
+          "RegexValidationText": "Please enter your facebook.com url e.g. https://www.instagram.com/CES/"
+        }
+      },
+      {
+        "DisplayTitle": "YouTube",
+        "FieldName": "YouTube",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.youTube",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.*youtube\\.com/.+$))",
+          "RegexValidationText": "Please enter your YouTube url e.g. https://www.youtube.com/user/cesonthetube"
+        }
+      },
+      {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^($|((http|https)?://.+$))",
+          "RegexValidationText": "Please enter your website url e.g. https://digital.ces.tech"
+        }
+      },
+      {
+        "DisplayTitle": "I’m interested in",
+        "FieldName": "Interests",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.interests",
+        "Value": "",
+        "OptionsPath": "interests"
+      },
+      {
+        "DisplayTitle": "I’m interested in connecting with",
+        "FieldName": "JobTitlesInterested",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.jobTilesInterested",
+        "Value": "",
+        "OptionsPath": "jobTilesInterested"
+      },
+      {
+        "DisplayTitle": "Networking Opt-In",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+         {
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": "",
+            "OptionalAttributes": {
+              "AriaLabel": "Click here to make your profile and information public in the attendee directory."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

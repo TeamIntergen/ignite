@@ -2,37 +2,37 @@
   "SessionSetMap": [
     {
       "HubbId": 1004,
-      "SessionTypeName": "Pre-Recorded for On Demand",
+      "SessionTypeName": "Conference Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1005,
-      "SessionTypeName": "Learning Path",
+      "SessionTypeName": "Event",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1007,
-      "SessionTypeName": "Key Segment",
+      "SessionTypeName": "Press Conference",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1008,
-      "SessionTypeName": "Digital Breakout",
+      "SessionTypeName": "Spotlight Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1010,
-      "SessionTypeName": "Pre-Recorded",
-      "SessionSets": ["Session Catalog", "Session Scheduler"]
+      "SessionTypeName": "Exhibitor Presentation",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1011,
-      "SessionTypeName": "Ask the Experts",
+      "SessionTypeName": "Keynote",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1012,
-      "SessionTypeName": "Learning Zone",
+      "SessionTypeName": "C Space Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
@@ -48,6 +48,21 @@
     {
       "HubbId": 1015,
       "SessionTypeName": "Always On",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1016,
+      "SessionTypeName": "Tech Chats",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1017,
+      "SessionTypeName": "Tech Connect Live",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1017,
+      "SessionTypeName": "Tech Connect Welcome",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {

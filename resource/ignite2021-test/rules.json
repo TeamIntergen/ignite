@@ -28,23 +28,9 @@
     {
       "Identifiers": [
         "Attendee",
-        "General Attendee",
-        "Pre-Registered Attendee",
-        "Non-Attending Group Manager",
-        "Substituted Attendee",
-        "Substituted Non Attendee",
         "Attendee Microsoft",
-        "Attendee - Sponsor/Exhibitor",
-        "Media",
-        "Analyst",
         "Speaker/Staff Microsoft",
-        "Speaker/Staff External",
-        "Speaker/Staff Day Pass",
-        "Microsoft Executive",
-        "Booth Staff Sponsor/Exhibitor",
-        "Crew",
-        "Content Lead & Support",
-        "Non-Attending Speaker Asst."
+        "Speaker/Staff External"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -58,23 +44,9 @@
       },
       "VisibleAttendeeTypes": [
         "Attendee",
-        "General Attendee",
-        "Pre-Registered Attendee",
-        "Non-Attending Group Manager",
-        "Substituted Attendee",
-        "Substituted Non Attendee",
         "Attendee Microsoft",
-        "Attendee - Sponsor/Exhibitor",
-        "Media",
-        "Analyst",
         "Speaker/Staff Microsoft",
-        "Speaker/Staff External",
-        "Speaker/Staff Day Pass",
-        "Microsoft Executive",
-        "Booth Staff Sponsor/Exhibitor",
-        "Crew",
-        "Content Lead & Support",
-        "Non-Attending Speaker Asst."
+        "Speaker/Staff External"
       ],
       "Reporting": {
         "SessionCounts": false

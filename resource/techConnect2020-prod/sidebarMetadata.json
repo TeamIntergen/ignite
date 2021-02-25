@@ -19,7 +19,7 @@
       {
         "title": "Solution Area",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "solutionArea",
         "subMetadata": []
       },
@@ -42,6 +42,34 @@
         "layout": "link",
         "listings": "filters",
         "subtype": "learningZoneTopic",
+        "subMetadata": []
+      },
+      {
+        "title": "Track",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "track",
+        "subMetadata": []
+      },
+      {
+        "title": "Sales Play",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "salesPlay",
+        "subMetadata": []
+      },
+      {
+        "title": "Timezone Region",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "timeZoneRegion",
+        "subMetadata": []
+      },
+      {
+        "title": "Roles",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "roles",
         "subMetadata": []
       }
     ]
@@ -279,108 +307,24 @@
         "subMetadata": []
       },
       {
-        "title": "Twitter",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "twitter",
-        "subMetadata": []
-      },
-      {
-        "title": "Website",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "website",
-        "subMetadata": []
-      },
-      {
-        "title": "Job category",
+        "title": "Role",
         "layout": "link",
         "listings": "filters",
-        "subtype": "jobCategory",
+        "subtype": "role",
         "subMetadata": []
       },
       {
-        "title": "Industry focus",
+        "title": "Area",
         "layout": "link",
         "listings": "filters",
-        "subtype": "industryFocus",
-        "subMetadata": []
-      },
-      {
-        "title": "Business focus",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "businessFocus",
-        "subMetadata": []
-      },
-      {
-        "title": "Customer segment",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "customerSegment",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industryArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Profile Practice Area",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "profilePracticeArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Geographic Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "ouArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Partner Type",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "partnerType",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.filters.roles",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "roles",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industry",
-        "subMetadata": []
-      },
-      {
-        "title": "Products of Interest",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "products",
-        "subMetadata": []
-      },
-      {
-        "title": "Topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "topic",
+        "subtype": "area",
         "subMetadata": []
       },
       {
         "title": "Languages Spoken",
         "layout": "link",
         "listings": "",
-        "subtype": "languages",
+        "subtype": "languagesSpoken",
         "subMetadata": []
       },
       {
@@ -388,6 +332,20 @@
         "layout": "link",
         "listings": "",
         "subtype": "timeZone",
+        "subMetadata": []
+      },
+      {
+        "title": "Primary Track",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "primaryTrack",
+        "subMetadata": []
+      },
+      {
+        "title": "Industries Worked",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "industry",
         "subMetadata": []
       }
     ]

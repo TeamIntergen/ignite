@@ -141,45 +141,38 @@
     "sidebarType": "sponsors",
     "metadata": [
       {
-        "title": "Company website",
+        "title": "Product",
         "layout": "link",
-        "listings": "link",
-        "subtype": "website",
+        "listings": "filters",
+        "subtype": "product",
         "subMetadata": []
       },
       {
-        "title": "LinkedIn",
+        "title": "Industry",
         "layout": "link",
-        "listings": "link",
-        "subtype": "linkedInUrl",
+        "listings": "filters",
+        "subtype": "industry",
         "subMetadata": []
       },
       {
-        "title": "Twitter",
+        "title": "Business Function",
         "layout": "link",
-        "listings": "link",
-        "subtype": "twitterUrl",
+        "listings": "filters",
+        "subtype": "businessFocus",
         "subMetadata": []
       },
       {
-        "title": "Facebook",
+        "title": "Partner Type",
         "layout": "link",
-        "listings": "link",
-        "subtype": "facebookUrl",
+        "listings": "filters",
+        "subtype": "sponsorLevel",
         "subMetadata": []
       },
       {
-        "title": "Blog",
+        "title": "Topic",
         "layout": "link",
-        "listings": "link",
-        "subtype": "blogUrl",
-        "subMetadata": []
-      },
-      {
-        "title": "Youtube",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "youtubeUrl",
+        "listings": "filters",
+        "subtype": "topic",
         "subMetadata": []
       }
     ]

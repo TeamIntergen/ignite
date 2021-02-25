@@ -10,38 +10,10 @@
         "subMetadata": []
       },
       {
-        "title": "Level",
+        "title": "Topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "level",
-        "subMetadata": []
-      },
-      {
-        "title": "Solution Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "solutionArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Theme",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "theme",
-        "subMetadata": []
-      },
-      {
-        "title": "Connection Zone Topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "communityTopic",
-        "subMetadata": []
-      },
-      {
-        "title": "Learning Zone Topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "learningZoneTopic",
+        "subtype": "topic",
         "subMetadata": []
       }
     ]
@@ -272,111 +244,6 @@
     "sidebarType": "attendees",
     "metadata": [
       {
-        "title": "LinkedIn",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "linkedin",
-        "subMetadata": []
-      },
-      {
-        "title": "Twitter",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "twitter",
-        "subMetadata": []
-      },
-      {
-        "title": "Website",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "website",
-        "subMetadata": []
-      },
-      {
-        "title": "Job category",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "jobCategory",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry focus",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industryFocus",
-        "subMetadata": []
-      },
-      {
-        "title": "Business focus",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "businessFocus",
-        "subMetadata": []
-      },
-      {
-        "title": "Customer segment",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "customerSegment",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industryArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Profile Practice Area",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "profilePracticeArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Geographic Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "ouArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Partner Type",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "partnerType",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.filters.roles",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "roles",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industry",
-        "subMetadata": []
-      },
-      {
-        "title": "Products of Interest",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "products",
-        "subMetadata": []
-      },
-      {
-        "title": "Topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "topic",
-        "subMetadata": []
-      },
-      {
         "title": "Languages Spoken",
         "layout": "link",
         "listings": "",
@@ -388,6 +255,13 @@
         "layout": "link",
         "listings": "",
         "subtype": "timeZone",
+        "subMetadata": []
+      },
+      {
+        "title": "Interests",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "interests",
         "subMetadata": []
       }
     ]

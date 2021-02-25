@@ -1,0 +1,17 @@
+{
+    "Personas": [
+        {
+            "Id": "1",
+            "DisplayName": "Application Admin",
+            "Description" : "A description",
+            "Photo" : "https://github.com/intergenignite/ignite/blob/master/resource/test/img/Application%20Admin.png?raw=true",
+            "SessionsAttending" : [
+                "38471","1261","39171",
+                "3082","3204","3016","3175", "2961",
+                "39172","1261","39171",
+                "3144","35275","1260","2959","20638"
+            ]
+        }
+    ]
+
+}

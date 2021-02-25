@@ -1,0 +1,106 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": ["Anonymous"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "External Sessions"
+        },
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "Featured Sessions"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Attendee",
+        "Speaker/Staff External"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "External Sessions"
+        },
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "Featured Sessions"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Attendee Microsoft",
+        "Speaker/Staff Microsoft",
+        "Crew"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "External Sessions"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Internal Sessions"
+        },
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "Featured Sessions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,33 +1,18 @@
 {
   "SessionSetMap": [
     {
-      "HubbId": 1004,
-      "SessionTypeName": "Pre-Recorded for On Demand",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1005,
-      "SessionTypeName": "Learning Path",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 1007,
-      "SessionTypeName": "Key Segment",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
       "HubbId": 1008,
-      "SessionTypeName": "Digital Breakout",
+      "SessionTypeName": "Featured Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1010,
-      "SessionTypeName": "Pre-Recorded",
-      "SessionSets": ["Session Catalog", "Session Scheduler"]
+      "SessionTypeName": "Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler","My Schedule"]
     },
     {
       "HubbId": 1011,
-      "SessionTypeName": "Ask the Experts",
+      "SessionTypeName": "Keynote",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
@@ -42,13 +27,18 @@
     },
     {
       "HubbId": 1014,
-      "SessionTypeName": "Microsoft Ignite Live",
+      "SessionTypeName": "Studio",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1015,
       "SessionTypeName": "Always On",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1016,
+      "SessionTypeName": "Strategic Meeting",
+      "SessionSets": ["My Schedule"]
     },
     {
       "HubbId": 9999,
