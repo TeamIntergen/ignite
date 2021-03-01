@@ -143,12 +143,7 @@
         "Class": "",
         "Path": "detail.timeZone",
         "Value": ""
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Contact preferences",
-    "ItemsToShow": [
+      },
       {
         "DisplayTitle": "Login",
         "FieldName": "Email",
