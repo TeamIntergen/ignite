@@ -19,18 +19,55 @@
       "EvalAccess": [],
       "SessionSetAccess": [
         {
-          "ApplicableFrom": null,
-          "ApplicableTo": null,
-          "Identifier": "Session Catalog"
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "External Sessions"
+        },
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "Featured Sessions"
         }
       ]
     },
     {
       "Identifiers": [
         "Attendee",
+        "Speaker/Staff External"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "External Sessions"
+        },
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "Featured Sessions"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
         "Attendee Microsoft",
         "Speaker/Staff Microsoft",
-        "Speaker/Staff External"
+        "Crew"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -42,12 +79,7 @@
         "LocationBasedMessaging": true,
         "InPersonExperience": true
       },
-      "VisibleAttendeeTypes": [
-        "Attendee",
-        "Attendee Microsoft",
-        "Speaker/Staff Microsoft",
-        "Speaker/Staff External"
-      ],
+      "VisibleAttendeeTypes": [],
       "Reporting": {
         "SessionCounts": false
       },
@@ -56,12 +88,17 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Session Scheduler"
+          "Identifier": "External Sessions"
         },
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "My Schedule"
+          "Identifier": "Internal Sessions"
+        },
+        {
+          "ApplicableFrom": "2021-03-17T07:00:00Z",
+          "ApplicableTo": "2021-03-18T06:59:59Z",
+          "Identifier": "Featured Sessions"
         }
       ]
     }

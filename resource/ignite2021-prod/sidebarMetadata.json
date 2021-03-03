@@ -165,7 +165,7 @@
         "title": "Partner Type",
         "layout": "link",
         "listings": "filters",
-        "subtype": "sponsorLevel",
+        "subtype": "partnerType",
         "subMetadata": []
       },
       {
