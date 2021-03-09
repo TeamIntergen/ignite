@@ -10,38 +10,38 @@
         "subMetadata": []
       },
       {
-        "title": "Level",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "level",
-        "subMetadata": []
-      },
-      {
-        "title": "Solution Area",
+        "title": "Episode",
         "layout": "link",
         "listings": "filters",
         "subtype": "solutionArea",
         "subMetadata": []
       },
       {
-        "title": "Theme",
+        "title": "Broadcast",
         "layout": "link",
         "listings": "filters",
-        "subtype": "theme",
+        "subtype": "broadcastZones",
         "subMetadata": []
       },
       {
-        "title": "Connection Zone Topic",
+        "title": "Region",
         "layout": "link",
         "listings": "filters",
-        "subtype": "communityTopic",
+        "subtype": "regions",
         "subMetadata": []
       },
       {
-        "title": "Learning Zone Topic",
+        "title": "Topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "learningZoneTopic",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+      {
+        "title": "Language",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionLanguage",
         "subMetadata": []
       }
     ]
