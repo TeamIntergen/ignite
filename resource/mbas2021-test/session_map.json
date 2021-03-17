@@ -1,0 +1,39 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1008,
+      "SessionTypeName": "Featured Session",
+      "SessionSets": ["Featured Sessions"]
+    },
+    {
+      "HubbId": 1011,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["External Sessions", "Internal Sessions"]
+    },
+    {
+      "HubbId": 1013,
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": ["Internal Sessions"]
+    },
+    {
+      "HubbId": 1017,
+      "SessionTypeName": "Interstitial",
+      "SessionSets": ["External Sessions", "Internal Sessions"]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Keynote Day 2",
+      "SessionSets": ["Internal Sessions"]
+    },
+    {
+      "HubbId": 1018,
+      "SessionTypeName": "Interstitial Day 2",
+      "SessionSets": ["Internal Sessions"]
+    },
+    {
+      "HubbId": 9999,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["My Schedule"]
+    }
+  ]
+}
