@@ -44,7 +44,7 @@
       "HubbId": 1017,
       "SessionTypeName": "Presentation",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    }
+    },
     {
       "HubbId": 9999,
       "SessionTypeName": "Agenda",
