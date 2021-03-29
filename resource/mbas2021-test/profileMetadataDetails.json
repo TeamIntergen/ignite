@@ -102,6 +102,15 @@
         "OptionsPath": "jobCategoryGroup"
       },
       {
+        "DisplayTitle": "Communities",
+        "FieldName": "communities",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.communities",
+        "Value": "",
+        "OptionsPath": "community"
+      },
+      {
         "DisplayTitle": "Preferred timezone",
         "FieldName": "TimeZone",
         "Style": "inputText",
