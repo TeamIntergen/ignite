@@ -111,6 +111,15 @@
         "OptionsPath": "community"
       },
       {
+        "DisplayTitle": "Industry",
+        "FieldName": "industry",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.industry",
+        "Value": "",
+        "OptionsPath": "industry"
+      },
+      {
         "DisplayTitle": "Preferred timezone",
         "FieldName": "TimeZone",
         "Style": "inputText",
