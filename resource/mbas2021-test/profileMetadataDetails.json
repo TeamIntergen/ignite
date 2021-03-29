@@ -104,7 +104,7 @@
       {
         "DisplayTitle": "Communities",
         "FieldName": "communities",
-        "Style": "Options",
+        "Style": "multiSelect",
         "Class": "",
         "Path": "detail.communities",
         "Value": "",
