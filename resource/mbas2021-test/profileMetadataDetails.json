@@ -113,7 +113,7 @@
       {
         "DisplayTitle": "Industry",
         "FieldName": "industry",
-        "Style": "Options",
+        "Style": "selectGroup",
         "Class": "",
         "Path": "detail.industry",
         "Value": "",
@@ -122,7 +122,7 @@
       {
         "DisplayTitle": "Products of interest",
         "FieldName": "Products",
-        "Style": "nestedSelect",
+        "Style": "Options",
         "Class": "",
         "Path": "detail.products",
         "Value": "",
