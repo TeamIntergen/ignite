@@ -27,17 +27,6 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Job title",
-        "FieldName": "Title",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.title",
-        "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        }
-      },
-      {
         "DisplayTitle": "Biography",
         "FieldName": "Biography",
         "Style": "textArea",
@@ -57,15 +46,14 @@
         }
       },
       {
-        "DisplayTitle": "Website",
-        "FieldName": "Website",
+        "DisplayTitle": "Job title",
+        "FieldName": "Title",
         "Style": "inputText",
         "Class": "",
-        "Path": "social.website",
+        "Path": "detail.title",
         "Value": "",
         "OptionalAttributes": {
-          "Regex": "^https?://.+$",
-          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+          "MinimumLength": 2
         }
       },
       {
@@ -93,6 +81,36 @@
         }
       },
       {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.+$",
+          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+        }
+      },
+      {
+        "DisplayTitle": "Job Category",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory"
+      },
+      {
+        "DisplayTitle": "Communities",
+        "FieldName": "communities",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.communities",
+        "Value": "",
+        "OptionsPath": "community"
+      },
+      {
         "DisplayTitle": "Industry",
         "FieldName": "industry",
         "Style": "Options",
@@ -111,22 +129,12 @@
         "OptionsPath": "products"
       },
       {
-        "DisplayTitle": "Role",
-        "FieldName": "JobCategory",
-        "Style": "selectGroup",
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
         "Class": "",
-        "Path": "detail.jobCategory",
-        "Value": "",
-        "OptionsPath": "jobCategory"
-      },
-      {
-        "DisplayTitle": "Topic",
-        "FieldName": "topic",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.topic",
-        "Value": "",
-        "OptionsPath": "topic"
+        "Path": "detail.timeZone",
+        "Value": ""
       },
       {
         "DisplayTitle": "Languages spoken",
@@ -134,14 +142,6 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.languagesSpoken",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Preferred timezone",
-        "FieldName": "TimeZone",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.timeZone",
         "Value": ""
       }
     ]
