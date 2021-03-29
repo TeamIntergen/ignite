@@ -113,7 +113,7 @@
       {
         "DisplayTitle": "Industry",
         "FieldName": "industry",
-        "Style": "selectGroup",
+        "Style": "Options",
         "Class": "",
         "Path": "detail.industry",
         "Value": "",
