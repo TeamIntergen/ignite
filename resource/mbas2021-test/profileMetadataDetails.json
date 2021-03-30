@@ -120,6 +120,15 @@
         "OptionsPath": "industry"
       },
       {
+        "DisplayTitle": "Products of interest",
+        "FieldName": "Products",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.products",
+        "Value": "",
+        "OptionsPath": "products"
+      },
+      {
         "DisplayTitle": "Preferred timezone",
         "FieldName": "TimeZone",
         "Style": "inputText",
