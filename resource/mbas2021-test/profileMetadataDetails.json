@@ -124,9 +124,9 @@
         "FieldName": "Products",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.products",
+        "Path": "detail.productsUsed",
         "Value": "",
-        "OptionsPath": "products"
+        "OptionsPath": "productsUsed"
       },
       {
         "DisplayTitle": "Preferred timezone",
