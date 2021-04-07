@@ -30,7 +30,8 @@
         "Attendee",
         "Attendee Microsoft",
         "Speaker/Staff Microsoft",
-        "Speaker/Staff External"
+        "Speaker/Staff External",
+        "Crew"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -46,7 +47,8 @@
         "Attendee",
         "Attendee Microsoft",
         "Speaker/Staff Microsoft",
-        "Speaker/Staff External"
+        "Speaker/Staff External",
+        "Crew"
       ],
       "Reporting": {
         "SessionCounts": false
