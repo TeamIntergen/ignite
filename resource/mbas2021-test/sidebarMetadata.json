@@ -358,7 +358,7 @@
       {
         "title": "Communities",
         "layout": "link",
-        "listings": "",
+        "listings": "filters",
         "subtype": "communities",
         "subMetadata": []
       }
