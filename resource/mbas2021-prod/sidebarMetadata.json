@@ -354,6 +354,13 @@
         "listings": "",
         "subtype": "timeZone",
         "subMetadata": []
+      },
+      {
+        "title": "Communities",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "communities",
+        "subMetadata": []
       }
     ]
   }
