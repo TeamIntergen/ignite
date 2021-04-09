@@ -3,32 +3,47 @@
     {
       "HubbId": 1008,
       "SessionTypeName": "Featured Session",
-      "SessionSets": ["Featured Sessions"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler","My Schedule"]
     },
     {
       "HubbId": 1011,
       "SessionTypeName": "Keynote",
-      "SessionSets": ["External Sessions", "Internal Sessions"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1012,
+      "SessionTypeName": "Learning Zone",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1013,
       "SessionTypeName": "Connection Zone",
-      "SessionSets": ["Internal Sessions"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1014,
+      "SessionTypeName": "Studio",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1015,
+      "SessionTypeName": "Always On",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1016,
+      "SessionTypeName": "Strategic Meeting",
+      "SessionSets": ["My Schedule"]
     },
     {
       "HubbId": 1017,
-      "SessionTypeName": "Interstitial",
-      "SessionSets": ["External Sessions", "Internal Sessions"]
-    },
-    {
-      "HubbId": 1010,
-      "SessionTypeName": "Keynote Day 2",
-      "SessionSets": ["Internal Sessions"]
-    },
-    {
-      "HubbId": 1018,
-      "SessionTypeName": "Interstitial Day 2",
-      "SessionSets": ["Internal Sessions"]
+      "SessionTypeName": "On-Demand Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler"]
     },
     {
       "HubbId": 9999,
