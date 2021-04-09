@@ -10,10 +10,38 @@
         "subMetadata": []
       },
       {
-        "title": "Topic",
+        "title": "Solution area",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "solutionArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Theme",
         "layout": "link",
         "listings": "filters",
         "subtype": "topics",
+        "subMetadata": []
+      },
+      {
+        "title": "Product",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "product",
+        "subMetadata": []
+      },
+      {
+        "title": "Level",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "Connection Zone Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "connectionZoneTopic",
         "subMetadata": []
       }
     ]
