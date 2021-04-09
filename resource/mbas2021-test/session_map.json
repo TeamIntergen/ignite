@@ -42,8 +42,8 @@
     },
     {
       "HubbId": 1017,
-      "SessionTypeName": "Presentation",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionTypeName": "On-Demand Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler"]
     },
     {
       "HubbId": 9999,
