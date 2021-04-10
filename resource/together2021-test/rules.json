@@ -1,9 +1,11 @@
 {
   "UserAccess": [
     {
-      "Identifiers": ["Anonymous"],
+      "Identifiers": [
+        "Anonymous"
+      ],
       "Access": {
-        "SessionCatalog": true,
+        "SessionCatalog": false,
         "MyIgnite": false,
         "ScheduleBuilder": false,
         "MobileApp": false,
@@ -17,22 +19,17 @@
         "SessionCounts": false
       },
       "EvalAccess": [],
-      "SessionSetAccess": [
-        {
-          "ApplicableFrom": null,
-          "ApplicableTo": null,
-          "Identifier": "Session Catalog"
-        }
-      ]
+      "SessionSetAccess": []
     },
     {
       "Identifiers": [
         "Attendee",
-        "Attendee Special Content",
-        "External Event Support",
-        "External Guests",
-        "Executive",
-        "Speaker Internal"
+        "Attendee Other",
+        "Speaker Internal",
+        "Speaker External",
+        "Speaker Non-Microsoft",
+        "Crew",
+        "Non-Attending Group Manager (EAs)"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -44,8 +41,7 @@
         "LocationBasedMessaging": true,
         "InPersonExperience": true
       },
-      "VisibleAttendeeTypes": [
-      ],
+      "VisibleAttendeeTypes": [],
       "Reporting": {
         "SessionCounts": false
       },
