@@ -2,28 +2,33 @@
   "SessionSetMap": [
     {
       "HubbId": 1000,
-      "SessionTypeName": "Key Segment",
+      "SessionTypeName": "Featured Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1001,
-      "SessionTypeName": "Connection Zone",
+      "SessionTypeName": "Interactive Discussions",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1002,
-      "SessionTypeName": "Pre-recorded",
+      "SessionTypeName": "Together Zone",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1003,
-      "SessionTypeName": "Digital Breakout",
+      "SessionTypeName": "Keynote",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1004,
-      "SessionTypeName": "General Session",
+      "SessionTypeName": "Studio",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "On-demand Learning",
+      "SessionSets": ["Session Catalog", "Session Scheduler"]
     }
   ]
 }
