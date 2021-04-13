@@ -94,7 +94,7 @@
       },
       {
         "DisplayTitle": "Job Category",
-        "FieldName": "JobCategory",
+        "FieldName": "jobCategoryGroup",
         "Style": "selectGroup",
         "Class": "",
         "Path": "detail.jobCategoryGroup",
@@ -121,7 +121,7 @@
       },
       {
         "DisplayTitle": "Products of interest",
-        "FieldName": "Products",
+        "FieldName": "productsUsed",
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.productsUsed",
