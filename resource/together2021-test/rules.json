@@ -2,6 +2,7 @@
   "UserAccess": [
     {
       "Identifiers": [
+        "Speaker External",
         "Anonymous"
       ],
       "Access": {
@@ -26,7 +27,6 @@
         "Attendee",
         "Attendee Other",
         "Speaker Internal",
-        "Speaker External",
         "Speaker Non-Microsoft",
         "Crew",
         "Non-Attending Group Manager (EAs)"
