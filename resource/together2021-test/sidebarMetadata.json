@@ -1,5 +1,31 @@
 [
   {
+    "sidebarType": "session-tags",
+    "metadata": [
+      {
+        "title": "Session type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": []
+      },
+      {
+        "title": "Role",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "role",
+        "subMetadata": []
+      },
+      {
+        "title": "Track",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "track",
+        "subMetadata": []
+      }
+    ]
+  },
+  {
     "sidebarType": "sessions",
     "metadata": [
       {
