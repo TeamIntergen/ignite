@@ -1,5 +1,31 @@
 [
   {
+    "sidebarType": "session-tags",
+    "metadata": [
+      {
+        "title": "Session type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": []
+      },
+      {
+        "title": "Role",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "role",
+        "subMetadata": []
+      },
+      {
+        "title": "Track",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "track",
+        "subMetadata": []
+      }
+    ]
+  },
+  {
     "sidebarType": "sessions",
     "metadata": [
       {
@@ -14,20 +40,28 @@
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
+        "subMetadata": [
+          {
+            "title": "",
+            "layout": "no-link",
+            "listings": "time",
+            "subtype": "durationInMinutes",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "Level",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "level",
         "subMetadata": []
       },
       {
-        "title": "Track",
+        "title": "Products",
         "layout": "link",
-        "listings": "filters",
-        "subtype": "track",
-        "subMetadata": []
-      },
-      {
-        "title": "Role",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "role",
+        "listings": "leafNodeFilters",
+        "subtype": "products",
         "subMetadata": []
       },
       {
