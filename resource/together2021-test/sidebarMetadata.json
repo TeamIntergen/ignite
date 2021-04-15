@@ -14,28 +14,20 @@
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
-        "subMetadata": [
-          {
-            "title": "",
-            "layout": "no-link",
-            "listings": "time",
-            "subtype": "durationInMinutes",
-            "subMetadata": []
-          }
-        ]
-      },
-      {
-        "title": "Level",
-        "layout": "no-link",
-        "listings": "",
-        "subtype": "level",
         "subMetadata": []
       },
       {
-        "title": "Products",
+        "title": "Track",
         "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "products",
+        "listings": "filters",
+        "subtype": "track",
+        "subMetadata": []
+      },
+      {
+        "title": "Role",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "role",
         "subMetadata": []
       },
       {
