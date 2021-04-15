@@ -3,32 +3,32 @@
     {
       "HubbId": 1000,
       "SessionTypeName": "Featured Session",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1001,
       "SessionTypeName": "Interactive Discussions",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1002,
       "SessionTypeName": "Together Zone",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1003,
       "SessionTypeName": "Keynote",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1004,
       "SessionTypeName": "Studio",
-      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1005,
       "SessionTypeName": "On-demand Learning",
-      "SessionSets": ["Session Catalog", "Session Scheduler"]
+      "SessionSets": ["Session Scheduler"]
     }
   ]
 }
