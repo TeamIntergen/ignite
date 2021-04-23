@@ -93,42 +93,6 @@
         }
       },
       {
-        "DisplayTitle": "Job Category",
-        "FieldName": "jobCategoryGroup",
-        "Style": "selectGroup",
-        "Class": "",
-        "Path": "detail.jobCategoryGroup",
-        "Value": "",
-        "OptionsPath": "jobCategoryGroup"
-      },
-      {
-        "DisplayTitle": "Communities",
-        "FieldName": "communities",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.communities",
-        "Value": "",
-        "OptionsPath": "communities"
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "industry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.industry",
-        "Value": "",
-        "OptionsPath": "industry"
-      },
-      {
-        "DisplayTitle": "Products of interest",
-        "FieldName": "productsUsed",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.productsUsed",
-        "Value": "",
-        "OptionsPath": "productsUsed"
-      },
-      {
         "DisplayTitle": "Preferred timezone",
         "FieldName": "TimeZone",
         "Style": "inputText",
