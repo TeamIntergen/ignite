@@ -31,6 +31,8 @@
         "Attendee Microsoft",
         "Speaker/Staff Microsoft",
         "Speaker/Staff External",
+        "Speaker Internal",
+        "Speaker External",
         "Executive",
         "Crew"
       ],
@@ -49,6 +51,8 @@
         "Attendee Microsoft",
         "Speaker/Staff Microsoft",
         "Speaker/Staff External",
+        "Speaker Internal",
+        "Speaker External",
         "Executive",
         "Crew"
       ],
