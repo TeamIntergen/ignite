@@ -29,6 +29,8 @@
       "Identifiers": [
         "Attendee",
         "Attendee Microsoft",
+        "Speaker Internal",
+        "Speaker External",
         "Speaker/Staff Microsoft",
         "Speaker/Staff External",
         "Executive",
@@ -49,6 +51,8 @@
         "Attendee Microsoft",
         "Speaker/Staff Microsoft",
         "Speaker/Staff External",
+        "Speaker Internal",
+        "Speaker External",
         "Executive",
         "Crew"
       ],
