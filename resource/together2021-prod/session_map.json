@@ -8,7 +8,7 @@
     {
       "HubbId": 1001,
       "SessionTypeName": "Interactive Discussion",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionSets": ["My Schedule"]
     },
     {
       "HubbId": 1002,
