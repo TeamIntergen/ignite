@@ -363,10 +363,10 @@
         "subMetadata": []
       },
       {
-        "title": "Topic",
+        "title": "translate.facet.topics-requested",
         "layout": "link",
         "listings": "filters",
-        "subtype": "topic",
+        "subtype": "topicsRequested",
         "subMetadata": []
       },
       {
