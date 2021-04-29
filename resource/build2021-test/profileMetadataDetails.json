@@ -81,6 +81,14 @@
         }
       },
       {
+        "DisplayTitle": "Topics",
+        "FieldName": "TopicsRequested",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.topicsRequested",
+        "Value": ""
+      },
+      {
         "DisplayTitle": "Website",
         "FieldName": "Website",
         "Style": "inputText",
