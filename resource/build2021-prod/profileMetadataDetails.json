@@ -86,6 +86,7 @@
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.topicsRequested",
+        "OptionsPath":"topicsRequested",
         "Value": ""
       },
       {
