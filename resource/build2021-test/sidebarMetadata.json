@@ -17,7 +17,7 @@
         "subMetadata": []
       },
       {
-        "title": "Theme",
+        "title": "translate.facet.coretheme",
         "layout": "link",
         "listings": "filters",
         "subtype": "topics",
