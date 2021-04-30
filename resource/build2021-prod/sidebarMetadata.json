@@ -20,7 +20,7 @@
         "title": "Theme",
         "layout": "link",
         "listings": "filters",
-        "subtype": "topics",
+        "subtype": "theme",
         "subMetadata": []
       },
       {
