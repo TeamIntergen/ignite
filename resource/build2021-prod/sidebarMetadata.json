@@ -3,49 +3,49 @@
     "sidebarType": "session-tags",
     "metadata": [
       {
-        "title": "Session type",
+        "title": "translate.session.tag.sessiontype",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
         "subMetadata": []
       },
       {
-        "title": "Solution area",
+        "title": "translate.session.tag.solutionarea",
         "layout": "link",
         "listings": "leafNodeFilters",
         "subtype": "solutionArea",
         "subMetadata": []
       },
       {
-        "title": "Core theme",
+        "title": "translate.session.tag.theme",
         "layout": "link",
         "listings": "filters",
         "subtype": "theme",
         "subMetadata": []
       },
       {
-        "title": "Product",
+        "title": "translate.session.tag.product",
         "layout": "link",
         "listings": "filters",
         "subtype": "product",
         "subMetadata": []
       },
       {
-        "title": "Level",
+        "title": "translate.session.tag.level",
         "layout": "link",
         "listings": "filters",
         "subtype": "level",
         "subMetadata": []
       },
       {
-        "title": "Connection Zone Topic",
+        "title": "translate.session.tag.communitytopic",
         "layout": "link",
         "listings": "filters",
         "subtype": "communityTopic",
         "subMetadata": []
       },
       {
-        "title": "Topic",
+        "title": "translate.session.tag.topic",
         "layout": "link",
         "listings": "filters",
         "subtype": "topic",
