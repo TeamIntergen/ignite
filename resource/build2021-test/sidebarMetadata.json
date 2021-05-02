@@ -41,7 +41,7 @@
         "title": "Connection Zone Topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "connectionZoneTopic",
+        "subtype": "communityTopic",
         "subMetadata": []
       }
     ]
