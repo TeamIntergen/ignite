@@ -43,6 +43,13 @@
         "listings": "filters",
         "subtype": "communityTopic",
         "subMetadata": []
+      },
+      {
+        "title": "Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
       }
     ]
   },
