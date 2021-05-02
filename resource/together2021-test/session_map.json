@@ -1,0 +1,34 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "Featured Session",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "Interactive Discussion",
+      "SessionSets": ["My Schedule"]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Together Zone",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Studio",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "On-demand Learning",
+      "SessionSets": ["Session Scheduler"]
+    }
+  ]
+}
