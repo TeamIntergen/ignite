@@ -17,7 +17,7 @@
         "subMetadata": []
       },
       {
-        "title": "Theme",
+        "title": "Core theme",
         "layout": "link",
         "listings": "filters",
         "subtype": "theme",
@@ -41,7 +41,14 @@
         "title": "Connection Zone Topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "connectionZoneTopic",
+        "subtype": "communityTopic",
+        "subMetadata": []
+      },
+      {
+        "title": "Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
         "subMetadata": []
       }
     ]
