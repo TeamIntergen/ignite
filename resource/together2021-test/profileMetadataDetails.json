@@ -11,7 +11,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "First name",
+        "DisplayTitle": "First Name",
         "FieldName": "FirstName",
         "Style": "readonly",
         "Class": "",
@@ -19,7 +19,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Last name",
+        "DisplayTitle": "Last Name",
         "FieldName": "LastName",
         "Style": "readonly",
         "Class": "",
@@ -27,12 +27,15 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Biography",
-        "FieldName": "Biography",
-        "Style": "textArea",
+        "DisplayTitle": "Job Title",
+        "FieldName": "Title",
+        "Style": "inputText",
         "Class": "",
-        "Path": "detail.biography",
-        "Value": ""
+        "Path": "detail.title",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        }
       },
       {
         "DisplayTitle": "Company",
@@ -46,15 +49,20 @@
         }
       },
       {
-        "DisplayTitle": "Job title",
-        "FieldName": "Title",
+        "DisplayTitle": "Country of Business",
+        "FieldName": "CountryOfBusiness",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.title",
-        "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        }
+        "Path": "detail.businessCountry",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": ""
       },
       {
         "DisplayTitle": "LinkedIn",
@@ -63,10 +71,7 @@
         "Class": "",
         "Path": "social.linkedIn",
         "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.linkedin.com/in/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
-        }
+        "Regex": "https?://.*linkedin.com/in/.+"
       },
       {
         "DisplayTitle": "Twitter",
@@ -75,10 +80,7 @@
         "Class": "",
         "Path": "social.twitter",
         "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.twitter.com/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
-        }
+        "Regex": "@([A-Za-z0-9_]+)$"
       },
       {
         "DisplayTitle": "Website",
@@ -87,23 +89,25 @@
         "Class": "",
         "Path": "social.website",
         "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://.+$",
-          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        }
-      },
+        "Regex": "^https?://.+$"
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Company Profile",
+    "ItemsToShow": [
       {
         "DisplayTitle": "Job Category",
-        "FieldName": "jobCategoryGroup",
-        "Style": "selectGroup",
+        "FieldName": "JobCategory",
+        "Style": "Options",
         "Class": "",
-        "Path": "detail.jobCategoryGroup",
+        "Path": "detail.jobRole",
         "Value": "",
-        "OptionsPath": "jobCategoryGroup"
+        "OptionsPath": "jobRole"
       },
       {
         "DisplayTitle": "Communities",
-        "FieldName": "communities",
+        "FieldName": "Communities",
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.communities",
@@ -112,7 +116,7 @@
       },
       {
         "DisplayTitle": "Industry",
-        "FieldName": "industry",
+        "FieldName": "Industry",
         "Style": "Options",
         "Class": "",
         "Path": "detail.industry",
@@ -120,34 +124,18 @@
         "OptionsPath": "industry"
       },
       {
-        "DisplayTitle": "Products of interest",
-        "FieldName": "productsUsed",
+        "DisplayTitle": "Products",
+        "FieldName": "Products",
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.productsUsed",
         "Value": "",
         "OptionsPath": "productsUsed"
-      },
-      {
-        "DisplayTitle": "Preferred timezone",
-        "FieldName": "TimeZone",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.timeZone",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Languages spoken",
-        "FieldName": "LanguagesSpoken",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.languagesSpoken",
-        "Value": ""
       }
     ]
   },
   {
-    "HeadingTitle": "Contact preferences",
+    "HeadingTitle": "Settings",
     "ItemsToShow": [
       {
         "DisplayTitle": "Login",
@@ -164,42 +152,42 @@
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "Privacy & notifications",
+        "DisplayTitle": "Privacy & Notifications",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
           {
-            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "DisplayTitle": "Make my profile visible in the MyMBAS directory and allow me to receive messages and meeting invitations from other attendees",
             "FieldName": "CanBeFound",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canBeFound",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.can-share-sessions",
-            "FieldName": "CanShareSessions",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.canShareSessions",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.publicly-visible",
-            "FieldName": "IsPubliclyVisible",
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.isPubliclyVisible",
             "Value": ""
           },
           {
-            "DisplayTitle": "translate.profile-edit.featured-partners",
-            "FieldName": "FeaturedPartners",
+            "DisplayTitle": "Automatically send to my calendar any sessions I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarSessions",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.featuredPartners",
+            "Path": "optins.sendToCalendarSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Automatically send to my calendar any agenda items I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarAgendaItems",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarAgendaItems",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "Automatically send to my calendar any meeting appointments I add to my MyMBAS Schedule",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.sendToCalendarMeetingAppointments",
             "Value": ""
           }
         ]

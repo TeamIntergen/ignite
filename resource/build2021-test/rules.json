@@ -29,11 +29,8 @@
       "Identifiers": [
         "Attendee",
         "Attendee Microsoft",
-        "Speaker Internal",
-        "Speaker External",
-        "Speaker/Staff Microsoft",
         "Speaker/Staff External",
-        "Executive",
+        "Speaker/Staff Microsoft",
         "Crew"
       ],
       "Access": {
@@ -49,11 +46,8 @@
       "VisibleAttendeeTypes": [
         "Attendee",
         "Attendee Microsoft",
-        "Speaker/Staff Microsoft",
         "Speaker/Staff External",
-        "Speaker Internal",
-        "Speaker External",
-        "Executive",
+        "Speaker/Staff Microsoft",
         "Crew"
       ],
       "Reporting": {
