@@ -8,7 +8,8 @@
         "Style": "picture",
         "Class": "",
         "Path": "detail.profileImage",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 40
       },
       {
         "DisplayTitle": "First name",
@@ -32,7 +33,8 @@
         "Style": "textArea",
         "Class": "",
         "Path": "detail.biography",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 40
       },
       {
         "DisplayTitle": "Company",
@@ -43,7 +45,8 @@
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2
-        }
+        },
+        "CompletionWeight": 4
       },
       {
         "DisplayTitle": "Job title",
@@ -66,7 +69,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.linkedin.com/in/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
-        }
+        },
+        "CompletionWeight": 4
       },
       {
         "DisplayTitle": "Twitter",
@@ -78,7 +82,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
-        }
+        },
+        "CompletionWeight": 4
       },
       {
         "DisplayTitle": "Topics",
@@ -87,7 +92,8 @@
         "Class": "",
         "Path": "detail.topicsRequested",
         "OptionsPath":"topicsRequested",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 4
       },
       {
         "DisplayTitle": "Website",
@@ -99,7 +105,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://.+$",
           "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        }
+        },
+        "CompletionWeight": 4
       },
       {
         "DisplayTitle": "Preferred timezone",
