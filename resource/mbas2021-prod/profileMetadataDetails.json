@@ -8,7 +8,8 @@
         "Style": "picture",
         "Class": "",
         "Path": "detail.profileImage",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 42
       },
       {
         "DisplayTitle": "First name",
@@ -32,7 +33,8 @@
         "Style": "textArea",
         "Class": "",
         "Path": "detail.biography",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 40
       },
       {
         "DisplayTitle": "Company",
@@ -43,7 +45,8 @@
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2
-        }
+        },
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Job title",
@@ -54,7 +57,8 @@
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2
-        }
+        },
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "LinkedIn",
@@ -66,7 +70,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.linkedin.com/in/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
-        }
+        },
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Twitter",
@@ -78,7 +83,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
-        }
+        },
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Website",
@@ -90,7 +96,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://.+$",
           "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        }
+        },
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Job Category",
@@ -99,7 +106,8 @@
         "Class": "",
         "Path": "detail.jobCategoryGroup",
         "Value": "",
-        "OptionsPath": "jobCategoryGroup"
+        "OptionsPath": "jobCategoryGroup",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Communities",
@@ -108,7 +116,8 @@
         "Class": "",
         "Path": "detail.communities",
         "Value": "",
-        "OptionsPath": "communities"
+        "OptionsPath": "communities",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Industry",
@@ -117,7 +126,8 @@
         "Class": "",
         "Path": "detail.industry",
         "Value": "",
-        "OptionsPath": "industry"
+        "OptionsPath": "industry",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Products of interest",
@@ -126,7 +136,8 @@
         "Class": "",
         "Path": "detail.productsUsed",
         "Value": "",
-        "OptionsPath": "productsUsed"
+        "OptionsPath": "productsUsed",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Preferred timezone",
