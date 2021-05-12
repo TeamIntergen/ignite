@@ -26,9 +26,14 @@
       "SessionSets": ["Session Catalog", "Session Scheduler"]
     },
     {
+      "HubbId": 1018,
+      "SessionTypeName": "Strategic Meeting",
+      "SessionSets": ["Session Scheduler"]
+    },
+    {
       "HubbId": 1010,
       "SessionTypeName": "Technical Session",
-      "SessionSets": ["Session Catalog", "Session Scheduler","My Schedule"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 9999,
