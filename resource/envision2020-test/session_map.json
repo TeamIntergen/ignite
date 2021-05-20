@@ -19,6 +19,11 @@
       "HubbId": 1011,
       "SessionTypeName": "Regional Perspectives",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+   {
+      "HubbId": 1012,
+      "SessionTypeName": "Industry perspectives",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     }
   ]
 }
