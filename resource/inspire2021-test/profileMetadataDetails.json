@@ -60,6 +60,19 @@
         }
       },
       {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.+$",
+          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+        },
+        "CompletionWeight": 4
+      },
+      {
         "DisplayTitle": "LinkedIn",
         "FieldName": "LinkedIn",
         "Style": "inputText",
@@ -86,35 +99,74 @@
         "CompletionWeight": 4
       },
       {
-        "DisplayTitle": "Topics",
-        "FieldName": "TopicsRequested",
+        "DisplayTitle": "Title",
+        "FieldName": "JobCategory",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Business Focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.businessFocus",
+        "Value": "",
+        "OptionsPath": "businessFocus",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Line of Business",
+        "FieldName": "JobFunction",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.jobFunction",
+        "Value": "",
+        "OptionsPath": "jobFunction",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Industry Focus",
+        "FieldName": "IndustryFocus",
         "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.topicsRequested",
-        "OptionsPath":"topicsRequested",
+        "Path": "detail.industryFocus",
+        "OptionsPath":"industryFocus",
         "Value": "",
         "CompletionWeight": 4
       },
       {
-        "DisplayTitle": "Website",
-        "FieldName": "Website",
-        "Style": "inputText",
+        "DisplayTitle": "Attendee Type",
+        "FieldName": "AttendeeTypeDirectory",
+        "Style": "Options",
         "Class": "",
-        "Path": "social.website",
+        "Path": "detail.attendeeTypeDirectory",
         "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://.+$",
-          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        },
-        "CompletionWeight": 4
+        "OptionsPath": "attendeeTypeDirectory",
+        "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Preferred timezone",
-        "FieldName": "TimeZone",
-        "Style": "inputText",
+        "DisplayTitle": "Connection Interests",
+        "FieldName": "Interests",
+        "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.timeZone",
-        "Value": ""
+        "Path": "detail.interests",
+        "OptionsPath":"interests",
+        "Value": "",
+        "CompletionWeight": 4
       },
       {
         "DisplayTitle": "Languages spoken",
@@ -122,6 +174,14 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
         "Value": ""
       }
     ]
