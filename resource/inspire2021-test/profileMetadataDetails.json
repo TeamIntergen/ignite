@@ -97,6 +97,16 @@
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
         },
         "CompletionWeight": 4
+      },
+      {
+        "DisplayTitle": "Title",
+        "FieldName": "JobCategory",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory",
+        "CompletionWeight": 2
       }
     ]
   },
