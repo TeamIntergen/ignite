@@ -137,6 +137,16 @@
         "Value": "",
         "OptionsPath": "customerSegment",
         "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Industry Focus",
+        "FieldName": "IndustryFocus",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.industryFocus",
+        "OptionsPath":"industryFocus",
+        "Value": "",
+        "CompletionWeight": 4
       }
     ]
   },
