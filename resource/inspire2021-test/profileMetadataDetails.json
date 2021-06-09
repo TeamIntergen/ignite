@@ -127,6 +127,16 @@
         "Value": "",
         "OptionsPath": "jobFunction",
         "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment",
+        "CompletionWeight": 2
       }
     ]
   },
