@@ -101,7 +101,7 @@
       {
         "DisplayTitle": "Title",
         "FieldName": "JobCategory",
-        "Style": "Options",
+        "Style": "selectGroup",
         "Class": "",
         "Path": "detail.jobCategory",
         "Value": "",
