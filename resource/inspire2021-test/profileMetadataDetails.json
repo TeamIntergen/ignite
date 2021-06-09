@@ -107,6 +107,16 @@
         "Value": "",
         "OptionsPath": "jobCategory",
         "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Business Focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.businessFocus",
+        "Value": "",
+        "OptionsPath": "businessFocus",
+        "CompletionWeight": 2
       }
     ]
   },
