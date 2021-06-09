@@ -117,6 +117,16 @@
         "Value": "",
         "OptionsPath": "businessFocus",
         "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Line of Business",
+        "FieldName": "JobFunction",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.jobFunction",
+        "Value": "",
+        "OptionsPath": "jobFunction",
+        "CompletionWeight": 2
       }
     ]
   },
