@@ -147,6 +147,16 @@
         "OptionsPath":"industryFocus",
         "Value": "",
         "CompletionWeight": 4
+      },
+      {
+        "DisplayTitle": "Attendee Type",
+        "FieldName": "AttendeeTypeDirectory",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.attendeeTypeDirectory",
+        "Value": "",
+        "OptionsPath": "attendeeTypeDirectory",
+        "CompletionWeight": 2
       }
     ]
   },
