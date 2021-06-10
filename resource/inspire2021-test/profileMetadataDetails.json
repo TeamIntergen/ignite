@@ -157,6 +157,16 @@
         "Value": "",
         "OptionsPath": "attendeeTypeDirectory",
         "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Connection Interests",
+        "FieldName": "Interests",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.interests",
+        "OptionsPath":"interests",
+        "Value": "",
+        "CompletionWeight": 4
       }
     ]
   },
