@@ -167,6 +167,22 @@
         "OptionsPath":"interests",
         "Value": "",
         "CompletionWeight": 4
+      },
+      {
+        "DisplayTitle": "Languages spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
+        "Value": ""
       }
     ]
   },
