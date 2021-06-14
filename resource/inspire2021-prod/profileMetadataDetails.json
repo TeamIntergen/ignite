@@ -9,7 +9,7 @@
         "Class": "",
         "Path": "detail.profileImage",
         "Value": "",
-        "CompletionWeight": 40
+        "CompletionWeight": 42
       },
       {
         "DisplayTitle": "First name",
@@ -46,7 +46,7 @@
         "OptionalAttributes": {
           "MinimumLength": 2
         },
-        "CompletionWeight": 4
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Job title",
@@ -57,43 +57,8 @@
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2
-        }
-      },
-      {
-        "DisplayTitle": "LinkedIn",
-        "FieldName": "LinkedIn",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.linkedIn",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.linkedin.com/in/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
         },
-        "CompletionWeight": 4
-      },
-      {
-        "DisplayTitle": "Twitter",
-        "FieldName": "Twitter",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.twitter",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.twitter.com/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
-        },
-        "CompletionWeight": 4
-      },
-      {
-        "DisplayTitle": "Topics",
-        "FieldName": "TopicsRequested",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.topicsRequested",
-        "OptionsPath":"topicsRequested",
-        "Value": "",
-        "CompletionWeight": 4
+        "CompletionWeight": 42
       },
       {
         "DisplayTitle": "Website",
@@ -106,15 +71,103 @@
           "Regex": "^https?://.+$",
           "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
         },
-        "CompletionWeight": 4
+        "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Preferred timezone",
-        "FieldName": "TimeZone",
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
         "Style": "inputText",
         "Class": "",
-        "Path": "detail.timeZone",
-        "Value": ""
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+        },
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.twitter.com/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
+        },
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Title",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Business Focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.businessFocus",
+        "Value": "",
+        "OptionsPath": "businessFocus",
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Line of Business",
+        "FieldName": "JobFunction",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.jobFunction",
+        "Value": "",
+        "OptionsPath": "jobFunction",
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Customer Segment",
+        "FieldName": "CustomerSegment",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment",
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Industry Focus",
+        "FieldName": "IndustryFocus",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.industryFocus",
+        "OptionsPath":"industryFocus",
+        "Value": "",
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Attendee Type",
+        "FieldName": "AttendeeTypeDirectory",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.attendeeTypeDirectory",
+        "Value": "",
+        "OptionsPath": "attendeeTypeDirectory",
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Connection Interests",
+        "FieldName": "Interests",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.interests",
+        "OptionsPath":"interests",
+        "Value": "",
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Languages spoken",
@@ -122,7 +175,17 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.languagesSpoken",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
+        "Value": "",
+        "CompletionWeight": 1
       }
     ]
   },
