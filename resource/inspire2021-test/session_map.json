@@ -22,17 +22,12 @@
     },
     {
       "HubbId": 1017,
-      "SessionTypeName": "On-Demand",
-      "SessionSets": ["Session Catalog", "Session Scheduler"]
+      "SessionTypeName": "On-Demand Session",
+      "SessionSets": ["Session Catalog"]
     },
     {
       "HubbId": 1018,
-      "SessionTypeName": "Strategic Meeting",
-      "SessionSets": ["My Schedule"]
-    },
-    {
-      "HubbId": 1010,
-      "SessionTypeName": "Technical Session",
+      "SessionTypeName": "Theme Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
