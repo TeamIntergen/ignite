@@ -9,7 +9,7 @@
         "Class": "",
         "Path": "detail.profileImage",
         "Value": "",
-        "CompletionWeight": 40
+        "CompletionWeight": 42
       },
       {
         "DisplayTitle": "First name",
@@ -46,7 +46,7 @@
         "OptionalAttributes": {
           "MinimumLength": 2
         },
-        "CompletionWeight": 4
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Job title",
@@ -57,7 +57,8 @@
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2
-        }
+        },
+        "CompletionWeight": 42
       },
       {
         "DisplayTitle": "Website",
@@ -70,7 +71,7 @@
           "Regex": "^https?://.+$",
           "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
         },
-        "CompletionWeight": 4
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "LinkedIn",
@@ -83,7 +84,7 @@
           "Regex": "^https?://www.linkedin.com/in/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
         },
-        "CompletionWeight": 4
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Twitter",
@@ -96,7 +97,7 @@
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
         },
-        "CompletionWeight": 4
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Title",
@@ -116,7 +117,7 @@
         "Path": "detail.businessFocus",
         "Value": "",
         "OptionsPath": "businessFocus",
-        "CompletionWeight": 2
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Line of Business",
@@ -126,7 +127,7 @@
         "Path": "detail.jobFunction",
         "Value": "",
         "OptionsPath": "jobFunction",
-        "CompletionWeight": 2
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Customer Segment",
@@ -136,7 +137,7 @@
         "Path": "detail.customerSegment",
         "Value": "",
         "OptionsPath": "customerSegment",
-        "CompletionWeight": 2
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Industry Focus",
@@ -146,7 +147,7 @@
         "Path": "detail.industryFocus",
         "OptionsPath":"industryFocus",
         "Value": "",
-        "CompletionWeight": 4
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Attendee Type",
@@ -156,7 +157,7 @@
         "Path": "detail.attendeeTypeDirectory",
         "Value": "",
         "OptionsPath": "attendeeTypeDirectory",
-        "CompletionWeight": 2
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Connection Interests",
@@ -166,7 +167,7 @@
         "Path": "detail.interests",
         "OptionsPath":"interests",
         "Value": "",
-        "CompletionWeight": 4
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Languages spoken",
@@ -174,7 +175,8 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.languagesSpoken",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 1
       },
       {
         "DisplayTitle": "Preferred timezone",
@@ -182,7 +184,8 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.timeZone",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 1
       }
     ]
   },
