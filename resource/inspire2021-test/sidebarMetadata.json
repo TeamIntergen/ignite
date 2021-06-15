@@ -272,129 +272,87 @@
     "sidebarType": "attendees",
     "metadata": [
       {
-        "title": "LinkedIn",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "linkedin",
-        "subMetadata": []
-      },
-      {
-        "title": "Twitter",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "twitter",
-        "subMetadata": []
-      },
-      {
-        "title": "Website",
+        "title": "translate.attendee.filters.website",
         "layout": "link",
         "listings": "link",
         "subtype": "website",
         "subMetadata": []
       },
       {
-        "title": "Job category",
+        "title": "translate.attendee.filters.linked-in",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "linkedin",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.attendee.filters.twitter",
+        "layout": "link",
+        "listings": "link",
+        "subtype": "twitter",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.attendee.filters.job-category",
         "layout": "link",
         "listings": "filters",
         "subtype": "jobCategory",
         "subMetadata": []
       },
       {
-        "title": "Industry focus",
+        "title": "translate.attendee.filters.business-focus",
         "layout": "link",
         "listings": "filters",
-        "subtype": "industryFocus",
+        "subtype": "BusinessFocus",
         "subMetadata": []
       },
       {
-        "title": "Business focus",
+        "title": "translate.attendee.filters.job-function",
         "layout": "link",
         "listings": "filters",
-        "subtype": "businessFocus",
+        "subtype": "JobFunction",
         "subMetadata": []
       },
       {
-        "title": "Customer segment",
+        "title": "translate.attendee.filters.customer-segment",
         "layout": "link",
         "listings": "filters",
-        "subtype": "customerSegment",
+        "subtype": "CustomerSegment",
         "subMetadata": []
       },
       {
-        "title": "Industry Area",
+        "title": "translate.attendee.filters.industry-focus",
         "layout": "link",
         "listings": "filters",
-        "subtype": "industryArea",
+        "subtype": "IndustryFocus",
         "subMetadata": []
       },
       {
-        "title": "Profile Practice Area",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "profilePracticeArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Geographic Area",
+        "title": "translate.attendee.filters.attendee-type",
         "layout": "link",
         "listings": "filters",
-        "subtype": "ouArea",
+        "subtype": "AttendeeTypeDirectoryFilter",
         "subMetadata": []
       },
       {
-        "title": "Partner Type",
+        "title": "translate.attendee.filters.connection-interests",
         "layout": "link",
         "listings": "filters",
-        "subtype": "partnerType",
+        "subtype": "Interests",
         "subMetadata": []
       },
       {
-        "title": "translate.filters.roles",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "roles",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industry",
-        "subMetadata": []
-      },
-      {
-        "title": "Products of Interest",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "products",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.facet.topics-requested",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "topicsRequested",
-        "subMetadata": []
-      },
-      {
-        "title": "Languages Spoken",
+        "title": "translate.attendee.filters.languages-spoken",
         "layout": "link",
         "listings": "",
         "subtype": "languages",
         "subMetadata": []
       },
       {
-        "title": "Preferred Time Zone",
+        "title": "translate.attendee.filters.preferred-time-zone",
         "layout": "link",
         "listings": "",
         "subtype": "timeZone",
-        "subMetadata": []
-      },
-      {
-        "title": "Communities",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "communities",
         "subMetadata": []
       }
     ]
