@@ -50,6 +50,13 @@
         "listings": "filters",
         "subtype": "topic",
         "subMetadata": []
+      },
+      {
+        "title": "translate.session.tag.partnertype",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "partnerType",
+        "subMetadata": []
       }
     ]
   },
