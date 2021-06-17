@@ -29,6 +29,11 @@
       "HubbId": 1005,
       "SessionTypeName": "On-demand Learning",
       "SessionSets": ["Session Scheduler"]
+    },
+    {
+      "HubbId": 1006,
+      "SessionTypeName": "Platinum Club Experience",
+      "SessionSets": ["Session Scheduler - Platinum Club"]
     }
   ]
 }
