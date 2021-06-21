@@ -54,7 +54,7 @@
       {
         "title": "translate.session.tag.partnertype",
         "layout": "link",
-        "listings": "leafNodeFilters",
+        "listings": "filters",
         "subtype": "partnerType",
         "subMetadata": []
       }
