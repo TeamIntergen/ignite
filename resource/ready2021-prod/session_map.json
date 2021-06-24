@@ -2,23 +2,23 @@
   "SessionSetMap": [
     {
       "HubbId": 1000,
-      "SessionTypeName": "Featured Session",
+      "SessionTypeName": "Breakout Session",
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1001,
-      "SessionTypeName": "Interactive Discussion",
-      "SessionSets": ["My Schedule"]
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1002,
-      "SessionTypeName": "Together Zone",
+      "SessionTypeName": "Keynote",
       "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1003,
-      "SessionTypeName": "Keynote",
-      "SessionSets": ["Session Scheduler", "My Schedule"]
+      "SessionTypeName": "On-Demand",
+      "SessionSets": ["Session Scheduler"]
     },
     {
       "HubbId": 1004,
@@ -27,13 +27,18 @@
     },
     {
       "HubbId": 1005,
-      "SessionTypeName": "On-demand Learning",
-      "SessionSets": ["Session Scheduler"]
+      "SessionTypeName": "Invite Only",
+      "SessionSets": ["My Schedule"]
+    },
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Awards and Celebration",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 1006,
       "SessionTypeName": "Platinum Club Experience",
-      "SessionSets": ["Session Scheduler - Platinum Club"]
+      "SessionSets": ["Session Scheduler - Platinum Club", "My Schedule"]
     }
   ]
 }
