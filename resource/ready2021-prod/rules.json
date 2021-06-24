@@ -28,7 +28,7 @@
         "Speaker External",
         "Speaker Internal",
         "Executive",
-        "Crew/Staff"
+        "Crew"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -79,7 +79,7 @@
         "Speaker External",
         "Speaker Internal",
         "Executive",
-        "Crew/Staff"
+        "Crew"
       ],
       "Reporting": {
         "SessionCounts": false
