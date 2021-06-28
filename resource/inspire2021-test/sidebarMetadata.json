@@ -31,13 +31,6 @@
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.level",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "level",
-        "subMetadata": []
-      },
-      {
         "title": "translate.session.tag.communitytopic",
         "layout": "link",
         "listings": "filters",
