@@ -12,7 +12,8 @@
         "MeetingScheduler": false,
         "MobileAppMessaging": false,
         "LocationBasedMessaging": false,
-        "InPersonExperience": false
+        "InPersonExperience": false,
+        "PlatinumClub": false
       },
       "VisibleAttendeeTypes": [],
       "Reporting": {
@@ -38,7 +39,8 @@
         "MeetingScheduler": false,
         "MobileAppMessaging": true,
         "LocationBasedMessaging": false,
-        "InPersonExperience": true
+        "InPersonExperience": true,
+        "PlatinumClub": false
       },
       "VisibleAttendeeTypes": [],
       "Reporting": {
@@ -70,7 +72,8 @@
         "MeetingScheduler": false,
         "MobileAppMessaging": true,
         "LocationBasedMessaging": false,
-        "InPersonExperience": true
+        "InPersonExperience": true,
+        "PlatinumClub": true
       },
       "VisibleAttendeeTypes": [
         "Platinum Club Winner",

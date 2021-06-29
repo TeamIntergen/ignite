@@ -10,7 +10,8 @@
         "MeetingScheduler": false,
         "MobileAppMessaging": false,
         "LocationBasedMessaging": false,
-        "InPersonExperience": false
+        "InPersonExperience": false,
+        "PlatinumClub": false
       },
       "VisibleAttendeeTypes": [],
       "Reporting": {
@@ -41,7 +42,8 @@
         "MeetingScheduler": true,
         "MobileAppMessaging": true,
         "LocationBasedMessaging": true,
-        "InPersonExperience": true
+        "InPersonExperience": true,
+        "PlatinumClub": false
       },
       "VisibleAttendeeTypes": [
         "Attendee",
