@@ -3,24 +3,38 @@
     "sidebarType": "session-tags",
     "metadata": [
       {
-        "title": "Session type",
+        "title": "translate.session.tag.sessiontype",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
         "subMetadata": []
       },
       {
-        "title": "Role",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "role",
-        "subMetadata": []
-      },
-      {
-        "title": "Track",
+        "title": "translate.session.tag.track",
         "layout": "link",
         "listings": "filters",
         "subtype": "track",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.session.tag.region",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "region",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.session.tag.connectionzonetopic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "connectionZoneTopic",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.session.tag.platinumclubexperience",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "learningZoneTopic",
         "subMetadata": []
       }
     ]
@@ -69,7 +83,7 @@
         "layout": "no-link",
         "listings": "",
         "subtype": "",
-        "subMetadata": [
+        "subMetadata": [          
           {
             "title": "View Slide Deck",
             "layout": "link",
