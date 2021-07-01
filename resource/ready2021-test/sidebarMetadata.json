@@ -27,7 +27,7 @@
         "title": "translate.session.tag.connectionzonetopic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "connectionZoneTopic",
+        "subtype": "communityTopic",
         "subMetadata": []
       },
       {
