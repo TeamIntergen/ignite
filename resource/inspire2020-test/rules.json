@@ -27,10 +27,15 @@
     },
     {
       "Identifiers": [
-        "Attendee",
-        "Attendee Microsoft",
+        "Partner All Access",
+        "Partner Sponsor All Access",
         "Speaker External",
+        "Speaker External Corenote",
+        "MS All Access",
         "Speaker Internal",
+        "Speaker Internal Corenote",
+        "Non-Attending Manager",
+        "Content Lead & Support",
         "Media",
         "Analyst",
         "Crew"
@@ -46,10 +51,15 @@
         "InPersonExperience": true
       },
       "VisibleAttendeeTypes": [
-        "Attendee",
-        "Attendee Microsoft",
+        "Partner All Access",
+        "Partner Sponsor All Access",
         "Speaker External",
+        "Speaker External Corenote",
+        "MS All Access",
         "Speaker Internal",
+        "Speaker Internal Corenote",
+        "Non-Attending Manager",
+        "Content Lead & Support",
         "Media",
         "Analyst",
         "Crew"
