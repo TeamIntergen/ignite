@@ -1,0 +1,110 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": [
+        "Anonymous"
+      ],
+      "Access": {
+        "SessionCatalog": false,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false,
+        "PlatinumClub": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": []
+    },
+    {
+      "Identifiers": [
+        "Attendee",
+        "External Guests",
+        "Speaker External",
+        "Speaker Internal",
+        "Executive",
+        "Crew/Staff"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": true,
+        "PlatinumClub": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "Platinum Club Winner"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": true,
+        "PlatinumClub": true
+      },
+      "VisibleAttendeeTypes": [
+        "Platinum Club Winner",
+        "Attendee",
+        "External Guests",
+        "Speaker External",
+        "Speaker Internal",
+        "Executive",
+        "Crew/Staff"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler - Platinum Club"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    }
+  ]
+}
