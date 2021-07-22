@@ -97,6 +97,11 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
+          "Identifier": "My Schedule - Platinum Club"
+        },        
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
           "Identifier": "Session Scheduler"
         },
         {
