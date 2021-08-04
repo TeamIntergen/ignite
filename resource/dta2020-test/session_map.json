@@ -1,19 +1,90 @@
 {
   "SessionSetMap": [
     {
-      "HubbId": 1002,
-      "SessionTypeName": "Keynote",
-      "SessionSets": ["Session Scheduler"]
-    },
-    {
-      "HubbId": 1003,
-      "SessionTypeName": "On-Demand",
-      "SessionSets": ["Session Scheduler"]
+      "HubbId": 1004,
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": [
+        "Session Scheduler",
+        "Session Scheduler FTE",
+        "My Schedule FTE",
+        "My Schedule"
+      ]
     },
     {
       "HubbId": 1004,
-      "SessionTypeName": "Studio",
-      "SessionSets": ["Session Scheduler"]
+      "SessionTypeName": "Connection Zone - FTE",
+      "SessionSets": ["Session Scheduler FTE", "My Schedule FTE"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Always On",
+      "SessionSets": [
+        "Session Scheduler",
+        "Session Scheduler FTE",
+        "My Schedule FTE",
+        "My Schedule"
+      ]
+    },
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Digital Breakout",
+      "SessionSets": [
+        "Session Scheduler",
+        "Session Scheduler FTE",
+        "My Schedule FTE",
+        "My Schedule"
+      ]
+    },
+
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Digital Breakout - FTE",
+      "SessionSets": ["Session Scheduler FTE", "My Schedule FTE"]
+    },
+    {
+      "HubbId": 1011,
+      "SessionTypeName": "General Session",
+      "SessionSets": [
+        "Session Scheduler",
+        "Session Scheduler FTE",
+        "My Schedule FTE",
+        "My Schedule"
+      ]
+    },
+    {
+      "HubbId": 1012,
+      "SessionTypeName": "Key Segment",
+      "SessionSets": [
+        "Session Scheduler",
+        "Session Scheduler FTE",
+        "My Schedule FTE",
+        "My Schedule"
+      ]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Pre-recorded",
+      "SessionSets": [
+        "Session Scheduler",
+        "Session Scheduler FTE",
+        "My Schedule FTE",
+        "My Schedule"
+      ]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Pre-recorded - FTE",
+      "SessionSets": ["Session Scheduler FTE", "My Schedule FTE"]
+    },
+    {
+      "HubbId": 1013,
+      "SessionTypeName": "Co-sell",
+      "SessionSets": ["My Schedule FTE", "My Schedule"]
+    },
+    {
+      "HubbId": 9999,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["My Schedule FTE", "My Schedule"]
     }
   ]
 }
