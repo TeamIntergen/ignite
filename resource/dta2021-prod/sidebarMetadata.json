@@ -5,7 +5,7 @@
       {
         "title": "translate.session.tag.sessiontype",
         "layout": "link",
-        "listings": "filters",
+        "listings": "text",
         "subtype": "sessionType",
         "subMetadata": []
       },
