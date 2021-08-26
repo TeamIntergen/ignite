@@ -13,7 +13,7 @@
         "title": "Episode",
         "layout": "link",
         "listings": "filters",
-        "subtype": "solutionArea",
+        "subtype": "seasonEpisode",
         "subMetadata": []
       },
       {
