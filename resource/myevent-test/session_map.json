@@ -1,0 +1,44 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1013,
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1008,
+      "SessionTypeName": "Breakout Session ",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1011,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1014,
+      "SessionTypeName": "Studio",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1017,
+      "SessionTypeName": "On-Demand Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1018,
+      "SessionTypeName": "Theme Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 9999,
+      "SessionTypeName": "Agenda",
+      "SessionSets": ["My Schedule"]
+    },
+    {
+      "HubbId": 1019,
+      "SessionTypeName": "Strategic Meeting",
+      "SessionSets": ["My Schedule", "Session Scheduler", "Session Catalog"]
+    }
+  ]
+}
