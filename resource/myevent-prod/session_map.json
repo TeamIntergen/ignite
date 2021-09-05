@@ -6,6 +6,11 @@
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
+      "HubbId": 1012,
+      "SessionTypeName": "TestSession",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
       "HubbId": 1008,
       "SessionTypeName": "Breakout Session ",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
