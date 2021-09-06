@@ -18,11 +18,7 @@
       },
       "EvalAccess": [],
       "SessionSetAccess": [
-        {
-          "ApplicableFrom": null,
-          "ApplicableTo": null,
-          "Identifier": "Session Catalog"
-        }
+        
       ]
     },
     {
