@@ -1,0 +1,44 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "Breakout Session",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "On-Demand",
+      "SessionSets": ["Session Scheduler"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Studio",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Invite Only",
+      "SessionSets": ["My Schedule"]
+    },
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Awards and Celebration",
+      "SessionSets": ["Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1006,
+      "SessionTypeName": "Platinum Club Experience",
+      "SessionSets": ["Session Scheduler - Platinum Club", "My Schedule - Platinum Club"]
+    }
+  ]
+}

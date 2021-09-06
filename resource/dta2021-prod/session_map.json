@@ -1,0 +1,19 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["Session Scheduler"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "On-Demand",
+      "SessionSets": ["Session Scheduler"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Studio",
+      "SessionSets": ["Session Scheduler"]
+    }
+  ]
+}
