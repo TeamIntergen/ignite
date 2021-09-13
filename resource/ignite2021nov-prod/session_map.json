@@ -38,7 +38,22 @@
     {
       "HubbId": 1016,
       "SessionTypeName": "Strategic Meeting",
-      "SessionSets": ["My Schedule"]
+      "SessionSets": ["My Schedule", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1017,
+      "SessionTypeName": "Breakout",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1018,
+      "SessionTypeName": "On-Demand",
+      "SessionSets": ["Session Catalog", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1019,
+      "SessionTypeName": "Technical Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 9999,
