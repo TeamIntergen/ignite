@@ -52,7 +52,7 @@
     },
     {
       "HubbId": 1019,
-      "SessionTypeName": "Technical Session",
+      "SessionTypeName": "Core Theme Session",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
