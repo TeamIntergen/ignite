@@ -26,13 +26,12 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Job title",
-        "FieldName": "JobTitle",
-        "Style": "Options",
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
         "Class": "",
-        "Path": "detail.jobTitle",
-        "Value": "",
-        "OptionsPath": "jobTitle"
+        "Path": "detail.biography",
+        "Value": ""
       },
       {
         "DisplayTitle": "Company",
@@ -44,23 +43,6 @@
         "OptionalAttributes": {
           "MaximumLength": 75
         }
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "CompanyIndustry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.companyIndustry",
-        "Value": "",
-        "OptionsPath": "companyIndustry"
-      },
-      {
-        "DisplayTitle": "Biography",
-        "FieldName": "Biography",
-        "Style": "textArea",
-        "Class": "",
-        "Path": "detail.biography",
-        "Value": ""
       },
       {
         "DisplayTitle": "LinkedIn",
