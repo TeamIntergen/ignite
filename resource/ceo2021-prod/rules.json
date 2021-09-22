@@ -3,7 +3,7 @@
     {
       "Identifiers": ["Anonymous"],
       "Access": {
-        "SessionCatalog": true,
+        "SessionCatalog": false,
         "MyIgnite": false,
         "ScheduleBuilder": false,
         "MobileApp": false,
@@ -27,23 +27,13 @@
     },
     {
       "Identifiers": [
-        "Attendee",
-        "Pre-Registered Attendee",
-        "Non-Attending Group Manager",
-        "Substituted Attendee",
-        "Substituted Non Attendee",
-        "Attendee Microsoft",
-        "Attendee - Sponsor/Exhibitor",
-        "Media",
-        "Analyst",
-        "Speaker/Staff Microsoft",
-        "Speaker/Staff External",
-        "Speaker/Staff Day Pass",
-        "Microsoft Executive",
-        "Booth Staff Sponsor/Exhibitor",
+        "Speaker",
         "Crew",
-        "Content Lead & Support",
-        "Non-Attending Speaker Asst."
+        "Invited Attendee",
+        "MS Executive",
+        "SME",
+        "Microsoft Staff",
+        "Speaker Support" 
       ],
       "Access": {
         "SessionCatalog": true,
@@ -56,23 +46,13 @@
         "InPersonExperience": true
       },
       "VisibleAttendeeTypes": [
-        "Attendee",
-        "Pre-Registered Attendee",
-        "Non-Attending Group Manager",
-        "Substituted Attendee",
-        "Substituted Non Attendee",
-        "Attendee Microsoft",
-        "Attendee - Sponsor/Exhibitor",
-        "Media",
-        "Analyst",
-        "Speaker/Staff Microsoft",
-        "Speaker/Staff External",
-        "Speaker/Staff Day Pass",
-        "Microsoft Executive",
-        "Booth Staff Sponsor/Exhibitor",
+        "Speaker",
         "Crew",
-        "Content Lead & Support",
-        "Non-Attending Speaker Asst."
+        "Invited Attendee",
+        "MS Executive",
+        "SME",
+        "Microsoft Staff",
+        "Speaker Support" 
       ],
       "Reporting": {
         "SessionCounts": false
