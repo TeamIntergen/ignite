@@ -8,7 +8,8 @@
         "Style": "picture",
         "Class": "",
         "Path": "detail.profileImage",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 42
       },
       {
         "DisplayTitle": "First name",
@@ -43,7 +44,8 @@
         "Style": "textArea",
         "Class": "",
         "Path": "detail.biography",
-        "Value": ""
+        "Value": "",
+        "CompletionWeight": 40
       },
       {
         "DisplayTitle": "Company",
@@ -54,7 +56,8 @@
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2
-        }
+        },
+        "CompletionWeight": 3
       },
       {
         "DisplayTitle": "Website",
@@ -66,7 +69,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://.+$",
           "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
-        }
+        },
+        "CompletionWeight": 3
       },
       {
         "DisplayTitle": "LinkedIn",
@@ -78,7 +82,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.linkedin.com/in/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
-        }
+        },
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Twitter",
@@ -90,7 +95,8 @@
         "OptionalAttributes": {
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
-        }
+        },
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Industry",
@@ -99,7 +105,8 @@
         "Class": "",
         "Path": "detail.industry",
         "Value": "",
-        "OptionsPath": "industry"
+        "OptionsPath": "industry",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Products of interest",
@@ -108,7 +115,8 @@
         "Class": "",
         "Path": "detail.products",
         "Value": "",
-        "OptionsPath": "products"
+        "OptionsPath": "products",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Role",
@@ -117,7 +125,8 @@
         "Class": "",
         "Path": "detail.jobCategory",
         "Value": "",
-        "OptionsPath": "jobCategory"
+        "OptionsPath": "jobCategory",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Topic",
@@ -126,7 +135,8 @@
         "Class": "",
         "Path": "detail.topic",
         "Value": "",
-        "OptionsPath": "topic"
+        "OptionsPath": "topic",
+        "CompletionWeight": 2
       },
       {
         "DisplayTitle": "Languages spoken",
@@ -143,12 +153,7 @@
         "Class": "",
         "Path": "detail.timeZone",
         "Value": ""
-      }
-    ]
-  },
-  {
-    "HeadingTitle": "Contact preferences",
-    "ItemsToShow": [
+      },
       {
         "DisplayTitle": "Login",
         "FieldName": "Email",
