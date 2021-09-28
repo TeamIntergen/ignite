@@ -2,93 +2,6 @@
   {
     "ItemsToShow": [
       {
-        "DisplayTitle": "Photo",
-        "FieldName": "ProfileImage",
-        "Style": "picture",
-        "Class": "",
-        "Path": "detail.profileImage",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "First name",
-        "FieldName": "FirstName",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "detail.firstName",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Last name",
-        "FieldName": "LastName",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "detail.lastName",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Job title",
-        "FieldName": "JobTitle",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.jobTitle",
-        "Value": "",
-        "OptionsPath": "jobTitle"
-      },
-      {
-        "DisplayTitle": "Company",
-        "FieldName": "CompanyName",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.companyName",
-        "Value": "",
-        "OptionalAttributes": {
-          "MaximumLength": 75
-        }
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "CompanyIndustry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.companyIndustry",
-        "Value": "",
-        "OptionsPath": "companyIndustry"
-      },
-      {
-        "DisplayTitle": "Biography",
-        "FieldName": "Biography",
-        "Style": "textArea",
-        "Class": "",
-        "Path": "detail.biography",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "LinkedIn",
-        "FieldName": "LinkedIn",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.linkedIn",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.linkedin.com/in/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'",
-          "MaximumLength": 100
-        }
-      },
-      {
-        "DisplayTitle": "Twitter",
-        "FieldName": "Twitter",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "social.twitter",
-        "Value": "",
-        "OptionalAttributes": {
-          "Regex": "^https?://www.twitter.com/.+$",
-          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'",
-          "MaximumLength": 50
-        }
-      },
-      {
         "DisplayTitle": "Privacy & notifications",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
@@ -105,17 +18,6 @@
             "OptionalAttributes": {
               "AriaLabel": "translate.profile.info.attendee-directory"
             }
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.avanade-opt-in-title",
-            "FieldName": "AvanadeOptIn",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.avanadeOptIn",
-            "Value": "",
-            "OptionalAttributes": {
-                "AriaLabel": "Click here to get information about Avanade's products and services."
-              }
           }
         ]
       }
