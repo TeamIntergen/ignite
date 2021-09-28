@@ -3,42 +3,42 @@
     "sidebarType": "session-tags",
     "metadata": [
       {
-        "title": "Session type",
+        "title": "translate.facet.session-type",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
         "subMetadata": []
       },
       {
-        "title": "Level",
+        "title": "translate.facet.level",
         "layout": "link",
         "listings": "filters",
         "subtype": "level",
         "subMetadata": []
       },
       {
-        "title": "Solution Area",
+        "title": "translate.facet.track",
         "layout": "link",
         "listings": "filters",
-        "subtype": "solutionArea",
+        "subtype": "track",
         "subMetadata": []
       },
       {
-        "title": "Theme",
+        "title": "translate.facet.theme",
         "layout": "link",
         "listings": "filters",
         "subtype": "theme",
         "subMetadata": []
       },
       {
-        "title": "Connection Zone Topic",
+        "title": "translate.facet.connection-zone-topic",
         "layout": "link",
         "listings": "filters",
         "subtype": "communityTopic",
         "subMetadata": []
       },
       {
-        "title": "Learning Zone Topic",
+        "title": "translate.facet.platinum-club-topic",
         "layout": "link",
         "listings": "filters",
         "subtype": "learningZoneTopic",
