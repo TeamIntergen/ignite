@@ -24,6 +24,16 @@
       "HubbId": 1012,
       "SessionTypeName": "Industry perspectives",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1013,
+      "SessionTypeName": "Q&A",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1014,
+      "SessionTypeName": "Opening Segment",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     }
   ]
 }
