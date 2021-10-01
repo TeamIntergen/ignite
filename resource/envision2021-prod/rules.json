@@ -88,6 +88,11 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "My Schedule"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Backup sessions"
         }
       ]
     }

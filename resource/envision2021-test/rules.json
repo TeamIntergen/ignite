@@ -28,7 +28,6 @@
     {
       "Identifiers": [
         "Attendee",
-        "General Attendee",
         "Pre-Registered Attendee",
         "Non-Attending Group Manager",
         "Substituted Attendee",
@@ -58,7 +57,6 @@
       },
       "VisibleAttendeeTypes": [
         "Attendee",
-        "General Attendee",
         "Pre-Registered Attendee",
         "Non-Attending Group Manager",
         "Substituted Attendee",
@@ -90,6 +88,11 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "My Schedule"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Backup sessions"
         }
       ]
     }
