@@ -10,10 +10,10 @@
         "Options": [
           {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
-            "FieldName": "CanBeFound",
+            "FieldName": "CanAttendMeetings",
             "Style": "checkbox",
             "Class": "",
-            "Path": "optins.canBeFound",
+            "Path": "optins.canAttendMeetings",
             "Value": "",
             "OptionalAttributes": {
               "AriaLabel": "translate.profile.info.attendee-directory"
