@@ -2,7 +2,7 @@
   {
     "ItemsToShow": [
       {
-        "DisplayTitle": "Privacy & notifications",
+        "DisplayTitle": "Privacy and notifications",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
