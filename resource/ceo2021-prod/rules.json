@@ -28,9 +28,12 @@
     {
       "Identifiers": [
         "Speaker",
+        "Crew",
         "Invited Attendee",
         "MS Executive",
-        "SME"
+        "SME",
+        "Microsoft Staff",
+        "Speaker Support" 
       ],
       "Access": {
         "SessionCatalog": true,
@@ -44,12 +47,9 @@
       },
       "VisibleAttendeeTypes": [
         "Speaker",
-        "Crew",
         "Invited Attendee",
         "MS Executive",
-        "SME",
-        "Microsoft Staff",
-        "Speaker Support" 
+        "SME"
       ],
       "Reporting": {
         "SessionCounts": false
