@@ -34,6 +34,11 @@
       "HubbId": 1014,
       "SessionTypeName": "Opening Segment",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1015,
+      "SessionTypeName": "Interview",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     }
   ]
 }
