@@ -5,7 +5,7 @@
       {
         "title": "Program",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "solutionArea",
         "subMetadata": []
       },
