@@ -3,24 +3,24 @@
     "sidebarType": "session-tags",
     "metadata": [
       {
-        "title": "Session type",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "sessionType",
-        "subMetadata": []
-      },
-      {
-        "title": "Episode",
+        "title": "Program",
         "layout": "link",
         "listings": "filters",
         "subtype": "solutionArea",
         "subMetadata": []
       },
       {
-        "title": "Broadcast",
+        "title": "Theme",
         "layout": "link",
         "listings": "filters",
-        "subtype": "broadcastZones",
+        "subtype": "theme",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
         "subMetadata": []
       },
       {
@@ -37,13 +37,6 @@
         "subtype": "topic",
         "subMetadata": []
       },
-      {
-        "title": "Language",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "sessionLanguage",
-        "subMetadata": []
-      }
     ]
   },
   {
