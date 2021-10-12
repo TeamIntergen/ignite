@@ -24,13 +24,6 @@
         "subMetadata": []
       },
       {
-        "title": "Region",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "regions",
-        "subMetadata": []
-      },
-      {
         "title": "Topic",
         "layout": "link",
         "listings": "filters",
