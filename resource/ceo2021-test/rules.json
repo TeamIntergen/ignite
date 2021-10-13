@@ -47,9 +47,12 @@
       },
       "VisibleAttendeeTypes": [
         "Speaker",
+        "Crew",
         "Invited Attendee",
         "MS Executive",
-        "SME"
+        "SME",
+        "Microsoft Staff",
+        "Speaker Support" 
       ],
       "Reporting": {
         "SessionCounts": false
