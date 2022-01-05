@@ -1,9 +1,9 @@
 [
   {
-    "HeadingTitle": "Attendee Profile",
+    "HeadingTitle": "translate.profile.label.attendee-profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Photo",
+        "DisplayTitle": "translate.profile.label.photo",
         "FieldName": "ProfileImage",
         "Style": "picture",
         "Class": "",
@@ -12,7 +12,7 @@
         "CompletionWeight": 42
       },
       {
-        "DisplayTitle": "First name",
+        "DisplayTitle": "translate.profile.label.first-name",
         "FieldName": "FirstName",
         "Style": "readonly",
         "Class": "",
@@ -20,7 +20,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Last name",
+        "DisplayTitle": "translate.profile.label.last-name",
         "FieldName": "LastName",
         "Style": "readonly",
         "Class": "",
@@ -28,7 +28,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Biography",
+        "DisplayTitle": "translate.profile.label.biography",
         "FieldName": "Biography",
         "Style": "textArea",
         "Class": "",
@@ -37,7 +37,7 @@
         "CompletionWeight": 40
       },
       {
-        "DisplayTitle": "Company",
+        "DisplayTitle": "translate.profile.label.company",
         "FieldName": "Company",
         "Style": "inputText",
         "Class": "",
@@ -49,7 +49,7 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Job title",
+        "DisplayTitle": "translate.profile.label.job-title",
         "FieldName": "Title",
         "Style": "inputText",
         "Class": "",
@@ -61,7 +61,7 @@
         "CompletionWeight": 42
       },
       {
-        "DisplayTitle": "Website",
+        "DisplayTitle": "translate.profile.label.website",
         "FieldName": "Website",
         "Style": "inputText",
         "Class": "",
@@ -74,7 +74,7 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "LinkedIn",
+        "DisplayTitle": "translate.profile.label.linked-in",
         "FieldName": "LinkedIn",
         "Style": "inputText",
         "Class": "",
@@ -87,7 +87,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Twitter",
+        "DisplayTitle": "translate.profile.label.twitter",
         "FieldName": "Twitter",
         "Style": "inputText",
         "Class": "",
@@ -100,7 +100,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Title",
+        "DisplayTitle": "translate.profile.label.job-category",
         "FieldName": "JobCategory",
         "Style": "selectGroup",
         "Class": "",
@@ -110,7 +110,7 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Business Focus",
+        "DisplayTitle": "translate.profile.label.business-focus",
         "FieldName": "BusinessFocus",
         "Style": "nestedSelect",
         "Class": "",
@@ -120,7 +120,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Line of Business",
+        "DisplayTitle": "translate.profile.label.line-of-business",
         "FieldName": "JobFunction",
         "Style": "Options",
         "Class": "",
@@ -130,7 +130,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Customer Segment",
+        "DisplayTitle": "translate.profile.label.customer-segment",
         "FieldName": "CustomerSegment",
         "Style": "Options",
         "Class": "",
@@ -140,7 +140,16 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Industry Focus",
+        "DisplayTitle": "translate.profile.label.products-of-interest",
+        "FieldName": "Products",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.products",
+        "Value": "",
+        "OptionsPath": "products"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.industry-focus",
         "FieldName": "IndustryFocus",
         "Style": "multiSelect",
         "Class": "",
@@ -150,7 +159,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Attendee Type",
+        "DisplayTitle": "translate.profile.label.attendee-type",
         "FieldName": "AttendeeTypeDirectory",
         "Style": "Options",
         "Class": "",
@@ -160,7 +169,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Connection Interests",
+        "DisplayTitle": "translate.profile.label.connection-interests",
         "FieldName": "Interests",
         "Style": "multiSelect",
         "Class": "",
@@ -170,7 +179,17 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Languages spoken",
+        "DisplayTitle": "translate.profile.label.topic",
+        "FieldName": "topic",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.topic",
+        "Value": "",
+        "OptionsPath": "topic",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.languages-spoken",
         "FieldName": "LanguagesSpoken",
         "Style": "inputText",
         "Class": "",
@@ -179,7 +198,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Preferred timezone",
+        "DisplayTitle": "translate.profile.label.preferred-timezone",
         "FieldName": "TimeZone",
         "Style": "inputText",
         "Class": "",
@@ -190,29 +209,37 @@
     ]
   },
   {
-    "HeadingTitle": "Contact preferences",
+    "HeadingTitle": "translate.profile.label.contact-preferences",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Login",
+        "DisplayTitle": "translate.profile.label.login",
         "FieldName": "Email",
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.authentication"
       },
       {
-        "DisplayTitle": "Notifications",
+        "DisplayTitle": "translate.profile.label.notification-email",
         "FieldName": "NotificationEmail",
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "Privacy & notifications",
+        "DisplayTitle": "translate.profile.label.privacy",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
         "Path": "contacts.notification",
         "Options": [
+          {
+            "DisplayTitle": "translate.profile-edit.do-not-stc-meeting-appointments",
+            "FieldName": "SendToCalendarMeetingAppointments",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.doNotSendToCalendarMeetingAppointments",
+            "Value": ""
+          },
           {
             "DisplayTitle": "translate.profile-edit.can-be-found-title",
             "FieldName": "CanBeFound",
