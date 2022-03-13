@@ -1,0 +1,47 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": [
+        "CCSM Attendee - FTE",
+        "CCSM Speaker",
+        "CCSM Executive",
+        "CCSM Attendee - Non FTE",
+        "CCSM Facilitator",
+        "Attendee - Other FTE",
+        "Attendee - Other Non FTE",
+        "Speaker - Internal",
+        "Speaker - MS Executive",
+        "Speaker - MS Exec Support",
+        "Crew",
+        "Non-Attendee User"
+      ],
+      "Access": {
+        "SessionCatalog": false,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "Breakout Session",
+      "SessionSets": ["My Schedule"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["My Schedule"]
+    }
+  ]
+}
