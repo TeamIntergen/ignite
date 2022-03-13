@@ -198,7 +198,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "translate.profile.label.preferred-timezone",
+        "DisplayTitle": "translate.profile.label.preferred-time-zone",
         "FieldName": "TimeZone",
         "Style": "inputText",
         "Class": "",
