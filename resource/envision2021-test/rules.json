@@ -3,7 +3,7 @@
     {
       "Identifiers": ["Anonymous"],
       "Access": {
-        "SessionCatalog": false,
+        "SessionCatalog": true,
         "MyIgnite": false,
         "ScheduleBuilder": false,
         "MobileApp": false,
