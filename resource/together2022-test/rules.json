@@ -34,11 +34,6 @@
         {
           "ApplicableFrom": null,
           "ApplicableTo": null,
-          "Identifier": "Session Scheduler"
-        },
-        {
-          "ApplicableFrom": null,
-          "ApplicableTo": null,
           "Identifier": "My Schedule"
         }
       ]
