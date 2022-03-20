@@ -2,6 +2,27 @@
   "UserAccess": [
     {
       "Identifiers": [
+        "Anonymous"
+      ],
+      "Access": {
+        "SessionCatalog": false,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": []
+    },
+    {
+      "Identifiers": [
         "CCSM Attendee - FTE",
         "CCSM Speaker",
         "CCSM Executive",
