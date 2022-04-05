@@ -23,16 +23,16 @@
     },
     {
       "Identifiers": [
-        "CCSM Attendee - FTE",
+        "CCSM Attendee FTE",
         "CCSM Speaker",
         "CCSM Executive",
-        "CCSM Attendee - Non FTE",
+        "CCSM Attendee Non FTE",
         "CCSM Facilitator",
-        "Attendee - Other FTE",
-        "Attendee - Other Non FTE",
-        "Speaker - Internal",
-        "Speaker - MS Executive",
-        "Speaker - MS Exec Support",
+        "Attendee Other FTE",
+        "Attendee Other Non FTE",
+        "Speaker Internal",
+        "Speaker MS Executive",
+        "Speaker MS Exec Support",
         "Crew",
         "Non-Attendee User"
       ],
