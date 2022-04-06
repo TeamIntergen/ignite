@@ -30,8 +30,8 @@
       "Identifiers": [
         "Digital Attendee",
         "Digital Attendee Microsoft",
-        "Digital Speaker/Staff External",
-        "Digital Speaker/Staff Microsoft"
+        "Digital Speaker/Staff Microsoft",
+        "Digital Speaker/Staff External"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -47,16 +47,20 @@
       "VisibleAttendeeTypes": [
         "Digital Attendee",
         "Digital Attendee Microsoft",
-        "Digital Speaker/Staff External",
         "Digital Speaker/Staff Microsoft",
-        "In-Person Speaker/Staff France",
+        "Digital Speaker/Staff External",
+        "In-Person UK",
+        "In-Person France",
+        "In-Person Germany",
+        "In-Person LATAM",
+        "In-Person Speaker/Staff UK",
         "In-Person Speaker/Staff Germany",
         "In-Person Speaker/Staff LATAM",
-        "In-Person Speaker/Staff UK",
-        "In-Person Speaker/Staff External France",
-        "In-Person Speaker/Staff External Germany",
+        "In-Person Speaker/Staff France",
+        "In-Person Speaker/Staff External UK",
         "In-Person Speaker/Staff External LATAM",
-        "In-Person Speaker/Staff External UK"
+        "In-Person Speaker/Staff External France",
+        "In-Person Speaker/Staff External Germany"
       ],
       "Reporting": {
         "SessionCounts": false
@@ -77,14 +81,18 @@
     },
     {
       "Identifiers": [
-        "In-Person Speaker/Staff France",
+        "In-Person UK",
+        "In-Person France",
+        "In-Person Germany",
+        "In-Person LATAM",
+        "In-Person Speaker/Staff UK",
         "In-Person Speaker/Staff Germany",
         "In-Person Speaker/Staff LATAM",
-        "In-Person Speaker/Staff UK",
-        "In-Person Speaker/Staff External France",
-        "In-Person Speaker/Staff External Germany",
+        "In-Person Speaker/Staff France",
+        "In-Person Speaker/Staff External UK",
         "In-Person Speaker/Staff External LATAM",
-        "In-Person Speaker/Staff External UK"
+        "In-Person Speaker/Staff External France",
+        "In-Person Speaker/Staff External Germany"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -100,16 +108,20 @@
       "VisibleAttendeeTypes": [
         "Digital Attendee",
         "Digital Attendee Microsoft",
-        "Digital Speaker/Staff External",
         "Digital Speaker/Staff Microsoft",
-        "In-Person Speaker/Staff France",
+        "Digital Speaker/Staff External",
+        "In-Person UK",
+        "In-Person France",
+        "In-Person Germany",
+        "In-Person LATAM",
+        "In-Person Speaker/Staff UK",
         "In-Person Speaker/Staff Germany",
         "In-Person Speaker/Staff LATAM",
-        "In-Person Speaker/Staff UK",
-        "In-Person Speaker/Staff External France",
-        "In-Person Speaker/Staff External Germany",
+        "In-Person Speaker/Staff France",
+        "In-Person Speaker/Staff External UK",
         "In-Person Speaker/Staff External LATAM",
-        "In-Person Speaker/Staff External UK"
+        "In-Person Speaker/Staff External France",
+        "In-Person Speaker/Staff External Germany"
       ],
       "Reporting": {
         "SessionCounts": false
