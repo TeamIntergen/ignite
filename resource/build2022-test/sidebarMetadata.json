@@ -354,7 +354,14 @@
         "listings": "",
         "subtype": "timeZone",
         "subMetadata": []
-      }
+      },
+      {
+        "title": "translate.attendee.filters.attending-in-person",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "region",
+        "subMetadata": []
+      },
     ]
   }
 ]
