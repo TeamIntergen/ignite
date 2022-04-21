@@ -24,10 +24,17 @@
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.product",
+        "title": "translate.session.tag.topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "product",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.session.tag.session-level",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "level",
         "subMetadata": []
       },
       {
@@ -38,17 +45,17 @@
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.topic",
+        "title": "translate.session.tag.regional-spotlight",
         "layout": "link",
         "listings": "filters",
-        "subtype": "topic",
+        "subtype": "event",
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.partnertype",
+        "title": "translate.session.tag.language",
         "layout": "link",
         "listings": "filters",
-        "subtype": "partnerType",
+        "subtype": "sessionLanguage",
         "subMetadata": []
       }
     ]
