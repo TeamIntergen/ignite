@@ -88,7 +88,7 @@
         "CompletionWeight": 4
       },
       {
-        "DisplayTitle": "translate.profile.label.title",
+        "DisplayTitle": "translate.profile.label.job-title",
         "FieldName": "JobCategory",
         "Style": "selectGroup",
         "Class": "",
@@ -106,7 +106,7 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "translate.profile.label.preferred-timezone",
+        "DisplayTitle": "translate.profile.label.preferred-time-zone",
         "FieldName": "TimeZone",
         "Style": "inputText",
         "Class": "",
@@ -126,7 +126,7 @@
         "Path": "contacts.authentication"
       },
       {
-        "DisplayTitle": "translate.profile.label.notifications",
+        "DisplayTitle": "translate.profile.label.notification-email",
         "FieldName": "NotificationEmail",
         "Style": "readonly",
         "Class": "",
