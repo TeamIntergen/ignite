@@ -9,6 +9,11 @@
       "HubbId": 1003,
       "SessionTypeName": "Keynote",
       "SessionSets": ["My Schedule"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "Studio",
+      "SessionSets": ["My Schedule"]
     }
   ]
 }
