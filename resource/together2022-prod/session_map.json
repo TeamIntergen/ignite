@@ -3,17 +3,17 @@
     {
       "HubbId": 1000,
       "SessionTypeName": "Breakout Session",
-      "SessionSets": ["My Schedule"]
+      "SessionSets": ["My Schedule", "Session Scheduler"]
     },
     {
       "HubbId": 1003,
       "SessionTypeName": "Keynote",
-      "SessionSets": ["My Schedule"]
+      "SessionSets": ["My Schedule", "Session Scheduler"]
     },
     {
       "HubbId": 1004,
       "SessionTypeName": "Studio",
-      "SessionSets": ["My Schedule"]
+      "SessionSets": ["My Schedule", "Session Scheduler"]
     }
   ]
 }
