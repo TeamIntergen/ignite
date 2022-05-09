@@ -302,7 +302,7 @@
       {
         "title": "translate.profile.label.job-title",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "jobCategory",
         "subMetadata": []
       },
