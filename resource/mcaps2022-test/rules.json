@@ -1,0 +1,69 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": [
+        "Anonymous"
+      ],
+      "Access": {
+        "SessionCatalog": false,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": []
+    },
+    {
+      "Identifiers": [
+        "Attendee Digital",
+        "Attendee In-Person",
+        "Platinum Club Winner Digital",
+        "Platinum Club Winner In-Person",
+        "Speaker External Digital",
+        "Speaker External In-Person",
+        "Speaker Internal Digital",
+        "Speaker Internal In-Person",
+        "Crew/Staff In-Person",
+        "Executive Digital",
+        "Executive In-Person",
+        "External Guests Digital",
+        "External Guests In-Person"
+      ],
+      "Access": {
+        "SessionCatalog": false,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        }
+      ]
+    }
+  ]
+}

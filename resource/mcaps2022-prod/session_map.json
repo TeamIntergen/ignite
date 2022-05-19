@@ -1,0 +1,29 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1000,
+      "SessionTypeName": "Breakout",
+      "SessionSets": ["My Schedule", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1003,
+      "SessionTypeName": "Keynote",
+      "SessionSets": ["My Schedule", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1004,
+      "SessionTypeName": "On-demand",
+      "SessionSets": ["Session Scheduler"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Into Focus",
+      "SessionSets": ["My Schedule", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Connection Zone",
+      "SessionSets": ["My Schedule", "Session Scheduler"]
+    }
+  ]
+}
