@@ -19,7 +19,7 @@
       {
         "title": "translate.facet.track",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "solutionArea",
         "subMetadata": []
       }
