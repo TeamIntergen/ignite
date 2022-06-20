@@ -17,7 +17,7 @@
         "subMetadata": []
       },
       {
-        "title": "translate.facet.track",
+        "title": "translate.facet.solution-area",
         "layout": "link",
         "listings": "leafNodeFilters",
         "subtype": "solutionArea",
