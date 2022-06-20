@@ -3,24 +3,24 @@
     "sidebarType": "session-tags",
     "metadata": [
       {
-        "title": "Session type",
+        "title": "translate.facet.session-type",
         "layout": "link",
         "listings": "filters",
         "subtype": "sessionType",
         "subMetadata": []
       },
       {
-        "title": "Role",
+        "title": "translate.facet.connection-zone-topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "role",
+        "subtype": "communityTopic",
         "subMetadata": []
       },
       {
-        "title": "Track",
+        "title": "translate.facet.track",
         "layout": "link",
-        "listings": "filters",
-        "subtype": "track",
+        "listings": "leafNodeFilters",
+        "subtype": "solutionArea",
         "subMetadata": []
       }
     ]
