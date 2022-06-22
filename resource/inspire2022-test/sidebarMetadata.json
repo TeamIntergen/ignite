@@ -289,42 +289,42 @@
         "title": "translate.profile.label.business-focus",
         "layout": "link",
         "listings": "leafNodeFilters",
-        "subtype": "BusinessFocus",
+        "subtype": "businessFocus",
         "subMetadata": []
       },
       {
         "title": "translate.facet.industry",
         "layout": "link",
         "listings": "filters",
-        "subtype": "IndustryFocus",
+        "subtype": "industryFocus",
         "subMetadata": []
       },
       {
         "title": "translate.facet.solution-area",
         "layout": "link",
         "listings": "filters",
-        "subtype": "SolutionArea",
+        "subtype": "solutionArea",
         "subMetadata": []
       },
       {
         "title": "translate.facet.attendee.customer-segment",
         "layout": "link",
         "listings": "filters",
-        "subtype": "CustomerSegment",
+        "subtype": "customerSegment",
         "subMetadata": []
       },
       {
         "title": "translate.facet.attendee.attendee-type",
         "layout": "link",
         "listings": "filters",
-        "subtype": "AttendeeTypeDirectoryFilter",
+        "subtype": "attendeeTypeDirectoryFilter",
         "subMetadata": []
       },
       {
         "title": "translate.facet.attendee.interests",
         "layout": "link",
         "listings": "filters",
-        "subtype": "Interests",
+        "subtype": "interests",
         "subMetadata": []
       },
       {
