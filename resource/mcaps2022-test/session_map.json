@@ -24,6 +24,11 @@
       "HubbId": 1005,
       "SessionTypeName": "Connection Zone",
       "SessionSets": ["My Schedule", "Session Scheduler"]
+    },
+    {
+      "HubbId": 1005,
+      "SessionTypeName": "Area Kickoff Content",
+      "SessionSets": ["My Schedule"]
     }
   ]
 }
