@@ -27,7 +27,7 @@
     },
     {
       "HubbId": 1005,
-      "SessionTypeName": "Sales Plays",
+      "SessionTypeName": "Solution Plays",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     }
   ]
