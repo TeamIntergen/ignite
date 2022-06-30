@@ -2,7 +2,9 @@
   "UserAccess": [
     {
       "Identifiers": [
-        "Anonymous"
+        "Anonymous",
+        "Speaker External Digital",
+        "Speaker External In-Person"
       ],
       "Access": {
         "SessionCatalog": false,
@@ -27,8 +29,6 @@
         "Attendee In-Person",
         "Platinum Club Winner Digital",
         "Platinum Club Winner In-Person",
-        "Speaker External Digital",
-        "Speaker External In-Person",
         "Speaker Internal Digital",
         "Speaker Internal In-Person",
         "Crew/Staff In-Person",
