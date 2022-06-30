@@ -31,10 +31,7 @@
         "Attendee",
         "Attendee Microsoft",
         "Speaker External",
-        "Speaker Internal",
-        "Media",
-        "Analyst",
-        "Crew"
+        "Speaker Internal"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -51,10 +48,7 @@
         "Attendee",
         "Attendee Microsoft",
         "Speaker External",
-        "Speaker Internal",
-        "Media",
-        "Analyst",
-        "Crew"
+        "Speaker Internal"
       ],
       "Reporting": {
         "SessionCounts": false

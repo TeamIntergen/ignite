@@ -1,39 +1,34 @@
 {
   "SessionSetMap": [
     {
-      "HubbId": 1013,
+      "HubbId": 1000,
       "SessionTypeName": "Connection Zone",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1008,
-      "SessionTypeName": "Breakout Session ",
+      "HubbId": 1001,
+      "SessionTypeName": "Breakout",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1011,
+      "HubbId": 1002,
       "SessionTypeName": "Keynote",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1014,
-      "SessionTypeName": "Studio",
+      "HubbId": 1003,
+      "SessionTypeName": "Core Theme",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
-      "HubbId": 1017,
-      "SessionTypeName": "On-Demand Session",
+      "HubbId": 1004,
+      "SessionTypeName": "On-demand",
       "SessionSets": ["Session Catalog", "Session Scheduler"]
     },
     {
-      "HubbId": 1018,
-      "SessionTypeName": "Theme Session",
+      "HubbId": 1005,
+      "SessionTypeName": "Solution Plays",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
-    },
-    {
-      "HubbId": 9999,
-      "SessionTypeName": "Agenda",
-      "SessionSets": ["My Schedule"]
     }
   ]
 }

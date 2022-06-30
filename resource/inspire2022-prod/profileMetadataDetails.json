@@ -3,7 +3,23 @@
     "HeadingTitle": "Attendee Profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Photo",
+        "DisplayTitle": "translate.profile.label.first-name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.last-name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.photo",
         "FieldName": "ProfileImage",
         "Style": "picture",
         "Class": "",
@@ -12,23 +28,7 @@
         "CompletionWeight": 42
       },
       {
-        "DisplayTitle": "First name",
-        "FieldName": "FirstName",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "detail.firstName",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Last name",
-        "FieldName": "LastName",
-        "Style": "readonly",
-        "Class": "",
-        "Path": "detail.lastName",
-        "Value": ""
-      },
-      {
-        "DisplayTitle": "Biography",
+        "DisplayTitle": "translate.profile.label.biography",
         "FieldName": "Biography",
         "Style": "textArea",
         "Class": "",
@@ -37,7 +37,7 @@
         "CompletionWeight": 40
       },
       {
-        "DisplayTitle": "Company",
+        "DisplayTitle": "translate.profile.label.company",
         "FieldName": "Company",
         "Style": "inputText",
         "Class": "",
@@ -46,22 +46,10 @@
         "OptionalAttributes": {
           "MinimumLength": 2
         },
-        "CompletionWeight": 2
+        "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Job title",
-        "FieldName": "Title",
-        "Style": "inputText",
-        "Class": "",
-        "Path": "detail.title",
-        "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        },
-        "CompletionWeight": 42
-      },
-      {
-        "DisplayTitle": "Website",
+        "DisplayTitle": "translate.profile.label.company-website",
         "FieldName": "Website",
         "Style": "inputText",
         "Class": "",
@@ -71,10 +59,10 @@
           "Regex": "^https?://.+$",
           "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
         },
-        "CompletionWeight": 2
+        "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "LinkedIn",
+        "DisplayTitle": "translate.profile.label.linked-in",
         "FieldName": "LinkedIn",
         "Style": "inputText",
         "Class": "",
@@ -87,7 +75,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Twitter",
+        "DisplayTitle": "translate.profile.label.twitter",
         "FieldName": "Twitter",
         "Style": "inputText",
         "Class": "",
@@ -100,7 +88,7 @@
         "CompletionWeight": 1
       },
       {
-        "DisplayTitle": "Title",
+        "DisplayTitle": "translate.profile.label.job-title",
         "FieldName": "JobCategory",
         "Style": "selectGroup",
         "Class": "",
@@ -110,82 +98,82 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Business Focus",
+        "DisplayTitle": "translate.profile.label.business-focus",
         "FieldName": "BusinessFocus",
         "Style": "nestedSelect",
         "Class": "",
         "Path": "detail.businessFocus",
         "Value": "",
         "OptionsPath": "businessFocus",
-        "CompletionWeight": 1
+        "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Line of Business",
-        "FieldName": "JobFunction",
-        "Style": "Options",
+        "DisplayTitle": "translate.profile.label.industry-focus",
+        "FieldName": "IndustryFocus",
+        "Style": "multiSelect",
         "Class": "",
-        "Path": "detail.jobFunction",
+        "Path": "detail.industryFocus",
         "Value": "",
-        "OptionsPath": "jobFunction",
-        "CompletionWeight": 1
+        "OptionsPath": "industryFocus",
+        "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Customer Segment",
+        "DisplayTitle": "translate.facet.solution-area",
+        "FieldName": "SolutionArea",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.solutionArea",
+        "Value": "",
+        "OptionsPath": "solutionArea",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.customer-segment",
         "FieldName": "CustomerSegment",
         "Style": "Options",
         "Class": "",
         "Path": "detail.customerSegment",
         "Value": "",
         "OptionsPath": "customerSegment",
-        "CompletionWeight": 1
+        "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Industry Focus",
-        "FieldName": "IndustryFocus",
-        "Style": "multiSelect",
-        "Class": "",
-        "Path": "detail.industryFocus",
-        "OptionsPath":"industryFocus",
-        "Value": "",
-        "CompletionWeight": 1
-      },
-      {
-        "DisplayTitle": "Attendee Type",
+        "DisplayTitle": "translate.profile.label.attendee-type",
         "FieldName": "AttendeeTypeDirectory",
         "Style": "Options",
         "Class": "",
         "Path": "detail.attendeeTypeDirectory",
         "Value": "",
         "OptionsPath": "attendeeTypeDirectory",
-        "CompletionWeight": 1
+        "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Connection Interests",
+        "DisplayTitle": "translate.profile.label.connection-interests",
         "FieldName": "Interests",
         "Style": "multiSelect",
         "Class": "",
         "Path": "detail.interests",
-        "OptionsPath":"interests",
         "Value": "",
-        "CompletionWeight": 1
+        "OptionsPath": "interests",
+        "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "Languages spoken",
+        "DisplayTitle": "translate.profile.label.languages-spoken",
         "FieldName": "LanguagesSpoken",
         "Style": "inputText",
         "Class": "",
         "Path": "detail.languagesSpoken",
         "Value": "",
-        "CompletionWeight": 1
+        "CompletionWeight": 0
       },
       {
-        "DisplayTitle": "Preferred timezone",
+        "DisplayTitle": "translate.profile.label.preferred-time-zone",
         "FieldName": "TimeZone",
         "Style": "inputText",
         "Class": "",
         "Path": "detail.timeZone",
         "Value": "",
-        "CompletionWeight": 1
+        "CompletionWeight": 0
       }
     ]
   },
@@ -193,21 +181,21 @@
     "HeadingTitle": "Contact preferences",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Login",
+        "DisplayTitle": "translate.profile.label.login",
         "FieldName": "Email",
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.authentication"
       },
       {
-        "DisplayTitle": "Notifications",
+        "DisplayTitle": "translate.profile.label.notification-email",
         "FieldName": "NotificationEmail",
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "Privacy & notifications",
+        "DisplayTitle": "translate.profile-edit.label.privacy",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
