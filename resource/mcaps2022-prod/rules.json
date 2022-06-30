@@ -2,9 +2,7 @@
   "UserAccess": [
     {
       "Identifiers": [
-        "Anonymous",
-        "Speaker External Digital",
-        "Speaker External In-Person",
+        "Anonymous"
       ],
       "Access": {
         "SessionCatalog": false,
