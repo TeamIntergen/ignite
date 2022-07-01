@@ -28,7 +28,7 @@
     {
       "HubbId": 1005,
       "SessionTypeName": "Area Kickoff Content",
-      "SessionSets": ["My Schedule"]
+      "SessionSets": ["My Schedule", "Session Scheduler"]
     }
   ]
 }
