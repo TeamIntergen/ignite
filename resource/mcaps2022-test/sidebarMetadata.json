@@ -27,7 +27,7 @@
         "title": "translate.facet.regions",
         "layout": "link",
         "listings": "filters",
-        "subtype": "region",
+        "subtype": "event",
         "submetadata": []
       }
     ]
