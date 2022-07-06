@@ -22,6 +22,13 @@
         "listings": "leafNodeFilters",
         "subtype": "solutionArea",
         "subMetadata": []
+      },
+      {
+        "title": "translate.facet.regions",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "event",
+        "submetadata": []
       }
     ]
   },
