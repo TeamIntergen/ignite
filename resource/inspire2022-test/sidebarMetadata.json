@@ -36,6 +36,13 @@
         "listings": "filters",
         "subtype": "communityTopic",
         "subMetadata": []
+      },
+      {
+        "title": "translate.facet.solution-plays",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "solutionPlays",
+        "subMetadata": []
       }
     ]
   },
