@@ -1,0 +1,44 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1007,
+      "SessionTypeName": "Key Segment",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1008,
+      "SessionTypeName": "Breakout Session",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1010,
+      "SessionTypeName": "Resource",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1011,
+      "SessionTypeName": "Regional Perspectives",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1012,
+      "SessionTypeName": "Industry perspectives",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1013,
+      "SessionTypeName": "Q&A",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1014,
+      "SessionTypeName": "Opening Segment",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1015,
+      "SessionTypeName": "Interview",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    }
+  ]
+}

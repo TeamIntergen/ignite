@@ -1,0 +1,138 @@
+[
+  {
+    "sidebarType": "session-tags",
+    "metadata": [
+      {
+        "title": "Program",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "solutionArea",
+        "subMetadata": []
+      },
+      {
+        "title": "Theme",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "theme",
+        "subMetadata": []
+      },
+      {
+        "title": "Session Type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": []
+      },
+      {
+        "title": "Topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+    ]
+  },
+  {
+    "sidebarType": "sessions",
+    "metadata": [
+      {
+        "title": "Session code",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "sessionCode",
+        "subMetadata": []
+      },
+      {
+        "title": "Session type",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionType",
+        "subMetadata": [
+          {
+            "title": "",
+            "layout": "no-link",
+            "listings": "time",
+            "subtype": "durationInMinutes",
+            "subMetadata": []
+          }
+        ]
+      },
+      {
+        "title": "Level",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "level",
+        "subMetadata": []
+      },
+      {
+        "title": "Topic",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+      {
+        "title": "Business focus",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "businessFocus",
+        "subMetadata": []
+      },
+      {
+        "title": "Line of business",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "lineOfBusiness",
+        "subMetadata": []
+      },
+      {
+        "title": "Partner outcome",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "businessOutcome",
+        "subMetadata": []
+      },
+      {
+        "title": "Products",
+        "layout": "link",
+        "listings": "leafNodeFilters",
+        "subtype": "products",
+        "subMetadata": []
+      },
+      {
+        "title": "Resources",
+        "layout": "no-link",
+        "listings": "",
+        "subtype": "",
+        "subMetadata": [
+          {
+            "title": "View slide deck",
+            "layout": "link",
+            "listings": "linkMediusAuthenticated",
+            "subtype": "slideDeck",
+            "subMetadata": []
+          },
+          {
+            "title": "Download video",
+            "layout": "link",
+            "listings": "linkMediusAuthenticated",
+            "subtype": "downloadVideoLink",
+            "subMetadata": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sidebarType": "sponsors",
+    "metadata": []
+  },
+  {
+    "sidebarType": "videos",
+    "metadata": []
+  },
+  {
+    "sidebarType": "attendees",
+    "metadata": []
+  }
+]
