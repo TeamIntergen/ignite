@@ -1,0 +1,26 @@
+[
+  {
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Privacy and notifications",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+          {
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "FieldName": "CanAttendMeetings",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canAttendMeetings",
+            "Value": "",
+            "OptionalAttributes": {
+              "AriaLabel": "translate.profile.info.attendee-directory"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
