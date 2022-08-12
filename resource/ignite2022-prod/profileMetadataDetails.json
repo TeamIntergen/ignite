@@ -1,0 +1,225 @@
+[
+  {
+    "HeadingTitle": "Attendee Profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": "",
+        "CompletionWeight": 40
+      },
+      {
+        "DisplayTitle": "First name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Last name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Job title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        },
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": "",
+        "CompletionWeight": 40
+      },
+      {
+        "DisplayTitle": "Company",
+        "FieldName": "Company",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        },
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.+$",
+          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+        },
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "LinkedIn",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+        },
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.twitter.com/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
+        },
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Industry",
+        "FieldName": "industry",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industry",
+        "Value": "",
+        "OptionsPath": "industry",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Products of interest",
+        "FieldName": "Products",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.products",
+        "Value": "",
+        "OptionsPath": "products",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Role",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Topic",
+        "FieldName": "topic",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.topic",
+        "Value": "",
+        "OptionsPath": "topic",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Regional Experience",
+        "FieldName": "regionalExperience",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.region",
+        "Value": "",
+        "OptionsPath": "region",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Languages spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Preferred timezone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "Login",
+        "FieldName": "Email",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.authentication"
+      },
+      {
+        "DisplayTitle": "Notifications",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.notification"
+      },
+      {
+        "DisplayTitle": "Privacy & notifications",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+          {
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.can-share-sessions",
+            "FieldName": "CanShareSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.publicly-visible",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.featured-partners",
+            "FieldName": "FeaturedPartners",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.featuredPartners",
+            "Value": ""
+          }
+        ]
+      }
+    ]
+  }
+]
