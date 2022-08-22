@@ -1,0 +1,14 @@
+{
+  "SessionSetMap": [
+    {
+      "HubbId": 1001,
+      "SessionTypeName": "Breakout",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    },
+    {
+      "HubbId": 1002,
+      "SessionTypeName": "Plenary",
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
+    }
+  ]
+}
