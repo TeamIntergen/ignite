@@ -1,0 +1,61 @@
+{
+  "UserAccess": [
+    {
+      "Identifiers": ["Anonymous"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false,
+        "PlatinumClub": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog"
+        }
+      ]
+    },
+    {
+      "Identifiers": ["Attendee"],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": true,
+        "PlatinumClub": false
+      },
+      "VisibleAttendeeTypes": ["Attendee"],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    }
+  ]
+}

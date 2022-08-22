@@ -1,0 +1,240 @@
+[
+  {
+    "HeadingTitle": "Attendee Profile",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "translate.profile.label.first-name",
+        "FieldName": "FirstName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.firstName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.last-name",
+        "FieldName": "LastName",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "detail.lastName",
+        "Value": ""
+      },
+      {
+        "DisplayTitle": "translate.profile.label.photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
+        "Class": "",
+        "Path": "detail.profileImage",
+        "Value": "",
+        "CompletionWeight": 42
+      },
+      {
+        "DisplayTitle": "translate.profile.label.biography",
+        "FieldName": "Biography",
+        "Style": "textArea",
+        "Class": "",
+        "Path": "detail.biography",
+        "Value": "",
+        "CompletionWeight": 40
+      },
+      {
+        "DisplayTitle": "translate.profile.label.company",
+        "FieldName": "Company",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.company",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        },
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "translate.profile.label.company-website",
+        "FieldName": "Website",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.website",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://.+$",
+          "RegexValidationText": "Please enter in the form of 'http://*' or 'http://*'"
+        },
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "translate.profile.label.linked-in",
+        "FieldName": "LinkedIn",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.linkedIn",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.linkedin.com/in/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.linkedin.com/in/*' or 'https://www.linkedin.com/in/*'"
+        },
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "translate.profile.label.twitter",
+        "FieldName": "Twitter",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "social.twitter",
+        "Value": "",
+        "OptionalAttributes": {
+          "Regex": "^https?://www.twitter.com/.+$",
+          "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
+        },
+        "CompletionWeight": 1
+      },
+      {
+        "DisplayTitle": "translate.profile.label.job-title",
+        "FieldName": "JobCategory",
+        "Style": "selectGroup",
+        "Class": "",
+        "Path": "detail.jobCategory",
+        "Value": "",
+        "OptionsPath": "jobCategory",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.business-focus",
+        "FieldName": "BusinessFocus",
+        "Style": "nestedSelect",
+        "Class": "",
+        "Path": "detail.businessFocus",
+        "Value": "",
+        "OptionsPath": "businessFocus",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.industry-focus",
+        "FieldName": "IndustryFocus",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.industryFocus",
+        "Value": "",
+        "OptionsPath": "industryFocus",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.facet.solution-area",
+        "FieldName": "SolutionArea",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.solutionArea",
+        "Value": "",
+        "OptionsPath": "solutionArea",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.customer-segment",
+        "FieldName": "CustomerSegment",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.customerSegment",
+        "Value": "",
+        "OptionsPath": "customerSegment",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.attendee-type",
+        "FieldName": "AttendeeTypeDirectory",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.attendeeTypeDirectory",
+        "Value": "",
+        "OptionsPath": "attendeeTypeDirectory",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.connection-interests",
+        "FieldName": "Interests",
+        "Style": "multiSelect",
+        "Class": "",
+        "Path": "detail.interests",
+        "Value": "",
+        "OptionsPath": "interests",
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "translate.profile.label.languages-spoken",
+        "FieldName": "LanguagesSpoken",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.languagesSpoken",
+        "Value": "",
+        "CompletionWeight": 0
+      },
+      {
+        "DisplayTitle": "translate.profile.label.preferred-time-zone",
+        "FieldName": "TimeZone",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.timeZone",
+        "Value": "",
+        "CompletionWeight": 0
+      }
+    ]
+  },
+  {
+    "HeadingTitle": "Contact preferences",
+    "ItemsToShow": [
+      {
+        "DisplayTitle": "translate.profile.label.login",
+        "FieldName": "Email",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.authentication"
+      },
+      {
+        "DisplayTitle": "translate.profile.label.notification-email",
+        "FieldName": "NotificationEmail",
+        "Style": "readonly",
+        "Class": "",
+        "Path": "contacts.notification"
+      },
+      {
+        "DisplayTitle": "translate.profile-edit.label.privacy",
+        "FieldName": "Privacy",
+        "Style": "multiCheckbox",
+        "Class": "",
+        "Path": "contacts.notification",
+        "Options": [
+          {
+            "DisplayTitle": "translate.profile-edit.can-be-found-title",
+            "FieldName": "CanBeFound",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canBeFound",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.can-share-sessions",
+            "FieldName": "CanShareSessions",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.canShareSessions",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.publicly-visible",
+            "FieldName": "IsPubliclyVisible",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.isPubliclyVisible",
+            "Value": ""
+          },
+          {
+            "DisplayTitle": "translate.profile-edit.featured-partners",
+            "FieldName": "FeaturedPartners",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.featuredPartners",
+            "Value": ""
+          }
+        ]
+      }
+    ]
+  }
+]
