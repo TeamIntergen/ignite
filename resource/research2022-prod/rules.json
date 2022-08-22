@@ -27,7 +27,7 @@
       ]
     },
     {
-      "Identifiers": ["Attendee"],
+      "Identifiers": ["General Attendee"],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": true,
@@ -39,7 +39,7 @@
         "InPersonExperience": true,
         "PlatinumClub": false
       },
-      "VisibleAttendeeTypes": ["Attendee"],
+      "VisibleAttendeeTypes": ["General Attendee"],
       "Reporting": {
         "SessionCounts": false
       },
