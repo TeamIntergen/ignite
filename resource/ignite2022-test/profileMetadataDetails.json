@@ -3,15 +3,6 @@
     "HeadingTitle": "Attendee Profile",
     "ItemsToShow": [
       {
-        "DisplayTitle": "Photo",
-        "FieldName": "ProfileImage",
-        "Style": "picture",
-        "Class": "",
-        "Path": "detail.profileImage",
-        "Value": "",
-        "CompletionWeight": 40
-      },
-      {
         "DisplayTitle": "First name",
         "FieldName": "FirstName",
         "Style": "readonly",
@@ -28,16 +19,13 @@
         "Value": ""
       },
       {
-        "DisplayTitle": "Job title",
-        "FieldName": "Title",
-        "Style": "inputText",
+        "DisplayTitle": "Photo",
+        "FieldName": "ProfileImage",
+        "Style": "picture",
         "Class": "",
-        "Path": "detail.title",
+        "Path": "detail.profileImage",
         "Value": "",
-        "OptionalAttributes": {
-          "MinimumLength": 2
-        },
-        "CompletionWeight": 2
+        "CompletionWeight": 40
       },
       {
         "DisplayTitle": "Biography",
@@ -54,6 +42,18 @@
         "Style": "inputText",
         "Class": "",
         "Path": "detail.company",
+        "Value": "",
+        "OptionalAttributes": {
+          "MinimumLength": 2
+        },
+        "CompletionWeight": 2
+      },
+      {
+        "DisplayTitle": "Job title",
+        "FieldName": "Title",
+        "Style": "inputText",
+        "Class": "",
+        "Path": "detail.title",
         "Value": "",
         "OptionalAttributes": {
           "MinimumLength": 2
@@ -97,16 +97,6 @@
           "Regex": "^https?://www.twitter.com/.+$",
           "RegexValidationText": "Please enter in the form of 'http://www.twitter.com/*' or 'https://www.twitter.com/*'"
         },
-        "CompletionWeight": 2
-      },
-      {
-        "DisplayTitle": "Industry",
-        "FieldName": "industry",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.industry",
-        "Value": "",
-        "OptionsPath": "industry",
         "CompletionWeight": 2
       },
       {
@@ -158,6 +148,16 @@
         "Value": ""
       },
       {
+        "DisplayTitle": "Industry",
+        "FieldName": "industry",
+        "Style": "Options",
+        "Class": "",
+        "Path": "detail.industry",
+        "Value": "",
+        "OptionsPath": "industry",
+        "CompletionWeight": 2
+      },
+      {
         "DisplayTitle": "Preferred timezone",
         "FieldName": "TimeZone",
         "Style": "inputText",
@@ -195,6 +195,14 @@
             "Value": ""
           },
           {
+            "DisplayTitle": "translate.profile-edit.featured-partners",
+            "FieldName": "FeaturedPartners",
+            "Style": "checkbox",
+            "Class": "",
+            "Path": "optins.featuredPartners",
+            "Value": ""
+          },
+          {
             "DisplayTitle": "translate.profile-edit.can-share-sessions",
             "FieldName": "CanShareSessions",
             "Style": "checkbox",
@@ -208,14 +216,6 @@
             "Style": "checkbox",
             "Class": "",
             "Path": "optins.isPubliclyVisible",
-            "Value": ""
-          },
-          {
-            "DisplayTitle": "translate.profile-edit.featured-partners",
-            "FieldName": "FeaturedPartners",
-            "Style": "checkbox",
-            "Class": "",
-            "Path": "optins.featuredPartners",
             "Value": ""
           }
         ]
