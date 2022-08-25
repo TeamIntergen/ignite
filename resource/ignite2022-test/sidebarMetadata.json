@@ -3,6 +3,27 @@
     "sidebarType": "session-tags",
     "metadata": [
       {
+        "title": "translate.facet.regional-spotlight",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "region",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.facet.delivery-type-session",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "deliveryType",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.facet.language",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "language",
+        "subMetadata": []
+      },
+      {
         "title": "translate.facet.session-type",
         "layout": "link",
         "listings": "filters",
@@ -10,31 +31,10 @@
         "subMetadata": []
       },
       {
-        "title": "translate.facet.level",
+        "title": "translate.facet.session-type",
         "layout": "link",
         "listings": "filters",
-        "subtype": "level",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.facet.track",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "track",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.facet.theme",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "theme",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.facet.topic",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "topic",
+        "subtype": "sessionType",
         "subMetadata": []
       },
       {
@@ -45,10 +45,31 @@
         "subMetadata": []
       },
       {
-        "title": "translate.facet.platinum-club-topic",
+        "title": "translate.facet.theme",
         "layout": "link",
         "listings": "filters",
-        "subtype": "learningZoneTopic",
+        "subtype": "theme",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.facet.solution-area",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "solutionArea",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.facet.topic",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "topic",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.facet.level",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "level",
         "subMetadata": []
       }
     ]
