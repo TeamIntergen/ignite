@@ -2,7 +2,7 @@
   "SessionSetMap": [
     {
       "HubbId": 1001,
-      "SessionTypeName": "Breakout",
+      "SessionTypeName": "Track",
       "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
