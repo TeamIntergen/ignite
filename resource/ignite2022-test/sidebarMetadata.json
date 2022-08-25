@@ -31,13 +31,6 @@
         "subMetadata": []
       },
       {
-        "title": "translate.facet.session-type",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "sessionType",
-        "subMetadata": []
-      },
-      {
         "title": "translate.facet.connection-zone-topic",
         "layout": "link",
         "listings": "filters",
