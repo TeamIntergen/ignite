@@ -6,7 +6,7 @@
         "title": "translate.facet.regional-spotlight",
         "layout": "link",
         "listings": "filters",
-        "subtype": "region",
+        "subtype": "event",
         "subMetadata": []
       },
       {
