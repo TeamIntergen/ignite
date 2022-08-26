@@ -20,7 +20,7 @@
         "title": "translate.facet.language",
         "layout": "link",
         "listings": "filters",
-        "subtype": "language",
+        "subtype": "sessionLanguage",
         "subMetadata": []
       },
       {
