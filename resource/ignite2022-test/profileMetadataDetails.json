@@ -131,7 +131,7 @@
       },
       {
         "DisplayTitle": "Regional Experience",
-        "FieldName": "regionalExperience",
+        "FieldName": "region",
         "Style": "Options",
         "Class": "",
         "Path": "detail.region",
