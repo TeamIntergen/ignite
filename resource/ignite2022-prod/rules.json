@@ -2,6 +2,35 @@
   "UserAccess": [
     {
       "Identifiers": [
+        "Non-Attending User",
+        "Anonymous"
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": false,
+        "ScheduleBuilder": false,
+        "MobileApp": false,
+        "MeetingScheduler": false,
+        "MobileAppMessaging": false,
+        "LocationBasedMessaging": false,
+        "InPersonExperience": false,
+        "PlatinumClub": false
+      },
+      "VisibleAttendeeTypes": [],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Catalog"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
         "Digital Attendee Microsoft",
         "Digital Attendee",
         "Digital Speaker/Staff External",
@@ -103,35 +132,6 @@
           "ApplicableFrom": null,
           "ApplicableTo": null,
           "Identifier": "My Schedule"
-        }
-      ]
-    },
-    {
-      "Identifiers": [
-        "Non-Attending User",
-        "Anonymous"
-      ],
-      "Access": {
-        "SessionCatalog": true,
-        "MyIgnite": false,
-        "ScheduleBuilder": false,
-        "MobileApp": false,
-        "MeetingScheduler": false,
-        "MobileAppMessaging": false,
-        "LocationBasedMessaging": false,
-        "InPersonExperience": false,
-        "PlatinumClub": false
-      },
-      "VisibleAttendeeTypes": [],
-      "Reporting": {
-        "SessionCounts": false
-      },
-      "EvalAccess": [],
-      "SessionSetAccess": [
-        {
-          "ApplicableFrom": null,
-          "ApplicableTo": null,
-          "Identifier": "Session Catalog"
         }
       ]
     }
