@@ -3,7 +3,7 @@
     {
       "HubbId": 1,
       "SessionTypeName": "Keynote",
-      "SessionSets": ["Happening Now", "Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 2,
@@ -13,12 +13,12 @@
     {
       "HubbId": 3,
       "SessionTypeName": "Connection Zone",
-      "SessionSets": ["Happening Now", "Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 4,
       "SessionTypeName": "Breakout",
-      "SessionSets": ["Happening Now", "Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 5,
@@ -28,7 +28,7 @@
     {
       "HubbId": 6,
       "SessionTypeName": "Core Theme",
-      "SessionSets": ["Happening Now", "Session Catalog", "Session Scheduler", "My Schedule"]
+      "SessionSets": ["Session Catalog", "Session Scheduler", "My Schedule"]
     },
     {
       "HubbId": 7,
