@@ -13,7 +13,7 @@
         "title": "translate.facet.delivery-type-session",
         "layout": "link",
         "listings": "filters",
-        "subtype": "deliveryType",
+        "subtype": "deliveryTypes",
         "subMetadata": []
       },
       {
