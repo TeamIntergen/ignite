@@ -24,10 +24,10 @@
         "subMetadata": []
       },
       {
-        "title": "translate.facet.solution-area",
+        "title": "translate.facet.track",
         "layout": "link",
         "listings": "leafNodeFilters",
-        "subtype": "solutionArea",
+        "subtype": "track",
         "subMetadata": []
       },
       {
