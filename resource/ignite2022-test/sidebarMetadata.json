@@ -286,119 +286,70 @@
     "sidebarType": "attendees",
     "metadata": [
       {
-        "title": "LinkedIn",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "linkedin",
-        "subMetadata": []
-      },
-      {
-        "title": "Twitter",
-        "layout": "link",
-        "listings": "link",
-        "subtype": "twitter",
-        "subMetadata": []
-      },
-      {
-        "title": "Website",
+        "title": "translate.profile.label.website",
         "layout": "link",
         "listings": "link",
         "subtype": "website",
         "subMetadata": []
       },
       {
-        "title": "Job category",
+        "title": "translate.profile.label.linkedIn",
         "layout": "link",
-        "listings": "filters",
-        "subtype": "jobCategory",
+        "listings": "link",
+        "subtype": "linkedin",
         "subMetadata": []
       },
       {
-        "title": "Industry focus",
+        "title": "translate.profile.label.twitter",
         "layout": "link",
-        "listings": "filters",
-        "subtype": "industryFocus",
+        "listings": "link",
+        "subtype": "twitter",
         "subMetadata": []
       },
       {
-        "title": "Business focus",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "businessFocus",
-        "subMetadata": []
-      },
-      {
-        "title": "Customer segment",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "customerSegment",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industryArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Profile Practice Area",
-        "layout": "link",
-        "listings": "leafNodeFilters",
-        "subtype": "profilePracticeArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Geographic Area",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "ouArea",
-        "subMetadata": []
-      },
-      {
-        "title": "Partner Type",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "partnerType",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.filters.roles",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "roles",
-        "subMetadata": []
-      },
-      {
-        "title": "Industry",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "industry",
-        "subMetadata": []
-      },
-      {
-        "title": "Products of Interest",
+        "title": "translate.profile.label.products-of-interest",
         "layout": "link",
         "listings": "filters",
         "subtype": "products",
         "subMetadata": []
       },
       {
-        "title": "Topic",
+        "title": "translate.profile.label.role",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "jobCategory",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.profile.label.topic",
         "layout": "link",
         "listings": "filters",
         "subtype": "topic",
         "subMetadata": []
       },
       {
-        "title": "Languages Spoken",
+        "title": "translate.profile.label.regional-experience",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "region",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.profile.label.languages-spoken",
         "layout": "link",
         "listings": "",
         "subtype": "languages",
         "subMetadata": []
       },
       {
-        "title": "Preferred Time Zone",
+        "title": "translate.profile.label.industry",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "industry",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.profile.label.preferred-timezone",
         "layout": "link",
         "listings": "",
         "subtype": "timeZone",
