@@ -42,7 +42,7 @@
     },
     {
       "HubbId": 9,
-      "SessionTypeName": "Strategic Meetings",
+      "SessionTypeName": "Strategic Meeting",
       "SessionSets": ["Session Catalog", "My Schedule", "Session Scheduler"]
     }
   ]
