@@ -35,6 +35,24 @@
         "Digital Attendee",
         "Digital Speaker/Staff External",
         "Digital Speaker/Staff Microsoft",
+        "Location Experience Attendee",
+      ],
+      "Access": {
+        "SessionCatalog": true,
+        "MyIgnite": true,
+        "ScheduleBuilder": true,
+        "MobileApp": true,
+        "MeetingScheduler": true,
+        "MobileAppMessaging": true,
+        "LocationBasedMessaging": true,
+        "InPersonExperience": false,
+        "PlatinumClub": false
+      },
+      "VisibleAttendeeTypes": [
+        "Digital Attendee Microsoft",
+        "Digital Attendee",
+        "Digital Speaker/Staff External",
+        "Digital Speaker/Staff Microsoft",
         "In-Person Attendee France",
         "In-Person Attendee Germany",
         "In-Person Attendee Japan",
@@ -67,6 +85,59 @@
         "In-Person Speaker/Staff Microsoft Seattle",
         "In-Person Speaker/Staff Microsoft UK",
         "Location Experience Attendee",
+        "In-Person Local Experience",
+        "Non-Attending User"
+      ],
+      "Reporting": {
+        "SessionCounts": false
+      },
+      "EvalAccess": [],
+      "SessionSetAccess": [
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "Session Scheduler"
+        },
+        {
+          "ApplicableFrom": null,
+          "ApplicableTo": null,
+          "Identifier": "My Schedule"
+        }
+      ]
+    },
+    {
+      "Identifiers": [
+        "In-Person Attendee France",
+        "In-Person Attendee Germany",
+        "In-Person Attendee Japan",
+        "In-Person Attendee Latin America",
+        "In-Person Attendee Microsoft Seattle",
+        "In-Person Attendee Seattle",
+        "In-Person Attendee UK",
+        "In-Person Crew France",
+        "In-Person Crew Germany",
+        "In-Person Crew Japan",
+        "In-Person Crew Latin America",
+        "In-Person Crew Seattle",
+        "In-Person Crew UK",
+        "In-Person Featured Partner France",
+        "In-Person Featured Partner Germany",
+        "In-Person Featured Partner Japan",
+        "In-Person Featured Partner Latin America",
+        "In-Person Featured Partner Seattle",
+        "In-Person Featured Partner UK",
+        "In-Person Speaker/Staff External France",
+        "In-Person Speaker/Staff External Germany",
+        "In-Person Speaker/Staff External Japan",
+        "In-Person Speaker/Staff External Latin America",
+        "In-Person Speaker/Staff External Seattle",
+        "In-Person Speaker/Staff External UK",
+        "In-Person Speaker/Staff Microsoft France",
+        "In-Person Speaker/Staff Microsoft Germany",
+        "In-Person Speaker/Staff Microsoft Japan",
+        "In-Person Speaker/Staff Microsoft Latin America",
+        "In-Person Speaker/Staff Microsoft Seattle",
+        "In-Person Speaker/Staff Microsoft UK",
         "In-Person Local Experience"
       ],
       "Access": {
