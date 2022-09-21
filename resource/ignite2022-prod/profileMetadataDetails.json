@@ -74,7 +74,7 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "translate.profile.label.linkedIn",
+        "DisplayTitle": "translate.profile.label.linked-in",
         "FieldName": "LinkedIn",
         "Style": "inputText",
         "Class": "",
@@ -110,7 +110,7 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "translate.profile.label.role",
+        "DisplayTitle": "translate.profile.label.job-category",
         "FieldName": "JobCategory",
         "Style": "selectGroup",
         "Class": "",
@@ -158,7 +158,7 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "translate.profile.label.preferred-timezone",
+        "DisplayTitle": "translate.profile.label.preferred-time-zone",
         "FieldName": "TimeZone",
         "Style": "inputText",
         "Class": "",
