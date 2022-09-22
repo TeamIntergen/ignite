@@ -130,16 +130,6 @@
         "CompletionWeight": 2
       },
       {
-        "DisplayTitle": "translate.profile.label.regional-experience",
-        "FieldName": "region",
-        "Style": "Options",
-        "Class": "",
-        "Path": "detail.region",
-        "Value": "",
-        "OptionsPath": "regionalExperience",
-        "CompletionWeight": 2
-      },
-      {
         "DisplayTitle": "translate.profile.label.languages-spoken",
         "FieldName": "LanguagesSpoken",
         "Style": "inputText",

@@ -328,13 +328,6 @@
         "subMetadata": []
       },
       {
-        "title": "translate.profile.label.regional-experience",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "region",
-        "subMetadata": []
-      },
-      {
         "title": "translate.profile.label.languages-spoken",
         "layout": "link",
         "listings": "",
