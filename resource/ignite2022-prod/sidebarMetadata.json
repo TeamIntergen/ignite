@@ -293,7 +293,7 @@
         "subMetadata": []
       },
       {
-        "title": "translate.profile.label.linkedIn",
+        "title": "translate.profile.label.linked-in",
         "layout": "link",
         "listings": "link",
         "subtype": "linkedin",
@@ -314,7 +314,7 @@
         "subMetadata": []
       },
       {
-        "title": "translate.profile.label.role",
+        "title": "translate.profile.label.job-category",
         "layout": "link",
         "listings": "filters",
         "subtype": "jobCategory",
@@ -342,7 +342,7 @@
         "subMetadata": []
       },
       {
-        "title": "translate.profile.label.preferred-timezone",
+        "title": "translate.profile.label.preferred-time-zone",
         "layout": "link",
         "listings": "",
         "subtype": "timeZone",
