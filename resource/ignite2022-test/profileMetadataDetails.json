@@ -168,14 +168,14 @@
         "Path": "contacts.authentication"
       },
       {
-        "DisplayTitle": "translate.profile.label.notifications-email",
+        "DisplayTitle": "translate.profile.label.notification-email",
         "FieldName": "NotificationEmail",
         "Style": "readonly",
         "Class": "",
         "Path": "contacts.notification"
       },
       {
-        "DisplayTitle": "translate.profile.label.privacy-notifications",
+        "DisplayTitle": "translate.profile.label.privacy",
         "FieldName": "Privacy",
         "Style": "multiCheckbox",
         "Class": "",
