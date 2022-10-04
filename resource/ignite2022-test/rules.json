@@ -1,10 +1,7 @@
 {
   "UserAccess": [
     {
-      "Identifiers": [
-        "Non-Attending User",
-        "Anonymous"
-      ],
+      "Identifiers": ["Non-Attending User", "Anonymous"],
       "Access": {
         "SessionCatalog": true,
         "MyIgnite": false,
@@ -91,7 +88,9 @@
         "In-Person Speaker/Staff Microsoft China",
         "Location Experience Attendee",
         "In-Person Local Experience",
-        "Non-Attending User"
+        "Non-Attending User",
+        "In-Person Staff Seattle",
+        "In-Person Attendee Reserved Seattle"
       ],
       "Reporting": {
         "SessionCounts": false
@@ -148,7 +147,9 @@
         "In-Person Speaker/Staff Microsoft Seattle",
         "In-Person Speaker/Staff Microsoft UK",
         "In-Person Speaker/Staff Microsoft China",
-        "In-Person Local Experience"
+        "In-Person Local Experience",
+        "In-Person Staff Seattle",
+        "In-Person Attendee Reserved Seattle"
       ],
       "Access": {
         "SessionCatalog": true,
@@ -204,7 +205,9 @@
         "In-Person Speaker/Staff Microsoft China",
         "Location Experience Attendee",
         "In-Person Local Experience",
-        "Non-Attending User"
+        "Non-Attending User",
+        "In-Person Staff Seattle",
+        "In-Person Attendee Reserved Seattle"
       ],
       "Reporting": {
         "SessionCounts": false
