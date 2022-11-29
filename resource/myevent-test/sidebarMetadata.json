@@ -3,52 +3,59 @@
     "sidebarType": "session-tags",
     "metadata": [
       {
-        "title": "translate.session.tag.sessiontype",
+        "title": "translate.facet.session-type",
         "layout": "link",
         "listings": "filters",
-        "subtype": "sessionType",
+        "subtype": "sessionType/Logical",
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.solutionarea",
+        "title": "translate.facet.solution-area",
         "layout": "link",
         "listings": "leafNodeFilters",
-        "subtype": "solutionArea",
+        "subtype": "solutionArea/Logical",
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.theme",
+        "title": "translate.facet.theme",
         "layout": "link",
         "listings": "filters",
-        "subtype": "theme",
+        "subtype": "theme/Logical",
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.product",
+        "title": "translate.facet.topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "product",
+        "subtype": "topic/Logical",
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.communitytopic",
+        "title": "translate.facet.level",
         "layout": "link",
         "listings": "filters",
-        "subtype": "communityTopic",
+        "subtype": "level",
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.topic",
+        "title": "translate.facet.connection-zone-topic",
         "layout": "link",
         "listings": "filters",
-        "subtype": "topic",
+        "subtype": "communityTopic/Logical",
         "subMetadata": []
       },
       {
-        "title": "translate.session.tag.partnertype",
+        "title": "translate.facet.regional-spotlight",
         "layout": "link",
         "listings": "filters",
-        "subtype": "partnerType",
+        "subtype": "event/Logical",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.facet.language",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "sessionLanguage/Logical",
         "subMetadata": []
       }
     ]
@@ -272,87 +279,52 @@
     "sidebarType": "attendees",
     "metadata": [
       {
-        "title": "translate.attendee.filters.website",
+        "title": "translate.profile.label.company-website",
         "layout": "link",
         "listings": "link",
         "subtype": "website",
         "subMetadata": []
       },
       {
-        "title": "translate.attendee.filters.linked-in",
+        "title": "translate.profile.label.linked-in",
         "layout": "link",
         "listings": "link",
         "subtype": "linkedin",
         "subMetadata": []
       },
       {
-        "title": "translate.attendee.filters.twitter",
+        "title": "translate.profile.label.twitter",
         "layout": "link",
         "listings": "link",
         "subtype": "twitter",
         "subMetadata": []
       },
       {
-        "title": "translate.attendee.filters.job-category",
+        "title": "translate.profile.label.job-title",
         "layout": "link",
-        "listings": "filters",
+        "listings": "leafNodeFilters",
         "subtype": "jobCategory",
         "subMetadata": []
       },
       {
-        "title": "translate.attendee.filters.business-focus",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "BusinessFocus",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.attendee.filters.job-function",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "JobFunction",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.attendee.filters.customer-segment",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "CustomerSegment",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.attendee.filters.industry-focus",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "IndustryFocus",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.attendee.filters.attendee-type",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "AttendeeTypeDirectoryFilter",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.attendee.filters.connection-interests",
-        "layout": "link",
-        "listings": "filters",
-        "subtype": "Interests",
-        "subMetadata": []
-      },
-      {
-        "title": "translate.attendee.filters.languages-spoken",
+        "title": "translate.profile.label.languages-spoken",
         "layout": "link",
         "listings": "",
         "subtype": "languages",
         "subMetadata": []
       },
       {
-        "title": "translate.attendee.filters.preferred-time-zone",
+        "title": "translate.profile.label.preferred-time-zone",
         "layout": "link",
         "listings": "",
         "subtype": "timeZone",
+        "subMetadata": []
+      },
+      {
+        "title": "translate.facet.attendee.region",
+        "layout": "link",
+        "listings": "filters",
+        "subtype": "region",
         "subMetadata": []
       }
     ]
